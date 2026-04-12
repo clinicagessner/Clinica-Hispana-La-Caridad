@@ -37,7 +37,7 @@ Sabemos que las emergencias de salud no esperan. Por eso ofrecemos atención sin
 Creemos que la salud no debe ser un lujo. Ofrecemos precios justos y transparentes, y aceptamos pacientes con o sin seguro médico.
 
 ### Ubicación Conveniente
-Estamos ubicados en **2973 Bingle Rd, Houston, TX 77055**, con fácil acceso y amplio estacionamiento.
+Estamos ubicados en **5705 Fondren Rd STE 101, Houston, TX 77036**, con fácil acceso y amplio estacionamiento.
 
 ## Nuestros Servicios
 
@@ -97,7 +97,7 @@ Los invitamos a conocer nuestras instalaciones y a nuestro equipo de profesional
 
 **Contáctenos:**
 - Teléfono: (682) 259-7190
-- Dirección: 2973 Bingle Rd, Houston, TX 77055
+- Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 ¡Esperamos verle pronto!
 

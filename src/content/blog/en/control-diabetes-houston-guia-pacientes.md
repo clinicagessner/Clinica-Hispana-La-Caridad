@@ -222,6 +222,6 @@ Don't wait until diabetes affects your quality of life. Visit Clínica Hispana L
 
 **Contact:**
 - Phone: (682) 259-7190
-- Address: 2973 Bingle Rd, Houston, TX 77055
+- Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 *Remember: managing diabetes is a team effort between you and your doctor.*

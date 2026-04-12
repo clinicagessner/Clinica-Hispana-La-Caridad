@@ -152,7 +152,7 @@ Leave our clinic with your **DOT medical certificate and medical card** in hand.
 We offer competitive prices without sacrificing exam quality. We accept cash and cards.
 
 ### Convenient Location
-We're located at **2973 Bingle Rd, Houston, TX 77055**, near Highway 59/69, with ample free parking for trucks and large vehicles.
+We're located at **5705 Fondren Rd STE 101, Houston, TX 77036**, near Highway 59/69, with ample free parking for trucks and large vehicles.
 
 ### Experience with Hispanic Truck Drivers
 We understand the specific needs of Houston's Hispanic trucking community. Many of our patients are drivers who trust us for their renewals year after year.
@@ -182,7 +182,7 @@ Approximately **30-45 minutes**. You leave with your certificate the same day.
 Ready for your DOT physical? Visit Clínica Hispana La Caridad today:
 
 - **Phone:** (682) 259-7190
-- **Address:** 2973 Bingle Rd, Houston, TX 77055
+- **Address:** 5705 Fondren Rd STE 101, Houston, TX 77036
 - **Hours:** Monday through Saturday, 9:00 AM - 6:00 PM
 - **No appointment needed** — Walk-ins welcome
 

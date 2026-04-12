@@ -154,7 +154,7 @@ No deje que el examen médico retrase su proceso migratorio. Contáctenos hoy pa
 
 **Clínica Hispana La Caridad**
 - Teléfono: (682) 259-7190
-- Dirección: 2973 Bingle Rd, Houston, TX 77055
+- Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Horario: Lunes a Domingo 9AM-9PM
 
 *Este artículo es solo informativo y no constituye asesoría legal. Consulte con un abogado de inmigración para preguntas sobre su caso específico.*

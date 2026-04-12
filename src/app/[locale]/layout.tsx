@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "laboratorio clínico Houston",
       "Hispanic clinic Houston",
       "Spanish speaking doctor Houston",
-      "Bingle Rd Houston clinic",
+      "Fondren Rd Houston clinic",
     ],
     authors: [{ name: SITE_CONFIG.name }],
     creator: SITE_CONFIG.name,

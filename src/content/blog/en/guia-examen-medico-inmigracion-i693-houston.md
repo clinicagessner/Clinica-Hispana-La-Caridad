@@ -154,7 +154,7 @@ Don't let the medical exam delay your immigration process. Contact us today to s
 
 **Clínica Hispana La Caridad**
 - Phone: (682) 259-7190
-- Address: 2973 Bingle Rd, Houston, TX 77055
+- Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Hours: Monday-Sunday 9AM-9PM
 
 *This article is for informational purposes only and does not constitute legal advice. Consult a licensed immigration attorney for questions about your specific case.*

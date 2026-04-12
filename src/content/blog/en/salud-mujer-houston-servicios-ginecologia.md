@@ -220,7 +220,7 @@ Your health is important. Don't postpone your gynecological exams. We are the tr
 
 **Clínica Hispana La Caridad**
 - Phone: (682) 259-7190
-- Address: 2973 Bingle Rd, Houston, TX 77055
+- Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Hours: Monday-Friday 9AM-9PM
 
 *Caring for the health of Hispanic women in Houston.*

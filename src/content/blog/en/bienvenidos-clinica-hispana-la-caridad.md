@@ -37,7 +37,7 @@ We know health emergencies don't wait. That's why we offer walk-in care so you c
 We believe health care should not be a luxury. We offer fair, transparent pricing and accept patients with or without health insurance.
 
 ### Convenient Location
-We are located at **2973 Bingle Rd, Houston, TX 77055**, with easy access and ample parking.
+We are located at **5705 Fondren Rd STE 101, Houston, TX 77036**, with easy access and ample parking.
 
 ## Our Services
 
@@ -96,7 +96,7 @@ We invite you to come see our facility and meet our team of health care professi
 
 **Contact Us:**
 - Phone: (682) 259-7190
-- Address: 2973 Bingle Rd, Houston, TX 77055
+- Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 We look forward to seeing you soon!
 

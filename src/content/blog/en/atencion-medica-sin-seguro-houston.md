@@ -195,7 +195,7 @@ Don't let lack of insurance prevent you from caring for your health. We serve Hi
 
 **Contact:**
 - Phone: (682) 259-7190
-- Address: 2973 Bingle Rd, Houston, TX 77055
+- Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Walk-ins welcome
 
 *Quality medical care within everyone's reach.*

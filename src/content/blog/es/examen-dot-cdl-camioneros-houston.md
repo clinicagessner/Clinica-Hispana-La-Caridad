@@ -152,7 +152,7 @@ Sale de nuestra clínica con su **certificado médico DOT y tarjeta médica** en
 Ofrecemos precios competitivos sin sacrificar la calidad del examen. Aceptamos efectivo y tarjetas.
 
 ### Ubicación Conveniente
-Estamos en **2973 Bingle Rd, Houston, TX 77055**, cerca de la Highway 59/69, con amplio estacionamiento gratuito para camiones y vehículos grandes.
+Estamos en **5705 Fondren Rd STE 101, Houston, TX 77036**, cerca de la Highway 59/69, con amplio estacionamiento gratuito para camiones y vehículos grandes.
 
 ### Experiencia con Camioneros Hispanos
 Entendemos las necesidades específicas de la comunidad de camioneros hispanos en Houston. Muchos de nuestros pacientes son conductores que confían en nosotros para sus renovaciones año tras año.
@@ -182,7 +182,7 @@ Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
 ¿Listo para su examen DOT? Visite Clínica Hispana La Caridad hoy:
 
 - **Teléfono:** (682) 259-7190
-- **Dirección:** 2973 Bingle Rd, Houston, TX 77055
+- **Dirección:** 5705 Fondren Rd STE 101, Houston, TX 77036
 - **Horario:** Lunes a Sábado, 9:00 AM - 6:00 PM
 - **Sin cita previa** — Walk-ins bienvenidos
 

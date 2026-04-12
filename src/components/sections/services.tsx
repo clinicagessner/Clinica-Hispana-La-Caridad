@@ -46,17 +46,8 @@ export async function Services() {
   return (
     <section
       id="services"
-      className="relative bg-white pt-16 md:pt-24 pb-16 md:pb-24"
+      className="relative bg-cyan-bg pt-12 md:pt-16 pb-16 md:pb-24"
     >
-      {/* Decorative top strip */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-x-0 top-0 h-24 bg-cyan-warm"
-      />
-      <div
-        aria-hidden="true"
-        className="absolute inset-x-0 top-24 h-px bg-cyan-bg"
-      />
 
       {/* Section Header */}
       <div className="container relative mx-auto px-4">

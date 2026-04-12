@@ -232,7 +232,7 @@ Mantenga su salud bajo control con análisis regulares. Servimos a la comunidad 
 
 **Clínica Hispana La Caridad**
 - Teléfono: (682) 259-7190
-- Dirección: 2973 Bingle Rd, Houston, TX 77055
+- Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Horario: Lunes a Viernes 9AM-9PM
 
 *Resultados rápidos, atención en español, precios justos.*

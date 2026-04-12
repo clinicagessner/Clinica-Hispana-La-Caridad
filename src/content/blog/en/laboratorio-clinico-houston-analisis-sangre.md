@@ -232,7 +232,7 @@ Stay on top of your health with regular lab tests. We serve the Hispanic communi
 
 **Clínica Hispana La Caridad**
 - Phone: (682) 259-7190
-- Address: 2973 Bingle Rd, Houston, TX 77055
+- Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Hours: Monday-Friday 9AM-9PM
 
 *Fast results, Spanish-language care, fair prices.*
