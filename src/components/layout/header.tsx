@@ -100,8 +100,8 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between gap-4">
           {/* Logo */}
-          <Link
-            href="/#home"
+          <a
+            href="/"
             className="flex items-center gap-3 shrink-0"
             aria-label={SITE_CONFIG.name}
           >
@@ -116,27 +116,30 @@ export function Header() {
                 fetchPriority="high"
               />
             </div>
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <nav
             aria-label="Main navigation"
             className="hidden lg:flex items-center gap-8"
           >
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={cn(
-                  "relative text-slate-dark font-medium hover:text-blue-primary transition-colors",
-                  "after:absolute after:bottom-[-6px] after:left-0 after:h-[2px] after:w-0",
-                  "after:bg-red-accent after:transition-all after:duration-300",
-                  "hover:after:w-full"
-                )}
-              >
-                {t(link.labelKey)}
-              </Link>
-            ))}
+            {NAV_LINKS.map((link) => {
+              const cls = cn(
+                "relative text-slate-dark font-medium hover:text-blue-primary transition-colors",
+                "after:absolute after:bottom-[-6px] after:left-0 after:h-[2px] after:w-0",
+                "after:bg-red-accent after:transition-all after:duration-300",
+                "hover:after:w-full"
+              );
+              return link.href.startsWith("/#") ? (
+                <a key={link.href} href={link.href} className={cls}>
+                  {t(link.labelKey)}
+                </a>
+              ) : (
+                <Link key={link.href} href={link.href} className={cls}>
+                  {t(link.labelKey)}
+                </Link>
+              );
+            })}
           </nav>
 
           {/* Desktop Actions */}
@@ -217,16 +220,20 @@ export function Header() {
                   <ul className="flex flex-col gap-1">
                     {NAV_LINKS.map((link) => {
                       const Icon = link.Icon;
+                      const cls = "py-3 px-4 rounded-lg text-slate-dark font-medium hover:bg-cyan-bg hover:text-blue-primary flex items-center gap-3 transition-colors";
                       return (
                         <li key={link.href}>
-                          <Link
-                            href={link.href}
-                            onClick={closeSheet}
-                            className="py-3 px-4 rounded-lg text-slate-dark font-medium hover:bg-cyan-bg hover:text-blue-primary flex items-center gap-3 transition-colors"
-                          >
-                            <Icon className="size-5 shrink-0" aria-hidden="true" />
-                            <span>{t(link.labelKey)}</span>
-                          </Link>
+                          {link.href.startsWith("/#") ? (
+                            <a href={link.href} onClick={closeSheet} className={cls}>
+                              <Icon className="size-5 shrink-0" aria-hidden="true" />
+                              <span>{t(link.labelKey)}</span>
+                            </a>
+                          ) : (
+                            <Link href={link.href} onClick={closeSheet} className={cls}>
+                              <Icon className="size-5 shrink-0" aria-hidden="true" />
+                              <span>{t(link.labelKey)}</span>
+                            </Link>
+                          )}
                         </li>
                       );
                     })}

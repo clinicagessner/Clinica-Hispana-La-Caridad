@@ -86,19 +86,14 @@ export async function Footer() {
             </h3>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/" className="text-white/70 hover:text-white text-sm transition-colors">
-                  {t("nav.home")}
-                </Link>
-              </li>
-              <li>
                 <Link href="/services" className="text-white/70 hover:text-white text-sm transition-colors">
                   {t("nav.services")}
                 </Link>
               </li>
               <li>
-                <Link href="/#green-card" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a href="/#green-card" className="text-white/70 hover:text-white text-sm transition-colors">
                   {t("nav.greenCard")}
-                </Link>
+                </a>
               </li>
               <li>
                 <Link href="/blog" className="text-white/70 hover:text-white text-sm transition-colors">
@@ -106,14 +101,9 @@ export async function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/#contact" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a href="/#contact" className="text-white/70 hover:text-white text-sm transition-colors">
                   {t("nav.contact")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy" className="text-white/70 hover:text-white text-sm transition-colors">
-                  {t("nav.privacy")}
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
