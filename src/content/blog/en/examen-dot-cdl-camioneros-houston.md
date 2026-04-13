@@ -183,7 +183,7 @@ Ready for your DOT physical? Visit Clínica Hispana La Caridad today:
 
 - **Phone:** (832) 925-8135
 - **Address:** 5705 Fondren Rd STE 101, Houston, TX 77036
-- **Hours:** Monday through Saturday, 9:00 AM - 6:00 PM
+- **Hours:** Monday through Sunday, 9:00 AM - 9:00 PM
 - **No appointment needed** — Walk-ins welcome
 
 *Your health and your license are in good hands at Clínica Hispana La Caridad.*

@@ -92,7 +92,7 @@ Every day, we strive to:
 We invite you to come see our facility and meet our team of health care professionals. We are here to serve you and your family.
 
 **Office Hours:**
-- Monday through Saturday: 9:00 AM - 6:00 PM
+- Monday through Saturday & Sunday: 9:00 AM - 9:00 PM
 
 **Contact Us:**
 - Phone: (832) 925-8135

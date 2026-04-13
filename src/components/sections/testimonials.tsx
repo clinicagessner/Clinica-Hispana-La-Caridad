@@ -1,10 +1,9 @@
 import { getTranslations } from "next-intl/server";
-import { Quote, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData, type GoogleReview } from "@/lib/google-places";
 
-// Fallback reviews when API is unavailable (using fixed timestamps to avoid hydration mismatch)
 const fallbackReviews: GoogleReview[] = [
   {
     author_name: "María García",
@@ -49,14 +48,11 @@ const fallbackReviews: GoogleReview[] = [
 ];
 
 export async function Testimonials() {
-  // Parallel fetching - eliminates waterfall
   const [t, googleData] = await Promise.all([
     getTranslations("testimonials"),
     getGooglePlaceData(),
   ]);
 
-  const averageRating =
-    googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
   const totalReviews =
     googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
   const reviews = googleData?.reviews?.length
@@ -66,60 +62,47 @@ export async function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="relative overflow-hidden bg-cyan-warm py-20 md:py-24"
+      className="relative overflow-hidden bg-cyan-bg py-14 md:py-20"
     >
-      {/* Decorative giant quote mark */}
-      <Quote
-        aria-hidden="true"
-        className="pointer-events-none absolute -top-6 -left-6 size-48 md:size-72 text-blue-primary/10 rotate-180"
-        strokeWidth={1.5}
-      />
-
       <div className="container relative mx-auto px-4">
         {/* Header */}
-        <div className="animate-on-scroll fade-up mx-auto max-w-2xl text-center">
-          <span className="text-red-accent text-sm font-semibold uppercase tracking-widest">
-            {t("reviews")}
-          </span>
-          <h2 className="mt-3 font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-slate-dark">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-lg text-slate-primary">
-            {t("subtitle")}
-          </p>
-        </div>
+        <div className="animate-on-scroll fade-up flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
+          <div>
+            <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-slate-dark">
+              {t("title")}
+            </h2>
+            <p className="mt-2 text-base text-slate-primary">
+              {t("subtitle")}
+            </p>
+          </div>
 
-        {/* Rating hero */}
-        <div className="mt-10 flex justify-center">
-          <div className="inline-flex flex-col items-center gap-2 rounded-full bg-white px-8 py-6 shadow-xl">
-            <div className="flex items-center gap-1">
+          <div className="flex items-center gap-3 shrink-0">
+            <div className="flex items-center gap-0.5">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
-                  className="size-5 fill-yellow-accent text-yellow-accent"
+                  className="size-4 fill-yellow-accent text-yellow-accent"
                 />
               ))}
             </div>
-            <p className="text-slate-muted text-xs uppercase tracking-wider">
-              {totalReviews}+ {t("reviews")} · Google
-            </p>
+            <span className="text-sm text-slate-muted font-medium">
+              {totalReviews}+ {t("reviews")}
+            </span>
           </div>
         </div>
 
         {/* Carousel */}
-        <div className="mt-14">
-          <TestimonialsCarousel reviews={reviews} />
-        </div>
+        <TestimonialsCarousel reviews={reviews} />
 
         {/* CTA */}
-        <div className="mt-14 text-center">
+        <div className="mt-10 text-center">
           <a
             href={CONTACT_INFO.googleReviewUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 rounded-full bg-blue-primary px-8 py-4 font-bold text-white shadow-lg transition-all duration-300 hover:bg-blue-dark hover:-translate-y-0.5 hover:shadow-xl"
+            className="inline-flex items-center gap-2 rounded-full bg-blue-primary px-7 py-3 font-bold text-white shadow-lg transition-all duration-300 hover:bg-blue-dark hover:-translate-y-0.5 hover:shadow-xl text-sm"
           >
-            <Star className="size-5 fill-yellow-accent text-yellow-accent" />
+            <Star className="size-4 fill-yellow-accent text-yellow-accent" />
             {t("leaveReview")}
           </a>
         </div>

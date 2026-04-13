@@ -24,7 +24,7 @@
     "subtitle": "Professional medical care 100% in Spanish. Walk-ins welcome, affordable prices.",
     "ctaCall": "Call Now",
     "ctaLocation": "Get Directions",
-    "hours": "Monday to Saturday: 9:00 AM - 6:00 PM",
+    "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reviews on Google",
     "cardTitle": "Why choose us?",
     "cardSubtitle": "The best care for you and your family",
@@ -89,8 +89,8 @@
       "address": "Address",
       "phone": "Phone",
       "hours": "Hours",
-      "hoursWeekday": "Monday - Friday: 9:00 AM - 6:00 PM",
-      "hoursWeekend": "Saturday: 9:00 AM - 6:00 PM",
+      "hoursWeekday": "Monday - Friday: 9:00 AM - 9:00 PM",
+      "hoursWeekend": "Saturday & Sunday: 9:00 AM - 9:00 PM",
       "email": "Email",
       "footerNote": "We are located in the heart of Houston, with easy access and free parking."
     }
@@ -131,7 +131,7 @@
       "bus": "Bus Access",
       "security": "Safe Area"
     },
-    "hours": "Monday to Saturday: 9:00 AM - 6:00 PM",
+    "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
     "call": "Call"
   },
   "footer": {
@@ -145,8 +145,8 @@
     "terms": "Terms of Service",
     "hipaa": "HIPAA Notice",
     "stars": "4.0 stars",
-    "hoursWeekday": "Monday - Friday: 9:00 AM - 6:00 PM",
-    "hoursWeekend": "Saturday: 9:00 AM - 6:00 PM"
+    "hoursWeekday": "Monday - Friday: 9:00 AM - 9:00 PM",
+    "hoursWeekend": "Saturday & Sunday: 9:00 AM - 9:00 PM"
   },
   "common": {
     "loading": "Loading...",

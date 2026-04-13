@@ -2,12 +2,7 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import {
-  BadgeCheck,
-  ChevronLeft,
-  ChevronRight,
-  Star,
-} from "lucide-react";
+import { BadgeCheck, ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import type { GoogleReview } from "@/lib/google-places";
 
@@ -75,7 +70,6 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
 
   return (
     <div className="relative">
-      {/* Carousel viewport */}
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex -ml-4">
           {reviews.map((review, index) => (
@@ -83,49 +77,43 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
               key={index}
               className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-4"
             >
-              {/* Card */}
-              <article className="group flex h-full flex-col rounded-2xl border-t-4 border-blue-primary bg-white p-6 md:p-8 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-                {/* Header: avatar + name + stars */}
-                <div className="flex items-start gap-3">
+              <article className="group flex h-full flex-col rounded-2xl bg-white border border-cyan-bg-alt shadow-sm p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                {/* Stars */}
+                <div className="flex gap-0.5 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star
+                      key={i}
+                      className={`size-4 ${
+                        i < review.rating
+                          ? "fill-yellow-accent text-yellow-accent"
+                          : "fill-slate-light text-slate-light"
+                      }`}
+                    />
+                  ))}
+                </div>
+
+                {/* Quote */}
+                <p className="flex-1 text-slate-primary text-sm leading-relaxed line-clamp-4">
+                  &ldquo;{review.text}&rdquo;
+                </p>
+
+                {/* Author */}
+                <div className="mt-5 flex items-center gap-3 pt-4 border-t border-cyan-bg-alt">
                   <div
                     aria-hidden="true"
-                    className="flex size-10 shrink-0 items-center justify-center rounded-full bg-blue-primary font-bold text-white"
+                    className="flex size-9 shrink-0 items-center justify-center rounded-full bg-blue-primary font-bold text-white text-sm"
                   >
                     {getInitial(review.author_name)}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="truncate font-semibold text-slate-dark">
+                    <p className="truncate text-sm font-semibold text-slate-dark">
                       {review.author_name}
                     </p>
-                    <p className="text-xs text-slate-muted">
-                      {review.relative_time_description}
-                    </p>
+                    <div className="flex items-center gap-1.5 text-slate-muted text-xs">
+                      <BadgeCheck className="size-3.5 text-blue-primary shrink-0" />
+                      <span>{review.relative_time_description}</span>
+                    </div>
                   </div>
-                  <div className="flex shrink-0 gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className={`size-4 ${
-                          i < review.rating
-                            ? "fill-yellow-accent text-yellow-accent"
-                            : "fill-cyan-bg-alt text-cyan-bg-alt"
-                        }`}
-                      />
-                    ))}
-                  </div>
-                </div>
-
-                {/* Body */}
-                <p className="mt-5 flex-1 text-slate-primary leading-relaxed line-clamp-5">
-                  &ldquo;{review.text}&rdquo;
-                </p>
-
-                {/* Footer: verified badge */}
-                <div className="mt-6 flex items-center gap-2 border-t border-cyan-bg-alt pt-4">
-                  <BadgeCheck className="size-4 text-blue-primary" />
-                  <span className="text-xs font-medium text-slate-muted">
-                    Verificado en Google
-                  </span>
                 </div>
               </article>
             </div>
@@ -133,26 +121,26 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
         </div>
       </div>
 
-      {/* Prev / Next buttons - desktop only */}
+      {/* Nav buttons */}
       <button
         type="button"
         onClick={scrollPrev}
         aria-label="Anterior"
-        className="absolute left-0 top-1/2 z-10 hidden size-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-blue-primary text-white shadow-lg transition-colors duration-300 hover:bg-blue-dark md:flex"
+        className="absolute left-0 top-1/2 z-10 hidden size-10 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-blue-primary text-white shadow-lg transition-all duration-300 hover:bg-blue-dark md:flex"
       >
-        <ChevronLeft className="size-6" />
+        <ChevronLeft className="size-5" />
       </button>
       <button
         type="button"
         onClick={scrollNext}
         aria-label="Siguiente"
-        className="absolute right-0 top-1/2 z-10 hidden size-12 translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-blue-primary text-white shadow-lg transition-colors duration-300 hover:bg-blue-dark md:flex"
+        className="absolute right-0 top-1/2 z-10 hidden size-10 translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-blue-primary text-white shadow-lg transition-all duration-300 hover:bg-blue-dark md:flex"
       >
-        <ChevronRight className="size-6" />
+        <ChevronRight className="size-5" />
       </button>
 
-      {/* Dot indicators */}
-      <div className="mt-10 flex items-center justify-center gap-2">
+      {/* Dots */}
+      <div className="mt-8 flex items-center justify-center gap-2">
         {scrollSnaps.map((_, index) => (
           <button
             key={index}

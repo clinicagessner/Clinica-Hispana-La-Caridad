@@ -24,7 +24,7 @@
     "subtitle": "Atención médica profesional 100% en español. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
     "ctaLocation": "Cómo Llegar",
-    "hours": "Lunes a Sábado: 9:00 AM - 6:00 PM",
+    "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reseñas en Google",
     "cardTitle": "¿Por qué elegirnos?",
     "cardSubtitle": "La mejor atención para usted y su familia",
@@ -89,8 +89,8 @@
       "address": "Dirección",
       "phone": "Teléfono",
       "hours": "Horario",
-      "hoursWeekday": "Lunes a Viernes: 9:00 AM - 6:00 PM",
-      "hoursWeekend": "Sábado: 9:00 AM - 6:00 PM",
+      "hoursWeekday": "Lunes a Viernes: 9:00 AM - 9:00 PM",
+      "hoursWeekend": "Sábado y Domingo: 9:00 AM - 9:00 PM",
       "email": "Correo",
       "footerNote": "Estamos ubicados en el corazón de Houston, con fácil acceso y estacionamiento gratuito."
     }
@@ -131,7 +131,7 @@
       "bus": "Acceso en Autobús",
       "security": "Área Segura"
     },
-    "hours": "Lunes a Sábado: 9:00 AM - 6:00 PM",
+    "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
     "call": "Llamar"
   },
   "footer": {
@@ -144,8 +144,8 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "hipaa": "Aviso HIPAA",
-    "hoursWeekday": "Lunes a Viernes: 9:00 AM - 6:00 PM",
-    "hoursWeekend": "Sábado: 9:00 AM - 6:00 PM",
+    "hoursWeekday": "Lunes a Viernes: 9:00 AM - 9:00 PM",
+    "hoursWeekend": "Sábado y Domingo: 9:00 AM - 9:00 PM",
     "stars": "4.0 estrellas"
   },
   "common": {

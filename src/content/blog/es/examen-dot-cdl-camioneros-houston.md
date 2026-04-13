@@ -143,7 +143,7 @@ En Clínica Hispana La Caridad **nunca le rechazamos sin explicarle qué hacer**
 Todo el proceso — desde el registro hasta la entrega de su certificado — es en español. No necesita traductor ni preocuparse por malentendidos.
 
 ### Sin Cita Previa
-Venga cuando le convenga. Atendemos de **lunes a sábado de 9:00 AM a 6:00 PM**. Esto es especialmente útil para camioneros con horarios irregulares.
+Venga cuando le convenga. Atendemos de **lunes a domingo de 9:00 AM a 9:00 PM**. Esto es especialmente útil para camioneros con horarios irregulares.
 
 ### Resultados el Mismo Día
 Sale de nuestra clínica con su **certificado médico DOT y tarjeta médica** en mano. No tiene que esperar días ni volver otra cita.
@@ -169,7 +169,7 @@ Entendemos las necesidades específicas de la comunidad de camioneros hispanos e
 Si está ligeramente elevada, el médico puede emitir un certificado por 1 año en lugar de 2. Si está muy alta, le recomendaremos tratamiento y podrá regresar cuando esté controlada.
 
 ### ¿Necesito cita previa?
-**No.** Atendemos sin cita previa, de lunes a sábado de 9:00 AM a 6:00 PM.
+**No.** Atendemos sin cita previa, de lunes a domingo de 9:00 AM a 9:00 PM.
 
 ### ¿Cuánto tiempo toma el examen?
 Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
@@ -183,7 +183,7 @@ Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
 
 - **Teléfono:** (832) 925-8135
 - **Dirección:** 5705 Fondren Rd STE 101, Houston, TX 77036
-- **Horario:** Lunes a Sábado, 9:00 AM - 6:00 PM
+- **Horario:** Lunes a Domingo, 9:00 AM - 9:00 PM
 - **Sin cita previa** — Walk-ins bienvenidos
 
 *Su salud y su licencia están en buenas manos con Clínica Hispana La Caridad.*

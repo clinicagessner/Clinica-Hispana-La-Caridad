@@ -92,8 +92,8 @@ Cada día nos esforzamos por:
 Los invitamos a conocer nuestras instalaciones y a nuestro equipo de profesionales de la salud. Estamos aquí para servirle a usted y a su familia.
 
 **Horario de Atención:**
-- Lunes a Viernes: 9:00 AM - 6:00 PM
-- Sábado: 9:00 AM - 6:00 PM
+- Lunes a Viernes: 9:00 AM - 9:00 PM
+- Sábado y Domingo: 9:00 AM - 9:00 PM
 
 **Contáctenos:**
 - Teléfono: (832) 925-8135
