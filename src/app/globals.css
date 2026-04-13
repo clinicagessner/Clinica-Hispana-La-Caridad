@@ -213,6 +213,36 @@
   --font-heading: var(--font-montserrat), system-ui, sans-serif;
 }
 
+/* Service card link hover */
+.service-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: color 0.3s ease, gap 0.3s ease;
+}
+
+.service-link:hover {
+  color: var(--yellow-accent) !important;
+  gap: 0.75rem;
+}
+
+.service-link span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: transparent !important;
+  transition: text-decoration-color 0.3s ease;
+}
+
+.service-link:hover span {
+  text-decoration-color: var(--yellow-accent) !important;
+}
+
+.service-link svg {
+  transition: transform 0.3s ease;
+}
+
+.service-link:hover svg {
+  transform: translateX(4px);
+}
+
 html {
   scroll-behavior: smooth;
 }

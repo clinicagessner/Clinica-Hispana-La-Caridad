@@ -36,12 +36,10 @@ type NavLink = {
 };
 
 const NAV_LINKS: NavLink[] = [
-  { href: "/", labelKey: "home", Icon: Home },
   { href: "/services", labelKey: "services", Icon: Briefcase },
+  { href: "/#green-card", labelKey: "greenCard", Icon: Star },
   { href: "/blog", labelKey: "blog", Icon: BookOpen },
-  { href: "/#testimonials", labelKey: "testimonials", Icon: Star },
   { href: "/#contact", labelKey: "contact", Icon: Mail },
-  { href: "/#faq", labelKey: "faq", Icon: HelpCircle },
 ];
 
 export function Header() {
@@ -96,14 +94,14 @@ export function Header() {
       {/* Main Header */}
       <header
         className={cn(
-          "sticky top-0 z-50 bg-white/95 border-b border-slate-light backdrop-blur-md transition-shadow duration-300",
+          "sticky top-0 z-50 bg-cyan-warm/95 border-b border-cyan-bg-alt backdrop-blur-md transition-shadow duration-300",
           isScrolled ? "shadow-lg" : "shadow-sm"
         )}
       >
         <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between gap-4">
           {/* Logo */}
           <Link
-            href="/"
+            href="/#home"
             className="flex items-center gap-3 shrink-0"
             aria-label={SITE_CONFIG.name}
           >

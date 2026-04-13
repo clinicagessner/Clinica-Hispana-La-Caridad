@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ArrowLeft } from "lucide-react";
+import { Link } from "@/i18n/routing";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
@@ -80,11 +82,18 @@ export default async function ServicesPage({ params }: Props) {
       />
       <main className="min-h-screen bg-background">
         {/* Hero Header */}
-        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
+        <section className="relative pt-24 pb-10 md:pt-28 md:pb-14 overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-br from-blue-primary via-blue-dark to-slate-900" />
-          <div className="absolute inset-0 bg-[url('/images/clinic-interior.webp')] bg-cover bg-center opacity-10" />
+          <div className="absolute inset-0 bg-[url('/images/hero-clinic.webp')] bg-cover bg-center opacity-25" />
 
           <div className="container relative z-10 mx-auto px-4">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-4 transition-colors"
+            >
+              <ArrowLeft className="size-4" aria-hidden="true" />
+              {locale === "en" ? "Back to Home" : "Volver al Inicio"}
+            </Link>
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 drop-shadow-lg">
                 {t("title")}
