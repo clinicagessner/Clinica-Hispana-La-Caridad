@@ -100,9 +100,6 @@ export async function Testimonials() {
                 />
               ))}
             </div>
-            <div className="text-3xl font-bold text-blue-primary">
-              {averageRating} / 5
-            </div>
             <p className="text-slate-muted text-xs uppercase tracking-wider">
               {totalReviews}+ {t("reviews")} · Google
             </p>

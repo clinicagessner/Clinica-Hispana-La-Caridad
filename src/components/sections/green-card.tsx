@@ -1,9 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { useLocale } from "next-intl";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   Phone,
   CalendarCheck,
@@ -16,6 +14,7 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "@/i18n/routing";
 import { CONTACT_INFO } from "@/lib/constants";
 
 const features = [
@@ -37,142 +36,106 @@ export function GreenCard() {
   const t = useTranslations("greenCard");
   const locale = useLocale();
 
-  const getLocalizedHref = (href: string) => {
-    if (locale === "es") return href;
-    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
-  };
-
   return (
-    <section id="green-card" className="relative py-20 md:py-32 overflow-hidden">
-      {/* Background Image */}
+    <section id="green-card" className="relative py-16 md:py-24 overflow-hidden">
+      {/* Background */}
       <div className="absolute inset-0">
         <Image
           src="/images/services/I-693.webp"
-          alt="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon certificado USCIS completando formulario para Green Card"
+          alt="Examen médico de inmigración I-693 en Houston TX"
           fill
           className="object-cover"
           quality={60}
           sizes="100vw"
         />
-        {/* Overlay with red tint */}
-        <div className="absolute inset-0 bg-linear-to-r from-slate-900/95 via-slate-900/80 to-blue-primary/60" />
+        <div className="absolute inset-0 bg-linear-to-br from-blue-dark/95 via-blue-primary/85 to-blue-dark/90" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="animate-on-scroll fade-up">
-          {/* Badge */}
-          <div className="flex justify-center mb-6">
-            <Badge className="bg-blue-primary hover:bg-blue-dark text-white text-sm px-5 py-2 shadow-lg">
-              <ShieldCheck className="size-4 mr-2" weight="fill" />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center max-w-6xl mx-auto">
+          {/* Left — Content */}
+          <div className="animate-on-scroll fade-up">
+            <Badge className="bg-yellow-accent text-blue-primary text-xs font-bold px-4 py-1.5 mb-5 shadow-md hover:bg-yellow-accent-dark">
+              <ShieldCheck className="size-4 mr-1.5" weight="fill" />
               {t("badge")}
             </Badge>
-          </div>
 
-          {/* Title */}
-          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white text-center mb-6">
-            {t("title")}
-          </h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 leading-tight">
+              {t("title")}
+            </h2>
 
-          {/* Subtitle */}
-          <p className="text-base md:text-lg lg:text-xl text-white/90 text-center max-w-3xl mx-auto mb-8 md:mb-12 px-2">
-            {t("subtitle")}
-          </p>
+            <p className="text-base md:text-lg text-white/80 mb-8 max-w-xl leading-relaxed">
+              {t("subtitle")}
+            </p>
 
-          {/* Steps Timeline */}
-          <div className="relative max-w-5xl mx-auto mb-12 animate-on-scroll fade-up stagger-1">
-            {/* Desktop Timeline */}
-            <div className="hidden md:block">
-              {/* Connecting Line */}
-              <div className="absolute top-8 left-[10%] right-[10%] h-1 bg-linear-gradient(to right, var(--blue-primary), var(--blue-light), var(--blue-primary)) rounded-full" />
-
-              <div className="flex justify-between relative">
-                {steps.map((step, idx) => (
-                  <div
-                    key={idx}
-                    className="flex flex-col items-center group"
-                    style={{ width: '20%' }}
-                  >
-                    {/* Number Circle */}
-                    <div className="relative z-10 size-16 rounded-full bg-linear-gradient(to bottom, var(--blue-primary), var(--blue-dark)) text-white flex items-center justify-center font-bold text-xl shadow-lg shadow-blue-primary/40 group-hover:scale-110 transition-transform border-4 border-white/20">
-                      {step.number}
-                    </div>
-
-                    {/* Icon */}
-                    <div className="mt-4 size-12 rounded-xl bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-white/20 transition-colors">
-                      <step.icon className="size-6 text-blue-light" weight="duotone" />
-                    </div>
-
-                    {/* Title */}
-                    <span className="mt-3 text-sm font-semibold text-white text-center px-2">
-                      {step.title}
-                    </span>
+            {/* Features as check list */}
+            <ul className="space-y-3 mb-8">
+              {features.map((feature, idx) => (
+                <li key={idx} className="flex items-center gap-3">
+                  <div className="size-6 rounded-full bg-yellow-accent/20 flex items-center justify-center shrink-0">
+                    <CheckCircle className="size-4 text-yellow-accent" weight="fill" />
                   </div>
-                ))}
-              </div>
-            </div>
+                  <span className="text-sm md:text-base text-white/90">
+                    {feature.text}
+                  </span>
+                </li>
+              ))}
+            </ul>
 
-            {/* Mobile Timeline - Vertical */}
-            <div className="md:hidden relative pl-8">
-              {/* Vertical Line */}
-              <div className="absolute left-[18px] top-4 bottom-4 w-1 bg-linear-gradient(to bottom, var(--blue-primary), var(--blue-light), var(--blue-primary)) rounded-full" />
-
-              <div className="space-y-6">
-                {steps.map((step, idx) => (
-                  <div key={idx} className="flex items-center gap-4 relative">
-                    {/* Number Circle */}
-                    <div className="absolute left-[-32px] size-10 rounded-full bg-linear-gradient(to bottom, var(--blue-primary), var(--blue-dark)) text-white flex items-center justify-center font-bold text-sm shadow-lg border-2 border-white/20 z-10">
-                      {step.number}
-                    </div>
-
-                    {/* Card */}
-                    <div className="flex-1 flex items-center gap-3 p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10 hover:bg-white/20 transition-colors">
-                      <div className="size-10 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
-                        <step.icon className="size-5 text-blue-light" weight="duotone" />
-                      </div>
-                      <span className="text-sm font-semibold text-white">
-                        {step.title}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Features grid */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 max-w-5xl mx-auto mb-12 animate-on-scroll fade-up stagger-2">
-            {features.map((feature, idx) => (
-              <div
-                key={idx}
-                className="flex items-center gap-3 p-3 md:p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10"
+            {/* CTAs */}
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Button
+                size="lg"
+                className="bg-yellow-accent hover:bg-yellow-accent-dark text-blue-primary font-bold gap-2 shadow-lg text-sm md:text-base px-6 md:px-8"
+                asChild
               >
-                <div className="size-9 md:size-10 rounded-full bg-blue-primary/30 flex items-center justify-center shrink-0">
-                  <feature.icon className="size-4 md:size-5 text-blue-light" weight="fill" />
-                </div>
-                <span className="text-xs md:text-sm text-white/90">{feature.text}</span>
-              </div>
-            ))}
+                <Link href="/#contact">
+                  <CalendarCheck className="size-5" weight="bold" />
+                  {t("ctaSchedule")}
+                </Link>
+              </Button>
+              <a
+                href={`tel:${CONTACT_INFO.phone}`}
+                className="inline-flex items-center justify-center h-11 px-6 md:px-8 rounded-lg border-2 border-white/80 text-white font-medium hover:bg-white hover:text-blue-primary transition-colors gap-2 text-sm md:text-base"
+              >
+                <Phone className="size-5" weight="bold" />
+                {t("ctaCall")}
+              </a>
+            </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 px-4 sm:px-0 animate-on-scroll fade-up stagger-3">
-            <Button
-              size="lg"
-              className="bg-blue-primary hover:bg-blue-dark text-white gap-2 shadow-lg shadow-blue-primary/30 text-sm md:text-base px-6 md:px-8 w-full sm:w-auto"
-              asChild
-            >
-              <Link href={getLocalizedHref("/#contact")}>
-                <CalendarCheck className="size-5" weight="bold" />
-                {t("ctaSchedule")}
-              </Link>
-            </Button>
-            <a
-              href={`tel:${CONTACT_INFO.phone}`}
-              className="inline-flex items-center justify-center h-11 px-6 md:px-8 rounded-lg border-2 border-white text-white font-medium bg-transparent hover:bg-white hover:text-slate-dark transition-colors gap-2 text-sm md:text-base w-full sm:w-auto"
-            >
-              <Phone className="size-5" weight="bold" />
-              {t("ctaCall")}
-            </a>
+          {/* Right — Steps glass card */}
+          <div className="animate-on-scroll fade-up stagger-2">
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/15 p-6 md:p-8 shadow-2xl">
+              <h3 className="text-lg font-heading font-bold text-white mb-6 flex items-center gap-2">
+                <FileText className="size-5 text-yellow-accent" weight="fill" />
+                {locale === "en" ? "How it works" : "¿Cómo funciona?"}
+              </h3>
+
+              <div className="relative">
+                {/* Vertical connecting line */}
+                <div className="absolute left-5 top-3 bottom-3 w-px bg-linear-to-b from-yellow-accent via-blue-light/30 to-transparent" />
+
+                <div className="space-y-5">
+                  {steps.map((step, idx) => (
+                    <div key={idx} className="flex items-center gap-4 relative">
+                      {/* Number */}
+                      <div className="relative z-10 size-10 rounded-full bg-blue-primary border-2 border-yellow-accent/40 text-white flex items-center justify-center font-bold text-sm shadow-lg shrink-0">
+                        {step.number}
+                      </div>
+
+                      {/* Content */}
+                      <div className="flex-1 flex items-center gap-3 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors">
+                        <step.icon className="size-5 text-yellow-accent shrink-0" weight="duotone" />
+                        <span className="text-sm md:text-base font-medium text-white">
+                          {step.title}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -113,7 +113,7 @@ export function Hero() {
               </Button>
             </div>
 
-            {/* Trust row — Google rating */}
+            {/* Trust row — Google reviews */}
             <div className="animate-hero-cta flex items-center gap-3">
               <div className="flex items-center gap-0.5" aria-hidden="true">
                 {[...Array(5)].map((_, i) => (
@@ -123,14 +123,8 @@ export function Hero() {
                   />
                 ))}
               </div>
-              <span className="sr-only">
-                {GOOGLE_REVIEWS_DATA.averageRating} estrellas
-              </span>
               <p className="text-xs md:text-sm text-slate-primary font-medium">
-                <span className="font-bold text-slate-dark">
-                  {GOOGLE_REVIEWS_DATA.averageRating}
-                </span>{" "}
-                · {GOOGLE_REVIEWS_DATA.totalReviews} {t("googleReviews")}
+                {GOOGLE_REVIEWS_DATA.totalReviews}+ {t("googleReviews")}
               </p>
             </div>
           </div>
