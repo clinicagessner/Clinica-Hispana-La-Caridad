@@ -95,7 +95,7 @@ We invite you to come see our facility and meet our team of health care professi
 - Monday through Saturday: 9:00 AM - 6:00 PM
 
 **Contact Us:**
-- Phone: (682) 259-7190
+- Phone: (832) 925-8135
 - Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 We look forward to seeing you soon!

@@ -219,7 +219,7 @@ Our [sexually transmitted disease services](/services/enfermedades-transmision-s
 Your health is important. Don't postpone your gynecological exams. We are the trusted clinic for thousands of Hispanic women in Houston TX, including the Greenspoint, Northline, Aldine, and north Houston areas.
 
 **Clínica Hispana La Caridad**
-- Phone: (682) 259-7190
+- Phone: (832) 925-8135
 - Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Hours: Monday-Friday 9AM-9PM
 

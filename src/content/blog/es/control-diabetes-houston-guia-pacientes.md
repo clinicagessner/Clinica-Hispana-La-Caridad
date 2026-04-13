@@ -221,7 +221,7 @@ En **Clínica Hispana La Caridad** ofrecemos atención integral para el [manejo 
 No espere hasta que la diabetes afecte su calidad de vida. Visite Clínica Hispana La Caridad en Houston para un chequeo completo y un plan de manejo personalizado.
 
 **Contacto:**
-- Teléfono: (682) 259-7190
+- Teléfono: (832) 925-8135
 - Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 *Recuerde: el control de la diabetes es un trabajo de equipo entre usted y su médico.*

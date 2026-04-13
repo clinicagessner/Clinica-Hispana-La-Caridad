@@ -194,7 +194,7 @@ En **Clínica Hispana La Caridad** nos comprometemos a:
 No permita que la falta de seguro le impida cuidar su salud. Atendemos a familias hispanas en Houston TX, incluyendo las comunidades de Northside Village, Denver Harbor, Lindale Park y toda el área norte de la ciudad.
 
 **Contacto:**
-- Teléfono: (682) 259-7190
+- Teléfono: (832) 925-8135
 - Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Sin cita previa
 

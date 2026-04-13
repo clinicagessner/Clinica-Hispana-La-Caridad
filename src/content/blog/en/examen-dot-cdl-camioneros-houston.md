@@ -181,7 +181,7 @@ Approximately **30-45 minutes**. You leave with your certificate the same day.
 
 Ready for your DOT physical? Visit Clínica Hispana La Caridad today:
 
-- **Phone:** (682) 259-7190
+- **Phone:** (832) 925-8135
 - **Address:** 5705 Fondren Rd STE 101, Houston, TX 77036
 - **Hours:** Monday through Saturday, 9:00 AM - 6:00 PM
 - **No appointment needed** — Walk-ins welcome

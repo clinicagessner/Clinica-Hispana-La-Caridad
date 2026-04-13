@@ -221,7 +221,7 @@ At **Clínica Hispana La Caridad** we offer comprehensive care for the [manageme
 Don't wait until diabetes affects your quality of life. Visit Clínica Hispana La Caridad for a complete checkup and personalized management plan.
 
 **Contact:**
-- Phone: (682) 259-7190
+- Phone: (832) 925-8135
 - Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 *Remember: managing diabetes is a team effort between you and your doctor.*

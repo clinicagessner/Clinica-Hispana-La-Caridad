@@ -194,7 +194,7 @@ At **Clínica Hispana La Caridad** we are committed to:
 Don't let lack of insurance prevent you from caring for your health. We serve Hispanic families in Houston TX, including the Northside Village, Denver Harbor, Lindale Park, and all of north Houston communities.
 
 **Contact:**
-- Phone: (682) 259-7190
+- Phone: (832) 925-8135
 - Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Walk-ins welcome
 

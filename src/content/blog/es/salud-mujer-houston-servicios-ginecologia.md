@@ -219,7 +219,7 @@ Nuestros servicios de [enfermedades de transmisión sexual](/services/enfermedad
 Su salud es importante. No posponga sus exámenes ginecológicos. Somos la clínica de referencia para miles de mujeres hispanas en Houston TX, incluyendo las áreas de Greenspoint, Northline, Aldine y el norte de la ciudad.
 
 **Clínica Hispana La Caridad**
-- Teléfono: (682) 259-7190
+- Teléfono: (832) 925-8135
 - Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Horario: Lunes a Viernes 9AM-9PM
 

@@ -96,7 +96,7 @@ Los invitamos a conocer nuestras instalaciones y a nuestro equipo de profesional
 - Sábado: 9:00 AM - 6:00 PM
 
 **Contáctenos:**
-- Teléfono: (682) 259-7190
+- Teléfono: (832) 925-8135
 - Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 
 ¡Esperamos verle pronto!

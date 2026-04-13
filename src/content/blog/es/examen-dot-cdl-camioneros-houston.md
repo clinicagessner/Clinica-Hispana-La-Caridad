@@ -181,7 +181,7 @@ Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
 
 ¿Listo para su examen DOT? Visite Clínica Hispana La Caridad hoy:
 
-- **Teléfono:** (682) 259-7190
+- **Teléfono:** (832) 925-8135
 - **Dirección:** 5705 Fondren Rd STE 101, Houston, TX 77036
 - **Horario:** Lunes a Sábado, 9:00 AM - 6:00 PM
 - **Sin cita previa** — Walk-ins bienvenidos

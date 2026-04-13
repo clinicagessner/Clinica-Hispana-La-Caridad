@@ -231,7 +231,7 @@ Visit our [clinical laboratory](/services/laboratorio) page to see all available
 Stay on top of your health with regular lab tests. We serve the Hispanic community in Houston, including the Northside, Eastwood, Magnolia Park, and Greater Greenspoint neighborhoods.
 
 **Clínica Hispana La Caridad**
-- Phone: (682) 259-7190
+- Phone: (832) 925-8135
 - Address: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Hours: Monday-Friday 9AM-9PM
 

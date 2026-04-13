@@ -153,7 +153,7 @@ Si su formulario fue rechazado, contáctenos. Podemos ayudarle a entender el mot
 No deje que el examen médico retrase su proceso migratorio. Contáctenos hoy para programar su [examen de inmigración I-693](/services/examenes-inmigracion).
 
 **Clínica Hispana La Caridad**
-- Teléfono: (682) 259-7190
+- Teléfono: (832) 925-8135
 - Dirección: 5705 Fondren Rd STE 101, Houston, TX 77036
 - Horario: Lunes a Domingo 9AM-9PM
 
