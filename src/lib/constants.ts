@@ -23,7 +23,8 @@ export const CONTACT_INFO: ContactInfo = {
   hoursWeekend: "Sábado y Domingo: 9:00 AM - 9:00 PM",
   googleMapsUrl:
     "https://www.google.com/maps/place/Clinica+La+Caridad/@29.7187891,-95.5195062,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c3151e03b997:0xd06d7e301078edf9!8m2!3d29.7187891!4d-95.5195062!16s%2Fg%2F11wp4j3qbh",
-  googleMapsEmbed: `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY}&q=Clinica+La+Caridad+5705+Fondren+Rd+Houston+TX+77036&center=29.7187891,-95.5195062&zoom=17`,
+  googleMapsEmbed:
+    "https://maps.google.com/maps?q=Clinica+La+Caridad,+5705+Fondren+Rd+STE+101,+Houston,+TX+77036&t=m&z=17&ie=UTF8&iwloc=&output=embed",
   googleReviewUrl:
     "https://www.google.com/maps/place/Clinica+La+Caridad/@29.7187891,-95.5195062,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c3151e03b997:0xd06d7e301078edf9!8m2!3d29.7187891!4d-95.5195062!16s%2Fg%2F11wp4j3qbh",
   placeId: "0x8640c3151e03b997:0xd06d7e301078edf9",
