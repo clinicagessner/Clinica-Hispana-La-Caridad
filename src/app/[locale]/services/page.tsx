@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
-import { JsonLdCollectionPage } from "@/components/seo/json-ld";
+import { JsonLdCollectionPage, JsonLdBreadcrumb } from "@/components/seo/json-ld";
 
 const categoryInfo: Record<string, { label: string; labelEn: string; iconName: string }> = {
   especial: { label: "Especiales", labelEn: "Special", iconName: "Star" },
@@ -81,11 +82,26 @@ export default async function ServicesPage({ params }: Props) {
         description={t("subtitle")}
         url={`${SITE_CONFIG.baseUrl}${localePath}/services`}
       />
+      <JsonLdBreadcrumb
+        items={[
+          { name: locale === "en" ? "Home" : "Inicio", url: `${SITE_CONFIG.baseUrl}${localePath}` },
+          { name: locale === "en" ? "Services" : "Servicios", url: `${SITE_CONFIG.baseUrl}${localePath}/services` },
+        ]}
+      />
       <main className="min-h-screen bg-background">
         {/* Hero Header */}
         <section className="relative pt-24 pb-10 md:pt-28 md:pb-14 overflow-hidden">
           <div className="absolute inset-0 bg-linear-to-br from-blue-primary via-blue-dark to-slate-900" />
-          <div className="absolute inset-0 bg-[url('/images/hero-clinic.webp')] bg-cover bg-center opacity-25" />
+          <div className="absolute inset-0 opacity-25">
+            <Image
+              src="/images/hero-clinic.webp"
+              alt=""
+              fill
+              className="object-cover"
+              sizes="100vw"
+              aria-hidden="true"
+            />
+          </div>
 
           <div className="container relative z-10 mx-auto px-4">
             <Link

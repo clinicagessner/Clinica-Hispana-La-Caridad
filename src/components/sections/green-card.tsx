@@ -1,7 +1,5 @@
-"use client";
-
 import Image from "next/image";
-import { useLocale, useTranslations } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
 import {
   Phone,
   CalendarCheck,
@@ -32,9 +30,9 @@ const steps = [
   { number: 5, icon: FileText, title: "Formulario I-693" },
 ];
 
-export function GreenCard() {
-  const t = useTranslations("greenCard");
-  const locale = useLocale();
+export async function GreenCard() {
+  const t = await getTranslations("greenCard");
+  const locale = await getLocale();
 
   return (
     <section id="green-card" className="relative py-16 md:py-24 overflow-hidden">

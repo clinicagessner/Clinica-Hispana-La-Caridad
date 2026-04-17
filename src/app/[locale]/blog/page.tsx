@@ -7,7 +7,7 @@ import { getBlogPosts, getFeaturedPost } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
-import { JsonLdCollectionPage } from "@/components/seo/json-ld";
+import { JsonLdCollectionPage, JsonLdBreadcrumb } from "@/components/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -62,6 +62,12 @@ export default async function BlogPage({ params }: Props) {
         name={t("metaTitle")}
         description={t("metaDescription")}
         url={`${SITE_CONFIG.baseUrl}${localePath}/blog`}
+      />
+      <JsonLdBreadcrumb
+        items={[
+          { name: locale === "en" ? "Home" : "Inicio", url: `${SITE_CONFIG.baseUrl}${localePath}` },
+          { name: "Blog", url: `${SITE_CONFIG.baseUrl}${localePath}/blog` },
+        ]}
       />
       <section className="pt-28 pb-16 md:pt-32 md:pb-24 bg-linear-to-b from-blue-light/30 to-background">
         <div className="container mx-auto px-4">

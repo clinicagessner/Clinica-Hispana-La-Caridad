@@ -24,11 +24,21 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
       : `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
     datePublished: post.date,
     dateModified: post.dateModified || post.date,
-    author: {
-      "@type": "Organization",
-      name: post.author,
-      url: SITE_CONFIG.baseUrl,
-    },
+    author: [
+      {
+        "@type": "Organization",
+        name: SITE_CONFIG.name,
+        url: SITE_CONFIG.baseUrl,
+      },
+      {
+        "@type": "Person",
+        name: post.author,
+        worksFor: {
+          "@type": "MedicalClinic",
+          "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+        },
+      },
+    ],
     publisher: {
       "@type": "MedicalClinic",
       name: SITE_CONFIG.name,
@@ -72,7 +82,7 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: `${SITE_CONFIG.baseUrl}/${locale}/blog`,
+        item: `${SITE_CONFIG.baseUrl}${locale === "es" ? "" : `/${locale}`}/blog`,
       },
       {
         "@type": "ListItem",

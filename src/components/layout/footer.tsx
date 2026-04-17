@@ -189,6 +189,11 @@ export async function Footer() {
             </a>
           </p>
         </div>
+
+        {/* Medical disclaimer */}
+        <p className="text-white/30 text-[10px] text-center mt-6 max-w-3xl mx-auto leading-relaxed">
+          La información proporcionada en este sitio web es solo con fines informativos y no sustituye el consejo médico profesional. Consulte a un profesional de la salud para diagnóstico y tratamiento.
+        </p>
       </div>
     </footer>
   );
