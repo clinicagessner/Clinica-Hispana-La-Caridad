@@ -60,14 +60,13 @@ export function JsonLdMedicalClinic() {
         hasOfferCatalog: {
           "@type": "OfferCatalog",
           name: "Servicios Médicos",
-          itemListElement: SERVICES.slice(0, 10).map((service, index) => ({
+          itemListElement: SERVICES.slice(0, 10).map((service) => ({
             "@type": "Offer",
             itemOffered: {
               "@type": "MedicalProcedure",
               name: service.title,
               description: service.description,
             },
-            position: index + 1,
           })),
         },
         sameAs: [

@@ -12,6 +12,7 @@ import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import { SITE_CONFIG } from "@/lib/constants";
 import "../globals.css";
 
@@ -73,6 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: "/",
         en: "/en",
+        "x-default": "/",
       },
     },
     openGraph: {
@@ -139,11 +141,6 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
         <link rel="preconnect" href="https://cdn.callrail.com" />
-        <script
-          type="text/javascript"
-          src="//cdn.callrail.com/companies/413132698/334d41c65d6e3acabf78/12/swap.js"
-          async
-        />
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
@@ -168,6 +165,10 @@ export default async function LocaleLayout({ children, params }: Props) {
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
+      <Script
+        src="//cdn.callrail.com/companies/413132698/334d41c65d6e3acabf78/12/swap.js"
+        strategy="lazyOnload"
+      />
     </html>
   );
 }

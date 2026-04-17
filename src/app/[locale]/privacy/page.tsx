@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       languages: {
         es: "/privacy",
         en: "/en/privacy",
+        "x-default": "/privacy",
       },
     },
     openGraph: {
@@ -61,7 +62,7 @@ export default async function PrivacyPage({ params }: Props) {
           </h1>
 
           <p className="text-muted-foreground mb-8">
-            Última actualización: {new Date().toLocaleDateString("es-MX", { year: "numeric", month: "long", day: "numeric" })}
+            Última actualización: 15 de abril de 2026
           </p>
 
           <div className="bg-white rounded-2xl shadow-lg p-6 md:p-10 prose prose-slate max-w-none prose-headings:font-heading prose-headings:text-slate-dark prose-a:text-blue-primary prose-a:no-underline hover:prose-a:underline">

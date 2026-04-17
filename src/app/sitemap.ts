@@ -15,7 +15,7 @@ type SitemapEntry = {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
-  const now = new Date();
+  const siteLastUpdated = new Date("2026-04-15");
 
   // Helper to create alternates for hreflang
   const createAlternates = (path: string) => ({
@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: SitemapEntry[] = staticPages.flatMap((page) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}${page.path}`,
-      lastModified: now,
+      lastModified: siteLastUpdated,
       changeFrequency: page.changeFrequency,
       priority: page.priority,
       alternates: createAlternates(page.path),
@@ -48,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const serviceRoutes: SitemapEntry[] = SERVICES.flatMap((service) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/services/${service.slug}`,
-      lastModified: now,
+      lastModified: siteLastUpdated,
       changeFrequency: "monthly" as const,
       priority: 0.7,
       alternates: createAlternates(`/services/${service.slug}`),
