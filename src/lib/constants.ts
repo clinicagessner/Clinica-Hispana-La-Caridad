@@ -17,7 +17,7 @@ export const CONTACT_INFO: ContactInfo = {
   zip: "77036",
   phone: "+18329258135",
   phoneFormatted: "+1 (832) 925-8135",
-  email: "chlacaridad@gmail.com",
+  email: "clinicalacaridad2016@gmail.com",
   hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",
   hoursWeekend: "Sábado y Domingo: 9:00 AM - 9:00 PM",
