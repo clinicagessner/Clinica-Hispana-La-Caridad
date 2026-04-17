@@ -45,6 +45,23 @@ const nextConfig: NextConfig = {
             key: "Permissions-Policy",
             value: "camera=(), microphone=(), geolocation=(self)",
           },
+          {
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.callrail.com https://va.vercel-scripts.com https://www.googletagmanager.com https://www.google-analytics.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com data:",
+              "img-src 'self' data: blob: https://lh3.googleusercontent.com https://maps.googleapis.com https://maps.gstatic.com https://maps.google.com https://www.google.com https://www.google-analytics.com",
+              "connect-src 'self' https://vitals.vercel-insights.com https://*.vercel-analytics.com https://cdn.callrail.com https://api.callrail.com https://maps.googleapis.com https://www.google-analytics.com https://region1.google-analytics.com",
+              "frame-src 'self' https://www.google.com https://maps.google.com",
+              "object-src 'none'",
+              "base-uri 'self'",
+              "form-action 'self'",
+              "frame-ancestors 'self'",
+              "upgrade-insecure-requests",
+            ].join("; "),
+          },
         ],
       },
     ];
