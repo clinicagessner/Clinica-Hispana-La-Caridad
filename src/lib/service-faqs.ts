@@ -123,14 +123,12 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   },
   "planificacion-familiar": {
     faqs: [
-      { question: "¿Qué métodos anticonceptivos ofrecen?", answer: "Ofrecemos píldoras, inyecciones, parche, DIU (hormonal y de cobre), implante subdérmico y condones. Su médico le ayudará a elegir el más adecuado." },
-      { question: "¿La inserción del DIU es dolorosa?", answer: "Puede haber algo de incomodidad durante la inserción, que generalmente dura solo unos minutos. El DIU puede ser efectivo por 3 a 10 años dependiendo del tipo." },
+      { question: "¿Qué métodos anticonceptivos ofrecen?", answer: "Ofrecemos píldoras, inyecciones, parche, implante subdérmico y condones. Su médico le ayudará a elegir el más adecuado según su historial médico y estilo de vida." },
       { question: "¿El implante anticonceptivo es seguro?", answer: "Sí, el implante subdérmico es seguro y muy eficaz. Es una pequeña varilla que se coloca debajo de la piel del brazo y previene el embarazo por hasta 3 años." },
       { question: "¿Pueden ayudarme si quiero quedar embarazada en el futuro?", answer: "Por supuesto. Le asesoramos para elegir un método anticonceptivo reversible compatible con sus planes a futuro." },
     ],
     faqsEn: [
-      { question: "What birth control methods do you offer?", answer: "We offer pills, injections, the patch, IUDs (hormonal and copper), subdermal implants, and condoms. Your doctor will help you choose the best fit." },
-      { question: "Is IUD insertion painful?", answer: "You may experience some discomfort during insertion, which typically takes just a few minutes. Depending on the type, an IUD can provide contraception for 3 to 10 years." },
+      { question: "What birth control methods do you offer?", answer: "We offer pills, injections, the patch, subdermal implants, and condoms. Your doctor will help you choose the best option based on your medical history and lifestyle." },
       { question: "Is the birth control implant safe?", answer: "Yes, the subdermal implant is safe and highly effective. It is a small rod inserted under the skin of your upper arm that prevents pregnancy for up to 3 years." },
       { question: "Can you help me if I want to get pregnant someday?", answer: "Absolutely. We will help you select a reversible contraceptive method that aligns with your future family plans." },
     ],

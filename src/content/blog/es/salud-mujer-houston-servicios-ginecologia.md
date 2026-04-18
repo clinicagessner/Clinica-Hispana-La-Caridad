@@ -57,7 +57,6 @@ Ofrecemos consejería sobre:
 - Píldoras anticonceptivas
 - Inyecciones (Depo-Provera)
 - Implantes (Nexplanon)
-- DIU
 - Otros métodos
 
 ### Atención Prenatal Básica

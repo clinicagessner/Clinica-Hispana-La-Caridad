@@ -250,7 +250,6 @@ Métodos anticonceptivos disponibles:
 - Píldoras anticonceptivas (varias opciones)
 - Inyecciones anticonceptivas (Depo-Provera)
 - Implantes subdérmicos (Nexplanon)
-- Dispositivo intrauterino (DIU)
 - Parches anticonceptivos
 - Anillo vaginal
 - Métodos de barrera

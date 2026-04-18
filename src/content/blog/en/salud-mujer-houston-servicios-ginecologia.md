@@ -57,7 +57,6 @@ We offer counseling on:
 - Birth control pills
 - Injections (Depo-Provera)
 - Implants (Nexplanon)
-- IUD
 - Other methods
 
 ### Basic Prenatal Care
