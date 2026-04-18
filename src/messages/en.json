@@ -9,6 +9,7 @@
     "home": "Home",
     "services": "Services",
     "greenCard": "Green Card",
+    "chronicCare": "Chronic Care",
     "testimonials": "Testimonials",
     "location": "Location",
     "contact": "Contact",
@@ -194,6 +195,15 @@
     "processTitle": "Simple 5-Step Process",
     "ctaSchedule": "Schedule I-693 Exam",
     "ctaCall": "Call Now"
+  },
+  "chronicCare": {
+    "badge": "Ongoing Care",
+    "title": "Chronic Disease Management",
+    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. Same-day lab results, medication adjustments, and patient education in Spanish.",
+    "conditionsTitle": "Conditions we manage",
+    "ctaSchedule": "Schedule Appointment",
+    "ctaCall": "Call Now",
+    "learnMore": "Learn more about this service"
   },
   "blog": {
     "title": "Health Blog",

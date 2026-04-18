@@ -1,7 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
-import { GreenCard } from "@/components/sections/green-card";
+import { ChronicCare } from "@/components/sections/chronic-care";
 import { Testimonials } from "@/components/sections/testimonials";
 import { Contact } from "@/components/sections/contact";
 import { FAQ } from "@/components/sections/faq";
@@ -20,7 +20,7 @@ export default async function HomePage({ params }: Props) {
     <>
       <Hero />
       <Services />
-      <GreenCard />
+      <ChronicCare />
       <Testimonials />
       <FAQ />
       <Location />

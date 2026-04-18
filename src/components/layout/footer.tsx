@@ -91,8 +91,8 @@ export async function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/#green-card" className="text-white/70 hover:text-white text-sm transition-colors">
-                  {t("nav.greenCard")}
+                <a href="/#chronic-care" className="text-white/70 hover:text-white text-sm transition-colors">
+                  {t("nav.chronicCare")}
                 </a>
               </li>
               <li>

@@ -7,7 +7,7 @@ import { useAnimateOnScroll } from "@/hooks/use-animate-on-scroll";
 const SECTION_IDS = [
   "home",
   "services",
-  "green-card",
+  "chronic-care",
   "testimonials",
   "faq",
   "location",
