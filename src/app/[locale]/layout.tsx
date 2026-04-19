@@ -10,6 +10,7 @@ import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
+import { MetaPixelPageView } from "@/components/tracking/meta-pixel-pageview";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -139,6 +140,15 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#02176d" />
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1875719876442536&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
         <link rel="preconnect" href="https://cdn.callrail.com" />
@@ -161,6 +171,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ScrollToTop />
             <JsonLdMedicalClinic />
             <ScrollAnimations />
+            <MetaPixelPageView />
             <SpeedInsights />
             <Analytics />
           </TooltipProvider>
@@ -187,15 +198,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           fbq('track', 'PageView');
         `}
       </Script>
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          src="https://www.facebook.com/tr?id=1875719876442536&ev=PageView&noscript=1"
-          alt=""
-        />
-      </noscript>
     </html>
   );
 }
