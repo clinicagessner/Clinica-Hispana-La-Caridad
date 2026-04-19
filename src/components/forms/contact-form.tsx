@@ -45,6 +45,13 @@ export function ContactForm() {
     try {
       const result = await sendContactEmail(data);
       if (result.success) {
+        // Fire Meta Pixel Lead event — NEVER send mensaje field
+        if (typeof window !== "undefined" && typeof window.fbq === "function") {
+          window.fbq("track", "Lead", {
+            content_category: data.servicio,
+            content_name: "Contact Form",
+          });
+        }
         setStatus("success");
         reset();
         setTimeout(() => setStatus("idle"), 5000);
@@ -156,6 +163,9 @@ export function ContactForm() {
         {errors.mensaje && (
           <p className="text-sm text-destructive">{errors.mensaje.message}</p>
         )}
+        <p className="text-[11px] text-slate-muted leading-snug">
+          No comparta información médica delicada aquí. Para temas de salud específicos, llámenos al (832) 925-8135.
+        </p>
       </div>
 
       {/* Submit Button */}
