@@ -145,6 +145,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link rel="preconnect" href="https://cdn.callrail.com" />
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
+        <MetaPixel />
         <NextIntlClientProvider messages={messages}>
           <TooltipProvider>
             <a
@@ -162,7 +163,6 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ScrollToTop />
             <JsonLdMedicalClinic />
             <ScrollAnimations />
-            <MetaPixel />
             <SpeedInsights />
             <Analytics />
           </TooltipProvider>

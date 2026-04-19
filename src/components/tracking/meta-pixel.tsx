@@ -1,39 +1,37 @@
 "use client";
 
 import Script from "next/script";
-import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useRef, Suspense } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 
 const PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 
-function MetaPixelInner() {
+function MetaPixelPageTracker() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const isFirstRender = useRef(true);
+  const lastTrackedPath = useRef<string | null>(null);
 
   useEffect(() => {
-    // Skip first render — base script already fired initial PageView
-    if (isFirstRender.current) {
-      isFirstRender.current = false;
-      return;
-    }
-
     if (typeof window === "undefined" || typeof window.fbq !== "function") return;
     if (!PIXEL_ID) return;
 
+    // Only fire if pathname actually changed (prevents re-render duplicates)
+    if (lastTrackedPath.current === pathname) return;
+
+    // Skip first mount — base script already fired initial PageView
+    if (lastTrackedPath.current === null) {
+      lastTrackedPath.current = pathname;
+      return;
+    }
+
+    lastTrackedPath.current = pathname;
     window.fbq("track", "PageView");
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   return null;
 }
 
 export function MetaPixel() {
-  if (!PIXEL_ID) {
-    if (process.env.NODE_ENV === "development") {
-      console.warn("[MetaPixel] NEXT_PUBLIC_META_PIXEL_ID is not set. Pixel disabled.");
-    }
-    return null;
-  }
+  if (!PIXEL_ID) return null;
 
   return (
     <>
@@ -55,9 +53,7 @@ export function MetaPixel() {
           `,
         }}
       />
-      <Suspense fallback={null}>
-        <MetaPixelInner />
-      </Suspense>
+      <MetaPixelPageTracker />
     </>
   );
 }
