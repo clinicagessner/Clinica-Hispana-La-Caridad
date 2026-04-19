@@ -47,10 +47,24 @@ export function ContactForm() {
       if (result.success) {
         // Fire Meta Pixel Lead event — NEVER send mensaje field
         if (typeof window !== "undefined" && typeof window.fbq === "function") {
+          const nameParts = data.nombre.trim().split(/\s+/);
+          const firstName = nameParts[0]?.toLowerCase() || "";
+          const lastName = nameParts.slice(1).join(" ").toLowerCase() || "";
+          const phone = data.telefono.replace(/\D/g, "");
+
+          // Manual Advanced Matching — explicitly pass user data for reliable match rate
+          window.fbq("init", "1875719876442536", {
+            fn: firstName,
+            ln: lastName,
+            ph: phone,
+            ...(data.email ? { em: data.email.toLowerCase() } : {}),
+          });
+
+          const eventID = crypto.randomUUID();
           window.fbq("track", "Lead", {
             content_category: data.servicio,
             content_name: "Contact Form",
-          });
+          }, { eventID });
         }
         setStatus("success");
         reset();
