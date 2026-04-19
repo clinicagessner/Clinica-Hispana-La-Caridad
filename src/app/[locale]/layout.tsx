@@ -10,7 +10,7 @@ import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
-import { MetaPixelPageView } from "@/components/tracking/meta-pixel-pageview";
+import { MetaPixel } from "@/components/tracking/meta-pixel";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -140,15 +140,6 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#02176d" />
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1875719876442536&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
         <link rel="preconnect" href="https://cdn.callrail.com" />
@@ -171,7 +162,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ScrollToTop />
             <JsonLdMedicalClinic />
             <ScrollAnimations />
-            <MetaPixelPageView />
+            <MetaPixel />
             <SpeedInsights />
             <Analytics />
           </TooltipProvider>
@@ -184,20 +175,6 @@ export default async function LocaleLayout({ children, params }: Props) {
         src="//cdn.callrail.com/companies/413132698/334d41c65d6e3acabf78/12/swap.js"
         strategy="lazyOnload"
       />
-      <Script id="meta-pixel" strategy="afterInteractive">
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1875719876442536');
-          fbq('track', 'PageView');
-        `}
-      </Script>
     </html>
   );
 }
