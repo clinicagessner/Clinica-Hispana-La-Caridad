@@ -1,12 +1,22 @@
 "use server";
 
+import { headers } from "next/headers";
 import { Resend } from "resend";
 import { contactFormSchema, type ContactFormData } from "@/lib/validations";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { sendLeadEvent } from "@/lib/meta-capi";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function sendContactEmail(data: ContactFormData) {
+interface SendContactEmailOptions {
+  eventID?: string;
+  sourceUrl?: string;
+}
+
+export async function sendContactEmail(
+  data: ContactFormData,
+  options?: SendContactEmailOptions
+) {
   // Validate on server
   const result = contactFormSchema.safeParse(data);
   if (!result.success) {
@@ -95,6 +105,24 @@ export async function sendContactEmail(data: ContactFormData) {
         </html>
       `,
     });
+
+    // Send Meta CAPI Lead event (server-side, non-blocking)
+    if (options?.eventID) {
+      const headersList = await headers();
+      const nameParts = nombre.trim().split(/\s+/);
+
+      sendLeadEvent({
+        eventID: options.eventID,
+        firstName: nameParts[0] || "",
+        lastName: nameParts.slice(1).join(" ") || "",
+        phone: telefono,
+        email: email || undefined,
+        service: servicio,
+        sourceUrl: options.sourceUrl || SITE_CONFIG.baseUrl,
+        userAgent: headersList.get("user-agent") || "",
+        ip: headersList.get("x-forwarded-for")?.split(",")[0]?.trim() || headersList.get("x-real-ip") || "",
+      }).catch((err) => console.error("Meta CAPI error (non-blocking):", err));
+    }
 
     return { success: true };
   } catch (error) {

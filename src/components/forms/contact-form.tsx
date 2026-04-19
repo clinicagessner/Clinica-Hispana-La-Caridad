@@ -43,7 +43,11 @@ export function ContactForm() {
   const onSubmit = async (data: ContactFormData) => {
     setStatus("loading");
     try {
-      const result = await sendContactEmail(data);
+      // Generate eventID BEFORE submit for Pixel + CAPI deduplication
+      const eventID = crypto.randomUUID();
+      const sourceUrl = typeof window !== "undefined" ? window.location.href : "";
+
+      const result = await sendContactEmail(data, { eventID, sourceUrl });
       if (result.success) {
         // Fire Meta Pixel Lead event — NEVER send mensaje field
         if (typeof window !== "undefined" && typeof window.fbq === "function") {
@@ -52,7 +56,7 @@ export function ContactForm() {
           const lastName = nameParts.slice(1).join(" ").toLowerCase() || "";
           const phone = data.telefono.replace(/\D/g, "");
 
-          // Manual Advanced Matching — explicitly pass user data for reliable match rate
+          // Manual Advanced Matching
           window.fbq("init", "1875719876442536", {
             fn: firstName,
             ln: lastName,
@@ -60,7 +64,7 @@ export function ContactForm() {
             ...(data.email ? { em: data.email.toLowerCase() } : {}),
           });
 
-          const eventID = crypto.randomUUID();
+          // Same eventID as CAPI for deduplication
           window.fbq("track", "Lead", {
             content_category: data.servicio,
             content_name: "Contact Form",
