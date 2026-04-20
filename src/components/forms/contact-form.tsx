@@ -49,22 +49,8 @@ export function ContactForm() {
 
       const result = await sendContactEmail(data, { eventID, sourceUrl });
       if (result.success) {
-        // Fire Meta Pixel Lead event — NEVER send mensaje field
+        // Fire Meta Pixel Lead event — NEVER send mensaje field, NEVER re-init pixel
         if (typeof window !== "undefined" && typeof window.fbq === "function") {
-          const nameParts = data.nombre.trim().split(/\s+/);
-          const firstName = nameParts[0]?.toLowerCase() || "";
-          const lastName = nameParts.slice(1).join(" ").toLowerCase() || "";
-          const phone = data.telefono.replace(/\D/g, "");
-
-          // Manual Advanced Matching
-          window.fbq("init", "1875719876442536", {
-            fn: firstName,
-            ln: lastName,
-            ph: phone,
-            ...(data.email ? { em: data.email.toLowerCase() } : {}),
-          });
-
-          // Same eventID as CAPI for deduplication
           window.fbq("track", "Lead", {
             content_category: data.servicio,
             content_name: "Contact Form",
