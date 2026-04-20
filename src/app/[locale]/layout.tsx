@@ -10,7 +10,7 @@ import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
-import { MetaPixel } from "@/components/tracking/meta-pixel";
+import { MetaPixelSPATracker } from "@/components/tracking/meta-pixel";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -143,9 +143,16 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
         <link rel="preconnect" href="https://cdn.callrail.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
+        {/* Meta Pixel — plain script in head, NOT managed by React */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1875719876442536');fbq('track','PageView');`,
+          }}
+        />
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
-        <MetaPixel />
+        <MetaPixelSPATracker />
         <NextIntlClientProvider messages={messages}>
           <TooltipProvider>
             <a

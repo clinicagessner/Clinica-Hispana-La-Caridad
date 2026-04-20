@@ -1,50 +1,25 @@
 "use client";
 
-import Script from "next/script";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useRef } from "react";
 
-const PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
-
-function MetaPixelPageTracker() {
+/**
+ * SPA PageView tracker only — does NOT load the pixel.
+ * The pixel base script is loaded via <script> in layout.tsx <head>.
+ * This component only fires PageView on client-side route changes.
+ */
+export function MetaPixelSPATracker() {
   const pathname = usePathname();
-  const lastTrackedPath = useRef<string | null>(null);
+  const lastPath = useRef<string>(pathname);
 
   useEffect(() => {
-    if (typeof window === "undefined" || typeof window.fbq !== "function") return;
-    if (!PIXEL_ID) return;
-    if (lastTrackedPath.current === pathname) return;
+    if (lastPath.current === pathname) return;
+    lastPath.current = pathname;
 
-    if (lastTrackedPath.current === null) {
-      lastTrackedPath.current = pathname;
-      return;
+    if (typeof window.fbq === "function") {
+      window.fbq("track", "PageView");
     }
-
-    lastTrackedPath.current = pathname;
-    window.fbq("track", "PageView");
   }, [pathname]);
 
   return null;
-}
-
-export function MetaPixel() {
-  const handleLoad = useCallback(() => {
-    if (typeof window.fbq === "function") {
-      window.fbq("init", PIXEL_ID!);
-      window.fbq("track", "PageView");
-    }
-  }, []);
-
-  if (!PIXEL_ID) return null;
-
-  return (
-    <>
-      <Script
-        src="https://connect.facebook.net/en_US/fbevents.js"
-        strategy="afterInteractive"
-        onLoad={handleLoad}
-      />
-      <MetaPixelPageTracker />
-    </>
-  );
 }
