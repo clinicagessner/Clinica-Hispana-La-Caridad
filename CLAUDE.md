@@ -1,0 +1,87 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project
+
+Bilingual (es default / en) marketing site for **Clínica Hispana La Caridad** — a medical clinic in Houston, TX. Next.js 16 App Router + React 19 + Tailwind 4 + shadcn/ui, deployed on Vercel. Production URL: `https://www.chlacaridad.com`.
+
+## Commands
+
+```bash
+npm run dev      # next dev (Turbopack)
+npm run build    # next build — type-checks; fail here before pushing
+npm run start    # serve production build
+npm run lint     # eslint (flat config in eslint.config.mjs)
+```
+
+There is no test runner configured. `npm run build` is the de-facto correctness gate.
+
+## Architecture
+
+### Routing & i18n (next-intl)
+
+- All user-facing pages live under `src/app/[locale]/...`. The top-level `src/app/layout.tsx` is intentionally minimal — the real root layout (fonts, Header/Footer, providers, tracking scripts, JSON-LD) is in `src/app/[locale]/layout.tsx`.
+- Locale config: `src/i18n/config.ts` (`["es", "en"]`, default `es`), routing in `src/i18n/routing.ts` with `localePrefix: "as-needed"` → Spanish URLs have **no** `/es` prefix, English URLs are `/en/...`. Middleware: `src/proxy.ts` (note: file is `proxy.ts`, not `middleware.ts` — this is Next 16's rename; don't rename it back).
+- `generateStaticParams()` + `setRequestLocale(locale)` is called in every page and layout. Keep this pattern when adding new routes, or next-intl will fall out of static rendering.
+- UI strings live in `src/messages/{es,en}.json`. Long-form content (service descriptions, FAQs) lives in TypeScript — see next section.
+
+### Content model
+
+Most content is **not** in CMS or markdown — it's hard-coded in TypeScript:
+
+- `src/lib/constants.ts` — `SITE_CONFIG`, `CONTACT_INFO`, `SOCIAL_LINKS`, `GOOGLE_REVIEWS_DATA`, and the full `SERVICES` array (each service carries both `es` fields and `*En` English variants, plus SEO keywords, icon name, category, order, features).
+- `src/lib/service-faqs.ts` — FAQ content per service, same bilingual pattern.
+- `src/content/blog/{es,en}/*.md` — blog posts with gray-matter frontmatter, loaded via `src/lib/blog.ts` (filesystem read at build time; slugs derived from the `es/` directory).
+
+To localize a Service/BlogPost object for rendering, always go through `getLocalizedService` / `getLocalizedPost` in `src/lib/utils.ts` — these fall back to Spanish when the `*En` field is missing.
+
+### SEO surface
+
+This site is SEO-heavy. Touching any of the following requires keeping the others in sync:
+
+- `src/app/sitemap.ts` — builds entries for static pages + every service + every blog post, **both locales**, with `alternates.languages` hreflang map.
+- `src/app/robots.ts` — base robots rules.
+- `src/components/seo/json-ld.tsx` and `json-ld-blog.tsx` — JSON-LD generators (MedicalClinic, LocalBusiness, Service, BreadcrumbList, CollectionPage, Article). `JsonLdMedicalClinic` is mounted globally in `[locale]/layout.tsx`.
+- Per-page `generateMetadata` sets canonical + hreflang alternates; follow the pattern in `src/app/[locale]/services/page.tsx` (canonical uses `${baseUrl}${localePath}/...`; Spanish canonical has no locale prefix).
+- `src/app/api/indexnow/route.ts` — POST endpoint that pings IndexNow with `host` + `key` derived from `SITE_CONFIG.baseUrl`. Key file is served from `/public/<key>.txt`.
+
+When adding a new route: update `sitemap.ts`, add JSON-LD if it's a content page, and ensure the `metadata.alternates` block has both `es` and `en` entries plus `x-default`.
+
+### Security headers & CSP
+
+All headers — including a strict CSP allowlist — are defined in `next.config.ts` `async headers()`. The CSP allows third-party domains for CallRail, Vercel Analytics, Google Analytics/Tag Manager, Google Maps, and Facebook/Meta Pixel + CAPI. **If you add a new third-party script or fetch target, you must extend the corresponding CSP directive** (`script-src`, `connect-src`, `img-src`, `frame-src`), or production requests will be blocked silently.
+
+### Forms & conversion tracking
+
+Contact form pipeline:
+
+1. `src/components/forms/contact-form.tsx` — client form using react-hook-form + Zod (`src/lib/validations.ts`). Generates a client-side `eventID` for Meta event deduplication and fires `fbq('track', 'Lead', ..., { eventID })`.
+2. `src/app/actions/send-contact-email.ts` — server action. Re-validates with Zod, sends email via Resend (`from: Formulario Web <noreply@chlacaridad.com>` → `CONTACT_INFO.email`), then fires the server-side Meta CAPI `Lead` event with the same `eventID` for dedup.
+3. `src/lib/meta-capi.ts` — SHA-256 hashes PII before POSTing to Graph API v21.0. Uses `NEXT_PUBLIC_META_PIXEL_ID`, `META_CAPI_ACCESS_TOKEN`, optional `META_TEST_EVENT_CODE`.
+
+Meta Pixel loading has a specific, non-obvious shape: the base fbq script is injected as a **raw `<script>` tag** inside `<head>` in `[locale]/layout.tsx` (not via `next/script`) to guarantee it runs before hydration. `MetaPixelSPATracker` only fires client-side PageViews on route changes — it does **not** load the pixel. Don't "clean this up" by moving it to `next/script`.
+
+Google Ads tag (`AW-374445498`) is hard-coded in `src/components/tracking/google-ads.tsx` via `next/script`. GA4 uses `@next/third-parties/google` and is conditional on `NEXT_PUBLIC_GA_ID`.
+
+### Environment variables
+
+See `.env.example`. Required for full functionality: `RESEND_API_KEY`, `NEXT_PUBLIC_META_PIXEL_ID`, `META_CAPI_ACCESS_TOKEN`, `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_GA_ID`, `GOOGLE_PLACES_API_KEY` + `GOOGLE_PLACE_ID` (for real Google reviews — currently the site uses `GOOGLE_REVIEWS_DATA` static fallback in `constants.ts`).
+
+## Conventions
+
+- **No barrel imports** from shadcn. Always `import { Button } from "@/components/ui/button"` — one component per import line. The `@/*` path alias maps to `src/*`.
+- **No hardcoded hex colors.** The brand palette (`#02176d` blue / `#ed1c24` red / `#ffe16a` yellow / `#e4f7fc` cyan / white) lives as CSS variables in `src/app/globals.css` and as shadcn tokens. Use Tailwind utilities or the custom variables.
+- **Never use `bg-white` for sections.** Sections should use palette colors or gradients — white is reserved for cards/inputs. This is a user preference with existing precedent across the codebase.
+- **Fonts:** Montserrat (headings) and Roboto Condensed (body), loaded via `next/font/google` in `[locale]/layout.tsx` as CSS variables `--font-montserrat` / `--font-roboto-condensed`. Don't add other Google fonts.
+- **Server Components by default.** Only reach for `"use client"` for forms, state, browser APIs, or components with event handlers (Header mobile nav, ScrollToTop, MetaPixelSPATracker, ScrollAnimations, contact form).
+- **Pin dependency versions** — use concrete `^X.Y.Z` from `npm view <pkg> version`, never the string `"latest"` in `package.json`.
+- **Commit messages** follow Conventional Commits (`feat(scope): ...`, `fix(csp): ...`, `feat(seo): ...`). Do not add `Co-Authored-By` trailers or mention AI/Claude in commits.
+- `next/image` only; all images get descriptive Spanish or bilingual alt text. Remote image hosts (Google Photos/Places) must be in `next.config.ts` `images.remotePatterns`.
+
+## Gotchas
+
+- The root `src/app/layout.tsx` is a near-empty passthrough. Editing it rarely does what you expect — the real root layout is `src/app/[locale]/layout.tsx`.
+- `src/lib/constants.ts` is ~100 KB. Prefer `Read` with `offset`/`limit` over reading the whole file when editing.
+- Blog slugs are enumerated from the **Spanish** directory (`src/content/blog/es/`). An English-only post won't be picked up by `getBlogPosts` or the sitemap — always create the `es/` file first (even if it's a stub), then the `en/` counterpart.
+- Middleware matcher in `src/proxy.ts` excludes `api`, `_next`, `_vercel`, and anything with a file extension. Locale-aware API routes are not supported; keep API handlers under `src/app/api/*` (outside `[locale]`).
