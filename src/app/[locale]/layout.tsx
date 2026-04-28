@@ -182,7 +182,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <GoogleAdsTag />
       <Script
         src="//cdn.callrail.com/companies/413132698/334d41c65d6e3acabf78/12/swap.js"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
       />
     </html>
   );
