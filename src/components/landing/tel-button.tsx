@@ -21,6 +21,8 @@ function fireLandingCallConversion() {
   if (typeof window.gtag !== "function") return;
   window.gtag("event", "conversion", {
     send_to: `${LANDING_GADS_TAG}/${label}`,
+    value: 1.0,
+    currency: "USD",
   });
 }
 
