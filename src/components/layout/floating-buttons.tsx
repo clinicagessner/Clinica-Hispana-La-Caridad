@@ -1,15 +1,25 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
+import {
+  LANDING_CALLRAIL,
+  LANDING_GADS_TAG,
+  LANDING_PATH,
+} from "@/lib/landing-conquesting";
 import { cn } from "@/lib/utils";
 
 export function FloatingButtons() {
   const t = useTranslations("cta");
+  const pathname = usePathname();
   const [isVisible, setIsVisible] = useState(false);
+
+  const isLanding = pathname?.endsWith(LANDING_PATH) ?? false;
+  const phoneHref = isLanding ? LANDING_CALLRAIL.href : `tel:${CONTACT_INFO.phone}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +30,16 @@ export function FloatingButtons() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handlePhoneClick = () => {
+    if (!isLanding) return;
+    if (typeof window === "undefined") return;
+    const label = process.env.NEXT_PUBLIC_GADS_CONVERSION_LABEL_LANDING_CALL;
+    if (!label || typeof window.gtag !== "function") return;
+    window.gtag("event", "conversion", {
+      send_to: `${LANDING_GADS_TAG}/${label}`,
+    });
+  };
+
   return (
     <div
       className={cn(
@@ -27,7 +47,6 @@ export function FloatingButtons() {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
       )}
     >
-      {/* Location Button */}
       <Tooltip>
         <TooltipTrigger asChild>
           <a
@@ -45,11 +64,11 @@ export function FloatingButtons() {
         </TooltipContent>
       </Tooltip>
 
-      {/* Phone Button - Primary CTA */}
       <Tooltip>
         <TooltipTrigger asChild>
           <a
-            href={`tel:${CONTACT_INFO.phone}`}
+            href={phoneHref}
+            onClick={handlePhoneClick}
             className="size-14 rounded-full bg-blue-primary text-white shadow-md shadow-blue-primary/30 flex items-center justify-center hover:bg-blue-dark hover:shadow-lg transition-all animate-pulse-float"
             aria-label="Llamar ahora"
           >
