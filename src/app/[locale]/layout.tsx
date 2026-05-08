@@ -4,11 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
-import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
-import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { MetaPixelSPATracker } from "@/components/tracking/meta-pixel";
 import { GoogleAdsTag } from "@/components/tracking/google-ads";
@@ -162,14 +158,8 @@ export default async function LocaleLayout({ children, params }: Props) {
             >
               {t("skipToContent")}
             </a>
-            <Header />
-            <main id="main-content" className="flex-1">
-              {children}
-            </main>
-            <Footer />
-            <FloatingButtons />
+            {children}
             <ScrollToTop />
-            <JsonLdMedicalClinic />
             <ScrollAnimations />
             <SpeedInsights />
             <Analytics />

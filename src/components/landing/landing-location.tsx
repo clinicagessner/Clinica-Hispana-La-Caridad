@@ -1,6 +1,7 @@
 import { MapPin, Clock, Phone } from "lucide-react";
 import { CONTACT_INFO } from "@/lib/constants";
 import { LANDING_CALLRAIL, LANDING_COPY } from "@/lib/landing-conquesting";
+import { LandingCallButton } from "@/components/landing/landing-call-button";
 import type { Locale } from "@/i18n/config";
 
 export function LandingLocation({ locale }: { locale: Locale }) {
@@ -59,12 +60,12 @@ export function LandingLocation({ locale }: { locale: Locale }) {
                   <p className="font-semibold text-slate-dark mb-1">
                     {c.phoneLabel}
                   </p>
-                  <a
-                    href={LANDING_CALLRAIL.href}
-                    className="text-red-accent font-bold hover:text-red-accent-dark transition-colors"
+                  <LandingCallButton
+                    className="text-red-accent font-bold hover:text-red-accent-dark transition-colors inline-block"
+                    ariaLabel={`${c.phoneLabel} ${LANDING_CALLRAIL.display}`}
                   >
                     {LANDING_CALLRAIL.display}
-                  </a>
+                  </LandingCallButton>
                 </div>
               </div>
             </div>

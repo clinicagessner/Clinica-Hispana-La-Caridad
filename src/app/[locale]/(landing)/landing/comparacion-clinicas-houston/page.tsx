@@ -19,7 +19,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
   const l = locale as Locale;
 
   return (
-    <main id="main-content">
+    <>
       <LandingHero locale={l} />
       <LandingDifferentiators locale={l} />
       <LandingOfferings locale={l} />
@@ -28,6 +28,6 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
       <LandingLocation locale={l} />
       <LandingFAQ locale={l} />
       <LandingFinalCTA locale={l} />
-    </main>
+    </>
   );
 }

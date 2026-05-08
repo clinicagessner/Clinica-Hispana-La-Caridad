@@ -1,33 +1,44 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
 import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
+import {
+  LANDING_CALLRAIL,
+  LANDING_GADS_TAG,
+} from "@/lib/landing-conquesting";
 import { cn } from "@/lib/utils";
 
-export function FloatingButtons() {
-  const t = useTranslations("cta");
+export function LandingFloatingButtons() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsVisible(window.scrollY > 300);
     };
-
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handlePhoneClick = () => {
+    if (typeof window === "undefined") return;
+    const label = process.env.NEXT_PUBLIC_GADS_CONVERSION_LABEL_LANDING_CALL;
+    if (!label || typeof window.gtag !== "function") return;
+    window.gtag("event", "conversion", {
+      send_to: `${LANDING_GADS_TAG}/${label}`,
+    });
+  };
 
   return (
     <div
       className={cn(
         "fixed bottom-6 right-6 z-40 flex flex-col gap-3 transition-all duration-300",
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
+        isVisible
+          ? "opacity-100 translate-y-0"
+          : "opacity-0 translate-y-10 pointer-events-none"
       )}
     >
-      {/* Location Button */}
       <Tooltip>
         <TooltipTrigger asChild>
           <a
@@ -41,23 +52,23 @@ export function FloatingButtons() {
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
-          <p>{t("getDirections")}</p>
+          <p>Cómo llegar</p>
         </TooltipContent>
       </Tooltip>
 
-      {/* Phone Button - Primary CTA */}
       <Tooltip>
         <TooltipTrigger asChild>
           <a
-            href={`tel:${CONTACT_INFO.phone}`}
-            className="size-14 rounded-full bg-blue-primary text-white shadow-md shadow-blue-primary/30 flex items-center justify-center hover:bg-blue-dark hover:shadow-lg transition-all animate-pulse-float"
-            aria-label="Llamar ahora"
+            href={LANDING_CALLRAIL.href}
+            onClick={handlePhoneClick}
+            className="size-14 rounded-full bg-red-accent text-white shadow-md shadow-red-accent/30 flex items-center justify-center hover:bg-red-accent-dark hover:shadow-lg transition-all animate-pulse-float"
+            aria-label={`Llamar ${LANDING_CALLRAIL.display}`}
           >
             <Phone className="size-6" weight="fill" />
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
-          <p>{t("callNow")}</p>
+          <p>{LANDING_CALLRAIL.display}</p>
         </TooltipContent>
       </Tooltip>
     </div>
