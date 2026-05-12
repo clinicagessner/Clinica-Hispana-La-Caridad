@@ -7,34 +7,31 @@ import { LandingCallButton } from "@/components/landing/landing-call-button";
 
 export function LandingHeader() {
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <Image
-            src={SITE_CONFIG.logoUrl}
-            alt={SITE_CONFIG.name}
-            width={48}
-            height={48}
-            priority
-            className="size-10 md:size-12 object-contain"
-          />
-          <span className="hidden sm:block font-heading font-bold text-blue-primary text-base md:text-lg leading-tight">
-            Clínica Hispana
-            <br className="hidden md:block" />
-            <span className="md:hidden"> </span>
-            La Caridad
-          </span>
+    <header className="sticky top-0 z-50 bg-cyan-warm/95 border-b border-cyan-bg-alt backdrop-blur-md shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between gap-4">
+        <div className="flex items-center shrink-0">
+          <div className="relative w-[140px] h-[50px] md:w-[160px] md:h-[50px]">
+            <Image
+              src="/images/logo.webp"
+              alt={SITE_CONFIG.name}
+              fill
+              sizes="(max-width: 768px) 140px, 160px"
+              className="object-contain object-left"
+              priority
+              fetchPriority="high"
+            />
+          </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3 shrink-0">
           <LanguageSwitcher isScrolled />
           <LandingCallButton
-            className="inline-flex items-center gap-2 rounded-full bg-red-accent text-white px-4 py-2 md:px-5 md:py-2.5 font-semibold text-sm md:text-base shadow-md hover:bg-red-accent-dark hover:shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-accent focus-visible:ring-offset-2"
+            className="inline-flex items-center gap-2 rounded-full bg-red-accent text-white px-4 py-2 md:px-6 md:py-2.5 font-bold text-sm md:text-base shadow-md hover:bg-red-accent-dark hover:shadow-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-accent focus-visible:ring-offset-2"
             ariaLabel={`Llamar ${LANDING_CALLRAIL.display}`}
           >
-            <Phone className="size-4 md:size-5" aria-hidden />
-            <span className="hidden xs:inline">{LANDING_CALLRAIL.display}</span>
-            <span className="xs:hidden">Llamar</span>
+            <Phone className="size-4 md:size-5" aria-hidden="true" />
+            <span className="hidden sm:inline">{LANDING_CALLRAIL.display}</span>
+            <span className="sm:hidden">Llamar</span>
           </LandingCallButton>
         </div>
       </div>
