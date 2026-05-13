@@ -1,14 +1,11 @@
 // Constantes exclusivas de la landing CPC /landing/comparacion-clinicas-houston.
 // El número CallRail (832) 639-1005 es DEDICADO a esta landing — no usar fuera de aquí.
-// Conversion label: se inyecta vía NEXT_PUBLIC_GADS_CONVERSION_LABEL_LANDING_CALL.
 
 export const LANDING_CALLRAIL = {
   display: "(832) 639-1005",
   href: "tel:+18326391005",
   raw: "+18326391005",
 } as const;
-
-export const LANDING_GADS_TAG = "AW-374445498" as const;
 
 export const LANDING_PATH = "/landing/comparacion-clinicas-houston" as const;
 

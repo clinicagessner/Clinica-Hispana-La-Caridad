@@ -4,10 +4,7 @@ import { useState, useEffect } from "react";
 import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
-import {
-  LANDING_CALLRAIL,
-  LANDING_GADS_TAG,
-} from "@/lib/landing-conquesting";
+import { LANDING_CALLRAIL } from "@/lib/landing-conquesting";
 import { cn } from "@/lib/utils";
 
 export function LandingFloatingButtons() {
@@ -20,17 +17,6 @@ export function LandingFloatingButtons() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const handlePhoneClick = () => {
-    if (typeof window === "undefined") return;
-    const label = process.env.NEXT_PUBLIC_GADS_CONVERSION_LABEL_LANDING_CALL;
-    if (!label || typeof window.gtag !== "function") return;
-    window.gtag("event", "conversion", {
-      send_to: `${LANDING_GADS_TAG}/${label}`,
-      value: 1.0,
-      currency: "USD",
-    });
-  };
 
   return (
     <div
@@ -62,7 +48,6 @@ export function LandingFloatingButtons() {
         <TooltipTrigger asChild>
           <a
             href={LANDING_CALLRAIL.href}
-            onClick={handlePhoneClick}
             className="size-14 rounded-full bg-red-accent text-white shadow-md shadow-red-accent/30 flex items-center justify-center hover:bg-red-accent-dark hover:shadow-lg transition-all animate-pulse-float"
             aria-label={`Llamar ${LANDING_CALLRAIL.display}`}
           >

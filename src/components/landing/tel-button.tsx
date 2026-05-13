@@ -1,30 +1,6 @@
-"use client";
-
 import { Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { LANDING_CALLRAIL, LANDING_GADS_TAG } from "@/lib/landing-conquesting";
-
-declare global {
-  interface Window {
-    gtag?: (
-      command: "event",
-      eventName: "conversion",
-      params: { send_to: string; value?: number; currency?: string }
-    ) => void;
-  }
-}
-
-function fireLandingCallConversion() {
-  if (typeof window === "undefined") return;
-  const label = process.env.NEXT_PUBLIC_GADS_CONVERSION_LABEL_LANDING_CALL;
-  if (!label) return;
-  if (typeof window.gtag !== "function") return;
-  window.gtag("event", "conversion", {
-    send_to: `${LANDING_GADS_TAG}/${label}`,
-    value: 1.0,
-    currency: "USD",
-  });
-}
+import { LANDING_CALLRAIL } from "@/lib/landing-conquesting";
 
 type TelButtonProps = {
   label: string;
@@ -63,7 +39,6 @@ export function TelButton({
   return (
     <a
       href={LANDING_CALLRAIL.href}
-      onClick={fireLandingCallConversion}
       className={cn(base, variants[variant], sizes[size], className)}
       aria-label={`${label} ${LANDING_CALLRAIL.display}`}
     >
