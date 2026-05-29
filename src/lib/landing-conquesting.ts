@@ -27,6 +27,14 @@ export type LandingCopy = {
     subtitle: string;
     items: { icon: string; title: string; body: string }[];
   };
+  comparison: {
+    title: string;
+    subtitle: string;
+    headers: { feature: string; others: string; us: string };
+    rows: { icon: string; feature: string; others: string; us: string }[];
+    footer: string;
+    ctaCall: string;
+  };
   offerings: {
     title: string;
     subtitle: string;
@@ -63,16 +71,16 @@ export type LandingCopy = {
 export const LANDING_COPY: Record<Locale, LandingCopy> = {
   es: {
     meta: {
-      title: "Clínica Hispana en Houston | Sin Cita | Walk-in 7 Días",
+      title: "Clínica Hispana en Fondren Rd · Sharpstown 77036 | Compare",
       description:
-        "Atención médica profesional en español en Houston, TX. Sin cita previa, abierto 7 días hasta 9 PM. Civil Surgeon USCIS. Llame hoy (832) 639-1005.",
+        "Compare antes de elegir clínica hispana en Houston. 5705 Fondren Rd, atendemos Bellaire, Sharpstown, Westchase. Sin cita, en español. (832) 639-1005.",
     },
     hero: {
       badge: "Lunes a Domingo · 9 AM - 9 PM",
-      rating: "5.0 · Reseñas verificadas en Google",
-      h1: "¿Busca una mejor opción de clínica hispana en Houston?",
+      rating: "5.0 · Reseñas reales en Google",
+      h1: "Clínica Hispana en Fondren Rd · Sharpstown, Houston",
       subtitle:
-        "Atención médica profesional al mismo día, 100% en español, sin cita previa, con o sin seguro. Civil Surgeon certificado por USCIS para examen I-693.",
+        "5705 Fondren Rd STE 101, Houston 77036. Atendemos pacientes de Bellaire, Westchase, Alief y Meyerland. Compare antes de elegir: atención el mismo día en español, sin cita, Civil Surgeon USCIS para examen I-693.",
       ctaCall: "Llamar",
       ctaDirections: "Cómo Llegar",
       imageAlt: "Equipo médico de Clínica Hispana La Caridad en Houston atendiendo a pacientes",
@@ -124,6 +132,63 @@ export const LANDING_COPY: Record<Locale, LandingCopy> = {
         },
       ],
     },
+    comparison: {
+      title: "Compare antes de elegir clínica hispana en Houston",
+      subtitle:
+        "Si está en Bellaire, Sharpstown o el suroeste de Houston, vea qué hace diferente a Clínica La Caridad frente a otras clínicas hispanas del área.",
+      headers: {
+        feature: "Característica",
+        others: "Otras clínicas hispanas",
+        us: "Clínica La Caridad",
+      },
+      rows: [
+        {
+          icon: "Clock",
+          feature: "Horario",
+          others: "Lunes a viernes, sábado limitado",
+          us: "7 días, 9 AM - 9 PM",
+        },
+        {
+          icon: "CalendarOff",
+          feature: "Sin cita previa",
+          others: "Solo emergencias o cita previa",
+          us: "Atención el mismo día, sin cita",
+        },
+        {
+          icon: "Languages",
+          feature: "Atención en español",
+          others: "Personal mixto, no siempre bilingüe",
+          us: "100% bilingüe en todo el equipo",
+        },
+        {
+          icon: "FileCheck",
+          feature: "Examen I-693 USCIS",
+          others: "Referido a otra clínica",
+          us: "Civil Surgeon certificado en sitio",
+        },
+        {
+          icon: "FlaskConical",
+          feature: "Laboratorio",
+          others: "Enviado a laboratorio externo",
+          us: "Resultados el mismo día en sitio",
+        },
+        {
+          icon: "DollarSign",
+          feature: "Pacientes sin seguro",
+          others: "Costos variables al final de la visita",
+          us: "Precio transparente antes de atenderle",
+        },
+        {
+          icon: "Car",
+          feature: "Estacionamiento",
+          others: "Compartido o limitado",
+          us: "Amplio y gratis en Sharpstown",
+        },
+      ],
+      footer:
+        "Como alternativa hispana en Houston, le decimos el precio antes de la consulta y le explicamos todo en su idioma. Compare y decida lo mejor para su familia.",
+      ctaCall: "Llamar ahora",
+    },
     offerings: {
       title: "Lo que ofrecemos",
       subtitle: "Todo lo que necesita en una sola visita, sin complicaciones.",
@@ -144,7 +209,7 @@ export const LANDING_COPY: Record<Locale, LandingCopy> = {
     },
     reviews: {
       title: "Lo que dicen nuestros pacientes",
-      subtitle: "Reseñas verificadas de Google de pacientes reales.",
+      subtitle: "Reseñas reales de pacientes en Google.",
     },
     location: {
       title: "Visítenos en Houston",
@@ -196,16 +261,16 @@ export const LANDING_COPY: Record<Locale, LandingCopy> = {
   },
   en: {
     meta: {
-      title: "Hispanic Clinic in Houston | No Appointment | Walk-in 7 Days",
+      title: "Hispanic Clinic on Fondren Rd · Sharpstown 77036 | Compare",
       description:
-        "Professional medical care in Spanish in Houston, TX. Walk-in 7 days a week until 9 PM. USCIS-certified Civil Surgeon. Call today (832) 639-1005.",
+        "Compare before choosing a Hispanic clinic in Houston. 5705 Fondren Rd, we serve Bellaire, Sharpstown, Westchase. Walk-in, in Spanish. (832) 639-1005.",
     },
     hero: {
       badge: "Monday to Sunday · 9 AM - 9 PM",
-      rating: "5.0 · Verified Google reviews",
-      h1: "Looking for a better Hispanic clinic option in Houston?",
+      rating: "5.0 · Real Google reviews",
+      h1: "Hispanic Clinic on Fondren Rd · Sharpstown, Houston",
       subtitle:
-        "Professional same-day medical care, 100% in Spanish, no appointment needed, with or without insurance. USCIS-certified Civil Surgeon for I-693 exam.",
+        "5705 Fondren Rd STE 101, Houston 77036. We serve patients from Bellaire, Westchase, Alief, and Meyerland. Compare before choosing: same-day care in Spanish, walk-in, USCIS Civil Surgeon for the I-693 exam.",
       ctaCall: "Call",
       ctaDirections: "Get Directions",
       imageAlt: "Clínica Hispana La Caridad medical team in Houston caring for patients",
@@ -224,6 +289,63 @@ export const LANDING_COPY: Record<Locale, LandingCopy> = {
         { icon: "Car", title: "Free parking", body: "Spacious parking right in front of the clinic." },
         { icon: "FlaskConical", title: "On-site lab", body: "Same-day results — no need to go anywhere else." },
       ],
+    },
+    comparison: {
+      title: "Compare before choosing a Hispanic clinic in Houston",
+      subtitle:
+        "If you're in Bellaire, Sharpstown, or southwest Houston, see how Clínica La Caridad compares to other Hispanic clinics in the area.",
+      headers: {
+        feature: "Feature",
+        others: "Other Hispanic clinics",
+        us: "Clínica La Caridad",
+      },
+      rows: [
+        {
+          icon: "Clock",
+          feature: "Hours",
+          others: "Mon-Fri only, limited Saturday",
+          us: "7 days, 9 AM - 9 PM",
+        },
+        {
+          icon: "CalendarOff",
+          feature: "Walk-in",
+          others: "Emergencies or appointment only",
+          us: "Same-day care, no appointment",
+        },
+        {
+          icon: "Languages",
+          feature: "Spanish-speaking staff",
+          others: "Mixed staff, not always bilingual",
+          us: "100% bilingual team",
+        },
+        {
+          icon: "FileCheck",
+          feature: "I-693 USCIS exam",
+          others: "Referred elsewhere",
+          us: "Certified Civil Surgeon on-site",
+        },
+        {
+          icon: "FlaskConical",
+          feature: "Lab work",
+          others: "Sent to external lab",
+          us: "Same-day results on-site",
+        },
+        {
+          icon: "DollarSign",
+          feature: "Uninsured patients",
+          others: "Variable costs at end of visit",
+          us: "Transparent price before your visit",
+        },
+        {
+          icon: "Car",
+          feature: "Parking",
+          others: "Shared or limited",
+          us: "Spacious and free in Sharpstown",
+        },
+      ],
+      footer:
+        "As your Hispanic alternative in Houston, we tell you the price before your visit and explain everything in your language. Compare and decide what's best for your family.",
+      ctaCall: "Call now",
     },
     offerings: {
       title: "What we offer",
@@ -245,7 +367,7 @@ export const LANDING_COPY: Record<Locale, LandingCopy> = {
     },
     reviews: {
       title: "What our patients say",
-      subtitle: "Verified Google reviews from real patients.",
+      subtitle: "Real patient reviews from Google.",
     },
     location: {
       title: "Visit us in Houston",
