@@ -42,7 +42,7 @@ This site is SEO-heavy. Touching any of the following requires keeping the other
 
 - `src/app/sitemap.ts` — builds entries for static pages + every service + every blog post, **both locales**, with `alternates.languages` hreflang map.
 - `src/app/robots.ts` — base robots rules.
-- `src/components/seo/json-ld.tsx` and `json-ld-blog.tsx` — JSON-LD generators (MedicalClinic, LocalBusiness, Service, BreadcrumbList, CollectionPage, Article). `JsonLdMedicalClinic` is mounted globally in `[locale]/layout.tsx`.
+- `src/components/seo/json-ld.tsx` and `json-ld-blog.tsx` — JSON-LD generators (MedicalClinic, BreadcrumbList, MedicalProcedure, FAQPage, CollectionPage, BlogPosting). `JsonLdMedicalClinic` is mounted globally in `(default)/layout.tsx`. **It's an async server component** — it `await`s `getGooglePlaceData()` (`src/lib/google-places.ts`, cached 1h via `unstable_cache`) to populate live `aggregateRating` and the latest 5★ `review[]`, with fallback to `GOOGLE_REVIEWS_DATA` if the API call fails. Don't reintroduce hardcoded reviews/ratings. The schema uses `availableService` of `MedicalProcedure` (not `OfferCatalog`/`Offer` — those require `price` and trip Google validation), and intentionally omits a global `WebPage` block (a single hardcoded one was wrong on every non-homepage page).
 - Per-page `generateMetadata` sets canonical + hreflang alternates; follow the pattern in `src/app/[locale]/services/page.tsx` (canonical uses `${baseUrl}${localePath}/...`; Spanish canonical has no locale prefix).
 - `src/app/api/indexnow/route.ts` — POST endpoint that pings IndexNow with `host` + `key` derived from `SITE_CONFIG.baseUrl`. Key file is served from `/public/<key>.txt`.
 
@@ -66,7 +66,7 @@ Google Ads tag (`AW-374445498`) is hard-coded in `src/components/tracking/google
 
 ### Environment variables
 
-See `.env.example`. Required for full functionality: `RESEND_API_KEY`, `NEXT_PUBLIC_META_PIXEL_ID`, `META_CAPI_ACCESS_TOKEN`, `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_GA_ID`, `GOOGLE_PLACES_API_KEY` + `GOOGLE_PLACE_ID` (for real Google reviews — currently the site uses `GOOGLE_REVIEWS_DATA` static fallback in `constants.ts`).
+See `.env.example`. Required for full functionality: `RESEND_API_KEY`, `NEXT_PUBLIC_META_PIXEL_ID`, `META_CAPI_ACCESS_TOKEN`, `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_GA_ID`, `GOOGLE_PLACES_API_KEY` + `GOOGLE_PLACE_ID` (live Google reviews — feeds both the MedicalClinic JSON-LD and the dynamic ogDescription via `getGooglePlaceData()`; `GOOGLE_REVIEWS_DATA` in `constants.ts` is only the fallback when the API call fails at build time).
 
 ## Conventions
 
@@ -78,6 +78,9 @@ See `.env.example`. Required for full functionality: `RESEND_API_KEY`, `NEXT_PUB
 - **Pin dependency versions** — use concrete `^X.Y.Z` from `npm view <pkg> version`, never the string `"latest"` in `package.json`.
 - **Commit messages** follow Conventional Commits (`feat(scope): ...`, `fix(csp): ...`, `feat(seo): ...`). Do not add `Co-Authored-By` trailers or mention AI/Claude in commits.
 - `next/image` only; all images get descriptive Spanish or bilingual alt text. Remote image hosts (Google Photos/Places) must be in `next.config.ts` `images.remotePatterns`.
+- **Titles ≤60 characters.** `messages/{es,en}.json` `titleTemplate` is just `"%s"` (no brand suffix) — per-page titles need to stand alone in the SERP. Don't reintroduce a brand suffix in the template; Google truncates anything past ~580px wide and the brand would be the first thing cut.
+- **Blog markdown:** the parser in `src/app/[locale]/(default)/blog/[slug]/page.tsx` strips the leading `# Title` from the body before rendering (the page already emits the frontmatter title as the h1). Don't re-add a markdown `# Title` line to existing posts thinking it's missing — it's intentional.
+- **Single source of truth for the brand:** every `Service` entry in `constants.ts` flows into the page `<title>`, `<h1>`, OG title, JSON-LD `MedicalProcedure.name`, and the `availableService` array on the global `MedicalClinic` schema. Editing the `title` field of a service propagates everywhere; no other duplication exists.
 
 ## Gotchas
 
@@ -85,3 +88,6 @@ See `.env.example`. Required for full functionality: `RESEND_API_KEY`, `NEXT_PUB
 - `src/lib/constants.ts` is ~100 KB. Prefer `Read` with `offset`/`limit` over reading the whole file when editing.
 - Blog slugs are enumerated from the **Spanish** directory (`src/content/blog/es/`). An English-only post won't be picked up by `getBlogPosts` or the sitemap — always create the `es/` file first (even if it's a stub), then the `en/` counterpart.
 - Middleware matcher in `src/proxy.ts` excludes `api`, `_next`, `_vercel`, and anything with a file extension. Locale-aware API routes are not supported; keep API handlers under `src/app/api/*` (outside `[locale]`).
+- `src/app/[locale]/(default)/walk-in/page.tsx` is a single-file static landing — a different pattern from the dynamic `/services/[slug]` route. Bilingual copy lives in a local `COPY` object (es + en) rather than `messages/*.json` because it's specific to this one page; emits `BreadcrumbList` + `FAQPage` JSON-LD. Use this pattern (inline COPY, no message keys) only for one-off landings; for anything that might be reused, add keys to `messages/*.json`.
+- **Google Ads healthcare policy:** be cautious adding prescription-drug-adjacent terms (e.g. "disfunción eréctil"/"erectile dysfunction") to a service page `title`/`description`/`keywords` — they can reduce Quality Score of running Ads campaigns. The full `longDescription` body is lower-risk for the same terms. Watch out particularly on `/services/urologia`.
+- `llms.txt` and `llms-full.txt` in `public/` are surfaces for ChatGPT/Perplexity/AI Overviews crawlers. Update both whenever you add a new service, a new top-level page, or a major blog guide.
