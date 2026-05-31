@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Clínica Hispana La Caridad Houston | Médicos en Español Houston TX",
-    "titleTemplate": "%s | Clínica Hispana La Caridad",
+    "titleTemplate": "%s",
     "description": "Clínica médica hispana en Houston, TX. Atención profesional 100% en español, sin cita previa, aceptamos pacientes con o sin seguro. Medicina familiar, exámenes de inmigración, laboratorio y más.",
-    "ogDescription": "Su clínica de confianza en Houston. Atención médica profesional en español para toda la familia. Sin cita previa, precios accesibles. 419 reseñas 4 estrellas en Google."
+    "ogDescription": "Su clínica de confianza en Houston. Atención médica profesional en español para toda la familia. Sin cita previa, precios accesibles. {rating} estrellas en Google con más de {count} reseñas."
   },
   "nav": {
     "home": "Inicio",
