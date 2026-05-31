@@ -1,6 +1,6 @@
 ---
 slug: "salud-mujer-houston-servicios-ginecologia"
-title: "Salud de la Mujer en Houston: Servicios de Ginecología en Español"
+title: "Salud de la Mujer Houston: Ginecología en Español"
 description: "Servicios de ginecología en Houston TX con atención en español. Papanicolaou, exámenes pélvicos, planificación familiar y más en Clínica Hispana La Caridad."
 date: "2026-03-20"
 dateModified: "2026-03-21"

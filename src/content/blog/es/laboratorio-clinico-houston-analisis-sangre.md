@@ -1,6 +1,6 @@
 ---
 slug: "laboratorio-clinico-houston-analisis-sangre"
-title: "Laboratorio Clínico en Houston: Análisis de Sangre con Resultados Rápidos"
+title: "Análisis de Sangre Houston: Resultados el Mismo Día"
 description: "Laboratorio clínico en Houston TX con resultados el mismo día. Análisis de sangre, glucosa, colesterol, tiroides y más. Precios accesibles en español."
 date: "2026-03-21"
 dateModified: "2026-03-21"

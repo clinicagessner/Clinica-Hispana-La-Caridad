@@ -1,6 +1,6 @@
 ---
 slug: "control-diabetes-houston-guia-pacientes"
-title: "Diabetes Management in Houston: A Guide for Hispanic Patients"
+title: "Diabetes Management Houston: Guide for Hispanic Patients"
 description: "Learn how to manage your diabetes with our comprehensive guide. Glucose monitoring, diet, medications, and how Clínica Hispana La Caridad can help Houston patients."
 date: "2026-03-19"
 dateModified: "2026-03-21"

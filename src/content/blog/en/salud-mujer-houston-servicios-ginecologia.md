@@ -1,6 +1,6 @@
 ---
 slug: "salud-mujer-houston-servicios-ginecologia"
-title: "Women's Health in Houston: Gynecology Services in Spanish"
+title: "Women's Health Houston: Gynecology in Spanish"
 description: "Gynecology services in Houston TX with Spanish-speaking staff. Pap smears, pelvic exams, family planning, and more at Clínica Hispana La Caridad."
 date: "2026-03-20"
 dateModified: "2026-03-21"

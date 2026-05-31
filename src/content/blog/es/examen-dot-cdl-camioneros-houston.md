@@ -1,6 +1,6 @@
 ---
 slug: "examen-dot-cdl-camioneros-houston"
-title: "Examen DOT para Camioneros en Houston: Todo lo que Necesita Saber"
+title: "Examen DOT para Camioneros Houston: Guía Completa"
 description: "Guía completa del examen físico DOT para licencia CDL en Houston TX. Requisitos, qué esperar, costo y dónde hacerlo en español. Sin cita previa."
 date: "2026-04-11"
 dateModified: "2026-04-11"

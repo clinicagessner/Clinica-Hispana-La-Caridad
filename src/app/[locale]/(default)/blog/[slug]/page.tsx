@@ -235,11 +235,14 @@ export default async function BlogPostPage({ params }: Props) {
 
 // Simple markdown parser (for basic formatting)
 function parseMarkdown(markdown: string): string {
-  let html = markdown
-    // Headers
+  // The page already renders the post title as the h1 (from frontmatter), so any
+  // leading `# Title` in the markdown body would produce a duplicate h1.
+  const stripped = markdown.replace(/^\s*#\s+.+\r?\n+/, "");
+
+  let html = stripped
+    // Headers — `#` (single hash) is intentionally not handled: see strip above.
     .replace(/^### (.*$)/gim, '<h3>$1</h3>')
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
-    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
     // Bold
     .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
     // Italic
