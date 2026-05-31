@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
-import { Phone, MapPin, Clock, CheckCircle, IdentificationCard, FirstAidKit, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, CheckCircle, IdentificationCard, FirstAidKit, ArrowRight, Question } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
-import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdFAQ } from "@/components/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -62,6 +62,43 @@ const COPY = {
       { name: "Inicio", path: "" },
       { name: "Walk-in / Sin cita", path: "/walk-in" },
     ],
+    faqHeading: "Preguntas frecuentes sobre walk-in",
+    faqs: [
+      {
+        question: "¿Necesito hacer cita previa?",
+        answer:
+          "No. Atendemos walk-in todos los días de 9 AM a 9 PM. Puede llegar en cualquier momento dentro del horario, sin cita.",
+      },
+      {
+        question: "¿Aceptan pacientes sin seguro médico?",
+        answer:
+          "Sí. Atendemos pacientes con o sin seguro. Ofrecemos precios accesibles para pacientes sin seguro y aceptamos la mayoría de planes médicos.",
+      },
+      {
+        question: "¿Atienden los domingos?",
+        answer:
+          "Sí. Estamos abiertos los 7 días de la semana, incluyendo sábados y domingos, de 9 AM a 9 PM.",
+      },
+      {
+        question: "¿En qué idioma me atenderán?",
+        answer:
+          "Toda nuestra atención es 100% en español. También atendemos en inglés si lo prefiere. El personal y los médicos son bilingües.",
+      },
+      {
+        question: "¿Atienden niños sin cita?",
+        answer:
+          "Sí, atendemos niños y adultos walk-in. Si requiere atención pediátrica especializada, le recomendamos llamar antes para confirmar disponibilidad del médico.",
+      },
+      {
+        question: "¿Qué métodos de pago aceptan?",
+        answer:
+          "Aceptamos efectivo, tarjetas de crédito y débito, y la mayoría de seguros médicos incluyendo Medicaid y Medicare.",
+      },
+      {
+        question: "¿Cuál es la dirección de la clínica?",
+        answer: `Estamos en ${CONTACT_INFO.address}, ${CONTACT_INFO.city} ${CONTACT_INFO.state} ${CONTACT_INFO.zip}. Llame al ${CONTACT_INFO.phone} si necesita indicaciones.`,
+      },
+    ],
   },
   en: {
     title: "Walk-in Clinic Houston Open 9 AM-9 PM | No Appointment",
@@ -114,6 +151,43 @@ const COPY = {
     breadcrumbs: [
       { name: "Home", path: "" },
       { name: "Walk-in / No Appointment", path: "/walk-in" },
+    ],
+    faqHeading: "Walk-in clinic FAQs",
+    faqs: [
+      {
+        question: "Do I need an appointment?",
+        answer:
+          "No. We accept walk-ins every day from 9 AM to 9 PM. Come in any time within our hours, no appointment needed.",
+      },
+      {
+        question: "Do you accept patients without insurance?",
+        answer:
+          "Yes. We treat patients with or without insurance. We offer affordable pricing for uninsured patients and accept most major insurance plans.",
+      },
+      {
+        question: "Are you open on Sundays?",
+        answer:
+          "Yes. We are open 7 days a week including Saturdays and Sundays, from 9 AM to 9 PM.",
+      },
+      {
+        question: "What language will I be treated in?",
+        answer:
+          "Our care is fully bilingual. Staff and physicians speak both Spanish and English.",
+      },
+      {
+        question: "Do you see children as walk-ins?",
+        answer:
+          "Yes, we see both children and adults on a walk-in basis. For specialized pediatric care, we recommend calling ahead to confirm physician availability.",
+      },
+      {
+        question: "What payment methods do you accept?",
+        answer:
+          "We accept cash, credit and debit cards, and most major insurance plans including Medicaid and Medicare.",
+      },
+      {
+        question: "What is your address?",
+        answer: `We are located at ${CONTACT_INFO.address}, ${CONTACT_INFO.city} ${CONTACT_INFO.state} ${CONTACT_INFO.zip}. Call ${CONTACT_INFO.phone} if you need directions.`,
+      },
     ],
   },
 } as const;
@@ -297,6 +371,39 @@ export default async function WalkInPage({ params }: Props) {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="py-12 md:py-16 bg-cyan-warm">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto">
+              <div className="flex items-center gap-3 mb-8 justify-center">
+                <Question weight="duotone" className="size-8 text-blue-primary" />
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark text-center">
+                  {c.faqHeading}
+                </h2>
+              </div>
+              <div className="space-y-3">
+                {c.faqs.map((faq) => (
+                  <details
+                    key={faq.question}
+                    className="group bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
+                  >
+                    <summary className="flex items-center justify-between gap-4 cursor-pointer p-5 font-semibold text-slate-dark hover:bg-cyan-warm/50 list-none [&::-webkit-details-marker]:hidden">
+                      <span>{faq.question}</span>
+                      <ArrowRight
+                        weight="bold"
+                        className="size-4 text-blue-primary transition-transform group-open:rotate-90 shrink-0"
+                      />
+                    </summary>
+                    <div className="px-5 pb-5 pt-0 text-slate-dark/90 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Final CTA */}
         <section className="py-14 md:py-20 bg-gradient-to-br from-red-primary to-red-700 text-white">
           <div className="container mx-auto px-4 text-center max-w-3xl">
@@ -326,6 +433,7 @@ export default async function WalkInPage({ params }: Props) {
       </main>
 
       <JsonLdBreadcrumb items={breadcrumbs} />
+      <JsonLdFAQ questions={c.faqs.map((f) => ({ question: f.question, answer: f.answer }))} />
     </>
   );
 }
