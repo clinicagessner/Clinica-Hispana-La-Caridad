@@ -231,17 +231,17 @@ export default async function WalkInPage({ params }: Props) {
     <>
       <main className="min-h-screen">
         {/* Hero */}
-        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-gradient-to-br from-blue-900 via-blue-primary to-blue-900 text-white overflow-hidden">
+        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-linear-to-br from-blue-900 via-blue-primary to-blue-900 text-white overflow-hidden">
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-2 bg-yellow-accent text-blue-primary font-bold text-sm md:text-base rounded-full px-4 py-2 mb-5 shadow-md">
                 <Clock weight="bold" className="size-4" />
                 {c.hoursLabel} — {locale === "en" ? "Open every day" : "Abierta todos los días"}
               </div>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold mb-5 [text-shadow:_0_2px_8px_rgb(0_0_0_/_45%)]">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold mb-5 [text-shadow:0_2px_8px_rgb(0_0_0/45%)]">
                 {c.h1}
               </h1>
-              <p className="text-lg md:text-xl text-white mb-7 leading-relaxed font-medium [text-shadow:_0_1px_4px_rgb(0_0_0_/_40%)]">
+              <p className="text-lg md:text-xl text-white mb-7 leading-relaxed font-medium [text-shadow:0_1px_4px_rgb(0_0_0/40%)]">
                 {c.subtitle}
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
@@ -405,7 +405,7 @@ export default async function WalkInPage({ params }: Props) {
         </section>
 
         {/* Final CTA */}
-        <section className="py-14 md:py-20 bg-gradient-to-br from-red-accent to-red-700 text-white">
+        <section className="py-14 md:py-20 bg-linear-to-br from-red-accent to-red-700 text-white">
           <div className="container mx-auto px-4 text-center max-w-3xl">
             <FirstAidKit weight="duotone" className="size-12 mx-auto mb-4 text-yellow-accent" />
             <h2 className="text-2xl md:text-4xl font-heading font-bold mb-4">
