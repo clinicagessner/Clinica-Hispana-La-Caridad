@@ -84,6 +84,7 @@ export function Services() {
                 <a
                   href={`/${locale === "en" ? "en/" : ""}services/${service.slug}`}
                   className="service-link inline-flex items-center gap-2 font-medium w-fit"
+                  aria-label={`${t("learnMore")} — ${service.title}`}
                 >
                   <span>{t("learnMore")}</span>
                   <ArrowRight className="size-4" aria-hidden="true" />

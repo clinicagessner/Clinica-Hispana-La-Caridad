@@ -179,10 +179,10 @@ export async function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p className="text-white/40 text-xs text-center md:text-left">
+          <p className="text-white/70 text-xs text-center md:text-left">
             &copy; {currentYear} {SITE_CONFIG.name}. Todos los derechos reservados.
           </p>
-          <p className="text-white/40 text-xs text-center md:text-right">
+          <p className="text-white/70 text-xs text-center md:text-right">
             Sitio web creado por{" "}
             <a
               href="https://rcweb.dev"
@@ -196,7 +196,7 @@ export async function Footer() {
         </div>
 
         {/* Medical disclaimer */}
-        <p className="text-white/30 text-[10px] text-center mt-6 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-white/70 text-[10px] text-center mt-6 max-w-3xl mx-auto leading-relaxed">
           La información proporcionada en este sitio web es solo con fines informativos y no sustituye el consejo médico profesional. Consulte a un profesional de la salud para diagnóstico y tratamiento.
         </p>
       </div>

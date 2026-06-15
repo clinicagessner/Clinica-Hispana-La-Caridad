@@ -147,12 +147,16 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
             type="button"
             onClick={() => scrollTo(index)}
             aria-label={`Ir a reseña ${index + 1}`}
-            className={`size-2 rounded-full transition-all duration-300 ${
-              index === selectedIndex
-                ? "w-6 bg-blue-primary"
-                : "bg-cyan-bg-alt hover:bg-blue-primary/50"
-            }`}
-          />
+            className="group flex items-center justify-center p-2"
+          >
+            <span
+              className={`block size-2 rounded-full transition-all duration-300 ${
+                index === selectedIndex
+                  ? "w-6 bg-blue-primary"
+                  : "bg-cyan-bg-alt group-hover:bg-blue-primary/50"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>
