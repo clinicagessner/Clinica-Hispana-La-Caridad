@@ -182,6 +182,7 @@ export function Header() {
 
               <SheetContent
                 side="right"
+                showClose={false}
                 className="w-full sm:max-w-sm bg-white p-0 flex flex-col"
               >
                 <SheetTitle className="sr-only">{t("menu")}</SheetTitle>
