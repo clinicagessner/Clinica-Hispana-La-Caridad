@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   name: "Clínica Hispana La Caridad",
   shortName: "Clínica La Caridad",
   tagline: "Atención médica profesional 100% en español",
-  description: "Clínica médica hispana en Houston, TX. Atención profesional en español, sin cita previa, aceptamos pacientes con o sin seguro. Medicina familiar, exámenes de inmigración, laboratorio y más.",
+  description: "Clínica médica hispana en Houston, TX. Atención profesional en español, sin cita previa y sin necesidad de seguro médico. Medicina general, exámenes de inmigración, laboratorio y más.",
   baseUrl: "https://www.chlacaridad.com",
   locale: "es-MX",
   logoUrl: "/images/logo.webp",
@@ -48,490 +48,1165 @@ export const GOOGLE_REVIEWS_DATA = {
 
 export const SERVICES: Service[] = [
   {
-    id: "medicina-familiar",
-    slug: "medicina-familiar",
-    title: "Medicina Familiar en Houston",
-    shortTitle: "Familiar",
-    description: "Médico de familia en Houston TX con atención 100% en español. Cuidado integral desde niños hasta adultos mayores, sin cita previa.",
-    longDescription: "Nuestro servicio de medicina familiar en Houston ofrece atención médica completa y continua para pacientes de todas las edades, desde recién nacidos hasta adultos mayores. Como médico general en Houston TX, nos enfocamos en la prevención, diagnóstico y tratamiento de enfermedades comunes.\n\nAtendemos sin cita previa en nuestra clínica ubicada en 5705 Fondren Rd STE 101, Houston TX 77036, aceptamos pacientes con o sin seguro médico, y mantenemos un historial médico completo de cada miembro de su familia.\n\n**¿Qué incluye nuestra consulta de medicina familiar?**\n\nDurante su visita, nuestro médico realizará un examen físico completo, revisión de signos vitales (presión arterial, temperatura, peso, pulso), evaluación de síntomas actuales, y diagnóstico profesional. Si es necesario, se prescribirá medicamento y se ordenarán estudios de laboratorio con resultados el mismo día.\n\n**Condiciones que tratamos:**\n\n- Resfriados, gripe e infecciones respiratorias\n- Dolor de garganta, oído e infecciones\n- Alergias estacionales\n- Dolores musculares y articulares\n- Problemas digestivos\n- Control de presión arterial y glucosa\n- Chequeos preventivos anuales\n- Vacunas para niños y adultos\n\n**¿Por qué elegir Clínica Hispana La Caridad para medicina familiar?**\n\nNuestro equipo médico atiende 100% en español, entiende las necesidades de la comunidad hispana de Houston, y ofrece precios accesibles sin comprometer la calidad de atención. Estamos abiertos de lunes a domingo de 9:00 AM a 9:00 PM, para que pueda visitarnos cuando lo necesite sin largas esperas.\n\n**¿Qué esperar durante su visita?**\n\nAl llegar a nuestra clínica, nuestro personal bilingüe lo recibirá y le ayudará con el registro. No necesita cita previa — atendemos por orden de llegada con tiempos de espera mínimos. El médico revisará su historial, realizará el examen físico, y le explicará su diagnóstico y opciones de tratamiento en español, asegurándose de que entienda completamente su plan de cuidado.\n\n**Servicios preventivos disponibles:**\n\n- Exámenes físicos anuales para adultos y niños\n- Pruebas de detección de diabetes, colesterol y tiroides\n- Vacunación completa (influenza, tétanos, hepatitis, COVID-19)\n- Monitoreo de presión arterial y control de peso\n- Evaluaciones de salud para la escuela y el trabajo\n- Consejería nutricional básica\n\n**Seguros y formas de pago**\n\nAceptamos la mayoría de seguros médicos incluyendo Medicaid y Medicare. Si no tiene seguro, ofrecemos precios accesibles de pago directo con opciones de pago flexibles. Nunca rechazamos a un paciente por falta de seguro — nuestra misión es brindar atención médica de calidad a toda la comunidad hispana de Houston.\n\n**Áreas que servimos**\n\nNuestra clínica está convenientemente ubicada en el área de Sharpstown/Fondren, con fácil acceso desde Spring Branch, Westchase, Alief, Bellaire, Meyerland, Gulfton y las comunidades hispanas del suroeste de Houston. Contamos con estacionamiento gratuito y acceso para personas con discapacidad.\n\n**Ventajas sobre la sala de emergencias**\n\nPara condiciones que no son emergencias de vida, visitar nuestra clínica en lugar de la sala de emergencias le ahorra tiempo y dinero. Las visitas a urgencias pueden costar miles de dólares y requieren horas de espera. En Clínica Hispana La Caridad, recibe atención médica profesional a una fracción del costo, con tiempos de espera significativamente menores.",
-    titleEn: "Family Medicine in Houston TX",
-    descriptionEn: "Family doctor in Houston TX with 100% Spanish-speaking staff. Comprehensive care for patients of all ages — from newborns to seniors — no appointment needed.",
-    longDescriptionEn: "Our family medicine practice in Houston provides complete, continuous medical care for patients of all ages, from newborns to the elderly. As a trusted general practitioner in Houston TX, we focus on prevention, diagnosis, and treatment of common illnesses and chronic conditions.\n\nWe welcome walk-in patients at our clinic located at 5705 Fondren Rd STE 101, Houston TX 77036. We accept patients with or without health insurance and maintain a complete medical history for every member of your family.\n\n**What does a family medicine visit include?**\n\nDuring your visit, our physician will perform a thorough physical examination, review your vital signs (blood pressure, temperature, weight, and pulse), assess your current symptoms, and provide a professional diagnosis. When needed, prescriptions and same-day lab orders are available on-site.\n\n**Conditions we treat:**\n\n- Colds, flu, and respiratory infections\n- Sore throat, ear infections, and sinusitis\n- Seasonal allergies\n- Muscle and joint pain\n- Digestive issues and stomach problems\n- Blood pressure and blood sugar management\n- Annual preventive checkups\n- Vaccines for children and adults\n\n**Why choose Clínica Hispana La Caridad for family medicine?**\n\nOur medical team is fully bilingual and deeply understands the needs of Houston's Hispanic community. We offer affordable, high-quality care with no long waits. We're open Monday through Sunday from 9:00 AM to 9:00 PM.\n\n**What to expect during your visit**\n\nWhen you arrive, our bilingual staff will greet you and help with registration. No appointment is needed — we see patients on a walk-in basis with minimal wait times. Your doctor will review your medical history, perform a physical exam, and explain your diagnosis and treatment options clearly, making sure you fully understand your care plan.\n\n**Preventive services available:**\n\n- Annual physicals for adults and children\n- Diabetes, cholesterol, and thyroid screenings\n- Full vaccination services (flu, tetanus, hepatitis, COVID-19)\n- Blood pressure monitoring and weight management\n- School and work health evaluations\n- Basic nutritional counseling\n\n**Insurance and payment**\n\nWe accept most major insurance plans including Medicaid and Medicare. If you don't have insurance, we offer affordable self-pay rates with flexible payment options. We never turn away a patient due to lack of insurance — our mission is to provide quality healthcare to Houston's entire Hispanic community.\n\n**Areas we serve**\n\nOur clinic is conveniently located in the Sharpstown/Fondren area, easily accessible from Spring Branch, Westchase, Alief, Bellaire, Meyerland, Gulfton, and southwest Houston's Hispanic communities. We offer free parking and wheelchair accessibility.\n\n**Advantages over the emergency room**\n\nFor non-life-threatening conditions, visiting our clinic instead of the ER saves you time and money. ER visits can cost thousands of dollars with hours of waiting. At Clínica Hispana La Caridad, you receive professional medical care at a fraction of the cost with significantly shorter wait times.",
-    icon: "Stethoscope",
-    image: "/images/services/family-medicine.webp",
-    category: "especial",
-    keywords: ["medicina familiar Houston", "doctor familia Houston", "médico general Houston", "medicina familiar cerca de mi", "doctor español Houston"],
-    keywordsEn: ["family medicine Houston", "family doctor Houston TX", "general practitioner Houston", "family doctor near me Houston", "Spanish speaking doctor Houston"],
-    features: [
-      "Atención para todas las edades",
-      "100% en español",
-      "Sin cita previa",
-      "Aceptamos pacientes sin seguro",
-      "Historial médico completo",
-      "Vacunas y prevención"
+    "id": "condiciones-cronicas",
+    "slug": "condiciones-cronicas",
+    "title": "Control de Diabetes, Hipertensión y Colesterol",
+    "titleEn": "Diabetes, Hypertension & Cholesterol Care",
+    "shortTitle": "Crónicas",
+    "description": "Control de diabetes, hipertensión y dislipidemias en Houston, TX. Laboratorio y seguimiento en español, con precios accesibles.",
+    "descriptionEn": "Diabetes, hypertension and dyslipidemia management in Houston, TX. Lab work and follow-up in Spanish, with affordable pricing.",
+    "longDescription": "Las enfermedades crónicas como la diabetes, la hipertensión y las dislipidemias (colesterol y triglicéridos altos) se controlan mejor con seguimiento constante. En Clínica Hispana La Caridad diseñamos un plan claro y te acompañamos paso a paso, en español.\n\n**¿Qué incluye?**\n- Evaluación inicial y exámenes de laboratorio\n- Monitoreo de glucosa, presión arterial, colesterol y triglicéridos\n- Ajuste de medicamentos según tu evolución\n- Plan de alimentación y actividad física\n- Educación sobre tu condición en tu idioma\n\n**Por qué es importante el control**\nUna diabetes, presión o colesterol mal controlados dañan con el tiempo el corazón, los riñones, los ojos y los nervios. Un buen seguimiento previene complicaciones y mejora tu calidad de vida.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Chronic conditions like diabetes, hypertension and dyslipidemia (high cholesterol and triglycerides) are best controlled with consistent follow-up. At Clínica Hispana La Caridad we design a clear plan and support you every step of the way, in Spanish.\n\n**What's included?**\n- Initial evaluation and lab work\n- Monitoring of glucose, blood pressure, cholesterol and triglycerides\n- Medication adjustment based on your progress\n- Nutrition and physical-activity plan\n- Education about your condition in your language\n\n**Why control matters**\nPoorly managed diabetes, blood pressure or cholesterol damage the heart, kidneys, eyes and nerves over time. Good follow-up prevents complications and improves your quality of life.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Activity",
+    "image": "/images/services/condiciones-cronicas.webp",
+    "category": "medicina-general",
+    "keywords": [
+      "control de diabetes houston",
+      "doctor diabetes español houston",
+      "control de presion alta houston",
+      "colesterol alto tratamiento houston"
     ],
-    featuresEn: ["Care for all ages", "100% Spanish-speaking staff", "No appointment needed", "Uninsured patients welcome", "Complete medical history", "Vaccines & preventive care"],
-    highlighted: true,
-    order: 1,
-  },
-  {
-    id: "examenes-inmigracion",
-    slug: "examenes-inmigracion",
-    title: "Examen Médico de Inmigración I-693 Houston",
-    shortTitle: "Inmigración",
-    description: "Examen médico para residencia (I-693) en Houston con médicos autorizados por USCIS (Civil Surgeon). Clínica autorizada para examen de inmigración en español, el mismo día.",
-    longDescription: "¿Necesita el examen médico de inmigración I-693 para su Green Card en Houston? En Clínica Hispana La Caridad contamos con Civil Surgeons certificados por USCIS que completan el formulario oficial con precisión y rapidez. Somos expertos en exámenes de inmigración en Houston TX y entendemos la importancia de acertar desde la primera vez.\n\n**¿Qué incluye el examen médico I-693?**\n\nEl examen de inmigración es un requisito obligatorio para obtener la residencia permanente (Green Card) en Estados Unidos. Durante su visita, nuestro Civil Surgeon realizará:\n\n- Examen físico completo\n- Revisión de historial médico y vacunas\n- Prueba de tuberculosis (TB test)\n- Análisis de sangre requeridos por USCIS\n- Aplicación de vacunas faltantes según el calendario de inmunización de CDC\n- Llenado completo y firma del formulario I-693\n\n**¿Qué documentos necesita traer?**\n\n- Identificación válida con foto (pasaporte, ID estatal o licencia)\n- Récord de vacunas previas (si los tiene disponibles)\n- Formulario I-693 en blanco (nosotros también podemos proporcionarlo)\n\n**¿Cuánto tiempo toma el proceso?**\n\nEn la mayoría de los casos, completamos todo el examen y el formulario I-693 en una sola visita. Los resultados de laboratorio y el formulario firmado están listos el mismo día, para que usted pueda enviarlo a USCIS sin demoras.\n\n**¿Por qué elegir Clínica Hispana La Caridad para su examen I-693?**\n\nNuestros Civil Surgeons tienen amplia experiencia con el proceso de inmigración y completan el formulario correctamente la primera vez, evitando rechazos o retrasos en su caso. Atención 100% en español, vacunas requeridas disponibles en la clínica, y precios competitivos. Ubicados en 5705 Fondren Rd STE 101, Houston TX 77036, con horario extendido de lunes a domingo.\n\n**Preparación para su examen I-693**\n\nPara agilizar su visita, le recomendamos traer:\n\n- Identificación oficial con foto (pasaporte, ID estatal o licencia de conducir)\n- Récord de vacunas previas (si los tiene)\n- Formulario I-693 en blanco (opcional — nosotros se lo proporcionamos)\n- Lista de medicamentos que toma actualmente\n- Resultados médicos recientes (si tiene alguno)\n\n**Vacunas requeridas por USCIS**\n\nEl CDC establece un calendario de vacunación obligatorio para inmigrantes que incluye: influenza, hepatitis A y B, MMR (sarampión, paperas, rubéola), varicela, tétanos/difteria, polio, y COVID-19 entre otras. Si le faltan vacunas, se las aplicamos en la misma visita sin necesidad de ir a otra clínica.\n\n**Costos y formas de pago**\n\nOfrecemos precios competitivos para el examen I-693 que incluyen la consulta médica, el llenado del formulario, y las pruebas de laboratorio básicas. Las vacunas se cobran por separado según cuáles necesite. Aceptamos efectivo, tarjetas de crédito/débito, y la mayoría de seguros médicos. Llame al (832) 925-8135 para consultar precios actualizados.\n\n**Preguntas frecuentes sobre el I-693**\n\n¿Cuánto tiempo es válido el formulario I-693? El formulario firmado por el Civil Surgeon es válido por 2 años desde la fecha del examen, o por 4 años si fue completado antes de presentar el Formulario I-485.\n\n¿Puedo hacer el examen si estoy embarazada? Sí, el examen se puede realizar durante el embarazo. Algunas vacunas pueden posponerse según las indicaciones del médico.\n\nServimos a toda el área metropolitana de Houston incluyendo Spring Branch, Sharpstown, Westchase, Alief, Bellaire, y comunidades hispanas del suroeste de Houston.",
-    titleEn: "I-693 Immigration Medical Exam Houston | USCIS",
-    descriptionEn: "USCIS-authorized doctors (Civil Surgeon) in Houston TX for Green Card immigration medical exam (I-693). Authorized clinic for residency medical exam, complete form same day.",
-    longDescriptionEn: "Need an I-693 immigration medical exam for your Green Card in Houston? At Clínica Hispana La Caridad, our USCIS-certified Civil Surgeons complete the official I-693 form accurately and efficiently. We specialize in immigration physicals in Houston TX and understand how important it is to get everything right the first time.\n\n**What does the I-693 immigration medical exam include?**\n\nThe immigration physical is a mandatory requirement to obtain permanent residency (Green Card) in the United States. During your visit, our Civil Surgeon will perform:\n\n- Complete physical examination\n- Medical history and vaccination record review\n- Tuberculosis (TB) test\n- Required blood tests per USCIS guidelines\n- Administration of any missing vaccines per CDC immunization schedule\n- Complete completion and signing of Form I-693\n\n**What documents should you bring?**\n\n- Valid government-issued photo ID (passport, state ID, or driver's license)\n- Previous vaccination records (if available)\n- Blank Form I-693 (we can also provide one for you)\n\n**How long does the process take?**\n\nIn most cases, we complete the full exam and Form I-693 in a single visit. Lab results and the signed form are ready the same day, so you can submit your application to USCIS without delay.\n\n**Why choose Clínica Hispana La Caridad for your I-693 exam?**\n\nOur Civil Surgeons have extensive experience with the immigration process and complete the form correctly the first time — avoiding rejections or delays in your case. Full Spanish-language service available, required vaccines on-site, and competitive pricing. Located at 5705 Fondren Rd STE 101, Houston TX 77036, with extended hours Monday through Sunday.\n\n**How to prepare for your I-693 exam**\n\nTo make your visit as efficient as possible, please bring:\n\n- Valid government-issued photo ID (passport, state ID, or driver's license)\n- Previous vaccination records (if available)\n- Blank Form I-693 (optional — we can provide one)\n- List of current medications\n- Any recent medical test results\n\n**USCIS-required vaccinations**\n\nThe CDC mandates a specific immunization schedule for immigrants including: influenza, hepatitis A and B, MMR (measles, mumps, rubella), varicella, tetanus/diphtheria, polio, and COVID-19 among others. If you are missing any vaccines, we administer them during the same visit — no need to visit another clinic.\n\n**Cost and payment options**\n\nWe offer competitive pricing for the I-693 exam including the medical consultation, form completion, and basic laboratory tests. Vaccines are charged separately based on which ones you need. We accept cash, credit/debit cards, and most insurance plans. Call (832) 925-8135 for current pricing.\n\n**Common I-693 questions**\n\nHow long is Form I-693 valid? The signed form is valid for 2 years from the exam date, or 4 years if completed before filing Form I-485.\n\nCan I do the exam while pregnant? Yes, the exam can be performed during pregnancy. Some vaccinations may be deferred per the physician's guidance.\n\nWe serve the entire Houston metro area including Spring Branch, Sharpstown, Westchase, Alief, Bellaire, and Hispanic communities throughout southwest Houston.",
-    icon: "FileText",
-    image: "/images/services/immigration.webp",
-    category: "especial",
-    keywords: ["examen médico inmigración Houston", "I-693 Houston", "civil surgeon Houston", "médicos autorizados por USCIS", "exámenes médicos para inmigración", "chequeo médico para residencia", "clínicas autorizadas para examen médico de residencia", "examen médico para residencia", "clínicas para examen médico de inmigración cerca de mí"],
-    keywordsEn: ["immigration medical exam Houston", "I-693 Houston TX", "civil surgeon Houston", "USCIS authorized doctor Houston", "Green Card medical exam Houston", "immigration physical Houston", "USCIS approved clinic Houston", "residency medical exam Houston"],
-    features: [
-      "Civil Surgeons certificados USCIS",
-      "Formulario I-693 completo",
-      "Vacunas requeridas disponibles",
-      "Resultados el mismo día",
-      "Atención 100% en español",
-      "Precios competitivos"
+    "keywordsEn": [
+      "diabetes management houston",
+      "high blood pressure doctor houston",
+      "cholesterol management houston",
+      "chronic disease clinic houston"
     ],
-    featuresEn: ["USCIS-certified Civil Surgeons", "Complete I-693 form", "Required vaccines available", "Same-day results", "Full Spanish-language service", "Competitive pricing"],
-    highlighted: true,
-    order: 2,
-  },
-  {
-    id: "enfermedades-transmision-sexual",
-    slug: "enfermedades-transmision-sexual",
-    title: "Pruebas STD Confidenciales Houston",
-    shortTitle: "STD",
-    description: "Pruebas de enfermedades de transmisión sexual en Houston TX. VIH, herpes, clamidia, gonorrea y sífilis. Resultados rápidos y confidenciales.",
-    longDescription: "Ofrecemos pruebas confidenciales de enfermedades de transmisión sexual (ETS/STD) en Houston TX. Nuestro laboratorio proporciona resultados rápidos con tratamiento disponible inmediatamente y consejería profesional en un ambiente discreto, privado y sin juicio.\n\n**Pruebas disponibles:**\n\n- VIH (HIV)\n- Herpes (HSV-1 y HSV-2)\n- Clamidia\n- Gonorrea\n- Sífilis (RPR/VDRL)\n- Hepatitis B y C\n- Tricomoniasis\n- VPH (Virus del Papiloma Humano)\n\n**¿Cómo funciona el proceso?**\n\nPuede visitarnos sin cita previa. La consulta es completamente privada y confidencial. Nuestro médico evaluará sus síntomas, ordenará las pruebas necesarias (análisis de sangre, orina, o hisopado según el caso), y recibirá sus resultados de forma segura. Si el resultado es positivo, el tratamiento antibiótico o antiviral se prescribe el mismo día.\n\n**¿Por qué es importante hacerse pruebas?**\n\nMuchas enfermedades de transmisión sexual no presentan síntomas visibles pero pueden causar complicaciones serias si no se tratan a tiempo, incluyendo infertilidad, daño a órganos, y transmisión a la pareja. Las pruebas regulares son la mejor forma de proteger su salud y la de su familia.\n\n**Ambiente seguro y sin juicio**\n\nEntendemos que este tema puede ser difícil de hablar. En Clínica Hispana La Caridad, nuestro equipo médico en Houston le atiende con respeto, profesionalismo y total confidencialidad. Atención 100% en español con precios accesibles para la comunidad hispana.\n\n**¿Cuándo debe hacerse una prueba de ETS?**\n\nRecomendamos pruebas regulares si:\n\n- Tiene una nueva pareja sexual\n- Ha tenido relaciones sin protección\n- Presenta síntomas como dolor al orinar, secreciones inusuales, llagas o erupciones\n- Su pareja ha sido diagnosticada con una ETS\n- Está embarazada o planea estarlo\n\n**Proceso de la consulta**\n\nAl llegar, será atendido en un consultorio privado. El médico realizará una evaluación confidencial de sus síntomas e historial sexual. Las pruebas pueden incluir análisis de sangre, muestra de orina o hisopado, dependiendo de su situación. Todo el proceso toma aproximadamente 30-45 minutos. Los resultados están disponibles en 24-72 horas según la prueba.\n\n**Tratamiento inmediato disponible**\n\nSi su resultado es positivo, el tratamiento antibiótico o antiviral se prescribe el mismo día. Nuestro médico le explicará su diagnóstico, opciones de tratamiento, y cómo proteger a su pareja — todo en español y con total discreción.\n\n**Seguros y pagos**\n\nAceptamos la mayoría de seguros médicos. Si no tiene seguro, ofrecemos precios accesibles para pruebas individuales o paquetes completos de detección. La confidencialidad de sus resultados está protegida por ley (HIPAA).\n\n**Ubicación accesible**\n\nNuestra clínica en 5705 Fondren Rd STE 101 está estratégicamente ubicada para servir a las comunidades de Sharpstown, Spring Branch, Westchase, Alief, Bellaire y todo el suroeste de Houston. Estacionamiento gratuito disponible.",
-    titleEn: "Confidential STD Testing Houston TX",
-    descriptionEn: "STD testing in Houston TX — HIV, herpes, chlamydia, gonorrhea, and syphilis. Fast, confidential results with same-day treatment available.",
-    longDescriptionEn: "We offer confidential sexually transmitted disease (STD/STI) testing in Houston TX. Our on-site lab provides fast results with immediate treatment available and professional counseling — all in a discreet, private, and judgment-free environment.\n\n**Available STD tests:**\n\n- HIV\n- Herpes (HSV-1 and HSV-2)\n- Chlamydia\n- Gonorrhea\n- Syphilis (RPR/VDRL)\n- Hepatitis B and C\n- Trichomoniasis\n- HPV (Human Papillomavirus)\n\n**How does the process work?**\n\nNo appointment is necessary. Your visit is completely private and confidential. Our physician will review your symptoms, order the appropriate tests (blood draw, urine sample, or swab depending on your situation), and deliver your results securely. If a result comes back positive, antibiotic or antiviral treatment is prescribed the same day.\n\n**Why is STD testing important?**\n\nMany sexually transmitted infections have no visible symptoms but can lead to serious complications if left untreated — including infertility, organ damage, and transmission to partners. Regular testing is the best way to protect your health and the health of those around you.\n\n**A safe, judgment-free environment**\n\nWe understand that this topic can be difficult to discuss. At Clínica Hispana La Caridad, our medical team treats every patient with respect, professionalism, and complete confidentiality. Full Spanish-language service available with affordable pricing for Houston's Hispanic community.\n\n**When should you get tested?**\n\nWe recommend regular STD testing if:\n\n- You have a new sexual partner\n- You have had unprotected sex\n- You experience symptoms such as painful urination, unusual discharge, sores, or rashes\n- Your partner has been diagnosed with an STD\n- You are pregnant or planning to become pregnant\n\n**What to expect during your visit**\n\nYou will be seen in a private exam room. The physician will conduct a confidential assessment of your symptoms and sexual health history. Tests may include blood draws, urine samples, or swabs depending on your situation. The entire process takes approximately 30-45 minutes. Results are available within 24-72 hours depending on the test.\n\n**Immediate treatment available**\n\nIf your result is positive, antibiotic or antiviral treatment is prescribed the same day. Our doctor will explain your diagnosis, treatment options, and how to protect your partner — all with complete discretion.\n\n**Insurance and payment**\n\nWe accept most insurance plans. For uninsured patients, we offer affordable self-pay rates for individual tests or comprehensive screening packages. Your results are protected by HIPAA privacy law.\n\n**Conveniently located**\n\nOur clinic at 5705 Fondren Rd STE 101 serves Spring Branch, Sharpstown, Westchase, Alief, Bellaire, and all of southwest Houston. Free parking available.",
-    icon: "Shield",
-    image: "/images/services/std.webp",
-    category: "especial",
-    keywords: ["prueba STD Houston", "enfermedades transmisión sexual Houston", "prueba VIH Houston", "test ETS Houston confidencial"],
-    keywordsEn: ["STD testing Houston", "STI testing Houston TX", "HIV test Houston", "confidential STD test Houston", "sexual health clinic Houston"],
-    features: [
-      "Pruebas 100% confidenciales",
-      "Resultados rápidos",
-      "Tratamiento inmediato disponible",
-      "Consejería profesional",
-      "Ambiente discreto y privado",
-      "Sin juicio"
-    ],
-    featuresEn: ["100% confidential testing", "Fast results", "Same-day treatment available", "Professional counseling", "Discreet, private environment", "Judgment-free care"],
-    highlighted: false,
-    order: 3,
-  },
-  {
-    id: "urologia",
-    slug: "urologia",
-    title: "Urólogo en Houston TX que Habla Español",
-    shortTitle: "Urología",
-    description: "Urólogo en Houston TX que habla español, cerca de mí. Evaluación de próstata, infecciones urinarias e incontinencia para hombres y mujeres. Sin cita previa.",
-    longDescription: "Ofrecemos servicios de urología en Houston TX para hombres y mujeres, incluyendo diagnóstico y tratamiento de condiciones del sistema urinario y reproductivo masculino. Nuestro equipo médico en Houston brinda atención personalizada en español con tecnología moderna para diagnósticos precisos.\n\n**Condiciones que evaluamos y tratamos:**\n\n- Infecciones urinarias recurrentes\n- Problemas de próstata (agrandamiento, PSA elevado)\n- Incontinencia urinaria\n- Dolor al orinar o sangre en la orina\n- Cálculos renales\n- Disfunción eréctil\n- Infecciones del tracto urinario en hombres\n- Evaluación de vejiga\n\n**¿Qué incluye la consulta de urología?**\n\nDurante su visita, nuestro médico realizará una evaluación completa de sus síntomas, examen físico, y ordenará los estudios necesarios como análisis de orina, análisis de sangre (incluyendo PSA para hombres), o ultrasonido si es necesario. Todo disponible en nuestra clínica en Houston.\n\n**¿Cuándo debe consultar por urología?**\n\nSi experimenta dolor al orinar, necesidad frecuente de ir al baño, dificultad para vaciar la vejiga, sangre en la orina, o dolor en la zona pélvica o lumbar, es importante consultar a un profesional. La detección temprana puede prevenir complicaciones mayores.\n\n**Atención especializada en Houston**\n\nSi su condición requiere atención especializada adicional, nuestro equipo médico le referirá a urólogos certificados de confianza en el área de Houston. Atención en español, sin cita previa, con precios accesibles.\n\n**¿Cuándo consultar a un urólogo?**\n\nDebe visitar nuestra clínica si presenta: dificultad o dolor al orinar, sangre en la orina, infecciones urinarias frecuentes, dolor en la zona pélvica o lumbar, problemas de próstata, o disfunción eréctil.\n\n**Seguros y pagos**\n\nAceptamos la mayoría de seguros médicos incluyendo Medicaid y Medicare. Precios accesibles para pacientes sin seguro. Llame al (832) 925-8135.\n\n**Ubicación**\n\nEstamos en 5705 Fondren Rd STE 101, Houston TX 77036, accesible desde Spring Branch, Sharpstown, Westchase, Alief y Bellaire. Lunes a domingo 9:00 AM a 9:00 PM sin cita previa.",
-    titleEn: "Spanish Speaking Urologist Houston TX | Urology Care",
-    descriptionEn: "Spanish-speaking urologist in Houston TX near you. Evaluation of prostate issues, UTIs and incontinence for men and women. Walk-ins welcome.",
-    longDescriptionEn: "We provide urology services in Houston TX for both men and women, including diagnosis and treatment of urinary tract and male reproductive system conditions. Our Houston medical team delivers personalized, Spanish-language care using modern diagnostic technology for accurate results.\n\n**Conditions we evaluate and treat:**\n\n- Recurrent urinary tract infections (UTIs)\n- Prostate issues (enlarged prostate, elevated PSA)\n- Urinary incontinence\n- Pain or burning during urination, or blood in urine\n- Kidney stones\n- Erectile dysfunction\n- Male urinary tract infections\n- Bladder evaluation\n\n**What does a urology consultation include?**\n\nDuring your visit, our physician will conduct a complete evaluation of your symptoms, perform a physical exam, and order any necessary tests — including urinalysis, blood work (PSA screening for men), or an ultrasound if indicated. All diagnostic services are available in our Houston clinic.\n\n**When should you see a doctor for urology concerns?**\n\nIf you experience painful urination, frequent urges to urinate, difficulty emptying your bladder, blood in your urine, or pelvic and lower back pain, it's important to seek professional evaluation. Early detection can prevent more serious complications.\n\n**Specialized care in Houston**\n\nIf your condition requires additional specialist care, our medical team will refer you to trusted, board-certified urologists in the Houston area. Spanish-language service available, walk-ins welcome, with affordable pricing.\n\n**When to see a urologist**\n\nVisit our clinic if you experience: difficulty or pain urinating, blood in urine, frequent UTIs, pelvic or lower back pain, prostate issues, or erectile dysfunction.\n\n**Insurance and payment**\n\nWe accept most insurance plans including Medicaid and Medicare. Affordable self-pay rates available. Call (832) 925-8135.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Walk-ins welcome Monday-Sunday 9AM-9PM.",
-    icon: "Activity",
-    image: "/images/services/urology.webp",
-    category: "especialidad",
-    keywords: ["urólogo Houston", "urólogos cerca de mí", "urólogo en Houston que hable español", "urólogo en español Houston", "urólogos en Houston TX", "urología Houston", "problemas de próstata Houston"],
-    keywordsEn: ["Spanish speaking urologist Houston", "urologist near me Houston", "urology Houston TX", "urologist Houston Spanish", "prostate doctor Houston", "urinary tract specialist Houston"],
-    features: [
-      "Diagnóstico completo",
-      "Tratamiento de infecciones",
-      "Evaluación de próstata",
-      "Incontinencia urinaria",
-      "Atención hombres y mujeres",
-      "Referencia a especialistas"
-    ],
-    featuresEn: ["Comprehensive diagnosis", "Infection treatment", "Prostate evaluation", "Urinary incontinence care", "Men & women welcome", "Specialist referrals available"],
-    highlighted: false,
-    order: 4,
-  },
-  {
-    id: "condiciones-cronicas",
-    slug: "condiciones-cronicas",
-    title: "Control de Diabetes e Hipertensión Houston",
-    shortTitle: "Crónicas",
-    description: "Manejo de diabetes, hipertensión y colesterol en Houston TX. Monitoreo continuo, ajuste de medicamentos y educación en español.",
-    longDescription: "Programa integral para el manejo de condiciones crónicas en Houston TX. La diabetes, hipertensión arterial y colesterol alto son condiciones que afectan a millones de hispanos en Estados Unidos. En Clínica Hispana La Caridad ofrecemos un programa de seguimiento continuo para ayudarle a controlar su salud.\n\n**¿Qué incluye nuestro programa de control de condiciones crónicas?**\n\n- Monitoreo regular de glucosa en sangre y hemoglobina A1C\n- Medición y control de presión arterial\n- Panel de colesterol y lípidos\n- Evaluación de función renal y hepática\n- Ajuste de medicamentos según sus niveles\n- Educación personalizada sobre dieta y estilo de vida\n- Plan de seguimiento con visitas programadas\n\n**Diabetes: por qué el control es importante**\n\nLa diabetes no controlada puede causar daño a los riñones, pérdida de visión, problemas de circulación y neuropatía. Con monitoreo regular y ajuste de medicamentos, la mayoría de los pacientes logran mantener sus niveles de glucosa en rango saludable y prevenir complicaciones.\n\n**Hipertensión: el enemigo silencioso**\n\nLa presión arterial alta generalmente no presenta síntomas pero aumenta el riesgo de ataque cardíaco y derrame cerebral. Nuestro equipo médico en Houston monitorea su presión en cada visita y ajusta su tratamiento para mantenerla bajo control.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\n\nNuestro equipo médico habla español, entiende los factores culturales y alimenticios de la comunidad hispana, y ofrece educación en un idioma que usted comprende completamente. Laboratorio en la clínica con resultados el mismo día, precios accesibles, y horario extendido para que no tenga que faltar al trabajo.\n\n**Monitoreo continuo**\n\nEl control de enfermedades crónicas requiere seguimiento regular. Ofrecemos análisis de laboratorio con resultados el mismo día (glucosa, hemoglobina A1C, perfil lipídico, función tiroidea), ajuste de medicamentos, y educación al paciente.\n\n**Seguros y pagos**\n\nAceptamos la mayoría de seguros médicos. Para pacientes sin seguro, ofrecemos programas de manejo crónico a precios accesibles.\n\n**Ubicación**\n\nNuestra clínica en 5705 Fondren Rd STE 101, Houston TX 77036, sirve a Spring Branch, Sharpstown, Westchase, Alief, Bellaire y todo el suroeste de Houston.",
-    titleEn: "Diabetes & Hypertension Management Houston",
-    descriptionEn: "Diabetes, hypertension, and cholesterol management in Houston TX. Ongoing monitoring, medication adjustments, and patient education in English and Spanish.",
-    longDescriptionEn: "We offer a comprehensive chronic condition management program in Houston TX. Diabetes, high blood pressure, and high cholesterol affect millions of Hispanic Americans — and at Clínica Hispana La Caridad, we provide a structured, ongoing monitoring program to help you take control of your health.\n\n**What our chronic condition program includes:**\n\n- Regular blood glucose and hemoglobin A1C monitoring\n- Blood pressure measurement and control\n- Cholesterol and lipid panel testing\n- Kidney and liver function evaluation\n- Medication adjustments based on your current levels\n- Personalized education on diet and lifestyle changes\n- Scheduled follow-up visits and care plan\n\n**Diabetes: why consistent management matters**\n\nUncontrolled diabetes can cause kidney damage, vision loss, poor circulation, and neuropathy. With regular monitoring and timely medication adjustments, most patients are able to keep their blood sugar levels in a healthy range and avoid serious complications.\n\n**Hypertension: the silent threat**\n\nHigh blood pressure typically presents no symptoms, yet it significantly increases the risk of heart attack and stroke. Our Houston medical team checks your blood pressure at every visit and fine-tunes your treatment to keep it under control.\n\n**Why choose Clínica Hispana La Caridad?**\n\nOur medical team is fluent in Spanish and understands the cultural and dietary factors unique to the Hispanic community. We offer education you can truly understand, on-site lab services with same-day results, affordable pricing, and extended hours so you never have to miss work for an appointment.\n\n**Ongoing monitoring**\n\nChronic disease management requires regular follow-ups. We offer same-day lab results (glucose, A1C, lipid panel, thyroid function), medication adjustments, and patient education.\n\n**Insurance and payment**\n\nWe accept most insurance plans. Affordable chronic care programs for uninsured patients.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Serving Spring Branch, Sharpstown, Westchase, Alief, Bellaire.",
-    icon: "Heart",
-    image: "/images/services/chronic-conditions.jpg",
-    category: "especialidad",
-    keywords: ["control diabetes Houston", "hipertensión Houston", "condiciones crónicas Houston", "médico diabetes español Houston"],
-    keywordsEn: ["diabetes management Houston", "hypertension doctor Houston TX", "chronic conditions clinic Houston", "Spanish speaking diabetes doctor Houston", "high blood pressure treatment Houston"],
-    features: [
-      "Monitoreo de glucosa",
-      "Control de presión arterial",
-      "Manejo de colesterol",
+    "features": [
+      "Diagnóstico y monitoreo de laboratorio",
+      "Control de glucosa, presión y colesterol",
       "Ajuste de medicamentos",
-      "Educación en español",
-      "Seguimiento continuo"
+      "Plan de alimentación y hábitos"
     ],
-    featuresEn: ["Blood glucose monitoring", "Blood pressure control", "Cholesterol management", "Medication adjustments", "Patient education in Spanish", "Ongoing follow-up care"],
-    highlighted: true,
-    order: 5,
+    "featuresEn": [
+      "Diagnosis and lab monitoring",
+      "Glucose, blood pressure and cholesterol control",
+      "Medication adjustment",
+      "Nutrition and lifestyle plan"
+    ],
+    "highlighted": true,
+    "order": 1
   },
   {
-    id: "laboratorio",
-    slug: "laboratorio",
-    title: "Laboratorio Clínico Cerca de Mí Houston | Mismo Día",
-    shortTitle: "Laboratorio",
-    description: "Laboratorio clínico cerca de mí en Houston TX. Chequeo general de sangre, glucosa, colesterol, hemograma y tiroides con resultados el mismo día. Sin cita previa.",
-    longDescription: "Nuestro laboratorio clínico en Houston TX cuenta con tecnología moderna para análisis rápidos y precisos. Ofrecemos una amplia gama de pruebas de laboratorio con resultados el mismo día, para que usted y su médico puedan tomar decisiones informadas sin esperar días.\n\n**Pruebas de laboratorio disponibles:**\n\n- Hemograma completo (CBC)\n- Glucosa en ayunas y hemoglobina A1C\n- Panel de colesterol y lípidos\n- Panel metabólico completo (CMP)\n- Función tiroidea (TSH, T3, T4)\n- Función hepática y renal\n- Análisis de orina completo\n- Prueba de embarazo\n- Ácido úrico\n- Vitamina D y B12\n- Panel de hierro y ferritina\n- Pruebas de ETS (VIH, hepatitis, sífilis)\n\n**¿Cómo funciona el proceso?**\n\nPuede visitarnos sin cita previa. Nuestro personal capacitado realiza la toma de muestra de sangre de forma rápida y profesional. Para pruebas de glucosa y colesterol, se recomienda ayuno de 8-12 horas. Los resultados están disponibles el mismo día en la mayoría de los casos.\n\n**¿Para qué sirven los análisis de sangre?**\n\nLos exámenes de laboratorio son fundamentales para detectar condiciones de salud antes de que presenten síntomas, monitorear enfermedades crónicas como diabetes e hipertensión, y evaluar el funcionamiento general de sus órganos.\n\n**Laboratorio en la clínica**\n\nA diferencia de otros laboratorios en Houston que requieren cita y tardan días en entregar resultados, nuestro laboratorio está dentro de la clínica. Esto significa que su médico puede ordenar y revisar sus resultados en la misma visita, ahorrándole tiempo y visitas adicionales. Atención en español con precios accesibles.\n\n**Pruebas adicionales disponibles**\n\n- Hemograma completo (CBC)\n- Panel metabólico completo\n- Perfil lipídico (colesterol, triglicéridos)\n- Hemoglobina A1C (control de diabetes)\n- Función tiroidea (TSH, T3, T4)\n- Panel de drogas para empleo\n- Función hepática y renal\n\n**Seguros y pagos**\n\nAceptamos seguros médicos y ofrecemos precios competitivos para pacientes sin seguro. Significativamente menores que en hospitales.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Lunes a domingo 9:00 AM a 9:00 PM.",
-    titleEn: "Clinical Laboratory Near Me Houston | Same-Day Results",
-    descriptionEn: "Clinical laboratory near me in Houston TX. Full blood panel, glucose, cholesterol, CBC and thyroid tests with same-day results. No appointment needed.",
-    longDescriptionEn: "Our clinical laboratory in Houston TX features modern technology for fast, accurate analysis. We offer a wide range of lab tests with same-day results so you and your doctor can make informed decisions without waiting days.\n\n**Available lab tests:**\n\n- Complete blood count (CBC)\n- Fasting glucose and hemoglobin A1C\n- Cholesterol and lipid panel\n- Comprehensive metabolic panel (CMP)\n- Thyroid function (TSH, T3, T4)\n- Liver and kidney function\n- Complete urinalysis\n- Pregnancy test\n- Uric acid\n- Vitamin D and B12\n- Iron and ferritin panel\n- STD testing (HIV, hepatitis, syphilis)\n\n**How does it work?**\n\nNo appointment needed. Our trained staff performs blood draws quickly and professionally. For glucose and cholesterol tests, an 8–12 hour fast is recommended. Results are available the same day in most cases.\n\n**Why do blood tests matter?**\n\nLab tests are essential for detecting health conditions before symptoms appear, monitoring chronic diseases like diabetes and hypertension, and evaluating the overall function of your vital organs.\n\n**On-site lab — no referral needed**\n\nUnlike standalone labs in Houston that require appointments and take days to return results, our laboratory is located inside the clinic. This means your doctor can order and review your results during the same visit — saving you time and extra trips. Spanish-language service available with affordable, transparent pricing.\n\n**Additional tests available**\n\n- Complete blood count (CBC)\n- Comprehensive metabolic panel\n- Lipid panel (cholesterol, triglycerides)\n- Hemoglobin A1C (diabetes management)\n- Thyroid function (TSH, T3, T4)\n- Drug screening for employment\n- Liver and kidney function\n\n**Insurance and payment**\n\nWe accept insurance and offer competitive self-pay pricing — significantly lower than hospitals.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Monday-Sunday 9AM-9PM.",
-    icon: "Flask",
-    image: "/images/services/laboratory.webp",
-    category: "diagnostico",
-    keywords: ["laboratorios cerca de mí", "laboratorio clínico Houston", "análisis de sangre Houston", "chequeo general de sangre", "prueba de glucosa Houston", "examen de sangre Houston", "hemograma completo Houston"],
-    keywordsEn: ["clinical laboratory near me Houston", "blood test near me Houston", "same-day lab results Houston", "glucose test Houston", "CBC blood test Houston", "thyroid test Houston"],
-    features: [
-      "Resultados el mismo día",
-      "Análisis de sangre completos",
-      "Glucosa y colesterol",
-      "Panel metabólico",
-      "Exámenes de tiroides",
-      "Sin largas esperas"
+    "id": "tiroides",
+    "slug": "tiroides",
+    "title": "Exámenes y Tratamiento de la Tiroides",
+    "titleEn": "Thyroid Testing & Treatment",
+    "shortTitle": "Tiroides",
+    "description": "Exámenes y tratamiento de la tiroides en Houston, TX. Pruebas de laboratorio y control en español, con precios accesibles.",
+    "descriptionEn": "Thyroid testing and treatment in Houston, TX. Lab tests and follow-up in Spanish, with affordable pricing.",
+    "longDescription": "La tiroides regula tu energía, tu peso y tu ánimo. Cuando funciona de más o de menos aparecen síntomas que afectan tu día a día. En Clínica Hispana La Caridad evaluamos tu tiroides con análisis de laboratorio y te damos el tratamiento adecuado.\n\n**¿Qué incluye?**\n- Evaluación de síntomas\n- Pruebas de función tiroidea (TSH, T3, T4)\n- Diagnóstico de hipotiroidismo o hipertiroidismo\n- Inicio y ajuste del tratamiento\n- Seguimiento periódico\n\n**Síntomas frecuentes**\nCansancio, cambios de peso sin explicación, caída del cabello, frío o calor excesivo, nerviosismo o tristeza. Si los notas, una prueba sencilla puede dar la respuesta.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "The thyroid regulates your energy, weight and mood. When it works too much or too little, symptoms appear that affect your daily life. At Clínica Hispana La Caridad we evaluate your thyroid with lab work and provide the right treatment.\n\n**What's included?**\n- Symptom evaluation\n- Thyroid function tests (TSH, T3, T4)\n- Diagnosis of hypothyroidism or hyperthyroidism\n- Treatment start and adjustment\n- Periodic follow-up\n\n**Common symptoms**\nFatigue, unexplained weight changes, hair loss, feeling too cold or too hot, nervousness or sadness. If you notice them, a simple test can give the answer.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Activity",
+    "image": "/images/services/tiroides.webp",
+    "category": "medicina-general",
+    "keywords": [
+      "tiroides houston",
+      "examen de tiroides houston",
+      "hipotiroidismo tratamiento houston",
+      "doctor tiroides español houston"
     ],
-    featuresEn: ["Same-day results", "Comprehensive blood panels", "Glucose & cholesterol testing", "Metabolic panel", "Thyroid testing", "No long waits"],
-    highlighted: true,
-    order: 6,
+    "keywordsEn": [
+      "thyroid testing houston",
+      "thyroid doctor houston",
+      "hypothyroidism treatment houston",
+      "thyroid clinic houston"
+    ],
+    "features": [
+      "Pruebas de función tiroidea (TSH, T3, T4)",
+      "Diagnóstico de hipo e hipertiroidismo",
+      "Tratamiento y ajuste de medicamentos",
+      "Seguimiento en español"
+    ],
+    "featuresEn": [
+      "Thyroid function tests (TSH, T3, T4)",
+      "Diagnosis of hypo- and hyperthyroidism",
+      "Treatment and medication adjustment",
+      "Follow-up in Spanish"
+    ],
+    "highlighted": false,
+    "order": 2
   },
   {
-    id: "ultrasonido",
-    slug: "ultrasonido",
-    title: "Ultrasonido y Ecografía Houston TX",
-    shortTitle: "Ultrasonido",
-    description: "Estudios de ultrasonido en Houston: abdominal, pélvico, tiroides y más. Tecnología avanzada con resultados interpretados por profesionales.",
-    longDescription: "Realizamos estudios de ultrasonido y ecografía en Houston TX para diagnóstico de diversas condiciones médicas. Nuestra clínica cuenta con equipo de imagen avanzado y resultados interpretados por profesionales médicos.\n\n**Tipos de ultrasonido disponibles:**\n\n- Ultrasonido abdominal (hígado, vesícula, páncreas, riñones)\n- Ultrasonido pélvico (útero, ovarios, vejiga)\n- Ultrasonido de tiroides\n- Ultrasonido de tejidos blandos\n- Ultrasonido renal\n- Ecografía obstétrica básica\n\n**¿Cuándo se necesita un ultrasonido?**\n\nSu médico puede ordenar un ultrasonido cuando sospecha de cálculos en la vesícula o riñón, quistes, masas o inflamación en órganos internos, problemas de tiroides, dolor abdominal o pélvico inexplicable, o como parte de un chequeo de rutina.\n\n**¿Cómo funciona el estudio?**\n\nEl ultrasonido es un procedimiento no invasivo, sin dolor y sin radiación. Se utiliza una sonda que emite ondas de sonido para crear imágenes de los órganos internos. Dependiendo del tipo de estudio, puede requerir ayuno previo o vejiga llena. Nuestro personal le indicará las instrucciones de preparación al momento de agendar.\n\n**Resultados el mismo día**\n\nLas imágenes son interpretadas por profesionales y los resultados se entregan el mismo día. Si se detecta alguna anomalía, nuestro médico le explicará los hallazgos en español y le indicará los pasos a seguir, incluyendo referencia a especialistas si es necesario. Precios accesibles para la comunidad hispana de Houston.\n\n**Tipos de ultrasonido disponibles**\n\nRealizamos ultrasonidos abdominales, pélvicos, obstétricos, de tiroides, renales, y de tejidos blandos. Resultados interpretados durante su visita.\n\n**Seguros y pagos**\n\nAceptamos seguros médicos y ofrecemos precios accesibles. Significativamente más económico que en hospitales.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Servimos Spring Branch, Sharpstown, Westchase, Alief, Bellaire.",
-    titleEn: "Ultrasound & Sonogram Services Houston TX",
-    descriptionEn: "Diagnostic ultrasound in Houston: abdominal, pelvic, thyroid, and more. Advanced imaging technology with professional interpretation and fast results.",
-    longDescriptionEn: "We perform diagnostic ultrasound and sonography studies in Houston TX for a wide range of medical conditions. Our clinic is equipped with advanced imaging technology and results are interpreted by qualified medical professionals.\n\n**Types of ultrasound available:**\n\n- Abdominal ultrasound (liver, gallbladder, pancreas, kidneys)\n- Pelvic ultrasound (uterus, ovaries, bladder)\n- Thyroid ultrasound\n- Soft tissue ultrasound\n- Renal ultrasound\n- Basic obstetric ultrasound\n\n**When is an ultrasound needed?**\n\nYour doctor may order an ultrasound when there is suspicion of gallstones or kidney stones, cysts, masses, or organ inflammation, thyroid nodules, unexplained abdominal or pelvic pain, or as part of a routine health checkup.\n\n**What to expect during the procedure**\n\nAn ultrasound is completely non-invasive, painless, and does not use radiation. A handheld probe is used to send sound waves that create images of your internal organs. Depending on the type of study, you may need to fast beforehand or arrive with a full bladder. Our staff will provide preparation instructions when you schedule.\n\n**Same-day results with professional interpretation**\n\nImages are reviewed by medical professionals and results are delivered the same day. If an abnormality is found, our physician will explain the findings in plain language and outline the next steps — including specialist referrals if needed. Affordable pricing for Houston's Hispanic community.\n\n**Types of ultrasound available**\n\nWe perform abdominal, pelvic, obstetric, thyroid, renal, and soft tissue ultrasounds. Results interpreted during your visit.\n\n**Insurance and payment**\n\nWe accept insurance and offer affordable self-pay rates — significantly less than hospitals.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Serving Spring Branch, Sharpstown, Westchase, Alief, Bellaire.",
-    icon: "Monitor",
-    image: "/images/services/ultrasound.webp",
-    category: "diagnostico",
-    keywords: ["ultrasonido Houston", "ecografía Houston", "sonograma Houston", "ultrasonido abdominal Houston"],
-    keywordsEn: ["ultrasound Houston TX", "sonogram Houston", "pelvic ultrasound Houston", "abdominal ultrasound Houston", "diagnostic imaging Houston"],
-    features: [
-      "Ultrasonido abdominal",
-      "Ultrasonido pélvico",
-      "Ultrasonido de tiroides",
-      "Resultados rápidos",
-      "Tecnología avanzada",
-      "Interpretación profesional"
+    "id": "alergias",
+    "slug": "alergias",
+    "title": "Exámenes y Tratamiento de Alergias",
+    "titleEn": "Allergy Testing & Treatment",
+    "shortTitle": "Alergias",
+    "description": "Exámenes y tratamiento de alergias en Houston, TX. Diagnóstico y manejo en español, con precios accesibles.",
+    "descriptionEn": "Allergy testing and treatment in Houston, TX. Diagnosis and management in Spanish, with affordable pricing.",
+    "longDescription": "Las alergias pueden afectar tu respiración, tu piel y tu descanso. En Clínica Hispana La Caridad identificamos qué las provoca y te ayudamos a controlarlas para que recuperes tu bienestar.\n\n**¿Qué incluye?**\n- Evaluación de síntomas y posibles desencadenantes\n- Tratamiento de alergias estacionales y respiratorias\n- Manejo de rinitis, estornudos y congestión\n- Atención de alergias en la piel (ronchas, comezón)\n- Recomendaciones para evitar las crisis\n\n**Cuándo consultar**\nEstornudos frecuentes, ojos llorosos, comezón, ronchas o congestión que no mejora son señales de alergia. Un tratamiento adecuado marca la diferencia.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Allergies can affect your breathing, your skin and your rest. At Clínica Hispana La Caridad we identify what triggers them and help you control them so you feel well again.\n\n**What's included?**\n- Evaluation of symptoms and possible triggers\n- Treatment of seasonal and respiratory allergies\n- Management of rhinitis, sneezing and congestion\n- Care for skin allergies (hives, itching)\n- Recommendations to avoid flare-ups\n\n**When to seek care**\nFrequent sneezing, watery eyes, itching, hives or congestion that won't improve are signs of allergy. The right treatment makes the difference.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Wind",
+    "image": "/images/services/alergias.webp",
+    "category": "medicina-general",
+    "keywords": [
+      "alergias houston",
+      "tratamiento de alergias houston",
+      "doctor de alergias español houston",
+      "examen de alergias houston"
     ],
-    featuresEn: ["Abdominal ultrasound", "Pelvic ultrasound", "Thyroid ultrasound", "Fast results", "Advanced imaging technology", "Professional interpretation"],
-    highlighted: false,
-    order: 7,
-  },
-  {
-    id: "ginecologia",
-    slug: "ginecologia",
-    title: "Ginecólogos en Houston en Español | Clínica de la Mujer",
-    shortTitle: "Ginecología",
-    description: "Ginecólogos en Houston que hablan español. Papanicolaou, examen pélvico, examen de seno y atención prenatal en nuestra clínica de la mujer cerca de mí. Sin cita previa.",
-    longDescription: "Brindamos atención integral de ginecología en Houston TX para la salud de la mujer en todas las etapas de su vida. Nuestro equipo médico entiende sus necesidades y ofrece atención confidencial 100% en español.\n\n**Servicios de ginecología que ofrecemos:**\n\n- Examen de Papanicolaou (Pap smear)\n- Examen clínico de seno\n- Examen pélvico completo\n- Diagnóstico y tratamiento de infecciones vaginales\n- Evaluación de irregularidades menstruales\n- Consulta de menopausia y manejo de síntomas\n- Atención prenatal básica\n- Pruebas de embarazo y orientación\n- Detección de VPH\n\n**¿Cada cuánto debe hacerse el Papanicolaou?**\n\nLas guías médicas recomiendan que las mujeres entre 21 y 65 años se realicen el Papanicolaou cada 3 años, o cada 5 años si se combina con la prueba de VPH. Sin embargo, su médico puede recomendar una frecuencia diferente según su historial. Este examen es fundamental para la detección temprana del cáncer cervical.\n\n**Salud de la mujer en cada etapa**\n\nYa sea que esté buscando anticoncepción, planificando un embarazo, experimentando síntomas de menopausia, o simplemente necesite su chequeo anual, nuestro equipo en Houston le brinda la atención que necesita en un ambiente cómodo y de confianza.\n\n**Atención confidencial y respetuosa**\n\nEntendemos que los temas de salud femenina pueden ser sensibles. En Clínica Hispana La Caridad, cada consulta es privada y confidencial. Atendemos sin cita previa, aceptamos pacientes con o sin seguro, y ofrecemos precios accesibles para la comunidad hispana de Houston.\n\n**Servicios ginecológicos completos**\n\n- Evaluación y tratamiento de irregularidades menstruales\n- Manejo de síntomas de menopausia\n- Detección de cáncer cervical y de mama\n- Consejería sobre salud reproductiva\n\n**Seguros y pagos**\n\nAceptamos la mayoría de seguros. Muchos servicios preventivos de ginecología están cubiertos sin copago bajo la ley ACA.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Lunes a domingo 9:00 AM a 9:00 PM.",
-    titleEn: "Spanish Speaking Gynecologist Houston | Women's Clinic",
-    descriptionEn: "Spanish-speaking gynecologists in Houston TX. Pap smear, pelvic exam, breast exam and prenatal care at our women's health clinic near you. Walk-ins welcome.",
-    longDescriptionEn: "We provide comprehensive gynecology care in Houston TX to support women's health at every stage of life. Our medical team understands your needs and offers confidential, compassionate care with full Spanish-language service.\n\n**Gynecology services we offer:**\n\n- Pap smear (cervical cancer screening)\n- Clinical breast exam\n- Complete pelvic exam\n- Diagnosis and treatment of vaginal infections\n- Evaluation of irregular periods and menstrual concerns\n- Menopause consultation and symptom management\n- Basic prenatal care\n- Pregnancy testing and counseling\n- HPV detection\n\n**How often should you get a Pap smear?**\n\nMedical guidelines recommend that women between 21 and 65 get a Pap smear every 3 years, or every 5 years when combined with an HPV test. Your doctor may recommend a different frequency based on your personal history. This screening is essential for the early detection of cervical cancer.\n\n**Women's health at every stage**\n\nWhether you're seeking birth control, planning a pregnancy, managing menopause symptoms, or simply due for your annual checkup, our Houston team provides the care you need in a comfortable, trustworthy environment.\n\n**Confidential and respectful care**\n\nWe understand that women's health topics can feel sensitive. At Clínica Hispana La Caridad, every visit is private and confidential. We welcome walk-ins, accept patients with or without insurance, and offer affordable pricing for Houston's Hispanic community.\n\n**Comprehensive gynecology services**\n\n- Menstrual irregularity evaluation and treatment\n- Menopause symptom management\n- Cervical and breast cancer screening\n- Reproductive health counseling\n\n**Insurance and payment**\n\nWe accept most insurance. Many preventive gynecology services are covered at no cost under the ACA.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Monday-Sunday 9AM-9PM.",
-    icon: "GenderFemale",
-    image: "/images/services/gynecology.webp",
-    category: "mujer",
-    keywords: ["ginecólogos en Houston que hablen español", "ginecólogos cerca de mí", "clínica de la mujer Houston", "ginecólogo español Houston", "Papanicolaou Houston", "salud de la mujer Houston", "ginecólogo cerca de mí en español", "OB GYN español Houston"],
-    keywordsEn: ["Spanish speaking gynecologist Houston", "gynecologist near me Houston", "women's clinic Houston TX", "Pap smear Houston", "OB GYN Houston Spanish", "gynecology near me Houston"],
-    features: [
-      "Examen de Papanicolaou",
-      "Examen de seno",
-      "Examen pélvico completo",
-      "Tratamiento de infecciones",
-      "Atención prenatal básica",
-      "Consulta de menopausia"
+    "keywordsEn": [
+      "allergy treatment houston",
+      "allergy testing houston",
+      "allergy doctor houston",
+      "allergy clinic houston"
     ],
-    featuresEn: ["Pap smear screening", "Breast exam", "Complete pelvic exam", "Infection treatment", "Basic prenatal care", "Menopause consultation"],
-    highlighted: true,
-    order: 8,
-  },
-  {
-    id: "planificacion-familiar",
-    slug: "planificacion-familiar",
-    title: "Planificación Familiar Houston TX",
-    shortTitle: "Planificación",
-    description: "Métodos anticonceptivos en Houston: píldoras, inyecciones e implantes. Consejería profesional en español para parejas.",
-    longDescription: "Ofrecemos servicios de planificación familiar en Houston TX con consejería completa y personalizada sobre los métodos anticonceptivos disponibles. Nuestro equipo médico ayuda a las mujeres y parejas a tomar decisiones informadas sobre su salud reproductiva.\n\n**Métodos anticonceptivos disponibles:**\n\n- Píldoras anticonceptivas (varias opciones)\n- Inyecciones anticonceptivas (Depo-Provera)\n- Implantes subdérmicos (Nexplanon)\n- Parches anticonceptivos\n- Anillo vaginal\n- Métodos de barrera\n\n**¿Cómo elegir el método correcto?**\n\nDurante la consulta de planificación familiar, nuestro médico evaluará su historial médico, edad, estilo de vida, planes futuros de embarazo, y cualquier condición de salud existente. Con esta información, le recomendará las opciones más adecuadas para usted y le explicará los beneficios y posibles efectos secundarios de cada método.\n\n**Seguimiento continuo**\n\nLa planificación familiar no termina con la elección de un método. Ofrecemos visitas de seguimiento para asegurarnos de que su método funcione bien, ajustar si es necesario, y responder cualquier pregunta. Si desea cambiar de método o planificar un embarazo, le acompañamos en la transición.\n\n**Atención confidencial en Houston**\n\nTodas las consultas de planificación familiar son privadas y confidenciales. Atendemos en español, sin cita previa, y con precios accesibles. Ubicados en 5705 Fondren Rd STE 101, Houston TX 77036.\n\n**Opciones anticonceptivas**\n\n- Anticonceptivos orales\n- Inyecciones (Depo-Provera)\n- Implantes subdérmicos (Nexplanon)\n- Consejería sobre métodos de barrera\n\n**Seguros y pagos**\n\nBajo la ley ACA, muchos métodos anticonceptivos están cubiertos sin costo por su seguro.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Atención 100% en español.",
-    titleEn: "Family Planning Houston TX",
-    descriptionEn: "Contraception options in Houston: birth control pills, injections, and implants. Professional counseling in English and Spanish for individuals and couples.",
-    longDescriptionEn: "We offer family planning services in Houston TX with comprehensive, personalized counseling on all available contraceptive methods. Our medical team helps women and couples make well-informed decisions about their reproductive health.\n\n**Available contraceptive methods:**\n\n- Birth control pills (multiple formulations available)\n- Contraceptive injections (Depo-Provera)\n- Subdermal implants (Nexplanon)\n- Contraceptive patch\n- Vaginal ring\n- Barrier methods\n\n**How do we help you choose the right method?**\n\nDuring your family planning consultation, our physician will review your medical history, age, lifestyle, future pregnancy plans, and any existing health conditions. Using this information, we'll recommend the most suitable options and clearly explain the benefits and possible side effects of each method.\n\n**Ongoing follow-up care**\n\nFamily planning doesn't end when you choose a method. We offer follow-up visits to make sure your chosen method is working well, make adjustments if needed, and answer any questions. If you decide to change methods or are ready to plan a pregnancy, we'll guide you through every step of the transition.\n\n**Confidential care in Houston**\n\nAll family planning consultations are completely private and confidential. Spanish-language service available, walk-ins welcome, with affordable pricing. Located at 5705 Fondren Rd STE 101, Houston TX 77036.\n\n**Contraceptive options**\n\n- Oral contraceptives (pills)\n- Injections (Depo-Provera)\n- Subdermal implants (Nexplanon)\n- Barrier method counseling\n\n**Insurance and payment**\n\nUnder the ACA, many contraceptive methods are covered at no cost by insurance.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Full Spanish-language service.",
-    icon: "Users",
-    image: "/images/services/family-planning.webp",
-    category: "mujer",
-    keywords: ["planificación familiar Houston", "anticonceptivos Houston", "métodos anticonceptivos Houston"],
-    keywordsEn: ["family planning Houston TX", "birth control Houston", "contraception clinic Houston", "contraceptive options Houston"],
-    features: [
-      "Consejería personalizada",
-      "Píldoras anticonceptivas",
-      "Inyecciones anticonceptivas",
-      "Implantes subdérmicos",
-      "Seguimiento continuo"
-    ],
-    featuresEn: ["Personalized counseling", "Birth control pills", "Contraceptive injections", "Subdermal implants", "Ongoing follow-up care"],
-    highlighted: false,
-    order: 9,
-  },
-  {
-    id: "vacunas-anticonceptivas",
-    slug: "vacunas-anticonceptivas",
-    title: "Inyección Anticonceptiva Houston",
-    shortTitle: "Anticonceptivas",
-    description: "Inyecciones anticonceptivas Depo-Provera en Houston TX. Aplicación profesional con seguimiento médico. Sin cita previa.",
-    longDescription: "Aplicamos inyecciones anticonceptivas Depo-Provera en Houston TX con seguimiento médico profesional. Esta es una opción conveniente y altamente efectiva para mujeres que prefieren un método anticonceptivo que no requiere tomar una píldora diaria.\n\n**¿Qué es la inyección Depo-Provera?**\n\nLa inyección anticonceptiva Depo-Provera contiene la hormona progestina y se aplica cada 3 meses (12 semanas). Tiene una efectividad superior al 99% cuando se aplica a tiempo y es una de las opciones más prácticas de anticoncepción disponibles.\n\n**Ventajas de la inyección anticonceptiva:**\n\n- Solo necesita aplicarse cada 3 meses\n- No requiere recordar tomar una píldora diaria\n- Alta efectividad anticonceptiva\n- Puede reducir cólicos menstruales\n- Discreta — nadie necesita saber que la usa\n- Reversible — la fertilidad regresa después de suspenderla\n\n**¿Cómo es el proceso?**\n\nEn su primera visita, nuestro médico evaluará su historial médico para asegurarse de que este método sea seguro para usted. La inyección se aplica en el brazo o glúteo y toma solo unos minutos. Le programaremos un recordatorio para su próxima aplicación en 12 semanas.\n\n**Seguimiento médico incluido**\n\nCon cada aplicación, nuestro equipo verifica que no haya efectos secundarios y responde sus preguntas. Si en algún momento desea cambiar de método, le orientamos sobre las alternativas disponibles. Atención en español, sin cita previa, con precios accesibles en Houston TX.\n\n**¿Cómo funciona?**\n\nLa inyección previene el embarazo por 3 meses. Efectiva en más del 99% cuando se aplica a tiempo. Debe regresar cada 12 semanas.\n\n**Seguros y pagos**\n\nLa mayoría de seguros cubren inyecciones anticonceptivas sin copago.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Sin cita previa.",
-    titleEn: "Birth Control Shot Houston TX",
-    descriptionEn: "Depo-Provera contraceptive injections in Houston TX. Professional administration with medical follow-up. No appointment needed.",
-    longDescriptionEn: "We provide professional Depo-Provera contraceptive injections in Houston TX with medical follow-up. This is a convenient and highly effective option for women who prefer a birth control method that doesn't require taking a daily pill.\n\n**What is the Depo-Provera shot?**\n\nThe Depo-Provera injection contains the hormone progestin and is administered every 3 months (12 weeks). It has over 99% effectiveness when administered on time and is one of the most practical contraceptive options available.\n\n**Benefits of the birth control shot:**\n\n- Only needs to be administered every 3 months\n- No daily pill to remember\n- Highly effective contraception\n- Can reduce menstrual cramps\n- Discreet — no one needs to know you use it\n- Reversible — fertility returns after stopping\n\n**How does the process work?**\n\nDuring your first visit, our physician will review your medical history to ensure this method is safe for you. The injection is administered in the arm or buttock and takes just a few minutes. We'll schedule a reminder for your next injection in 12 weeks.\n\n**Medical follow-up included**\n\nWith each injection, our team checks for side effects and answers your questions. If at any point you wish to switch methods, we'll guide you through the available alternatives. Spanish-language service, walk-ins welcome, affordable pricing in Houston TX.\n\n**How it works**\n\nThe injection prevents pregnancy for 3 months. Over 99% effective when administered on time. Return every 12 weeks for the next dose.\n\n**Insurance and payment**\n\nMost insurance plans cover contraceptive injections at no copay.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. No appointment needed.",
-    icon: "Syringe",
-    image: "/images/services/contraceptive-vaccines.webp",
-    category: "mujer",
-    keywords: ["inyección anticonceptiva Houston", "Depo-Provera Houston", "anticonceptivo inyectable Houston"],
-    keywordsEn: ["birth control shot Houston", "Depo-Provera Houston TX", "contraceptive injection Houston", "birth control clinic Houston", "women's health Houston"],
-    features: [
-      "Inyección Depo-Provera",
-      "Aplicación profesional",
-      "Seguimiento médico",
-      "Efectividad comprobada",
-      "Sin cita previa",
+    "features": [
+      "Evaluación de síntomas y desencadenantes",
+      "Tratamiento de alergias respiratorias y de piel",
+      "Manejo de rinitis y congestión",
       "Atención en español"
     ],
-    featuresEn: ["Depo-Provera injection", "Professional administration", "Medical follow-up", "Proven effectiveness", "No appointment needed", "Spanish & English care"],
-    highlighted: false,
-    order: 10,
+    "featuresEn": [
+      "Evaluation of symptoms and triggers",
+      "Treatment of respiratory and skin allergies",
+      "Management of rhinitis and congestion",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 3
   },
   {
-    id: "extraccion-implantes",
-    slug: "extraccion-implantes",
-    title: "Extracción de Implantes Anticonceptivos Houston",
-    shortTitle: "Implantes",
-    description: "Retiro seguro de Nexplanon e Implanon en Houston TX. Procedimiento rápido con anestesia local y recuperación inmediata.",
-    longDescription: "Realizamos la extracción segura de implantes anticonceptivos subdérmicos (Nexplanon e Implanon) en Houston TX. Este procedimiento es necesario cuando el implante ha cumplido su vida útil (3-5 años), cuando la paciente desea cambiar de método, o cuando planifica un embarazo.\n\n**¿Cuándo debe retirarse el implante?**\n\n- Cuando ha pasado su fecha de vencimiento (3 años para Nexplanon, 3 años para Implanon)\n- Si desea quedar embarazada\n- Si experimenta efectos secundarios que desea resolver\n- Si prefiere cambiar a otro método anticonceptivo\n\n**¿Cómo es el procedimiento de extracción?**\n\nLa extracción del implante es un procedimiento ambulatorio que toma aproximadamente 15-20 minutos. Nuestro médico localiza el implante en su brazo, aplica anestesia local para que no sienta dolor, y realiza una pequeña incisión para retirarlo. Se coloca un vendaje y puede retomar sus actividades normales el mismo día.\n\n**Después de la extracción**\n\nLa fertilidad regresa rápidamente después de retirar el implante. Si desea un nuevo implante o cambiar a otro método anticonceptivo, podemos hacerlo en la misma visita. Nuestro equipo le brindará consejería sobre todas las opciones disponibles.\n\n**Atención profesional en Houston**\n\nNuestro personal está capacitado para realizar este procedimiento de forma segura y cómoda. Atención en español, sin cita previa, con precios accesibles. Ubicados en 5705 Fondren Rd STE 101, Houston TX 77036.\n\n**Procedimiento seguro**\n\nLa extracción se realiza en consultorio con anestesia local en menos de 15 minutos. La mayoría de pacientes regresan a actividades normales el mismo día.\n\n**Seguros y pagos**\n\nLa mayoría de seguros cubren la extracción de implantes. Precios accesibles para pacientes sin seguro.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036.",
-    titleEn: "Contraceptive Implant Removal Houston TX",
-    descriptionEn: "Safe removal of Nexplanon and Implanon implants in Houston TX. Quick procedure with local anesthesia and immediate recovery.",
-    longDescriptionEn: "We perform safe removal of contraceptive implants (Nexplanon and Implanon) in Houston TX. This procedure is needed when the implant has reached its expiration (3-5 years), when you wish to switch methods, or when planning a pregnancy.\n\n**When should the implant be removed?**\n\n- When it has passed its expiration date (3 years for Nexplanon/Implanon)\n- If you want to become pregnant\n- If you experience side effects you want to resolve\n- If you prefer to switch to a different contraceptive method\n\n**What to expect during the procedure**\n\nImplant removal is an outpatient procedure that takes approximately 15-20 minutes. Our physician locates the implant in your arm, applies local anesthesia so you feel no pain, and makes a small incision to remove it. A bandage is placed and you can resume normal activities the same day.\n\n**After the removal**\n\nFertility returns quickly after removing the implant. If you want a new implant or to switch to another contraceptive method, we can do it during the same visit. Our team will provide counseling on all available options.\n\n**Professional care in Houston**\n\nOur staff is trained to perform this procedure safely and comfortably. Spanish-language service, walk-ins welcome, affordable pricing. Located at 5705 Fondren Rd STE 101, Houston TX 77036.\n\n**Safe procedure**\n\nRemoval is performed in-office with local anesthesia in under 15 minutes. Most patients return to normal activities the same day.\n\n**Insurance and payment**\n\nMost insurance plans cover implant removal. Affordable self-pay rates available.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036.",
-    icon: "Scissors",
-    image: "/images/services/implant-removal.webp",
-    category: "mujer",
-    keywords: ["extracción implante Houston", "quitar Nexplanon Houston", "remover implante anticonceptivo Houston"],
-    keywordsEn: ["implant removal Houston", "Nexplanon removal Houston TX", "Implanon removal Houston", "contraceptive implant extraction Houston", "birth control implant removal Houston"],
-    features: [
-      "Procedimiento seguro",
+    "id": "enfermedades-respiratorias",
+    "slug": "enfermedades-respiratorias",
+    "title": "Pruebas de Flu y COVID y Enfermedades Respiratorias",
+    "titleEn": "Flu & COVID Testing and Respiratory Illness Care",
+    "shortTitle": "Respiratorias",
+    "description": "Pruebas de flu y COVID y tratamiento de enfermedades respiratorias en Houston, TX. Sin cita previa, en español.",
+    "descriptionEn": "Flu and COVID testing and respiratory illness treatment in Houston, TX. Walk-ins welcome, in Spanish.",
+    "longDescription": "Cuando empiezan la fiebre, la tos o el malestar, saber si es flu o COVID ayuda a tratarte a tiempo. En Clínica Hispana La Caridad hacemos pruebas rápidas y te damos tratamiento el mismo día, sin cita.\n\n**¿Qué incluye?**\n- Prueba rápida de influenza (flu)\n- Prueba de COVID-19\n- Evaluación de síntomas respiratorios\n- Tratamiento de gripe, tos, bronquitis e infecciones de garganta\n- Indicaciones de recuperación y cuidado\n\n**No dejes que avance**\nSi la fiebre es alta, la tos no mejora o cuesta respirar, es mejor evaluarte. Un diagnóstico oportuno acorta la enfermedad y evita complicaciones.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "When fever, cough or discomfort begin, knowing whether it's flu or COVID helps treat you in time. At Clínica Hispana La Caridad we run rapid tests and provide same-day treatment, no appointment needed.\n\n**What's included?**\n- Rapid influenza (flu) test\n- COVID-19 test\n- Respiratory symptom evaluation\n- Treatment of flu, cough, bronchitis and throat infections\n- Recovery and care instructions\n\n**Don't let it progress**\nIf the fever is high, the cough won't improve or breathing is hard, it's best to get evaluated. Timely diagnosis shortens the illness and prevents complications.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Wind",
+    "image": "/images/services/enfermedades-respiratorias.webp",
+    "category": "medicina-general",
+    "keywords": [
+      "prueba de covid houston",
+      "prueba de flu houston",
+      "tratamiento gripe houston",
+      "enfermedades respiratorias houston"
+    ],
+    "keywordsEn": [
+      "covid test houston",
+      "flu test houston",
+      "flu treatment houston",
+      "respiratory illness houston"
+    ],
+    "features": [
+      "Prueba rápida de flu y COVID",
+      "Diagnóstico el mismo día",
+      "Tratamiento de gripe, tos y bronquitis",
+      "Atención sin cita en español"
+    ],
+    "featuresEn": [
+      "Rapid flu and COVID testing",
+      "Same-day diagnosis",
+      "Treatment of flu, cough and bronchitis",
+      "Walk-in care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 4
+  },
+  {
+    "id": "examen-fisico-escolar",
+    "slug": "examen-fisico-escolar",
+    "title": "Chequeos Físicos Escolares y Deportivos",
+    "titleEn": "School & Sports Physical Exams",
+    "shortTitle": "Examen Físico",
+    "description": "Chequeos físicos escolares y deportivos en Houston, TX. Rápidos, en español y con precios accesibles.",
+    "descriptionEn": "School and sports physical exams in Houston, TX. Fast, in Spanish, with affordable pricing.",
+    "longDescription": "Antes de inscribirse en la escuela o practicar un deporte, los niños y jóvenes necesitan un chequeo físico. En Clínica Hispana La Caridad lo hacemos de forma rápida y completa, con todos los formularios listos.\n\n**¿Qué incluye?**\n- Examen físico general\n- Revisión de signos vitales (peso, talla, presión)\n- Evaluación de visión y audición\n- Llenado de los formularios requeridos\n- Recomendaciones de salud\n\n**Para la escuela y el deporte**\nCumple los requisitos de inscripción escolar y la evaluación para practicar deportes con seguridad. Trae el formulario de tu escuela o equipo y lo completamos.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Before enrolling in school or playing a sport, children and teens need a physical exam. At Clínica Hispana La Caridad we do it quickly and thoroughly, with all the forms ready.\n\n**What's included?**\n- General physical exam\n- Vital-signs check (weight, height, blood pressure)\n- Vision and hearing screening\n- Completion of required forms\n- Health recommendations\n\n**For school and sports**\nMeet school enrollment requirements and the evaluation to play sports safely. Bring your school or team form and we'll complete it.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Clipboard",
+    "image": "/images/services/examen-fisico-escolar.webp",
+    "category": "examenes",
+    "keywords": [
+      "examen fisico escolar houston",
+      "physical para la escuela houston",
+      "examen deportivo houston",
+      "chequeo escolar houston"
+    ],
+    "keywordsEn": [
+      "school physical houston",
+      "sports physical houston",
+      "school physical exam houston",
+      "kids physical houston"
+    ],
+    "features": [
+      "Examen físico completo",
+      "Revisión de signos vitales",
+      "Formularios escolares y deportivos llenados",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Complete physical exam",
+      "Vital-signs check",
+      "School and sports forms completed",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 5
+  },
+  {
+    "id": "ginecologia",
+    "slug": "ginecologia",
+    "title": "Atención Ginecológica: Papanicolaou y Cultivos",
+    "titleEn": "Gynecology Care: Pap Smear & Cultures",
+    "shortTitle": "Ginecología",
+    "description": "Atención ginecológica en Houston, TX: papanicolaou, cultivos vaginales y tratamiento de infecciones. En español, con precios accesibles.",
+    "descriptionEn": "Gynecology care in Houston, TX: Pap smear, vaginal cultures and infection treatment. In Spanish, with affordable pricing.",
+    "longDescription": "Tu salud como mujer merece un espacio de confianza. En Clínica Hispana La Caridad ofrecemos atención ginecológica en español, con la privacidad y el respeto que mereces.\n\n**¿Qué incluye?**\n- Papanicolaou y chequeo ginecológico\n- Cultivos vaginales para identificar infecciones\n- Tratamiento de infecciones vaginales (hongos, bacterias)\n- Evaluación de molestias y flujo anormal\n- Referencias cuando se necesita un especialista\n\n**No te quedes con la duda**\nComezón, ardor, flujo diferente o mal olor son señales de que algo necesita atención. Un cultivo permite un diagnóstico correcto y un tratamiento que sí resuelve.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Your health as a woman deserves a space of trust. At Clínica Hispana La Caridad we offer gynecology care in Spanish, with the privacy and respect you deserve.\n\n**What's included?**\n- Pap smear and gynecological checkup\n- Vaginal cultures to identify infections\n- Treatment of vaginal infections (yeast, bacteria)\n- Evaluation of discomfort and abnormal discharge\n- Referrals when a specialist is needed\n\n**Don't stay in doubt**\nItching, burning, unusual discharge or odor are signs that something needs attention. A culture allows an accurate diagnosis and treatment that truly resolves it.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Heart",
+    "image": "/images/services/ginecologia.webp",
+    "category": "salud-mujer",
+    "keywords": [
+      "ginecologo houston español",
+      "papanicolaou houston",
+      "cultivo vaginal houston",
+      "infeccion vaginal tratamiento houston"
+    ],
+    "keywordsEn": [
+      "gynecologist houston spanish",
+      "pap smear houston",
+      "vaginal culture houston",
+      "vaginal infection treatment houston"
+    ],
+    "features": [
+      "Papanicolaou y chequeo ginecológico",
+      "Cultivos vaginales",
+      "Tratamiento de infecciones vaginales",
+      "Atención privada en español"
+    ],
+    "featuresEn": [
+      "Pap smear and gynecological checkup",
+      "Vaginal cultures",
+      "Treatment of vaginal infections",
+      "Private care in Spanish"
+    ],
+    "highlighted": true,
+    "order": 6
+  },
+  {
+    "id": "prueba-embarazo",
+    "slug": "prueba-embarazo",
+    "title": "Examen y Diagnóstico de Embarazo",
+    "titleEn": "Pregnancy Testing & Confirmation",
+    "shortTitle": "Prueba de Embarazo",
+    "description": "Examen y diagnóstico de embarazo en Houston, TX. Pruebas confiables y orientación en español, con precios accesibles.",
+    "descriptionEn": "Pregnancy testing and confirmation in Houston, TX. Reliable tests and guidance in Spanish, with affordable pricing.",
+    "longDescription": "Si crees que podrías estar embarazada, una prueba confiable te da tranquilidad y claridad. En Clínica Hispana La Caridad realizamos pruebas de embarazo y te orientamos sobre lo que sigue, en español y sin juicios.\n\n**¿Qué incluye?**\n- Prueba de embarazo (orina o sangre)\n- Confirmación médica del resultado\n- Orientación sobre tus siguientes pasos\n- Información sobre control prenatal y referencias\n\n**Con confianza y respeto**\nTe explicamos el resultado con claridad y te acompañamos en la decisión que tomes, siempre con respeto y privacidad.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "If you think you might be pregnant, a reliable test gives you peace of mind and clarity. At Clínica Hispana La Caridad we perform pregnancy tests and guide you on what comes next, in Spanish and without judgment.\n\n**What's included?**\n- Pregnancy test (urine or blood)\n- Medical confirmation of the result\n- Guidance on your next steps\n- Information on prenatal care and referrals\n\n**With trust and respect**\nWe explain the result clearly and support you in whatever decision you make, always with respect and privacy.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Heart",
+    "image": "/images/services/prueba-embarazo.webp",
+    "category": "salud-mujer",
+    "keywords": [
+      "prueba de embarazo houston",
+      "examen de embarazo houston",
+      "confirmar embarazo houston",
+      "test de embarazo español houston"
+    ],
+    "keywordsEn": [
+      "pregnancy test houston",
+      "pregnancy confirmation houston",
+      "confirm pregnancy houston",
+      "pregnancy testing houston"
+    ],
+    "features": [
+      "Prueba de embarazo confiable",
+      "Confirmación médica",
+      "Orientación sobre próximos pasos",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Reliable pregnancy test",
+      "Medical confirmation",
+      "Guidance on next steps",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 7
+  },
+  {
+    "id": "anticonceptivos",
+    "slug": "anticonceptivos",
+    "title": "Tratamientos Anticonceptivos",
+    "titleEn": "Contraceptive Methods",
+    "shortTitle": "Anticonceptivos",
+    "description": "Tratamientos anticonceptivos en Houston, TX: orientación, pastillas e inyección. En español, con precios accesibles.",
+    "descriptionEn": "Contraceptive methods in Houston, TX: guidance, pills and injection. In Spanish, with affordable pricing.",
+    "longDescription": "Decidir cuándo y cómo formar tu familia es tu derecho. En Clínica Hispana La Caridad te damos información clara y sin juicios para que elijas el método anticonceptivo que mejor se adapta a ti.\n\n**¿Qué incluye?**\n- Consulta de orientación personalizada\n- Información sobre los distintos métodos\n- Pastillas anticonceptivas e inyección\n- Inicio y seguimiento del método elegido\n- Resolución de dudas y efectos secundarios\n\n**Una decisión informada**\nCada cuerpo y cada vida es distinta. Te ayudamos a comparar opciones según tu salud, tus planes y tu comodidad para que tomes la mejor decisión.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Deciding when and how to build your family is your right. At Clínica Hispana La Caridad we give you clear, judgment-free information so you can choose the contraceptive method that best fits you.\n\n**What's included?**\n- Personalized guidance visit\n- Information about the different methods\n- Birth control pills and injection\n- Starting and following up on the chosen method\n- Answers to questions and side effects\n\n**An informed decision**\nEvery body and every life is different. We help you compare options based on your health, your plans and your comfort so you make the best decision.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Syringe",
+    "image": "/images/services/anticonceptivos.webp",
+    "category": "salud-mujer",
+    "keywords": [
+      "anticonceptivos houston",
+      "metodos anticonceptivos houston",
+      "inyeccion anticonceptiva houston",
+      "pastillas anticonceptivas houston"
+    ],
+    "keywordsEn": [
+      "birth control houston",
+      "contraception clinic houston",
+      "birth control shot houston",
+      "birth control pills houston"
+    ],
+    "features": [
+      "Orientación personalizada",
+      "Pastillas e inyección anticonceptiva",
+      "Inicio y seguimiento del método",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Personalized guidance",
+      "Birth control pills and injection",
+      "Method start and follow-up",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 8
+  },
+  {
+    "id": "extraccion-implantes",
+    "slug": "extraccion-implantes",
+    "title": "Extracción de Implantes Subdérmicos",
+    "titleEn": "Subdermal Implant Removal",
+    "shortTitle": "Implantes",
+    "description": "Extracción de implantes subdérmicos en Houston, TX, procedimiento seguro y en español. Con precios accesibles.",
+    "descriptionEn": "Subdermal implant removal in Houston, TX, a safe procedure in Spanish. With affordable pricing.",
+    "longDescription": "Si llegó el momento de retirar tu implante subdérmico —porque caducó o porque deseas cambiar de método— en Clínica Hispana La Caridad lo hacemos de forma segura, rápida y con cuidado.\n\n**¿Qué incluye?**\n- Evaluación y localización del implante\n- Extracción ambulatoria con anestesia local\n- Indicaciones claras de cuidado posterior\n- Orientación sobre tus próximos pasos de planificación\n\n**Un procedimiento sencillo**\nEl retiro suele tomar pocos minutos y se realiza con una pequeña incisión. Te explicamos cada paso en español para que estés tranquila.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "If it's time to remove your subdermal implant —because it expired or you want to switch methods— at Clínica Hispana La Caridad we do it safely, quickly and with care.\n\n**What's included?**\n- Evaluation and location of the implant\n- Outpatient removal with local anesthesia\n- Clear after-care instructions\n- Guidance on your next family-planning steps\n\n**A simple procedure**\nRemoval usually takes only a few minutes through a small incision. We explain every step in Spanish so you feel at ease.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "FirstAid",
+    "image": "/images/services/extraccion-implantes.webp",
+    "category": "salud-mujer",
+    "keywords": [
+      "extraccion de implante subdermico houston",
+      "quitar implante del brazo houston",
+      "retiro de implante anticonceptivo houston",
+      "remover implante houston"
+    ],
+    "keywordsEn": [
+      "subdermal implant removal houston",
+      "arm implant removal houston",
+      "contraceptive implant removal houston",
+      "birth control implant removal houston"
+    ],
+    "features": [
+      "Procedimiento ambulatorio",
+      "Anestesia local",
       "Personal capacitado",
-      "Anestesia local incluida",
-      "Recuperación rápida",
-      "Consejería post-extracción",
-      "Opciones alternativas"
+      "Cuidado posterior explicado"
     ],
-    featuresEn: ["Safe removal procedure", "Trained medical staff", "Local anesthesia included", "Quick recovery", "Post-removal counseling", "Alternative contraceptive options"],
-    highlighted: false,
-    order: 11,
+    "featuresEn": [
+      "Outpatient procedure",
+      "Local anesthesia",
+      "Trained staff",
+      "After-care explained"
+    ],
+    "highlighted": false,
+    "order": 9
   },
   {
-    id: "electrocardiograma",
-    slug: "electrocardiograma",
-    title: "Electrocardiograma EKG Houston TX",
-    shortTitle: "EKG",
-    description: "Electrocardiograma en Houston para detectar arritmias y problemas cardíacos. Resultados inmediatos con interpretación profesional.",
-    longDescription: "Realizamos electrocardiogramas (EKG/ECG) en Houston TX para evaluar la actividad eléctrica de su corazón. Este estudio rápido y no invasivo es fundamental para detectar problemas cardíacos a tiempo.\n\n**¿Qué detecta un electrocardiograma?**\n\n- Arritmias (latidos irregulares del corazón)\n- Problemas de conducción eléctrica\n- Señales de ataque cardíaco previo\n- Agrandamiento del corazón\n- Efectos de medicamentos en el corazón\n- Niveles anormales de electrolitos\n\n**¿Cuándo necesita un EKG?**\n\nSu médico puede ordenar un electrocardiograma si experimenta dolor en el pecho, falta de aire, mareos, palpitaciones, o desmayos. También se realiza como parte de exámenes preventivos, antes de cirugías, o para monitorear condiciones cardíacas existentes. Es un requisito común en exámenes físicos para empleo y deportes.\n\n**¿Cómo es el procedimiento?**\n\nEl EKG es completamente indoloro y toma solo 5-10 minutos. Se colocan pequeños electrodos adhesivos en su pecho, brazos y piernas que registran la actividad eléctrica del corazón. No requiere preparación especial y puede retomar sus actividades inmediatamente después.\n\n**Resultados inmediatos**\n\nLos resultados del electrocardiograma están disponibles de inmediato. Nuestro médico interpretará el estudio en español, le explicará los hallazgos, y si se detecta alguna anomalía, le referirá a un cardiólogo de confianza en Houston. Atención sin cita previa con precios accesibles.\n\n**¿Cuándo necesita un EKG?**\n\nSi presenta: dolor en el pecho, palpitaciones, falta de aire, mareos, presión arterial alta, o como parte de un examen DOT o pre-operatorio. El EKG toma menos de 10 minutos y no causa dolor.\n\n**Seguros y pagos**\n\nAceptamos seguros médicos y ofrecemos precios accesibles. Más económico que hospitales.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Sin cita previa.",
-    titleEn: "EKG Electrocardiogram Houston TX",
-    descriptionEn: "Electrocardiogram EKG testing in Houston TX to detect arrhythmias and heart conditions. Immediate results with professional interpretation.",
-    longDescriptionEn: "We perform electrocardiograms (EKG/ECG) in Houston TX to evaluate your heart's electrical activity. This quick, non-invasive test is essential for detecting heart problems early.\n\n**What does an EKG detect?**\n\n- Arrhythmias (irregular heartbeats)\n- Electrical conduction problems\n- Signs of a previous heart attack\n- Enlarged heart\n- Effects of medications on the heart\n- Abnormal electrolyte levels\n\n**When do you need an EKG?**\n\nYour doctor may order an electrocardiogram if you experience chest pain, shortness of breath, dizziness, palpitations, or fainting. It is also performed as part of preventive exams, before surgeries, or to monitor existing cardiac conditions. It is commonly required for employment and sports physicals.\n\n**How does the procedure work?**\n\nThe EKG is completely painless and takes only 5-10 minutes. Small adhesive electrodes are placed on your chest, arms, and legs to record the heart's electrical activity. No special preparation is needed and you can resume your activities immediately after.\n\n**Immediate results**\n\nEKG results are available right away. Our physician will interpret the study, explain the findings, and if any abnormality is detected, refer you to a trusted cardiologist in Houston. Walk-ins welcome with affordable pricing.\n\n**When do you need an EKG?**\n\nIf you experience: chest pain, palpitations, shortness of breath, dizziness, high blood pressure, or as part of a DOT or pre-surgical exam. Takes under 10 minutes and is painless.\n\n**Insurance and payment**\n\nWe accept insurance and offer affordable self-pay rates — more affordable than hospitals.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. No appointment needed.",
-    icon: "Activity",
-    image: "/images/services/ekg.webp",
-    category: "diagnostico",
-    keywords: ["electrocardiograma Houston", "EKG Houston", "estudio corazón Houston", "ECG Houston TX"],
-    keywordsEn: ["EKG Houston TX", "electrocardiogram Houston", "ECG test Houston", "heart test Houston TX", "cardiac evaluation Houston"],
-    features: [
-      "Resultados inmediatos",
-      "Detección de arritmias",
-      "Evaluación cardíaca completa",
-      "Procedimiento no invasivo",
-      "Interpretación profesional",
-      "Referencia a cardiólogo"
+    "id": "salud-hombre",
+    "slug": "salud-hombre",
+    "title": "Exámenes del Hombre: PSA y Testosterona",
+    "titleEn": "Men's Health Exams: PSA & Testosterone",
+    "shortTitle": "Salud del Hombre",
+    "description": "Exámenes del hombre en Houston, TX: PSA y testosterona. Laboratorio y atención en español, con precios accesibles.",
+    "descriptionEn": "Men's health exams in Houston, TX: PSA and testosterone. Lab work and care in Spanish, with affordable pricing.",
+    "longDescription": "La salud del hombre muchas veces se posterga. En Clínica Hispana La Caridad facilitamos los exámenes que ayudan a detectar a tiempo cambios importantes, con resultados explicados en español.\n\n**¿Qué incluye?**\n- Examen de antígeno prostático (PSA)\n- Medición del nivel de testosterona\n- Chequeo general y de signos vitales\n- Evaluación de síntomas urinarios o de energía\n- Referencia a especialista si se requiere\n\n**Por qué es importante**\nEl PSA ayuda a vigilar la salud de la próstata y la testosterona influye en la energía, el ánimo y la salud general. Un control sencillo te da tranquilidad.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Men's health is often postponed. At Clínica Hispana La Caridad we make it easy to get the exams that help catch important changes early, with results explained in Spanish.\n\n**What's included?**\n- Prostate antigen (PSA) test\n- Testosterone level measurement\n- General checkup and vital signs\n- Evaluation of urinary or energy symptoms\n- Referral to a specialist if needed\n\n**Why it matters**\nPSA helps monitor prostate health, and testosterone influences energy, mood and overall health. A simple check gives you peace of mind.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Activity",
+    "image": "/images/services/salud-hombre.webp",
+    "category": "medicina-general",
+    "keywords": [
+      "examen del hombre houston",
+      "prueba psa houston",
+      "examen de prostata houston",
+      "examen de testosterona houston"
     ],
-    featuresEn: ["Immediate results", "Arrhythmia detection", "Complete cardiac evaluation", "Non-invasive procedure", "Professional interpretation", "Cardiology referral available"],
-    highlighted: false,
-    order: 12,
+    "keywordsEn": [
+      "mens health houston",
+      "psa test houston",
+      "prostate exam houston",
+      "testosterone test houston"
+    ],
+    "features": [
+      "Antígeno prostático (PSA)",
+      "Nivel de testosterona",
+      "Chequeo general del hombre",
+      "Resultados explicados en español"
+    ],
+    "featuresEn": [
+      "Prostate antigen (PSA)",
+      "Testosterone level",
+      "General men's checkup",
+      "Results explained in Spanish"
+    ],
+    "highlighted": true,
+    "order": 10
   },
   {
-    id: "enfermedades-respiratorias",
-    slug: "enfermedades-respiratorias",
-    title: "Tratamiento Gripe y Enfermedades Respiratorias Houston",
-    shortTitle: "Respiratorias",
-    description: "Tratamiento de gripe, bronquitis, asma y COVID-19 en Houston TX. Diagnóstico rápido, nebulizaciones y pruebas disponibles.",
-    longDescription: "Tratamos enfermedades respiratorias en Houston TX incluyendo gripe, resfriado, bronquitis, sinusitis, asma y COVID-19. Nuestro equipo médico ofrece diagnóstico rápido con pruebas disponibles y tratamiento efectivo para su recuperación.\n\n**Condiciones respiratorias que tratamos:**\n\n- Gripe (influenza) y resfriado común\n- Bronquitis aguda y crónica\n- Sinusitis e infecciones de senos paranasales\n- Asma y crisis asmáticas\n- COVID-19 y sus variantes\n- Neumonía\n- Faringitis y amigdalitis\n- Tos persistente\n\n**Diagnóstico rápido en la clínica**\n\nContamos con pruebas rápidas de influenza y COVID-19 con resultados en minutos. Nuestro médico evaluará sus síntomas, escuchará sus pulmones, y determinará el tratamiento más efectivo para su condición.\n\n**Tratamientos disponibles:**\n\n- Medicamentos antivirales (para gripe y COVID-19 si se detectan a tiempo)\n- Antibióticos (para infecciones bacterianas confirmadas)\n- Nebulizaciones con broncodilatadores\n- Inyecciones de esteroides para inflamación severa\n- Medicamentos para la tos y descongestión\n- Inhaladores para asma\n\n**¿Cuándo debe buscar atención médica?**\n\nVisite nuestra clínica si tiene fiebre alta que no baja con medicamentos, dificultad para respirar, tos con sangre o flema de color verde/amarillo por más de una semana, dolor en el pecho al respirar, o si sus síntomas empeoran después de 3-5 días. La atención temprana previene complicaciones.\n\nAtención sin cita previa en español, con precios accesibles para la comunidad hispana de Houston.\n\n**Diagnóstico rápido**\n\nContamos con pruebas rápidas de influenza, COVID-19, y estreptococo. Tratamiento con antibióticos, antivirales, inhaladores y nebulizaciones según diagnóstico.\n\n**Seguros y pagos**\n\nAceptamos la mayoría de seguros. Precios accesibles para pacientes sin seguro.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Lunes a domingo 9:00 AM a 9:00 PM.",
-    titleEn: "Flu & Respiratory Illness Treatment Houston TX",
-    descriptionEn: "Treatment for flu, bronchitis, asthma, and COVID-19 in Houston TX. Rapid diagnosis, nebulizer treatments, and on-site testing available.",
-    longDescriptionEn: "We treat respiratory illnesses in Houston TX including flu, common cold, bronchitis, sinusitis, asthma, and COVID-19. Our medical team offers rapid diagnosis with on-site testing and effective treatment for your recovery.\n\n**Respiratory conditions we treat:**\n\n- Influenza and common cold\n- Acute and chronic bronchitis\n- Sinusitis and sinus infections\n- Asthma and asthma attacks\n- COVID-19 and its variants\n- Pneumonia\n- Pharyngitis and tonsillitis\n- Persistent cough\n\n**Rapid diagnosis at the clinic**\n\nWe have rapid flu and COVID-19 tests with results in minutes. Our physician will evaluate your symptoms, listen to your lungs, and determine the most effective treatment for your condition.\n\n**Available treatments:**\n\n- Antiviral medications (for flu and COVID-19 when detected early)\n- Antibiotics (for confirmed bacterial infections)\n- Nebulizer treatments with bronchodilators\n- Steroid injections for severe inflammation\n- Cough and decongestant medications\n- Inhalers for asthma\n\n**When should you seek medical care?**\n\nVisit our clinic if you have a high fever that won't break with medication, difficulty breathing, cough with blood or green/yellow phlegm for more than a week, chest pain when breathing, or if your symptoms worsen after 3-5 days. Early care prevents complications.\n\nWalk-in care available, Spanish-language service, affordable pricing for Houston's Hispanic community.\n\n**Rapid diagnosis**\n\nWe offer rapid flu, COVID-19, and strep tests. Treatment with antibiotics, antivirals, inhalers, and nebulizer treatments as appropriate.\n\n**Insurance and payment**\n\nWe accept most insurance plans. Affordable self-pay rates available.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Monday-Sunday 9AM-9PM.",
-    icon: "Wind",
-    image: "/images/services/respiratory.webp",
-    category: "especial",
-    keywords: ["enfermedades respiratorias Houston", "gripe Houston", "bronquitis Houston", "COVID Houston", "tratamiento asma Houston"],
-    keywordsEn: ["flu treatment Houston TX", "respiratory illness Houston", "bronchitis treatment Houston", "COVID-19 clinic Houston", "asthma treatment Houston"],
-    features: [
-      "Diagnóstico rápido",
-      "Tratamiento de gripe",
-      "Bronquitis y sinusitis",
-      "Pruebas de COVID-19",
-      "Tratamiento de asma",
-      "Nebulizaciones disponibles"
+    "id": "examenes-sangre",
+    "slug": "examenes-sangre",
+    "title": "Exámenes de Sangre | Laboratorio",
+    "titleEn": "Blood Tests | Lab",
+    "shortTitle": "Análisis de Sangre",
+    "description": "Exámenes de sangre en Houston, TX: biometría, química, glucosa, colesterol y más. Resultados en español, con precios accesibles.",
+    "descriptionEn": "Blood tests in Houston, TX: CBC, chemistry, glucose, cholesterol and more. Results in Spanish, with affordable pricing.",
+    "longDescription": "Un buen diagnóstico empieza con un buen laboratorio. En Clínica Hispana La Caridad tomamos tus muestras en el momento y te explicamos los resultados en español, sin tecnicismos.\n\n**¿Qué incluye?**\n- Biometría hemática completa (conteo de células)\n- Química sanguínea (glucosa, colesterol, triglicéridos)\n- Pruebas de tiroides, hígado y riñón\n- Paneles para chequeo general o seguimiento\n- Resultados rápidos en la mayoría de los casos\n\n**Para qué sirven**\nLos análisis ayudan a detectar problemas antes de que den síntomas, dar seguimiento a una condición crónica o completar un examen de trabajo o escuela.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "A good diagnosis starts with a good lab. At Clínica Hispana La Caridad we draw your samples on the spot and explain your results in Spanish, without the jargon.\n\n**What's included?**\n- Complete blood count (CBC)\n- Blood chemistry (glucose, cholesterol, triglycerides)\n- Thyroid, liver and kidney tests\n- Panels for general checkups or follow-up\n- Fast results in most cases\n\n**Why they matter**\nBlood tests help detect problems before symptoms appear, follow up on a chronic condition or complete a work or school exam.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Flask",
+    "image": "/images/services/examenes-sangre.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "examenes de sangre houston",
+      "analisis de sangre houston",
+      "laboratorio houston",
+      "laboratorio cerca de mi houston"
     ],
-    featuresEn: ["Rapid diagnosis", "Flu treatment", "Bronchitis & sinusitis care", "COVID-19 testing", "Asthma management", "On-site nebulizer treatments"],
-    highlighted: false,
-    order: 13,
+    "keywordsEn": [
+      "blood test houston",
+      "blood work houston",
+      "lab near me houston",
+      "clinical lab houston"
+    ],
+    "features": [
+      "Biometría y química sanguínea",
+      "Glucosa, colesterol y triglicéridos",
+      "Pruebas de tiroides, hígado y riñón",
+      "Resultados explicados en español"
+    ],
+    "featuresEn": [
+      "CBC and blood chemistry",
+      "Glucose, cholesterol and triglycerides",
+      "Thyroid, liver and kidney tests",
+      "Results explained in Spanish"
+    ],
+    "highlighted": true,
+    "order": 11
   },
   {
-    id: "infecciones-urinarias",
-    slug: "infecciones-urinarias",
-    title: "Tratamiento Infecciones Urinarias Houston",
-    shortTitle: "Urinarias",
-    description: "Diagnóstico y tratamiento de infecciones urinarias UTI en Houston TX. Análisis de orina en sitio con resultados y tratamiento inmediato.",
-    longDescription: "Diagnosticamos y tratamos infecciones urinarias (UTI) en Houston TX de manera efectiva. Las infecciones del tracto urinario son una de las condiciones más comunes, especialmente en mujeres, y requieren atención médica oportuna para evitar complicaciones.\n\n**Síntomas comunes de infección urinaria:**\n\n- Ardor o dolor al orinar\n- Necesidad frecuente y urgente de ir al baño\n- Orina turbia, oscura o con olor fuerte\n- Dolor en la parte baja del abdomen o espalda\n- Sensación de no vaciar la vejiga completamente\n- Fiebre o escalofríos (puede indicar infección más seria)\n\n**Diagnóstico rápido en la clínica**\n\nRealizamos análisis de orina en el sitio con resultados en minutos. Esto nos permite confirmar la infección, identificar el tipo de bacteria, y prescribir el antibiótico más efectivo el mismo día. No necesita esperar días por resultados de laboratorio externo.\n\n**Tratamiento el mismo día**\n\nUna vez confirmado el diagnóstico, nuestro médico le prescribirá el tratamiento antibiótico adecuado. La mayoría de los pacientes experimentan mejoría significativa dentro de 24-48 horas de iniciar el tratamiento.\n\n**Prevención de infecciones recurrentes**\n\nSi sufre de infecciones urinarias frecuentes, nuestro equipo médico le brindará consejería personalizada sobre medidas preventivas, cambios en hábitos, e hidratación adecuada para reducir la frecuencia de recurrencia.\n\nAtención para hombres y mujeres, sin cita previa, en español. Ubicados en 5705 Fondren Rd STE 101, Houston TX 77036.\n\n**Diagnóstico rápido**\n\nAnálisis de orina con resultados en minutos. Si es necesario, cultivo de orina para identificar la bacteria específica. Tratamiento con antibióticos prescritos el mismo día.\n\n**Seguros y pagos**\n\nAceptamos seguros médicos y ofrecemos precios accesibles.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Sin cita previa.",
-    titleEn: "UTI Urinary Tract Infection Treatment Houston TX",
-    descriptionEn: "Diagnosis and treatment of urinary tract infections UTI in Houston TX. On-site urinalysis with same-day results and immediate treatment.",
-    longDescriptionEn: "We diagnose and treat urinary tract infections (UTIs) in Houston TX effectively. UTIs are one of the most common conditions, especially in women, and require timely medical care to avoid complications.\n\n**Common UTI symptoms:**\n\n- Burning or pain during urination\n- Frequent and urgent need to urinate\n- Cloudy, dark, or strong-smelling urine\n- Lower abdominal or back pain\n- Feeling of not emptying the bladder completely\n- Fever or chills (may indicate a more serious infection)\n\n**Rapid diagnosis at the clinic**\n\nWe perform on-site urinalysis with results in minutes. This allows us to confirm the infection, identify the type of bacteria, and prescribe the most effective antibiotic the same day. No need to wait days for external lab results.\n\n**Same-day treatment**\n\nOnce the diagnosis is confirmed, our physician will prescribe the appropriate antibiotic treatment. Most patients experience significant improvement within 24-48 hours of starting treatment.\n\n**Preventing recurrent infections**\n\nIf you suffer from frequent UTIs, our medical team will provide personalized counseling on preventive measures, habit changes, and proper hydration to reduce recurrence.\n\nCare for men and women, walk-ins welcome, Spanish-language service. Located at 5705 Fondren Rd STE 101, Houston TX 77036.\n\n**Rapid diagnosis**\n\nIn-office urinalysis with results in minutes. Urine culture available when needed. Antibiotic treatment prescribed the same day.\n\n**Insurance and payment**\n\nWe accept insurance and offer affordable self-pay rates.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. No appointment needed.",
-    icon: "Droplet",
-    image: "/images/services/urinary-infections.webp",
-    category: "especial",
-    keywords: ["infección urinaria Houston", "UTI Houston", "cistitis Houston", "tratamiento UTI Houston"],
-    keywordsEn: ["UTI treatment Houston TX", "urinary tract infection Houston", "bladder infection Houston", "same-day UTI care Houston", "urinalysis Houston TX"],
-    features: [
-      "Diagnóstico rápido",
-      "Análisis de orina en sitio",
+    "id": "infecciones-urinarias",
+    "slug": "infecciones-urinarias",
+    "title": "Examen de Orina y Tratamiento de Infecciones Urinarias",
+    "titleEn": "Urinalysis & Urinary Infection Treatment",
+    "shortTitle": "Infecciones Urinarias",
+    "description": "Examen de orina y tratamiento de infecciones urinarias en Houston, TX, el mismo día. En español, con precios accesibles.",
+    "descriptionEn": "Urinalysis and urinary infection treatment in Houston, TX, same day. In Spanish, with affordable pricing.",
+    "longDescription": "El examen de orina ayuda a detectar infecciones urinarias y otras condiciones. En Clínica Hispana La Caridad te hacemos la prueba y, si hay infección, empezamos el tratamiento el mismo día.\n\n**¿Qué incluye?**\n- Examen general de orina (urianálisis)\n- Evaluación de síntomas\n- Diagnóstico de infección urinaria\n- Tratamiento adecuado el mismo día\n- Indicaciones para evitar que regrese\n\n**Síntomas frecuentes**\nArdor al orinar, ganas constantes de ir al baño, orina turbia o con mal olor y dolor en la parte baja del abdomen. No esperes: una infección sin tratar puede llegar a los riñones.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "A urine test helps detect urinary infections and other conditions. At Clínica Hispana La Caridad we run the test and, if there's an infection, we start treatment the same day.\n\n**What's included?**\n- General urinalysis\n- Symptom evaluation\n- Diagnosis of urinary infection\n- Appropriate same-day treatment\n- Tips to prevent it from coming back\n\n**Common symptoms**\nBurning when urinating, a constant urge to go, cloudy or foul-smelling urine and lower-abdomen pain. Don't wait: an untreated infection can reach the kidneys.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Drop",
+    "image": "/images/services/infecciones-urinarias.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "examen de orina houston",
+      "infeccion urinaria houston",
+      "tratamiento infeccion urinaria houston",
+      "doctor infeccion de orina houston"
+    ],
+    "keywordsEn": [
+      "urinalysis houston",
+      "urinary tract infection houston",
+      "uti treatment houston",
+      "uti doctor houston"
+    ],
+    "features": [
+      "Examen de orina en la clínica",
+      "Diagnóstico de infección urinaria",
       "Tratamiento el mismo día",
-      "Prevención de recurrencia",
-      "Hombres y mujeres",
-      "Sin cita previa"
+      "Atención sin cita en español"
     ],
-    featuresEn: ["Rapid diagnosis", "On-site urinalysis", "Same-day treatment", "Recurrence prevention guidance", "Care for men & women", "No appointment needed"],
-    highlighted: false,
-    order: 14,
+    "featuresEn": [
+      "In-clinic urinalysis",
+      "Diagnosis of urinary infection",
+      "Same-day treatment",
+      "Walk-in care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 12
   },
   {
-    id: "infecciones-vaginales",
-    slug: "infecciones-vaginales",
-    title: "Tratamiento Infecciones Vaginales Houston",
-    shortTitle: "Vaginales",
-    description: "Diagnóstico y tratamiento confidencial de candidiasis, vaginosis bacteriana y tricomoniasis en Houston TX. Ambiente discreto.",
-    longDescription: "Ofrecemos diagnóstico y tratamiento confidencial de infecciones vaginales en Houston TX. Estas condiciones son muy comunes y tratables, pero requieren diagnóstico profesional para recibir el tratamiento correcto.\n\n**Tipos de infecciones vaginales que tratamos:**\n\n- Candidiasis (infección por hongos/levaduras)\n- Vaginosis bacteriana\n- Tricomoniasis\n- Infecciones mixtas\n- Irritación y resequedad vaginal\n\n**Síntomas que debe consultar:**\n\n- Flujo vaginal anormal (cambio en color, olor o cantidad)\n- Picazón o irritación vaginal\n- Ardor al orinar\n- Dolor durante las relaciones\n- Enrojecimiento o hinchazón\n- Olor inusual\n\n**¿Por qué es importante el diagnóstico profesional?**\n\nMuchas mujeres intentan tratar las infecciones vaginales con productos de venta libre sin saber exactamente qué tipo de infección tienen. Los tratamientos para hongos no funcionan contra bacterias, y viceversa. Un diagnóstico correcto asegura el tratamiento efectivo desde el primer día.\n\n**Ambiente discreto y de confianza**\n\nEntendemos que este tema puede ser incómodo de discutir. En Clínica Hispana La Caridad, nuestro equipo médico le atiende con total privacidad, respeto y profesionalismo. La consulta incluye evaluación, diagnóstico, y prescripción de tratamiento. También ofrecemos consejería sobre medidas de prevención para evitar infecciones recurrentes.\n\nAtención confidencial en español, sin cita previa, con precios accesibles en Houston TX.\n\n**Consulta privada y confidencial**\n\nTratamos candidiasis, vaginosis bacteriana, tricomoniasis, y cervicitis en un ambiente completamente privado. Medicamentos prescritos el mismo día.\n\n**Seguros y pagos**\n\nAceptamos seguros médicos y ofrecemos precios accesibles.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Atención en español.",
-    titleEn: "Vaginal Infection Treatment Houston TX",
-    descriptionEn: "Confidential diagnosis and treatment of yeast infections, bacterial vaginosis, and trichomoniasis in Houston TX. Discreet and professional care.",
-    longDescriptionEn: "We offer confidential diagnosis and treatment of vaginal infections in Houston TX. These conditions are very common and treatable, but require professional diagnosis to receive the correct treatment.\n\n**Types of vaginal infections we treat:**\n\n- Candidiasis (yeast infection)\n- Bacterial vaginosis\n- Trichomoniasis\n- Mixed infections\n- Vaginal irritation and dryness\n\n**Symptoms to watch for:**\n\n- Abnormal vaginal discharge (change in color, odor, or amount)\n- Vaginal itching or irritation\n- Burning during urination\n- Pain during intercourse\n- Redness or swelling\n- Unusual odor\n\n**Why is professional diagnosis important?**\n\nMany women try to treat vaginal infections with over-the-counter products without knowing exactly what type of infection they have. Yeast treatments don't work against bacteria, and vice versa. An accurate diagnosis ensures effective treatment from day one.\n\n**Discreet and trustworthy environment**\n\nWe understand this topic can be uncomfortable to discuss. At Clínica Hispana La Caridad, our medical team treats you with complete privacy, respect, and professionalism. The consultation includes evaluation, diagnosis, and treatment prescription. We also offer counseling on prevention measures.\n\nConfidential care in Spanish, walk-ins welcome, affordable pricing in Houston TX.\n\n**Private and confidential care**\n\nWe treat yeast infections, bacterial vaginosis, trichomoniasis, and cervicitis in a completely private setting. Medications prescribed the same day.\n\n**Insurance and payment**\n\nWe accept insurance and offer affordable self-pay rates.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Full Spanish-language service.",
-    icon: "ShieldCheck",
-    image: "/images/services/vaginal-infections.webp",
-    category: "mujer",
-    keywords: ["infección vaginal Houston", "candidiasis Houston", "vaginosis Houston", "tratamiento hongos Houston"],
-    keywordsEn: ["vaginal infection treatment Houston", "yeast infection Houston TX", "bacterial vaginosis Houston", "BV treatment Houston", "women's health clinic Houston"],
-    features: [
-      "Diagnóstico confidencial",
-      "Tratamiento efectivo",
-      "Candidiasis y hongos",
-      "Vaginosis bacteriana",
-      "Ambiente discreto",
-      "Consejería de prevención"
+    "id": "examen-heces",
+    "slug": "examen-heces",
+    "title": "Exámenes de Heces Fecales",
+    "titleEn": "Stool Tests",
+    "shortTitle": "Examen de Heces",
+    "description": "Exámenes de heces fecales en Houston, TX. Detección de parásitos e infecciones, en español, con precios accesibles.",
+    "descriptionEn": "Stool tests in Houston, TX. Detection of parasites and infections, in Spanish, with affordable pricing.",
+    "longDescription": "Los problemas digestivos a veces tienen una causa que solo un análisis de heces puede revelar. En Clínica Hispana La Caridad realizamos exámenes de heces fecales para encontrar el origen y darte el tratamiento correcto.\n\n**¿Qué incluye?**\n- Análisis general de heces fecales\n- Detección de parásitos\n- Identificación de infecciones intestinales\n- Evaluación de sangre oculta cuando se requiere\n- Resultados explicados en español\n\n**Cuándo es útil**\nDiarrea persistente, dolor abdominal, gases, cambios en las evacuaciones o pérdida de peso sin explicación. El examen ayuda a un diagnóstico preciso.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Digestive problems sometimes have a cause that only a stool test can reveal. At Clínica Hispana La Caridad we perform stool tests to find the source and give you the right treatment.\n\n**What's included?**\n- General stool analysis\n- Parasite detection\n- Identification of intestinal infections\n- Occult-blood evaluation when needed\n- Results explained in Spanish\n\n**When it helps**\nPersistent diarrhea, abdominal pain, gas, changes in bowel movements or unexplained weight loss. The test helps with an accurate diagnosis.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "TestTube",
+    "image": "/images/services/examen-heces.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "examen de heces houston",
+      "analisis de heces fecales houston",
+      "examen de parasitos houston",
+      "laboratorio heces houston"
     ],
-    featuresEn: ["Confidential diagnosis", "Effective treatment", "Yeast infection & candidiasis care", "Bacterial vaginosis treatment", "Discreet clinical environment", "Prevention counseling"],
-    highlighted: false,
-    order: 15,
+    "keywordsEn": [
+      "stool test houston",
+      "stool analysis houston",
+      "parasite test houston",
+      "stool lab houston"
+    ],
+    "features": [
+      "Análisis de heces fecales",
+      "Detección de parásitos e infecciones",
+      "Evaluación de síntomas digestivos",
+      "Resultados explicados en español"
+    ],
+    "featuresEn": [
+      "Stool analysis",
+      "Detection of parasites and infections",
+      "Digestive symptom evaluation",
+      "Results explained in Spanish"
+    ],
+    "highlighted": false,
+    "order": 13
   },
   {
-    id: "examen-dot",
-    slug: "examen-dot",
-    title: "Examen Físico DOT Houston - Licencia CDL",
-    shortTitle: "DOT",
-    description: "Examen médico DOT en Houston TX para licencia de conducir comercial CDL. Médicos certificados FMCSA, resultados el mismo día.",
-    longDescription: "Realizamos exámenes médicos DOT (Department of Transportation) en Houston TX, requeridos para obtener o renovar su licencia de conducir comercial (CDL). Nuestros médicos están certificados por FMCSA y registrados en el National Registry of Certified Medical Examiners.\n\n**¿Qué incluye el examen físico DOT?**\n\n- Examen de visión (agudeza visual y campo visual)\n- Examen de audición\n- Medición de presión arterial y pulso\n- Análisis de orina (proteína, sangre, glucosa)\n- Examen físico general (corazón, pulmones, abdomen, columna)\n- Evaluación neurológica básica\n- Revisión de historial médico y medicamentos\n- Llenado del formulario oficial MCSA-5875\n\n**¿Quién necesita el examen DOT?**\n\nTodo conductor que opera vehículos comerciales que requieren licencia CDL (Clase A, B, o C) debe pasar un examen físico DOT cada 24 meses. Esto incluye conductores de camiones, autobuses, vehículos de transporte de materiales peligrosos, y otros vehículos comerciales.\n\n**Resultados el mismo día**\n\nCompletamos el examen y el formulario oficial en una sola visita. Si cumple con todos los requisitos, recibirá su certificado médico DOT (Medical Examiner's Certificate) el mismo día para que pueda presentarlo inmediatamente al DMV o a su empleador.\n\n**Condiciones que pueden afectar la certificación**\n\nSi tiene diabetes, hipertensión, apnea del sueño, u otra condición crónica, nuestro médico evaluará si cumple con los estándares de FMCSA y le indicará los pasos necesarios. En muchos casos, con documentación adecuada de su médico tratante, puede obtener la certificación.\n\nAtención sin cita previa en español, con precios competitivos en Houston TX.\n\n**Requisitos del examen DOT**\n\nIncluye: revisión de visión (20/40 cada ojo), prueba de audición, presión arterial, análisis de orina, evaluación de condiciones que afecten conducción segura. Certificado médico DOT emitido el mismo día.\n\n**Documentos necesarios**\n\nIdentificación con foto, lista de medicamentos, lentes correctivos si los usa.\n\n**Seguros y pagos**\n\nEl examen DOT generalmente no está cubierto por seguro. Precios competitivos en efectivo o tarjeta. Llame al (832) 925-8135.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Lunes a domingo 9:00 AM a 9:00 PM.",
-    titleEn: "DOT Physical Exam Houston TX - CDL Medical Certificate",
-    descriptionEn: "DOT physical exam in Houston TX for commercial driver's license CDL. FMCSA-certified medical examiners, same-day results and official certificate.",
-    longDescriptionEn: "We perform DOT (Department of Transportation) physical exams in Houston TX required to obtain or renew your commercial driver's license (CDL). Our physicians are FMCSA-certified and registered in the National Registry of Certified Medical Examiners.\n\n**What does the DOT physical exam include?**\n\n- Vision exam (visual acuity and field of vision)\n- Hearing exam\n- Blood pressure and pulse measurement\n- Urinalysis (protein, blood, glucose)\n- General physical exam (heart, lungs, abdomen, spine)\n- Basic neurological evaluation\n- Medical history and medication review\n- Official MCSA-5875 form completion\n\n**Who needs a DOT physical?**\n\nEvery driver operating commercial vehicles requiring a CDL (Class A, B, or C) must pass a DOT physical every 24 months. This includes truck drivers, bus operators, hazmat transporters, and other commercial vehicle operators.\n\n**Same-day results**\n\nWe complete the exam and official paperwork in a single visit. If you meet all requirements, you'll receive your DOT Medical Examiner's Certificate the same day so you can present it immediately to the DMV or your employer.\n\n**Conditions that may affect certification**\n\nIf you have diabetes, hypertension, sleep apnea, or another chronic condition, our physician will evaluate whether you meet FMCSA standards and guide you through the necessary steps. In many cases, with proper documentation from your treating physician, certification can be obtained.\n\nWalk-ins welcome, Spanish-language service, competitive pricing in Houston TX.\n\n**DOT exam requirements**\n\nIncludes: vision test (20/40 each eye), hearing test, blood pressure, urinalysis, evaluation of conditions affecting safe driving. DOT medical certificate issued same day.\n\n**What to bring**\n\nPhoto ID, current medication list, corrective lenses if used.\n\n**Insurance and payment**\n\nDOT exams are typically not covered by insurance. Competitive cash/card pricing. Call (832) 925-8135.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Monday-Sunday 9AM-9PM.",
-    icon: "Truck",
-    image: "/images/services/dot-exam.webp",
-    category: "diagnostico",
-    keywords: ["examen DOT Houston", "físico CDL Houston", "examen conductor comercial Houston", "DOT physical Houston"],
-    keywordsEn: ["DOT physical Houston TX", "CDL medical exam Houston", "FMCSA physical Houston", "commercial driver physical Houston", "DOT exam same day Houston"],
-    features: [
-      "Médicos certificados FMCSA",
-      "Resultados el mismo día",
-      "Formulario oficial DOT",
-      "Examen de visión incluido",
-      "Precios competitivos",
-      "Sin cita previa"
+    "id": "prueba-strep",
+    "slug": "prueba-strep",
+    "title": "Prueba de Estreptococo (Strep Test)",
+    "titleEn": "Strep Test",
+    "shortTitle": "Prueba de Strep",
+    "description": "Prueba de estreptococo (strep test) en Houston, TX. Resultado rápido y tratamiento en español, con precios accesibles.",
+    "descriptionEn": "Strep test in Houston, TX. Fast result and treatment in Spanish, with affordable pricing.",
+    "longDescription": "No todo dolor de garganta es igual: la faringitis por estreptococo necesita tratamiento específico. En Clínica Hispana La Caridad hacemos la prueba rápida de strep y te damos el resultado y el tratamiento el mismo día.\n\n**¿Qué incluye?**\n- Prueba rápida de estreptococo (hisopado de garganta)\n- Resultado en pocos minutos\n- Evaluación del dolor de garganta\n- Tratamiento adecuado si el resultado es positivo\n- Indicaciones de recuperación\n\n**Cuándo hacerla**\nDolor de garganta fuerte, fiebre, dificultad para tragar o placas blancas en las amígdalas, sobre todo en niños. La prueba evita tratamientos innecesarios.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Not every sore throat is the same: strep throat needs specific treatment. At Clínica Hispana La Caridad we run the rapid strep test and give you the result and treatment the same day.\n\n**What's included?**\n- Rapid strep test (throat swab)\n- Result in minutes\n- Sore-throat evaluation\n- Appropriate treatment if the result is positive\n- Recovery instructions\n\n**When to get it**\nSevere sore throat, fever, trouble swallowing or white patches on the tonsils, especially in children. The test avoids unnecessary treatments.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "TestTube",
+    "image": "/images/services/prueba-strep.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "prueba de estreptococo houston",
+      "strep test houston",
+      "prueba de garganta houston",
+      "dolor de garganta doctor houston"
     ],
-    featuresEn: ["FMCSA-certified medical examiners", "Same-day results", "Official DOT examination forms", "Vision screening included", "Competitive pricing", "No appointment needed"],
-    highlighted: false,
-    order: 16,
+    "keywordsEn": [
+      "strep test houston",
+      "rapid strep test houston",
+      "sore throat test houston",
+      "strep throat doctor houston"
+    ],
+    "features": [
+      "Prueba rápida de estreptococo",
+      "Resultado el mismo día",
+      "Tratamiento si es positivo",
+      "Atención sin cita en español"
+    ],
+    "featuresEn": [
+      "Rapid strep test",
+      "Same-day result",
+      "Treatment if positive",
+      "Walk-in care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 14
   },
   {
-    id: "examenes-generales",
-    slug: "examenes-generales",
-    title: "Exámenes Físicos Houston - Trabajo, Escuela, Deportes",
-    shortTitle: "Generales",
-    description: "Exámenes físicos en Houston TX para empleo, escuela, deportes y chequeo anual. Documentación oficial incluida, resultados rápidos.",
-    longDescription: "Realizamos exámenes físicos generales en Houston TX para diversos propósitos. Ya sea que necesite un examen para empleo, escuela, deportes, o simplemente un chequeo anual, nuestro equipo médico le atiende de forma rápida y profesional.\n\n**Tipos de exámenes físicos disponibles:**\n\n- Examen físico para empleo (pre-employment physical)\n- Examen escolar para niños y adolescentes\n- Examen físico deportivo (sports physical)\n- Chequeo anual de rutina\n- Examen para seguro de vida\n- Examen físico para campamentos\n- Certificado médico general\n\n**¿Qué incluye el examen físico?**\n\n- Medición de signos vitales (presión, temperatura, peso, talla)\n- Examen de visión\n- Evaluación cardíaca y pulmonar\n- Examen abdominal\n- Evaluación musculoesquelética\n- Revisión de historial de vacunas\n- Documentación oficial firmada por el médico\n\n**Exámenes para empleo**\n\nMuchos empleadores en Houston requieren un examen físico antes de contratar. Completamos la documentación requerida por su empleador y podemos agregar pruebas de laboratorio o drogas si son necesarias para su posición.\n\n**Exámenes escolares y deportivos**\n\nLas escuelas de Texas requieren exámenes físicos para inscripción y participación en deportes. Realizamos estos exámenes para niños y adolescentes, verificando que estén en condiciones de salud para sus actividades.\n\nDocumentación oficial incluida, resultados rápidos, atención en español, y precios accesibles para toda la familia en Houston TX.\n\n**Tipos de exámenes**\n\n- Exámenes físicos anuales\n- Exámenes para empleo\n- Exámenes escolares y deportivos\n- Exámenes pre-operatorios\n- Evaluaciones de salud ocupacional\n\n**Seguros y pagos**\n\nLa mayoría de seguros cubren un examen preventivo anual sin costo. Paquetes accesibles para pacientes sin seguro.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Sin cita previa.",
-    titleEn: "Physical Exams Houston TX - Employment, School & Sports",
-    descriptionEn: "Physical exams in Houston TX for employment, school, sports, and annual wellness. Official documentation included with fast results.",
-    longDescriptionEn: "We perform general physical exams in Houston TX for various purposes. Whether you need an exam for employment, school, sports, or an annual checkup, our medical team provides fast, professional care.\n\n**Types of physical exams available:**\n\n- Pre-employment physical (pre-hire)\n- School physicals for children and teens\n- Sports physical (athletic clearance)\n- Annual wellness checkup\n- Life insurance physical\n- Camp physicals\n- General medical certificate\n\n**What does the physical exam include?**\n\n- Vital signs (blood pressure, temperature, weight, height)\n- Vision screening\n- Heart and lung evaluation\n- Abdominal examination\n- Musculoskeletal assessment\n- Vaccination record review\n- Official documentation signed by physician\n\n**Employment physicals**\n\nMany Houston employers require a physical exam before hiring. We complete your employer's required documentation and can add lab tests or drug screening if needed for your position.\n\n**School and sports physicals**\n\nTexas schools require physical exams for enrollment and sports participation. We perform these exams for children and teenagers, verifying they are in good health for their activities.\n\nOfficial documentation included, fast results, Spanish-language service, affordable pricing for the whole family in Houston TX.\n\n**Types of exams**\n\n- Annual physicals\n- Employment physicals\n- School and sports physicals\n- Pre-surgical clearance\n- Occupational health evaluations\n\n**Insurance and payment**\n\nMost insurance covers an annual preventive exam at no cost. Affordable packages for uninsured patients.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. No appointment needed.",
-    icon: "ClipboardCheck",
-    image: "/images/services/general-exams.webp",
-    category: "diagnostico",
-    keywords: ["examen físico Houston", "físico laboral Houston", "examen escolar Houston", "chequeo médico Houston"],
-    keywordsEn: ["physical exam Houston TX", "employment physical Houston", "school physical Houston", "sports physical Houston", "annual check-up Houston TX"],
-    features: [
-      "Exámenes para empleo",
-      "Exámenes escolares",
-      "Exámenes deportivos",
-      "Chequeo anual completo",
-      "Documentación oficial",
-      "Resultados rápidos"
+    "id": "prueba-tuberculosis",
+    "slug": "prueba-tuberculosis",
+    "title": "Examen de Tuberculosis (TB)",
+    "titleEn": "Tuberculosis (TB) Test",
+    "shortTitle": "Tuberculosis",
+    "description": "Examen de tuberculosis (TB/PPD) en Houston, TX. Para trabajo y escuela, en español, con precios accesibles.",
+    "descriptionEn": "Tuberculosis (TB/PPD) test in Houston, TX. For work and school, in Spanish, with affordable pricing.",
+    "longDescription": "Muchos trabajos y escuelas piden una prueba de tuberculosis al día. En Clínica Hispana La Caridad la aplicamos y leemos el resultado, con todo explicado en español.\n\n**¿Qué incluye?**\n- Prueba cutánea de tuberculosis (PPD)\n- Cita de lectura del resultado (48–72 horas después)\n- Documentación del resultado para tu trámite\n- Orientación si el resultado requiere seguimiento\n\n**Para qué la piden**\nEmpleos de salud, escuelas, trámites y voluntariado suelen requerir una prueba de TB vigente. Te ayudamos a cumplir el requisito sin complicaciones.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Many jobs and schools require an up-to-date tuberculosis test. At Clínica Hispana La Caridad we administer it and read the result, with everything explained in Spanish.\n\n**What's included?**\n- Tuberculosis skin test (PPD)\n- Result-reading appointment (48–72 hours later)\n- Documentation of the result for your paperwork\n- Guidance if the result needs follow-up\n\n**Why it's required**\nHealthcare jobs, schools, paperwork and volunteering often require a current TB test. We help you meet the requirement without hassle.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "ShieldCheck",
+    "image": "/images/services/prueba-tuberculosis.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "examen de tuberculosis houston",
+      "prueba ppd houston",
+      "prueba de tb houston",
+      "tb test español houston"
     ],
-    featuresEn: ["Employment physicals", "School physicals", "Sports physicals", "Annual wellness exams", "Official documentation included", "Fast same-visit results"],
-    highlighted: false,
-    order: 17,
+    "keywordsEn": [
+      "tuberculosis test houston",
+      "ppd test houston",
+      "tb test houston",
+      "tb skin test houston"
+    ],
+    "features": [
+      "Prueba cutánea de tuberculosis (PPD)",
+      "Lectura del resultado",
+      "Útil para trabajo y escuela",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Tuberculosis skin test (PPD)",
+      "Result reading",
+      "Useful for work and school",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 15
   },
   {
-    id: "dolores-musculares",
-    slug: "dolores-musculares",
-    title: "Tratamiento Dolor de Espalda y Muscular Houston",
-    shortTitle: "Musculares",
-    description: "Evaluación y tratamiento de dolor muscular, articular y de espalda en Houston TX. Inyecciones disponibles y referencia a terapia física.",
-    longDescription: "Ofrecemos evaluación completa y tratamiento del dolor muscular y articular en Houston TX. El dolor de espalda, cuello y articulaciones es una de las causas más comunes de consulta médica y puede afectar significativamente su calidad de vida y capacidad de trabajo.\n\n**Condiciones que evaluamos y tratamos:**\n\n- Dolor de espalda baja (lumbalgia)\n- Dolor de cuello y cervical\n- Dolor de hombros\n- Dolor de rodillas\n- Dolor articular general\n- Espasmos musculares\n- Ciática (dolor que baja por la pierna)\n- Lesiones musculares por trabajo o ejercicio\n- Artritis y dolor articular crónico\n\n**¿Qué incluye la evaluación?**\n\nNuestro médico realizará un examen físico detallado de la zona afectada, evaluará su rango de movimiento, y determinará la causa del dolor. Si es necesario, se ordenarán estudios adicionales como radiografías o ultrasonido para un diagnóstico más preciso.\n\n**Opciones de tratamiento:**\n\n- Medicamentos antiinflamatorios y relajantes musculares\n- Inyecciones para alivio del dolor (trigger points)\n- Terapia con calor o frío\n- Recomendaciones de ejercicios y estiramientos\n- Referencia a terapia física\n- Referencia a ortopedista si es necesario\n\n**¿Cuándo debe buscar atención?**\n\nConsulte si el dolor persiste más de una semana, le impide trabajar o dormir, se acompaña de entumecimiento o debilidad, o es resultado de una lesión o accidente. La evaluación temprana puede prevenir que el dolor se vuelva crónico.\n\nAtención en español, sin cita previa, con precios accesibles en Houston TX.\n\n**Condiciones que tratamos**\n\n- Esguinces y torceduras\n- Dolor de espalda lumbar y cervical\n- Artritis y dolor articular\n- Lesiones deportivas\n- Tendinitis y bursitis\n\n**Opciones de tratamiento**\n\nMedicamentos antiinflamatorios, inyecciones terapéuticas, terapia física básica, y referencia a especialista si es necesario.\n\n**Seguros y pagos**\n\nAceptamos seguros médicos y ofrecemos precios accesibles.\n\n**Ubicación**\n\n5705 Fondren Rd STE 101, Houston TX 77036. Sin cita previa.",
-    titleEn: "Muscle & Back Pain Treatment Houston TX",
-    descriptionEn: "Evaluation and treatment of muscle, joint, and back pain in Houston TX. Injections available and referrals to physical therapy when needed.",
-    longDescriptionEn: "We offer comprehensive evaluation and treatment for muscle and joint pain in Houston TX. Back pain, neck pain, and joint issues are among the most common reasons for medical visits and can significantly affect your quality of life and ability to work.\n\n**Conditions we evaluate and treat:**\n\n- Lower back pain (lumbalgia)\n- Neck and cervical pain\n- Shoulder pain\n- Knee pain\n- General joint pain\n- Muscle spasms\n- Sciatica (pain radiating down the leg)\n- Work or exercise-related muscle injuries\n- Arthritis and chronic joint pain\n\n**What does the evaluation include?**\n\nOur physician will perform a detailed physical exam of the affected area, assess your range of motion, and determine the cause of your pain. If needed, additional studies such as X-rays or ultrasound will be ordered for a more precise diagnosis.\n\n**Treatment options:**\n\n- Anti-inflammatory medications and muscle relaxants\n- Pain relief injections (trigger points)\n- Heat or cold therapy\n- Exercise and stretching recommendations\n- Physical therapy referral\n- Orthopedic referral if needed\n\n**When should you seek care?**\n\nConsult if pain persists more than a week, prevents you from working or sleeping, is accompanied by numbness or weakness, or results from an injury or accident. Early evaluation can prevent pain from becoming chronic.\n\nSpanish-language service, walk-ins welcome, affordable pricing in Houston TX.\n\n**Conditions we treat**\n\n- Sprains and strains\n- Lower back and neck pain\n- Arthritis and joint pain\n- Sports injuries\n- Tendinitis and bursitis\n\n**Treatment options**\n\nAnti-inflammatory medications, therapeutic injections, basic physical therapy, and specialist referrals when needed.\n\n**Insurance and payment**\n\nWe accept insurance and offer affordable self-pay rates.\n\n**Location**\n\n5705 Fondren Rd STE 101, Houston TX 77036. No appointment needed.",
-    icon: "Bone",
-    image: "/images/services/muscle-pain.webp",
-    category: "especialidad",
-    keywords: ["dolor muscular Houston", "dolor espalda Houston", "dolor articular Houston", "tratamiento dolor Houston"],
-    keywordsEn: ["back pain treatment Houston TX", "muscle pain clinic Houston", "joint pain Houston TX", "pain management Houston", "neck pain treatment Houston"],
-    features: [
-      "Evaluación completa",
-      "Tratamiento del dolor",
-      "Dolor de espalda y cuello",
-      "Dolor articular",
-      "Inyecciones disponibles",
-      "Referencia a terapia física"
+    "id": "enfermedades-transmision-sexual",
+    "slug": "enfermedades-transmision-sexual",
+    "title": "Pruebas de Enfermedades de Transmisión Sexual (STD)",
+    "titleEn": "Sexually Transmitted Disease (STD) Testing",
+    "shortTitle": "STD",
+    "description": "Pruebas de ETS/STD confidenciales en Houston, TX. Resultados y tratamiento en español, con precios accesibles.",
+    "descriptionEn": "Confidential STD testing in Houston, TX. Results and treatment in Spanish, with affordable pricing.",
+    "longDescription": "Cuidar tu salud sexual es un acto de responsabilidad. En Clínica Hispana La Caridad ofrecemos pruebas de enfermedades de transmisión sexual de forma confidencial y respetuosa, con tratamiento cuando es necesario.\n\n**¿Qué incluye?**\n- Evaluación de síntomas y factores de riesgo\n- Pruebas de las infecciones más comunes\n- Análisis de laboratorio\n- Tratamiento y orientación si el resultado es positivo\n- Total confidencialidad\n\n**Cuándo hacerte la prueba**\nSi tuviste contacto de riesgo, tienes síntomas o simplemente quieres estar tranquilo, hacerte la prueba es la mejor decisión. La detección temprana facilita el tratamiento.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Taking care of your sexual health is an act of responsibility. At Clínica Hispana La Caridad we offer confidential, respectful testing for sexually transmitted diseases, with treatment when needed.\n\n**What's included?**\n- Symptom and risk-factor assessment\n- Testing for the most common infections\n- Laboratory analysis\n- Treatment and guidance if the result is positive\n- Complete confidentiality\n\n**When to get tested**\nIf you had a risky encounter, have symptoms or simply want peace of mind, getting tested is the best decision. Early detection makes treatment easier.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "ShieldCheck",
+    "image": "/images/services/enfermedades-transmision-sexual.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "prueba std houston",
+      "examen de transmision sexual houston",
+      "prueba ets confidencial houston",
+      "clinica std español houston"
     ],
-    featuresEn: ["Complete pain evaluation", "Targeted pain treatment", "Back & neck pain management", "Joint pain assessment", "Pain relief injections available", "Physical therapy referrals"],
-    highlighted: false,
-    order: 18,
+    "keywordsEn": [
+      "std testing houston",
+      "std test near me houston",
+      "confidential std clinic houston",
+      "sti testing houston"
+    ],
+    "features": [
+      "Pruebas confidenciales y sin juicios",
+      "Evaluación de síntomas y riesgo",
+      "Tratamiento disponible",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Confidential, judgment-free testing",
+      "Symptom and risk assessment",
+      "Treatment available",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 16
   },
+  {
+    "id": "examen-alcohol-drogas",
+    "slug": "examen-alcohol-drogas",
+    "title": "Exámenes de Alcohol y Drogas",
+    "titleEn": "Alcohol & Drug Testing",
+    "shortTitle": "Alcohol y Drogas",
+    "description": "Exámenes de alcohol y drogas en Houston, TX. Para empleo y trámites, en español, con precios accesibles.",
+    "descriptionEn": "Alcohol and drug testing in Houston, TX. For employment and paperwork, in Spanish, with affordable pricing.",
+    "longDescription": "Muchos empleos y trámites requieren una prueba de alcohol y drogas. En Clínica Hispana La Caridad la realizamos de forma rápida y te entregamos la documentación que necesitas.\n\n**¿Qué incluye?**\n- Prueba de detección de drogas\n- Prueba de alcohol\n- Proceso ágil y discreto\n- Documentación del resultado para tu empleador o trámite\n\n**Para trabajo y trámites**\nAtendemos solicitudes de empleo, requisitos laborales y trámites personales. Te explicamos el proceso en español para que llegues tranquilo.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Many jobs and processes require an alcohol and drug test. At Clínica Hispana La Caridad we perform it quickly and give you the documentation you need.\n\n**What's included?**\n- Drug screening test\n- Alcohol test\n- Quick, discreet process\n- Result documentation for your employer or paperwork\n\n**For work and paperwork**\nWe handle job applications, workplace requirements and personal paperwork. We explain the process in Spanish so you arrive with peace of mind.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Flask",
+    "image": "/images/services/examen-alcohol-drogas.webp",
+    "category": "examenes",
+    "keywords": [
+      "examen de drogas houston",
+      "prueba de alcohol y drogas houston",
+      "drug test houston español",
+      "examen de drogas para trabajo houston"
+    ],
+    "keywordsEn": [
+      "drug test houston",
+      "alcohol and drug test houston",
+      "employment drug test houston",
+      "drug screening houston"
+    ],
+    "features": [
+      "Prueba de drogas para empleo",
+      "Prueba de alcohol",
+      "Proceso rápido",
+      "Documentación del resultado"
+    ],
+    "featuresEn": [
+      "Drug test for employment",
+      "Alcohol test",
+      "Fast process",
+      "Result documentation"
+    ],
+    "highlighted": false,
+    "order": 17
+  },
+  {
+    "id": "electrocardiograma",
+    "slug": "electrocardiograma",
+    "title": "Electrocardiograma (EKG)",
+    "titleEn": "Electrocardiogram (EKG)",
+    "shortTitle": "Electrocardiograma",
+    "description": "Electrocardiograma EKG en Houston, TX, rápido y sin dolor. Resultados y atención en español, con precios accesibles.",
+    "descriptionEn": "Electrocardiogram EKG in Houston, TX, fast and painless. Results and care in Spanish, with affordable pricing.",
+    "longDescription": "El electrocardiograma (EKG) registra la actividad eléctrica de tu corazón en pocos minutos y sin ninguna molestia. En Clínica Hispana La Caridad lo realizamos como parte de chequeos y exámenes médicos.\n\n**¿Qué incluye?**\n- Estudio del ritmo y la actividad del corazón\n- Interpretación por personal médico\n- Útil para exámenes de trabajo, deporte o cirugía\n- Resultados explicados en español\n\n**Cuándo se recomienda**\nSi tienes palpitaciones, presión alta, dolor en el pecho o necesitas un examen médico completo, el EKG aporta información valiosa sobre tu corazón.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "The electrocardiogram (EKG) records your heart's electrical activity in just a few minutes with no discomfort. At Clínica Hispana La Caridad we perform it as part of checkups and medical exams.\n\n**What's included?**\n- Study of your heart's rhythm and activity\n- Interpretation by medical staff\n- Useful for work, sports or surgery exams\n- Results explained in Spanish\n\n**When it's recommended**\nIf you have palpitations, high blood pressure, chest discomfort or need a complete medical exam, the EKG provides valuable information about your heart.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Heartbeat",
+    "image": "/images/services/electrocardiograma.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "electrocardiograma houston",
+      "ekg houston español",
+      "examen del corazon houston",
+      "ecg houston"
+    ],
+    "keywordsEn": [
+      "electrocardiogram houston",
+      "ekg houston",
+      "heart test houston",
+      "ecg houston spanish"
+    ],
+    "features": [
+      "Estudio rápido y sin dolor",
+      "Evaluación del ritmo cardiaco",
+      "Útil para exámenes médicos",
+      "Resultados en español"
+    ],
+    "featuresEn": [
+      "Fast and painless test",
+      "Heart-rhythm evaluation",
+      "Useful for medical exams",
+      "Results in Spanish"
+    ],
+    "highlighted": false,
+    "order": 18
+  },
+  {
+    "id": "ultrasonido",
+    "slug": "ultrasonido",
+    "title": "Ultrasonido y Ecografía",
+    "titleEn": "Ultrasound & Sonography",
+    "shortTitle": "Ultrasonido",
+    "description": "Ultrasonido y ecografía en Houston, TX: abdominal, pélvico y de embarazo. En español, con precios accesibles.",
+    "descriptionEn": "Ultrasound and sonography in Houston, TX: abdominal, pelvic and pregnancy. In Spanish, with affordable pricing.",
+    "longDescription": "El ultrasonido es una herramienta segura y sin dolor que nos permite ver el interior de tu cuerpo para diagnosticar con precisión. En Clínica Hispana La Caridad contamos con equipo moderno y personal que te explica todo en español.\n\n**¿Qué incluye?**\n- Ultrasonido abdominal (hígado, vesícula, riñones)\n- Ultrasonido pélvico\n- Ultrasonido de embarazo (control y seguimiento)\n- Evaluación de tiroides y tejidos blandos\n\n**Sin radiación y sin dolor**\nA diferencia de los rayos X, el ultrasonido no usa radiación, por lo que es seguro incluso durante el embarazo. El estudio es rápido y no requiere preparación complicada.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Ultrasound is a safe, painless tool that lets us see inside your body for an accurate diagnosis. At Clínica Hispana La Caridad we have modern equipment and staff who explain everything in Spanish.\n\n**What's included?**\n- Abdominal ultrasound (liver, gallbladder, kidneys)\n- Pelvic ultrasound\n- Pregnancy ultrasound (monitoring and follow-up)\n- Thyroid and soft-tissue evaluation\n\n**No radiation, no pain**\nUnlike X-rays, ultrasound uses no radiation, so it's safe even during pregnancy. The study is quick and requires little preparation.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Monitor",
+    "image": "/images/services/ultrasonido.webp",
+    "category": "laboratorio",
+    "keywords": [
+      "ultrasonido houston",
+      "ecografia houston español",
+      "ultrasonido de embarazo houston",
+      "sonograma houston"
+    ],
+    "keywordsEn": [
+      "ultrasound houston",
+      "sonogram houston",
+      "pregnancy ultrasound houston",
+      "abdominal ultrasound houston"
+    ],
+    "features": [
+      "Ultrasonido abdominal y pélvico",
+      "Ultrasonido de embarazo",
+      "Equipo moderno",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Abdominal and pelvic ultrasound",
+      "Pregnancy ultrasound",
+      "Modern equipment",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 19
+  },
+  {
+    "id": "examen-dot",
+    "slug": "examen-dot",
+    "title": "Examen Físico DOT - Licencia CDL",
+    "titleEn": "DOT Physical Exam - CDL License",
+    "shortTitle": "Examen DOT",
+    "description": "Examen físico DOT en Houston, TX para licencia CDL, certificado el mismo día y en español. Con precios accesibles.",
+    "descriptionEn": "DOT physical exam in Houston, TX for CDL license, same-day certificate, in Spanish. With affordable pricing.",
+    "longDescription": "Si manejas vehículos comerciales necesitas tu examen físico DOT vigente. En Clínica Hispana La Caridad lo realizamos de forma rápida y te entregamos tu certificado el mismo día.\n\n**¿Qué incluye?**\n- Revisión de visión y audición\n- Toma de presión arterial\n- Examen físico requerido por el DOT\n- Revisión de historial médico\n- Certificado médico DOT el mismo día\n\n**Para conductores comerciales**\nEl examen es obligatorio para obtener o renovar tu licencia CDL. Te explicamos cada paso en español y agilizamos el proceso para que vuelvas pronto a la carretera.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "If you drive commercial vehicles you need a current DOT physical exam. At Clínica Hispana La Caridad we perform it quickly and give you your certificate the same day.\n\n**What's included?**\n- Vision and hearing screening\n- Blood-pressure check\n- DOT-required physical exam\n- Medical-history review\n- Same-day DOT medical certificate\n\n**For commercial drivers**\nThe exam is required to obtain or renew your CDL license. We explain every step in Spanish and speed up the process so you get back on the road soon.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Truck",
+    "image": "/images/services/examen-dot.webp",
+    "category": "examenes",
+    "keywords": [
+      "examen dot houston",
+      "examen fisico dot houston español",
+      "examen cdl houston",
+      "dot physical houston español"
+    ],
+    "keywordsEn": [
+      "dot physical houston",
+      "dot exam houston",
+      "cdl physical houston",
+      "dot medical exam houston"
+    ],
+    "features": [
+      "Certificado DOT el mismo día",
+      "Para licencia CDL",
+      "Proceso rápido",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Same-day DOT certificate",
+      "For CDL license",
+      "Fast process",
+      "Care in Spanish"
+    ],
+    "highlighted": true,
+    "order": 20
+  },
+  {
+    "id": "examenes-inmigracion",
+    "slug": "examenes-inmigracion",
+    "title": "Examen Médico de Inmigración I-693",
+    "titleEn": "Immigration Medical Exam I-693",
+    "shortTitle": "Inmigración",
+    "description": "Examen médico de inmigración I-693 en Houston, TX con médico autorizado por USCIS. Vacunas y formulario sellado.",
+    "descriptionEn": "I-693 immigration medical exam in Houston, TX with a USCIS-authorized physician. Vaccines and sealed form.",
+    "longDescription": "El examen médico de inmigración (Formulario I-693) es un requisito para el ajuste de estatus. En Clínica Hispana La Caridad lo realizamos con un médico autorizado por USCIS (civil surgeon) y te entregamos el formulario sellado listo para enviar.\n\n**¿Qué incluye?**\n- Revisión de historial médico y de vacunas\n- Examen físico completo\n- Pruebas requeridas por USCIS (incluida la de tuberculosis)\n- Aplicación de las vacunas que te falten\n- Formulario I-693 completado y sellado en sobre oficial\n\n**Qué traer a tu cita**\nIdentificación con foto, registro de vacunas si lo tienes y cualquier documento médico relevante. Te explicamos todo el proceso en español para que llegues tranquilo.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "The immigration medical exam (Form I-693) is required for adjustment of status. At Clínica Hispana La Caridad we perform it with a USCIS-authorized physician (civil surgeon) and give you the sealed form ready to submit.\n\n**What's included?**\n- Review of medical and vaccination history\n- Complete physical exam\n- USCIS-required tests (including tuberculosis)\n- Administration of any missing vaccines\n- Form I-693 completed and sealed in the official envelope\n\n**What to bring**\nPhoto ID, your vaccination record if you have it and any relevant medical documents. We explain the entire process in Spanish so you arrive with peace of mind.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Clipboard",
+    "image": "/images/services/examenes-inmigracion.webp",
+    "category": "examenes",
+    "keywords": [
+      "examen de inmigracion houston",
+      "examen medico i-693 houston",
+      "civil surgeon houston español",
+      "medico autorizado uscis houston"
+    ],
+    "keywordsEn": [
+      "immigration medical exam houston",
+      "i-693 exam houston",
+      "civil surgeon houston",
+      "uscis authorized doctor houston"
+    ],
+    "features": [
+      "Médico autorizado (civil surgeon)",
+      "Formulario I-693 sellado",
+      "Vacunas requeridas disponibles",
+      "Proceso explicado en español"
+    ],
+    "featuresEn": [
+      "Authorized civil surgeon",
+      "Sealed Form I-693",
+      "Required vaccines available",
+      "Process explained in Spanish"
+    ],
+    "highlighted": false,
+    "order": 21
+  },
+  {
+    "id": "vacunas",
+    "slug": "vacunas",
+    "title": "Vacunas contra la Influenza y Toxoide Tetánico",
+    "titleEn": "Flu and Tetanus (Tdap) Vaccines",
+    "shortTitle": "Vacunas",
+    "description": "Vacunas de flu y toxoide tetánico en Houston, TX. Aplicación por personal médico en español, con precios accesibles.",
+    "descriptionEn": "Flu and tetanus vaccines in Houston, TX. Administered by medical staff in Spanish, with affordable pricing.",
+    "longDescription": "Las vacunas son una de las formas más sencillas de cuidar tu salud. En Clínica Hispana La Caridad aplicamos la vacuna contra la influenza y el toxoide tetánico de forma segura y rápida.\n\n**¿Qué incluye?**\n- Vacuna anual contra la influenza (flu)\n- Toxoide tetánico (refuerzo del tétanos)\n- Aplicación por personal médico\n- Orientación sobre cuándo aplicar refuerzos\n- Atención en español\n\n**Por qué vacunarte**\nLa vacuna de la flu reduce el riesgo de enfermarte de gravedad en temporada de gripe, y el toxoide tetánico te protege ante cortes y heridas. Pregúntanos cuál te conviene.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Vaccines are one of the simplest ways to protect your health. At Clínica Hispana La Caridad we administer the influenza vaccine and tetanus toxoid safely and quickly.\n\n**What's included?**\n- Annual influenza (flu) vaccine\n- Tetanus toxoid (tetanus booster)\n- Administered by medical staff\n- Guidance on when boosters are due\n- Care in Spanish\n\n**Why get vaccinated**\nThe flu vaccine lowers your risk of getting seriously ill during flu season, and the tetanus toxoid protects you from cuts and wounds. Ask us which one you need.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Syringe",
+    "image": "/images/services/vacunas.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "vacuna de la flu houston",
+      "vacuna contra la influenza houston",
+      "toxoide tetanico houston",
+      "vacuna del tetano houston"
+    ],
+    "keywordsEn": [
+      "flu shot houston",
+      "flu vaccine houston",
+      "tetanus shot houston",
+      "tdap vaccine houston"
+    ],
+    "features": [
+      "Vacuna contra la influenza (flu)",
+      "Toxoide tetánico",
+      "Aplicación por personal médico",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Influenza (flu) vaccine",
+      "Tetanus toxoid",
+      "Administered by medical staff",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 22
+  },
+  {
+    "id": "sueros-vitaminados",
+    "slug": "sueros-vitaminados",
+    "title": "Sueros Vitaminados (Terapia IV)",
+    "titleEn": "Vitamin IV Therapy",
+    "shortTitle": "Sueros Vitaminados",
+    "description": "Sueros vitaminados (terapia IV) en Houston, TX. Hidratación y vitaminas en español, con precios accesibles.",
+    "descriptionEn": "Vitamin IV therapy in Houston, TX. Hydration and vitamins in Spanish, with affordable pricing.",
+    "longDescription": "Los sueros vitaminados aportan hidratación, vitaminas y minerales directamente a tu organismo. En Clínica Hispana La Caridad los aplicamos con personal médico y en un ambiente cómodo y seguro.\n\n**¿Qué incluye?**\n- Evaluación breve para elegir el suero adecuado\n- Hidratación intravenosa\n- Vitaminas y minerales\n- Aplicación y monitoreo por personal médico\n- Atención en español\n\n**Cuándo pueden ayudar**\nDespués de un periodo de cansancio, deshidratación o malestar, un suero vitaminado puede ayudarte a recuperar energía. Te orientamos sobre si es adecuado para ti.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Vitamin IV drips deliver hydration, vitamins and minerals directly into your body. At Clínica Hispana La Caridad we administer them with medical staff in a comfortable, safe setting.\n\n**What's included?**\n- A brief evaluation to choose the right drip\n- Intravenous hydration\n- Vitamins and minerals\n- Administration and monitoring by medical staff\n- Care in Spanish\n\n**When they can help**\nAfter a period of fatigue, dehydration or feeling unwell, a vitamin drip can help you recover energy. We advise you on whether it's right for you.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Drop",
+    "image": "/images/services/sueros-vitaminados.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "sueros vitaminados houston",
+      "terapia iv houston",
+      "suero de vitaminas houston",
+      "hidratacion intravenosa houston"
+    ],
+    "keywordsEn": [
+      "vitamin iv therapy houston",
+      "iv drip houston",
+      "iv hydration houston",
+      "vitamin drip houston"
+    ],
+    "features": [
+      "Hidratación intravenosa",
+      "Vitaminas y minerales",
+      "Aplicación por personal médico",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Intravenous hydration",
+      "Vitamins and minerals",
+      "Administered by medical staff",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 23
+  },
+  {
+    "id": "suturas-heridas",
+    "slug": "suturas-heridas",
+    "title": "Suturas de Heridas",
+    "titleEn": "Wound Suturing",
+    "shortTitle": "Suturas",
+    "description": "Suturas de heridas en Houston, TX. Cierre de cortes y heridas en español, con precios accesibles.",
+    "descriptionEn": "Wound suturing in Houston, TX. Closing cuts and wounds in Spanish, with affordable pricing.",
+    "longDescription": "Una herida que no cierra bien puede infectarse o dejar cicatriz. En Clínica Hispana La Caridad cerramos cortes y heridas con suturas de forma segura, sin cita y con atención en español.\n\n**¿Qué incluye?**\n- Evaluación y limpieza de la herida\n- Cierre con suturas (puntos)\n- Aplicación de anestesia local\n- Indicaciones de cuidado y signos de alarma\n- Retiro de puntos cuando corresponde\n\n**Cuándo acudir**\nCortes profundos, heridas que sangran o no cierran solas, o que tienen bordes abiertos. Atender pronto reduce el riesgo de infección y mejora la cicatrización.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "A wound that doesn't close well can get infected or leave a scar. At Clínica Hispana La Caridad we close cuts and wounds with sutures safely, no appointment needed and with care in Spanish.\n\n**What's included?**\n- Wound evaluation and cleaning\n- Closure with sutures (stitches)\n- Local anesthesia\n- Care instructions and warning signs\n- Suture removal when appropriate\n\n**When to come in**\nDeep cuts, wounds that bleed or won't close on their own, or that have open edges. Treating them promptly reduces the risk of infection and improves healing.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Scissors",
+    "image": "/images/services/suturas-heridas.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "suturas houston",
+      "puntos para herida houston",
+      "cerrar herida houston",
+      "doctor para cortadas houston"
+    ],
+    "keywordsEn": [
+      "wound suturing houston",
+      "stitches houston",
+      "laceration repair houston",
+      "cut treatment houston"
+    ],
+    "features": [
+      "Cierre de heridas con suturas",
+      "Limpieza y desinfección",
+      "Atención sin cita previa",
+      "Indicaciones de cuidado posterior"
+    ],
+    "featuresEn": [
+      "Wound closure with sutures",
+      "Cleaning and disinfection",
+      "Walk-ins welcome",
+      "After-care instructions"
+    ],
+    "highlighted": false,
+    "order": 24
+  },
+  {
+    "id": "curacion-heridas",
+    "slug": "curacion-heridas",
+    "title": "Cura y Curación de Heridas",
+    "titleEn": "Wound Care",
+    "shortTitle": "Curación de Heridas",
+    "description": "Cura y curación de heridas en Houston, TX. Limpieza y vendajes en español, con precios accesibles.",
+    "descriptionEn": "Wound care in Houston, TX. Cleaning and dressings in Spanish, with affordable pricing.",
+    "longDescription": "Una buena curación evita infecciones y ayuda a que la herida sane más rápido. En Clínica Hispana La Caridad limpiamos, curamos y vendamos tus heridas, y te seguimos hasta que cicatricen.\n\n**¿Qué incluye?**\n- Limpieza y desinfección de la herida\n- Aplicación de apósitos y vendajes\n- Cambio periódico de vendajes\n- Vigilancia de signos de infección\n- Indicaciones de cuidado en casa\n\n**Para todo tipo de heridas**\nHeridas postoperatorias, úlceras, quemaduras leves o heridas que tardan en sanar. Te ayudamos con curaciones regulares para una mejor recuperación.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Good wound care prevents infections and helps the wound heal faster. At Clínica Hispana La Caridad we clean, treat and dress your wounds, and follow you until they heal.\n\n**What's included?**\n- Wound cleaning and disinfection\n- Application of dressings and bandages\n- Periodic dressing changes\n- Monitoring for signs of infection\n- Home-care instructions\n\n**For all kinds of wounds**\nPost-surgical wounds, ulcers, minor burns or wounds that are slow to heal. We help with regular dressing changes for a better recovery.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "FirstAid",
+    "image": "/images/services/curacion-heridas.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "curacion de heridas houston",
+      "cura de heridas houston",
+      "cambio de vendaje houston",
+      "limpieza de herida houston"
+    ],
+    "keywordsEn": [
+      "wound care houston",
+      "wound dressing houston",
+      "dressing change houston",
+      "wound cleaning houston"
+    ],
+    "features": [
+      "Limpieza y desinfección",
+      "Cambio de vendajes",
+      "Seguimiento de la cicatrización",
+      "Atención en español"
+    ],
+    "featuresEn": [
+      "Cleaning and disinfection",
+      "Dressing changes",
+      "Healing follow-up",
+      "Care in Spanish"
+    ],
+    "highlighted": false,
+    "order": 25
+  },
+  {
+    "id": "cirugias-menores",
+    "slug": "cirugias-menores",
+    "title": "Cirugías Menores",
+    "titleEn": "Minor Surgery",
+    "shortTitle": "Cirugías Menores",
+    "description": "Cirugías menores en Houston, TX: lunares, quistes y lipomas. Procedimiento ambulatorio en español, con precios accesibles.",
+    "descriptionEn": "Minor surgery in Houston, TX: moles, cysts and lipomas. Outpatient procedure in Spanish, with affordable pricing.",
+    "longDescription": "Muchos problemas de piel y tejidos blandos se resuelven con un procedimiento sencillo. En Clínica Hispana La Caridad realizamos cirugías menores ambulatorias con anestesia local, en un mismo día.\n\n**¿Qué incluye?**\n- Evaluación del lunar, quiste o lesión\n- Procedimiento ambulatorio con anestesia local\n- Extracción de lunares, quistes y lipomas\n- Indicaciones claras de cuidado posterior\n- Retiro de puntos cuando corresponde\n\n**Rápido y seguro**\nLa mayoría de estos procedimientos toman poco tiempo y no requieren hospitalización. Te explicamos cada paso en español para que estés tranquilo.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "Many skin and soft-tissue problems are solved with a simple procedure. At Clínica Hispana La Caridad we perform minor outpatient surgery with local anesthesia, in a single day.\n\n**What's included?**\n- Evaluation of the mole, cyst or lesion\n- Outpatient procedure with local anesthesia\n- Removal of moles, cysts and lipomas\n- Clear after-care instructions\n- Suture removal when appropriate\n\n**Fast and safe**\nMost of these procedures take little time and don't require hospitalization. We explain every step in Spanish so you feel at ease.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Stethoscope",
+    "image": "/images/services/cirugias-menores.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "cirugia menor houston",
+      "quitar lunar houston",
+      "extraccion de quiste houston",
+      "cirugia ambulatoria houston"
+    ],
+    "keywordsEn": [
+      "minor surgery houston",
+      "mole removal houston",
+      "cyst removal houston",
+      "lipoma removal houston"
+    ],
+    "features": [
+      "Procedimientos ambulatorios",
+      "Anestesia local",
+      "Extracción de lunares, quistes y lipomas",
+      "Cuidado posterior explicado"
+    ],
+    "featuresEn": [
+      "Outpatient procedures",
+      "Local anesthesia",
+      "Removal of moles, cysts and lipomas",
+      "After-care explained"
+    ],
+    "highlighted": false,
+    "order": 26
+  },
+  {
+    "id": "drenaje-abscesos",
+    "slug": "drenaje-abscesos",
+    "title": "Drenaje de Abscesos",
+    "titleEn": "Abscess Drainage",
+    "shortTitle": "Drenaje de Abscesos",
+    "description": "Drenaje de abscesos en Houston, TX. Tratamiento de infecciones de piel en español, con precios accesibles.",
+    "descriptionEn": "Abscess drainage in Houston, TX. Treatment of skin infections in Spanish, with affordable pricing.",
+    "longDescription": "Un absceso es una acumulación de pus que causa dolor e hinchazón y necesita drenarse. En Clínica Hispana La Caridad lo tratamos de forma segura para aliviar la molestia y prevenir que la infección avance.\n\n**¿Qué incluye?**\n- Evaluación del absceso o infección de piel\n- Drenaje con anestesia local\n- Limpieza y desinfección de la zona\n- Tratamiento de la infección cuando se requiere\n- Indicaciones de cuidado y seguimiento\n\n**No lo dejes pasar**\nUn bulto rojo, caliente y doloroso, a veces con fiebre, necesita atención. Drenarlo a tiempo evita complicaciones y alivia el dolor rápidamente.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "An abscess is a buildup of pus that causes pain and swelling and needs to be drained. At Clínica Hispana La Caridad we treat it safely to relieve the discomfort and prevent the infection from spreading.\n\n**What's included?**\n- Evaluation of the abscess or skin infection\n- Drainage with local anesthesia\n- Cleaning and disinfection of the area\n- Treatment of the infection when needed\n- Care and follow-up instructions\n\n**Don't let it go**\nA red, warm, painful lump, sometimes with fever, needs attention. Draining it in time prevents complications and relieves pain quickly.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Drop",
+    "image": "/images/services/drenaje-abscesos.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "drenaje de absceso houston",
+      "drenar absceso houston",
+      "infeccion de piel houston",
+      "tratamiento de absceso houston"
+    ],
+    "keywordsEn": [
+      "abscess drainage houston",
+      "drain abscess houston",
+      "skin infection houston",
+      "boil treatment houston"
+    ],
+    "features": [
+      "Drenaje del absceso",
+      "Limpieza y desinfección",
+      "Anestesia local",
+      "Indicaciones de cuidado posterior"
+    ],
+    "featuresEn": [
+      "Abscess drainage",
+      "Cleaning and disinfection",
+      "Local anesthesia",
+      "After-care instructions"
+    ],
+    "highlighted": false,
+    "order": 27
+  },
+  {
+    "id": "unas-encarnadas",
+    "slug": "unas-encarnadas",
+    "title": "Extracción de Uñas Encarnadas",
+    "titleEn": "Ingrown Toenail Removal",
+    "shortTitle": "Uñas Encarnadas",
+    "description": "Extracción de uñas encarnadas en Houston, TX. Procedimiento con anestesia local en español, con precios accesibles.",
+    "descriptionEn": "Ingrown toenail removal in Houston, TX. Procedure with local anesthesia in Spanish, with affordable pricing.",
+    "longDescription": "Una uña encarnada puede doler mucho e infectarse si no se trata. En Clínica Hispana La Caridad la atendemos con un procedimiento sencillo y anestesia local para aliviarte el mismo día.\n\n**¿Qué incluye?**\n- Evaluación de la uña y el dedo\n- Procedimiento con anestesia local\n- Extracción de la porción encarnada de la uña\n- Tratamiento de la infección si la hay\n- Indicaciones de cuidado para evitar que regrese\n\n**Cuándo acudir**\nDolor, enrojecimiento, hinchazón o pus alrededor de la uña, sobre todo del dedo gordo del pie. Atenderla pronto evita una infección mayor.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "An ingrown toenail can hurt a lot and get infected if untreated. At Clínica Hispana La Caridad we treat it with a simple procedure and local anesthesia to relieve you the same day.\n\n**What's included?**\n- Evaluation of the nail and toe\n- Procedure with local anesthesia\n- Removal of the ingrown portion of the nail\n- Treatment of the infection if present\n- Care instructions to prevent recurrence\n\n**When to come in**\nPain, redness, swelling or pus around the nail, especially the big toe. Treating it promptly prevents a larger infection.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Bone",
+    "image": "/images/services/unas-encarnadas.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "uña encarnada houston",
+      "extraccion de uña encarnada houston",
+      "tratamiento uña encarnada houston",
+      "doctor para uña encarnada houston"
+    ],
+    "keywordsEn": [
+      "ingrown toenail houston",
+      "ingrown toenail removal houston",
+      "ingrown nail treatment houston",
+      "toenail doctor houston"
+    ],
+    "features": [
+      "Tratamiento de la uña encarnada",
+      "Anestesia local",
+      "Alivio del dolor",
+      "Indicaciones de cuidado posterior"
+    ],
+    "featuresEn": [
+      "Ingrown toenail treatment",
+      "Local anesthesia",
+      "Pain relief",
+      "After-care instructions"
+    ],
+    "highlighted": false,
+    "order": 28
+  },
+  {
+    "id": "farmacia",
+    "slug": "farmacia",
+    "title": "Farmacia",
+    "titleEn": "Pharmacy",
+    "shortTitle": "Farmacia",
+    "description": "Farmacia en Houston, TX dentro de la clínica. Surtimos tu receta al terminar la consulta, atención en español.",
+    "descriptionEn": "Pharmacy in Houston, TX inside the clinic. We fill your prescription right after your visit, service in Spanish.",
+    "longDescription": "Al terminar tu consulta en Clínica Hispana La Caridad puedes recoger tus medicamentos en nuestra propia farmacia, sin tener que ir a otro lugar. Es la comodidad de resolver todo en una sola visita, con atención en español.\n\n**¿Qué incluye?**\n- Surtido de tu receta justo al terminar la consulta\n- Medicamentos de marca y genéricos\n- Medicamentos de venta libre (OTC) para gripe, dolor, alergias y más\n- Asesoría del personal sobre cómo tomar tus medicamentos\n- Resurtido de recetas\n\n**¿Por qué usar nuestra farmacia?**\nTe ahorras una segunda parada: el médico te atiende, te receta y recoges tu medicamento en el mismo lugar. Te explicamos en español la dosis, los horarios y los cuidados.\n\n**¿Por qué elegir Clínica Hispana La Caridad?**\nEn Clínica Hispana La Caridad te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 5705 Fondren Rd STE 101, Houston, TX 77036, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el suroeste de la ciudad: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland y comunidades cercanas.",
+    "longDescriptionEn": "After your visit at Clínica Hispana La Caridad you can pick up your medications at our own pharmacy, without going anywhere else. It's the convenience of getting everything done in a single visit, with service in Spanish.\n\n**What's included?**\n- Your prescription filled right after your visit\n- Brand-name and generic medications\n- Over-the-counter (OTC) medications for colds, pain, allergies and more\n- Staff guidance on how to take your medications\n- Prescription refills\n\n**Why use our pharmacy?**\nYou skip the second stop: the doctor sees you, writes your prescription, and you pick up your medication in the same place. We explain the dosage, schedule and precautions in Spanish.\n\n**Why choose Clínica Hispana La Caridad?**\nAt Clínica Hispana La Caridad we care for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. We are located at 5705 Fondren Rd STE 101, Houston, TX 77036, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire southwest side of the city: Sharpstown, Gulfton, Bellaire, Westchase, Alief, Spring Branch, Meyerland and nearby communities.",
+    "icon": "Syringe",
+    "image": "/images/services/farmacia.webp",
+    "category": "tratamientos",
+    "keywords": [
+      "farmacia en houston",
+      "farmacia hispana houston",
+      "farmacia cerca de mí houston",
+      "surtir receta houston"
+    ],
+    "keywordsEn": [
+      "pharmacy houston",
+      "hispanic pharmacy houston",
+      "pharmacy near me houston",
+      "fill prescription houston"
+    ],
+    "features": [
+      "Surtido de tu receta al instante",
+      "Medicamentos de marca y genéricos",
+      "Medicamentos de venta libre (OTC)",
+      "Asesoría sobre tus medicamentos en español"
+    ],
+    "featuresEn": [
+      "Prescriptions filled on the spot",
+      "Brand-name and generic medications",
+      "Over-the-counter (OTC) medications",
+      "Guidance about your medications in Spanish"
+    ],
+    "highlighted": false,
+    "order": 29
+  }
 ];
 
 export const PROMOTIONS: Promotion[] = [

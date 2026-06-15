@@ -1,10 +1,10 @@
 # Clínica Hispana La Caridad — Houston, TX
 
-> Hispanic medical clinic in Houston, Texas. Walk-in care 100% in Spanish, 7 days a week from 9 AM to 9 PM. USCIS-certified Civil Surgeon for I-693 immigration medical exams. Rated 5.0 stars on Google with 370+ reviews. We accept patients with or without insurance.
+> Hispanic medical clinic in Houston, Texas. Walk-in care 100% in Spanish, 7 days a week from 9 AM to 9 PM. USCIS-certified Civil Surgeon for I-693 immigration medical exams. Rated 5.0 stars on Google with 370+ reviews. No insurance needed — affordable self-pay pricing.
 
 ## About
 
-Clínica Hispana La Caridad provides professional medical care 100% in Spanish for the Hispanic community in Houston. Walk-ins welcome every day, no appointment needed. We accept patients with or without insurance. USCIS-designated Civil Surgeon for Green Card immigration medical exams.
+Clínica Hispana La Caridad provides professional medical care 100% in Spanish for the Hispanic community in Houston. Walk-ins welcome every day, no appointment needed. No insurance needed — affordable self-pay pricing for everyone. USCIS-designated Civil Surgeon for Green Card immigration medical exams.
 
 ## Location
 
@@ -28,26 +28,37 @@ Houston metropolitan area including Spring Branch, Sharpstown, Westchase, Alief,
 - Bilingual staff (Spanish primary, English available)
 - 5.0 star rating on Google with 370+ verified patient reviews
 
-## Services (18 total)
+## Services (29 total)
 
-- Family Medicine (Medicina Familiar) — primary care for all ages
-- I-693 Immigration Medical Exam — USCIS-certified Civil Surgeon, same-day form completion
-- Confidential STD Testing — HIV, herpes, chlamydia, gonorrhea, syphilis, hepatitis
-- Urology — prostate evaluation, UTIs, urinary incontinence (Spanish-speaking urologist)
-- Chronic Disease Management — diabetes, hypertension, thyroid, cholesterol
-- Clinical Laboratory — blood tests, glucose, cholesterol, thyroid panels, same-day results
-- Ultrasound and Sonogram
-- Gynecology — Pap smears, pelvic exam, breast exam, prenatal care (Spanish-speaking gynecologists at our women's clinic)
-- Family Planning
-- Contraceptive Injection
-- Contraceptive Implant Removal
-- Electrocardiogram (EKG)
-- Respiratory Disease Treatment — flu, cough, asthma, bronchitis
-- Urinary Tract Infection (UTI) Treatment
-- Vaginal Infection Treatment
-- DOT Physical Exam — CDL medical certificate for truck drivers
-- General Physical Exam — work, school, sports physicals
-- Back and Muscle Pain Treatment
+- Diabetes, Hypertension & Cholesterol Care — Diabetes, hypertension and dyslipidemia management in Houston, TX
+- Thyroid Testing & Treatment — Thyroid testing and treatment in Houston, TX
+- Allergy Testing & Treatment — Allergy testing and treatment in Houston, TX
+- Flu & COVID Testing and Respiratory Illness Care — Flu and COVID testing and respiratory illness treatment in Houston, TX
+- School & Sports Physical Exams — School and sports physical exams in Houston, TX
+- Gynecology Care: Pap Smear & Cultures — Gynecology care in Houston, TX: Pap smear, vaginal cultures and infection treatment
+- Pregnancy Testing & Confirmation — Pregnancy testing and confirmation in Houston, TX
+- Contraceptive Methods — Contraceptive methods in Houston, TX: guidance, pills and injection
+- Subdermal Implant Removal — Subdermal implant removal in Houston, TX, a safe procedure in Spanish
+- Men's Health Exams: PSA & Testosterone — Men's health exams in Houston, TX: PSA and testosterone
+- Blood Tests | Lab — Blood tests in Houston, TX: CBC, chemistry, glucose, cholesterol and more
+- Urinalysis & Urinary Infection Treatment — Urinalysis and urinary infection treatment in Houston, TX, same day
+- Stool Tests — Stool tests in Houston, TX
+- Strep Test — Strep test in Houston, TX
+- Tuberculosis (TB) Test — Tuberculosis (TB/PPD) test in Houston, TX
+- Sexually Transmitted Disease (STD) Testing — Confidential STD testing in Houston, TX
+- Alcohol & Drug Testing — Alcohol and drug testing in Houston, TX
+- Electrocardiogram (EKG) — Electrocardiogram EKG in Houston, TX, fast and painless
+- Ultrasound & Sonography — Ultrasound and sonography in Houston, TX: abdominal, pelvic and pregnancy
+- DOT Physical Exam - CDL License — DOT physical exam in Houston, TX for CDL license, same-day certificate, in Spanish
+- Immigration Medical Exam I-693 — I-693 immigration medical exam in Houston, TX with a USCIS-authorized physician
+- Flu and Tetanus (Tdap) Vaccines — Flu and tetanus vaccines in Houston, TX
+- Vitamin IV Therapy — Vitamin IV therapy in Houston, TX
+- Wound Suturing — Wound suturing in Houston, TX
+- Wound Care — Wound care in Houston, TX
+- Minor Surgery — Minor surgery in Houston, TX: moles, cysts and lipomas
+- Abscess Drainage — Abscess drainage in Houston, TX
+- Ingrown Toenail Removal — Ingrown toenail removal in Houston, TX
+- Pharmacy — Pharmacy in Houston, TX inside the clinic
 
 ## Key pages
 
@@ -57,8 +68,8 @@ Houston metropolitan area including Spring Branch, Sharpstown, Westchase, Alief,
 - Blog: https://www.chlacaridad.com/blog
 - I-693 immigration exam: https://www.chlacaridad.com/services/examenes-inmigracion
 - Gynecology: https://www.chlacaridad.com/services/ginecologia
-- Urology: https://www.chlacaridad.com/services/urologia
-- Laboratory: https://www.chlacaridad.com/services/laboratorio
+- Men's health: https://www.chlacaridad.com/services/salud-hombre
+- Blood tests / lab: https://www.chlacaridad.com/services/examenes-sangre
 
 ## Featured guides
 
@@ -73,16 +84,16 @@ Houston metropolitan area including Spring Branch, Sharpstown, Westchase, Alief,
 
 ## Pricing
 
-Affordable self-pay rates for uninsured patients. Most major insurance plans accepted including Medicaid and Medicare. Call (832) 925-8135 for current pricing on specific services.
+Affordable, transparent self-pay rates — no insurance needed. We accept cash and credit/debit cards. Call (832) 925-8135 for current pricing on specific services.
 
 ## Languages
 
 - Spanish (primary — all consultations available in Spanish)
 - English (also available)
 
-## Insurance
+## Payment
 
-We accept most major insurance plans including Medicaid and Medicare. Uninsured patients welcome with affordable self-pay rates.
+No insurance needed. We offer affordable, transparent self-pay pricing and accept cash and credit/debit cards. Uninsured patients welcome.
 
 ## Frequently Asked Questions
 
@@ -104,11 +115,11 @@ A: Yes. We have a USCIS-designated Civil Surgeon on staff. You can verify any cl
 Q: How long does the I-693 immigration medical exam take?
 A: Most patients complete the full I-693 exam, lab work, and vaccination review in a single visit. The signed form is ready the same day in most cases.
 
-Q: Do you have Spanish-speaking specialists (gynecologist, urologist)?
-A: Yes. Both our gynecology and urology consultations are conducted in Spanish.
+Q: Do you offer Spanish-speaking women's and men's health care?
+A: Yes. Both our gynecology and men's health consultations are conducted in Spanish.
 
 Q: What forms of payment do you accept?
-A: Cash, credit/debit cards, and most major insurance plans.
+A: Cash and credit/debit cards. No insurance needed — affordable self-pay pricing.
 
 ## Social Media
 
@@ -123,4 +134,4 @@ https://www.chlacaridad.com
 
 For appointments or questions, call (832) 925-8135 or visit our clinic at 5705 Fondren Rd STE 101, Houston, TX 77036. Walk-ins welcome every day 9 AM to 9 PM.
 
-Last updated: 2026-05-31
+Last updated: 2026-06-15

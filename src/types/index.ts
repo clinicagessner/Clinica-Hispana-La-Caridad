@@ -10,7 +10,7 @@ export interface Service {
   longDescriptionEn?: string;
   icon: string;
   image: string;
-  category: 'especial' | 'diagnostico' | 'mujer' | 'especialidad' | 'otro';
+  category: 'medicina-general' | 'salud-mujer' | 'examenes' | 'laboratorio' | 'tratamientos';
   keywords: string[];
   keywordsEn?: string[];
   features: string[];

@@ -134,13 +134,6 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
               key={service.id}
               className="relative bg-white rounded-2xl border border-slate-light hover:border-blue-primary hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden group flex flex-col"
             >
-              {/* Ribbon for highlighted services */}
-              {service.highlighted && (
-                <span className="absolute top-3 right-3 z-10 bg-red-accent text-white text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full shadow-md">
-                  {t("categoryEspecial")}
-                </span>
-              )}
-
               {/* Header: square image left + icon badge + title/description right */}
               <div className="p-5 flex items-start gap-4">
                 <div className="relative shrink-0">
@@ -160,7 +153,13 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
                 </div>
 
                 <div className="min-w-0 flex-1">
-                  <h3 className="text-base md:text-lg font-heading font-bold text-slate-dark leading-snug group-hover:text-blue-primary transition-colors pr-8">
+                  {/* Badge for highlighted services — above the title */}
+                  {service.highlighted && (
+                    <span className="inline-block mb-1.5 bg-red-accent text-white text-[10px] font-bold uppercase tracking-wide px-2.5 py-0.5 rounded-full shadow-sm">
+                      {t("categoryEspecial")}
+                    </span>
+                  )}
+                  <h3 className="text-base md:text-lg font-heading font-bold text-slate-dark leading-snug group-hover:text-blue-primary transition-colors">
                     {service.shortTitle || service.title}
                   </h3>
                   <p className="mt-1 text-sm text-slate-muted line-clamp-2">

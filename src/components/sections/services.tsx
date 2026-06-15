@@ -11,9 +11,9 @@ import { getLocalizedService } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
 const FEATURED_SLUGS = [
-  "medicina-familiar",
+  "condiciones-cronicas",
   "examenes-inmigracion",
-  "laboratorio",
+  "examenes-sangre",
   "enfermedades-transmision-sexual",
 ];
 

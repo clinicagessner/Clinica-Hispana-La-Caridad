@@ -4,10 +4,10 @@ import { LANDING_COPY } from "@/lib/landing-conquesting";
 import type { Locale } from "@/i18n/config";
 
 const FEATURED_SLUGS = [
-  "medicina-familiar",
   "examenes-inmigracion",
   "condiciones-cronicas",
-  "laboratorio",
+  "examenes-sangre",
+  "ultrasonido",
 ] as const;
 
 export function LandingServices({ locale }: { locale: Locale }) {

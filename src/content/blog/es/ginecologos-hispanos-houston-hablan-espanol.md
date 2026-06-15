@@ -118,7 +118,7 @@ Atendemos:
 - Consulta de menopausia
 - Planificación familiar
 
-Aceptamos la mayoría de seguros médicos y ofrecemos precios accesibles para pacientes sin seguro. Llame al **(832) 925-8135** para confirmar disponibilidad.
+No necesita seguro médico para atenderse: ofrecemos precios accesibles de pago directo. Llame al **(832) 925-8135** para confirmar disponibilidad.
 
 ## Preguntas frecuentes
 
@@ -131,8 +131,8 @@ Llame para confirmar disponibilidad por día. Algunas pacientes prefieren ginec�
 **¿Atienden adolescentes?**
 Sí, atendemos pacientes desde los 18 años (o adolescentes acompañadas de su madre o tutor).
 
-**¿Aceptan Medicaid?**
-Sí, aceptamos Medicaid y la mayoría de planes médicos.
+**¿Necesito seguro médico para atenderme?**
+No, no necesita seguro. Manejamos precios accesibles y transparentes de pago directo.
 
 **¿Cuánto tiempo dura una consulta de Papanicolaou?**
 La consulta completa con Papanicolaou toma entre 20 y 30 minutos. Los resultados se entregan en 5-7 días hábiles.

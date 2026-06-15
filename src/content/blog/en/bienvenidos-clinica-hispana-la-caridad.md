@@ -43,15 +43,15 @@ We are located at **5705 Fondren Rd STE 101, Houston, TX 77036**, with easy acce
 
 We offer a wide range of medical services for the whole family:
 
-- [**Family Medicine**](/services/medicina-familiar) — Comprehensive care for all ages, from children to seniors. Preventive checkups, treatment of acute illnesses, and general health follow-up.
+- [**Physical Exams**](/services/examen-fisico-escolar) — Physical exams for school, sports, work, and certificates, for all ages.
 - [**Immigration Medical Exams**](/services/examenes-inmigracion) — I-693 form completed by USCIS-certified Civil Surgeons. The entire process conducted in Spanish.
-- [**Clinical Laboratory**](/services/laboratorio) — Blood tests, urinalysis, and more with fast, accurate results — all in one place.
+- [**Clinical Laboratory**](/services/examenes-sangre) — Blood tests, urinalysis, and more with fast, accurate results — all in one place.
 - [**Gynecology**](/services/ginecologia) — Complete women's health care: Pap smears, pelvic exams, family planning, and more.
 - [**Chronic Conditions**](/services/condiciones-cronicas) — Specialized management of diabetes, hypertension, high cholesterol, and other long-term conditions.
 - [**Ultrasound & EKG**](/services/ultrasonido) — Diagnostic imaging available at our clinic, no outside referrals needed.
 - [**Respiratory Illnesses**](/services/enfermedades-respiratorias) — Treatment of asthma, bronchitis, pneumonia, and other lung conditions.
-- [**Urology**](/services/urologia) — Care for urinary and male reproductive health concerns.
-- [**Vaccines & Contraceptives**](/services/vacunas-anticonceptivas) — Complete vaccination schedules for all ages and contraceptive methods.
+- [**Men's Health**](/services/salud-hombre) — Prostate (PSA) and testosterone exams and care for male urinary concerns.
+- [**Vaccines**](/services/vacunas) — Complete vaccination schedules for all ages: flu, tetanus, and more.
 
 ## Houston's Hispanic Community and Their Health Needs
 
@@ -62,7 +62,7 @@ Houston is one of the cities with the largest Hispanic population in the entire 
 - **Distrust of the healthcare system:** Negative past experiences or lack of awareness about available services can create fear or reluctance to seek care.
 - **Incompatible schedules:** Many Hispanic workers have jobs that don't align with typical clinic and office hours.
 
-At Clínica Hispana La Caridad, we understand these realities firsthand. That is why we designed our services to break down these barriers: fully bilingual staff, extended hours Monday through Friday until 9 PM and weekends, transparent pricing, and care for patients with or without insurance.
+At Clínica Hispana La Caridad, we understand these realities firsthand. That is why we designed our services to break down these barriers: fully bilingual staff, extended hours Monday through Friday until 9 PM and weekends, transparent pricing, and care with no insurance needed.
 
 ## Clínica Hispana La Caridad vs. the Emergency Room
 

@@ -178,10 +178,11 @@ export default async function ServicePage({ params }: Props) {
               {/* Category Badge */}
               <Badge className="mb-4 bg-blue-primary/90 hover:bg-blue-primary text-white border-0">
                 <IconComponent className="size-3.5 mr-1.5" weight="fill" />
-                {service.category === "especial" ? t("categoryEspecial") :
-                 service.category === "diagnostico" ? t("categoryDiagnostico") :
-                 service.category === "especialidad" ? t("categoryEspecialidad") :
-                 service.category === "mujer" ? t("categoryMujer") :
+                {service.category === "medicina-general" ? t("categoryMedicinaGeneral") :
+                 service.category === "salud-mujer" ? t("categorySaludMujer") :
+                 service.category === "examenes" ? t("categoryExamenes") :
+                 service.category === "laboratorio" ? t("categoryLaboratorio") :
+                 service.category === "tratamientos" ? t("categoryTratamientos") :
                  t("categoryDefault")}
               </Badge>
 

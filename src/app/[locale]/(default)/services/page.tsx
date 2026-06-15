@@ -9,13 +9,14 @@ import { getLocalizedService } from "@/lib/utils";
 import { JsonLdCollectionPage, JsonLdBreadcrumb } from "@/components/seo/json-ld";
 
 const categoryInfo: Record<string, { label: string; labelEn: string; iconName: string }> = {
-  especial: { label: "Especiales", labelEn: "Special", iconName: "Star" },
-  especialidad: { label: "Especialidades", labelEn: "Specialties", iconName: "Stethoscope" },
-  diagnostico: { label: "Diagnóstico", labelEn: "Diagnostics", iconName: "TestTube" },
-  mujer: { label: "Salud Mujer", labelEn: "Women's Health", iconName: "GenderFemale" },
+  "medicina-general": { label: "Medicina general", labelEn: "General medicine", iconName: "Stethoscope" },
+  "salud-mujer": { label: "Salud de la mujer", labelEn: "Women's health", iconName: "GenderFemale" },
+  examenes: { label: "Exámenes y certificados", labelEn: "Exams & certificates", iconName: "Clipboard" },
+  laboratorio: { label: "Laboratorio y pruebas", labelEn: "Lab & testing", iconName: "TestTube" },
+  tratamientos: { label: "Tratamientos", labelEn: "Treatments", iconName: "Syringe" },
 };
 
-const categoryOrder = ["especial", "diagnostico", "mujer", "especialidad"];
+const categoryOrder = ["medicina-general", "salud-mujer", "examenes", "laboratorio", "tratamientos"];
 
 type MetadataProps = {
   params: Promise<{ locale: string }>;

@@ -25,12 +25,12 @@ const COPY = {
     servicesIntro:
       "Estos son los servicios que atendemos como walk-in para que llegue, sea atendido y reciba sus resultados el mismo día:",
     services: [
-      { name: "Consulta médica general", slug: "medicina-familiar" },
+      { name: "Alergias y síntomas estacionales", slug: "alergias" },
       { name: "Gripe, tos y síntomas respiratorios", slug: "enfermedades-respiratorias" },
-      { name: "Análisis de sangre y laboratorio", slug: "laboratorio" },
+      { name: "Análisis de sangre y laboratorio", slug: "examenes-sangre" },
       { name: "Examen físico DOT (camioneros)", slug: "examen-dot" },
-      { name: "Examen físico general (trabajo, escuela, deportes)", slug: "examenes-generales" },
-      { name: "Vacunas", slug: "vacunas-anticonceptivas" },
+      { name: "Examen físico general (trabajo, escuela, deportes)", slug: "examen-fisico-escolar" },
+      { name: "Vacunas", slug: "vacunas" },
       { name: "Infecciones urinarias", slug: "infecciones-urinarias" },
       { name: "Manejo de diabetes, presión y colesterol", slug: "condiciones-cronicas" },
     ],
@@ -47,11 +47,11 @@ const COPY = {
     bringItems: [
       "Identificación con foto (ID estatal, pasaporte o licencia)",
       "Lista de medicamentos que toma actualmente",
-      "Tarjeta de seguro (si tiene)",
+      "Récord de vacunas (si lo tiene)",
       "Resultados médicos recientes (si tiene)",
     ],
     bringNote:
-      "No es requisito tener seguro médico. Atendemos con o sin seguro.",
+      "No necesita seguro médico para atenderse. Manejamos precios accesibles de pago directo.",
     locationHeading: "Ubicación",
     locationCta: "Cómo llegar",
     callCta: "Llamar ahora",
@@ -70,9 +70,9 @@ const COPY = {
           "No. Atendemos walk-in todos los días de 9 AM a 9 PM. Puede llegar en cualquier momento dentro del horario, sin cita.",
       },
       {
-        question: "¿Aceptan pacientes sin seguro médico?",
+        question: "¿Atienden a pacientes sin seguro médico?",
         answer:
-          "Sí. Atendemos pacientes con o sin seguro. Ofrecemos precios accesibles para pacientes sin seguro y aceptamos la mayoría de planes médicos.",
+          "Sí. No necesita seguro médico para atenderse con nosotros. Ofrecemos precios accesibles y transparentes de pago directo, y le informamos el costo antes de la consulta.",
       },
       {
         question: "¿Atienden los domingos?",
@@ -92,7 +92,7 @@ const COPY = {
       {
         question: "¿Qué métodos de pago aceptan?",
         answer:
-          "Aceptamos efectivo, tarjetas de crédito y débito, y la mayoría de seguros médicos incluyendo Medicaid y Medicare.",
+          "Aceptamos efectivo y tarjetas de crédito y débito. No necesita seguro médico: manejamos precios accesibles de pago directo.",
       },
       {
         question: "¿Cuál es la dirección de la clínica?",
@@ -115,12 +115,12 @@ const COPY = {
     servicesIntro:
       "These are the services we provide on a walk-in basis so you can come in, be seen, and get same-day results:",
     services: [
-      { name: "General medical consultation", slug: "medicina-familiar" },
+      { name: "Allergies and seasonal symptoms", slug: "alergias" },
       { name: "Flu, cough and respiratory symptoms", slug: "enfermedades-respiratorias" },
-      { name: "Blood tests and laboratory", slug: "laboratorio" },
+      { name: "Blood tests and laboratory", slug: "examenes-sangre" },
       { name: "DOT physical (truck drivers)", slug: "examen-dot" },
-      { name: "General physical exam (work, school, sports)", slug: "examenes-generales" },
-      { name: "Vaccinations", slug: "vacunas-anticonceptivas" },
+      { name: "General physical exam (work, school, sports)", slug: "examen-fisico-escolar" },
+      { name: "Vaccinations", slug: "vacunas" },
       { name: "Urinary tract infections", slug: "infecciones-urinarias" },
       { name: "Diabetes, blood pressure and cholesterol management", slug: "condiciones-cronicas" },
     ],
@@ -137,11 +137,11 @@ const COPY = {
     bringItems: [
       "Photo ID (state ID, passport or driver's license)",
       "List of current medications",
-      "Insurance card (if you have one)",
+      "Vaccination record (if you have one)",
       "Any recent medical test results",
     ],
     bringNote:
-      "No insurance required. We treat patients with or without insurance.",
+      "No insurance needed to be seen. We offer affordable self-pay pricing.",
     locationHeading: "Location",
     locationCta: "Get directions",
     callCta: "Call now",
@@ -160,9 +160,9 @@ const COPY = {
           "No. We accept walk-ins every day from 9 AM to 9 PM. Come in any time within our hours, no appointment needed.",
       },
       {
-        question: "Do you accept patients without insurance?",
+        question: "Do you see patients without insurance?",
         answer:
-          "Yes. We treat patients with or without insurance. We offer affordable pricing for uninsured patients and accept most major insurance plans.",
+          "Yes. You don't need health insurance to be seen with us. We offer affordable, transparent self-pay pricing and tell you the cost before your visit.",
       },
       {
         question: "Are you open on Sundays?",
@@ -182,7 +182,7 @@ const COPY = {
       {
         question: "What payment methods do you accept?",
         answer:
-          "We accept cash, credit and debit cards, and most major insurance plans including Medicaid and Medicare.",
+          "We accept cash and credit and debit cards. No insurance needed — we offer affordable self-pay pricing.",
       },
       {
         question: "What is your address?",
