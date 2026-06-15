@@ -12,9 +12,9 @@ import { cn } from "@/lib/utils";
 
 const FEATURED_SLUGS = [
   "condiciones-cronicas",
-  "examenes-inmigracion",
-  "examenes-sangre",
-  "enfermedades-transmision-sexual",
+  "ginecologia",
+  "salud-hombre",
+  "examen-dot",
 ];
 
 export function Services() {
