@@ -1,6 +1,21 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
+// Slugs de servicios retirados en el swap al catálogo de 29 servicios (familia).
+// Cada uno se redirige (301) a su equivalente más cercano para preservar el
+// link-equity y evitar 404 en URLs ya indexadas o enlazadas externamente.
+const RETIRED_SERVICE_SLUGS: Record<string, string> = {
+  urologia: "salud-hombre",
+  "planificacion-familiar": "anticonceptivos",
+  "infecciones-vaginales": "ginecologia",
+  "vacunas-anticonceptivas": "anticonceptivos",
+  laboratorio: "examenes-sangre",
+  // Sin equivalente exacto -> hub de medicina general (condiciones crónicas)
+  "examenes-generales": "condiciones-cronicas",
+  "medicina-familiar": "condiciones-cronicas",
+  "dolores-musculares": "condiciones-cronicas",
+};
+
 const nextConfig: NextConfig = {
   images: {
     qualities: [60, 75],
@@ -26,6 +41,22 @@ const nextConfig: NextConfig = {
       "@radix-ui/react-dialog",
       "@radix-ui/react-select",
     ],
+  },
+  async redirects() {
+    // localePrefix: "as-needed" -> ES sin prefijo (/services/...),
+    // EN con prefijo (/en/services/...). Cubrimos ambos.
+    return Object.entries(RETIRED_SERVICE_SLUGS).flatMap(([from, to]) => [
+      {
+        source: `/services/${from}`,
+        destination: `/services/${to}`,
+        permanent: true,
+      },
+      {
+        source: `/en/services/${from}`,
+        destination: `/en/services/${to}`,
+        permanent: true,
+      },
+    ]);
   },
   async headers() {
     return [
