@@ -84,7 +84,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com data:",
               "img-src 'self' data: blob: https://lh3.googleusercontent.com https://maps.googleapis.com https://maps.gstatic.com https://maps.google.com https://www.google.com https://www.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.facebook.com",
-              "connect-src 'self' https://vitals.vercel-insights.com https://*.vercel-analytics.com https://cdn.callrail.com https://js.callrail.com https://api.callrail.com https://maps.googleapis.com https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.facebook.com https://connect.facebook.net https://api.facebook.com https://graph.facebook.com https://*.facebook.com",
+              "connect-src 'self' https://vitals.vercel-insights.com https://*.vercel-analytics.com https://cdn.callrail.com https://js.callrail.com https://api.callrail.com https://maps.googleapis.com https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.facebook.com https://connect.facebook.net https://api.facebook.com https://graph.facebook.com https://*.facebook.com",
               "frame-src 'self' https://www.google.com https://maps.google.com",
               "object-src 'none'",
               "base-uri 'self'",
