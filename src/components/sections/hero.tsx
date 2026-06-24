@@ -1,11 +1,20 @@
 import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { Phone, MapPin, Clock, Star, CheckCircle2 } from "lucide-react";
+import { getTranslations } from "next-intl/server";
+import { Phone, MapPin, Star, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { getGooglePlaceData } from "@/lib/google-places";
 
-export function Hero() {
-  const t = useTranslations("hero");
+export async function Hero() {
+  const [t, placeData] = await Promise.all([
+    getTranslations("hero"),
+    getGooglePlaceData(),
+  ]);
+
+  // Live Google rating/review count, falling back to static constants
+  const rating = placeData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
+  const totalReviews = placeData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+  const ratingPercent = Math.max(0, Math.min(100, (rating / 5) * 100));
 
   const features = ["1", "2", "3", "4"] as const;
   const fullTitle = t("title");
@@ -14,204 +23,150 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-cyan-warm min-h-[calc(100svh-5rem)] flex items-center py-6 md:py-8"
+      className="relative isolate overflow-hidden min-h-[calc(100svh-5rem)] flex items-center"
       aria-labelledby="hero-heading"
     >
-      {/* Decorative abstract blurred circles */}
+      {/* Full-bleed background photo */}
+      <Image
+        src="/images/hero-clinic.webp"
+        alt="Equipo médico de Clínica Hispana La Caridad atendiendo pacientes en Houston"
+        fill
+        priority
+        fetchPriority="high"
+        quality={80}
+        className="object-cover object-center -z-20"
+        sizes="100vw"
+      />
+
+      {/* Brand-blue gradient overlay for readability */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 overflow-hidden"
-      >
-        <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-blue-primary/5 blur-3xl" />
-        <div className="absolute top-1/3 -right-24 w-md h-112 rounded-full bg-yellow-accent/10 blur-3xl" />
-        <div className="absolute bottom-0 left-1/4 w-80 h-80 rounded-full bg-blue-primary/5 blur-3xl" />
-      </div>
+        className="absolute inset-0 -z-10 bg-linear-to-r from-blue-primary/95 via-blue-primary/80 to-blue-primary/40 md:to-transparent"
+      />
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 -z-10 bg-linear-to-t from-blue-primary/80 via-transparent to-transparent"
+      />
 
-      <div className="container relative z-10 mx-auto px-4 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-          {/* LEFT COLUMN — Text content (~58%) */}
-          <div className="lg:col-span-7">
-            {/* Top badge */}
-            <div className="animate-hero-title inline-flex items-center gap-2 bg-blue-primary/10 text-blue-primary rounded-full px-4 py-1.5 mb-4">
-              <Clock className="size-4" aria-hidden="true" />
-              <span className="text-xs md:text-sm font-semibold">
-                {t("badge")}
-              </span>
-            </div>
+      {/* Bottom fade into the next (cyan) section */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 bottom-0 -z-10 h-24 md:h-32 bg-linear-to-t from-cyan-bg to-transparent"
+      />
 
-            {/* H1 */}
-            <h1
-              id="hero-heading"
-              className="animate-hero-title text-3xl md:text-4xl lg:text-5xl font-bold text-slate-dark leading-tight mb-3"
+      <div className="container relative z-10 mx-auto px-4 w-full py-12 md:py-16">
+        <div className="max-w-2xl">
+          {/* Reviews trust badge — live rating + count from Google */}
+          <div className="animate-hero-title inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm ring-1 ring-white/25 rounded-full px-4 py-1.5 mb-5">
+            <span
+              className="relative inline-flex items-center gap-0.5"
+              role="img"
+              aria-label={`${rating.toFixed(1)} de 5 estrellas`}
             >
-              {highlightMatch ? (
-                <>
-                  {highlightMatch[1]}
-                  <span className="text-blue-primary">
-                    {highlightMatch[2]}
-                  </span>
-                  {highlightMatch[3]}
-                </>
-              ) : (
-                fullTitle
-              )}
-            </h1>
-
-            {/* Subtitle */}
-            <p className="animate-hero-subtitle text-base md:text-lg text-slate-primary mb-5 max-w-2xl">
-              {t("subtitle")}
-            </p>
-
-            {/* Features list */}
-            <ul className="animate-hero-features grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5 max-w-xl">
-              {features.map((key) => (
-                <li key={key} className="flex items-start gap-2.5">
-                  <span className="shrink-0 inline-flex items-center justify-center w-5 h-5 rounded-full bg-blue-primary/10 mt-0.5">
-                    <CheckCircle2
-                      className="size-3.5 text-blue-primary"
-                      aria-hidden="true"
-                    />
-                  </span>
-                  <span className="text-slate-dark text-sm font-medium leading-snug">
-                    {t(`features.${key}`)}
-                  </span>
-                </li>
+              {/* Empty stars (track) */}
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="size-4 text-white/40" />
               ))}
-            </ul>
-
-            {/* CTA buttons */}
-            <div className="animate-hero-cta flex flex-col sm:flex-row gap-3 mb-4">
-              <Button
-                asChild
-                size="lg"
-                className="bg-red-accent hover:bg-red-accent-dark text-white text-sm md:text-base px-6 py-5 gap-2 shadow-lg shadow-red-accent/30"
+              {/* Filled overlay clipped to the real rating */}
+              <span
+                className="absolute inset-0 flex items-center gap-0.5 overflow-hidden"
+                style={{ width: `${ratingPercent}%` }}
+                aria-hidden="true"
               >
-                <a
-                  href={`tel:${CONTACT_INFO.phone}`}
-                  aria-label={`${t("ctaCall")} — ${CONTACT_INFO.phoneFormatted}`}
-                >
-                  <Phone className="size-5" aria-hidden="true" />
-                  {t("ctaCall")}
-                </a>
-              </Button>
-
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="border-2 border-blue-primary text-blue-primary hover:bg-blue-primary hover:text-white text-sm md:text-base px-6 py-5 gap-2 bg-white"
-              >
-                <a
-                  href={CONTACT_INFO.googleMapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${t("ctaLocation")} — ${CONTACT_INFO.address}, ${CONTACT_INFO.city} ${CONTACT_INFO.state}`}
-                >
-                  <MapPin className="size-5" aria-hidden="true" />
-                  {t("ctaLocation")}
-                </a>
-              </Button>
-            </div>
-
-            {/* Trust row — Google reviews */}
-            <div className="animate-hero-cta flex items-center gap-3">
-              <div className="flex items-center gap-0.5" aria-hidden="true">
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
-                    className="size-4 md:size-5 fill-yellow-accent text-yellow-accent"
+                    className="size-4 shrink-0 fill-yellow-accent text-yellow-accent"
                   />
                 ))}
-              </div>
-              <p className="text-xs md:text-sm text-slate-primary font-medium">
-                {GOOGLE_REVIEWS_DATA.totalReviews}+ {t("googleReviews")}
-              </p>
-            </div>
+              </span>
+            </span>
+            <span className="text-xs md:text-sm font-semibold text-white">
+              {rating.toFixed(1)} · {totalReviews}
+              {t("googleReviews")}
+            </span>
           </div>
 
-          {/* RIGHT COLUMN — Single consolidated card (~42%) */}
-          <div className="lg:col-span-5">
-            <div className="animate-hero-image relative">
-              <div className="relative overflow-hidden rounded-2xl shadow-2xl bg-white p-5 md:p-6">
-                {/* Corner badge */}
-                <div className="absolute top-4 right-4 z-10 bg-yellow-accent text-blue-primary text-[10px] md:text-xs font-bold uppercase tracking-wide rounded-full px-3 py-1 shadow-md">
-                  Sin cita previa
-                </div>
+          {/* H1 */}
+          <h1
+            id="hero-heading"
+            className="animate-hero-title text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-4 text-balance"
+          >
+            {highlightMatch ? (
+              <>
+                {highlightMatch[1]}
+                <span className="text-yellow-accent">{highlightMatch[2]}</span>
+                {highlightMatch[3]}
+              </>
+            ) : (
+              fullTitle
+            )}
+          </h1>
 
-                {/* Card heading */}
-                <div className="mb-4 pr-28">
-                  <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-slate-dark mb-1 leading-tight">
-                    {t("cardTitle")}
-                  </h2>
-                  <p className="text-xs md:text-sm text-slate-muted leading-snug">
-                    {t("cardSubtitle")}
-                  </p>
-                </div>
+          {/* Subtitle */}
+          <p className="animate-hero-subtitle text-base md:text-xl text-white/90 mb-6 max-w-xl">
+            {t("subtitle")}
+          </p>
 
-                {/* Image */}
-                <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-cyan-bg mb-4">
-                  <Image
-                    src="/images/hero-clinic.webp"
-                    alt="Equipo médico de Clínica Hispana La Caridad atendiendo pacientes en Houston"
-                    fill
-                    priority
-                    fetchPriority="high"
-                    quality={75}
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 42vw"
-                  />
-                </div>
+          {/* Features list */}
+          <ul className="animate-hero-features flex flex-wrap gap-x-5 gap-y-2 mb-7 max-w-xl">
+            {features.map((key) => (
+              <li key={key} className="flex items-center gap-2">
+                <CheckCircle2
+                  className="size-4 shrink-0 text-yellow-accent"
+                  aria-hidden="true"
+                />
+                <span className="text-white/90 text-sm font-medium leading-snug">
+                  {t(`features.${key}`)}
+                </span>
+              </li>
+            ))}
+          </ul>
 
-                {/* Compact info grid — replaces the old separate blue card */}
-                <div className="grid grid-cols-2 gap-3 pt-4 border-t border-slate-100">
-                  <div className="flex items-start gap-2">
-                    <Clock
-                      className="size-4 shrink-0 text-red-accent mt-0.5"
-                      aria-hidden="true"
-                    />
-                    <div className="min-w-0">
-                      <p className="text-[10px] uppercase tracking-wide text-slate-muted font-semibold">
-                        Horario
-                      </p>
-                      <p className="text-[11px] md:text-xs text-slate-dark font-medium leading-tight">
-                        {CONTACT_INFO.hoursWeekday}
-                      </p>
-                    </div>
-                  </div>
-                  <a
-                    href={CONTACT_INFO.googleMapsUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-start gap-2 group"
-                  >
-                    <MapPin
-                      className="size-4 shrink-0 text-red-accent mt-0.5"
-                      aria-hidden="true"
-                    />
-                    <div className="min-w-0">
-                      <p className="text-[10px] uppercase tracking-wide text-slate-muted font-semibold">
-                        Dirección
-                      </p>
-                      <p className="text-[11px] md:text-xs text-slate-dark font-medium leading-tight group-hover:text-blue-primary group-hover:underline">
-                        {CONTACT_INFO.address}, {CONTACT_INFO.city}{" "}
-                        {CONTACT_INFO.state}
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </div>
+          {/* CTA buttons */}
+          <div className="animate-hero-cta flex flex-col sm:flex-row gap-3">
+            <Button
+              asChild
+              size="lg"
+              className="bg-red-accent hover:bg-red-accent-dark text-white text-sm md:text-base px-7 py-6 gap-2 shadow-lg shadow-black/20"
+            >
+              <a
+                href={`tel:${CONTACT_INFO.phone}`}
+                aria-label={`${t("ctaCall")} — ${CONTACT_INFO.phoneFormatted}`}
+              >
+                <Phone className="size-5" aria-hidden="true" />
+                {t("ctaCall")}
+              </a>
+            </Button>
 
-              {/* Decorative floating accents */}
-              <div
-                aria-hidden="true"
-                className="absolute -z-10 -top-6 -right-6 w-40 h-40 rounded-full bg-yellow-accent/20 blur-2xl"
-              />
-              <div
-                aria-hidden="true"
-                className="absolute -z-10 -bottom-6 -left-6 w-48 h-48 rounded-full bg-blue-primary/10 blur-2xl"
-              />
-            </div>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-2 border-white/70 text-white hover:bg-white hover:text-blue-primary text-sm md:text-base px-7 py-6 gap-2 bg-white/10 backdrop-blur-sm"
+            >
+              <a
+                href={CONTACT_INFO.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${t("ctaLocation")} — ${CONTACT_INFO.address}, ${CONTACT_INFO.city} ${CONTACT_INFO.state}`}
+              >
+                <MapPin className="size-5" aria-hidden="true" />
+                {t("ctaLocation")}
+              </a>
+            </Button>
           </div>
+
+          {/* Secondary contact prompt */}
+          <p className="animate-hero-cta mt-4 text-sm md:text-base text-white/85">
+            {t("contactPrompt")}{" "}
+            <a
+              href="#contact"
+              className="font-semibold text-yellow-accent underline underline-offset-4 hover:text-white transition-colors"
+            >
+              {t("contactLink")}
+            </a>
+          </p>
         </div>
       </div>
     </section>

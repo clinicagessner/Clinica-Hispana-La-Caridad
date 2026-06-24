@@ -28,6 +28,8 @@
     "ctaLocation": "Get Directions",
     "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reviews on Google",
+    "contactPrompt": "Prefer that we contact you?",
+    "contactLink": "Write to us",
     "cardTitle": "Why choose us?",
     "cardSubtitle": "The best care for you and your family",
     "features": {
