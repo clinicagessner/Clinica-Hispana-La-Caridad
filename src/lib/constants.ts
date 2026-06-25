@@ -1209,42 +1209,194 @@ export const SERVICES: Service[] = [
   }
 ];
 
+// Promociones — la imagen del flyer (public/images/promotions/<slug>.webp) es la
+// fuente del precio; el texto lo replica como dato. Blurbs redactados de forma
+// factual (sin claims médicos) por la política de salud de Google Ads.
 export const PROMOTIONS: Promotion[] = [
   {
-    id: "consulta-general",
-    title: "Consulta Médica General",
-    badge: "Más Popular",
-    description: "Evaluación médica completa con nuestros especialistas.",
+    slug: "examen-completo-hombres",
+    title: "Examen Completo para Hombres",
+    titleEn: "Complete Men's Exam",
+    price: "$89",
+    blurb:
+      "Paquete de chequeo para hombres que incluye examen de orina, examen de próstata y medición de testosterona. Una forma sencilla de revisar tu salud, sin cita previa y con atención en español.",
+    blurbEn:
+      "Men's check-up package including a urine test, prostate exam and testosterone measurement. A simple way to review your health — walk-ins welcome, with care in Spanish.",
     includes: [
-      "Examen físico completo",
-      "Revisión de signos vitales",
-      "Diagnóstico profesional",
-      "Receta médica si es necesario",
+      "Examen de orina",
+      "Examen de próstata",
+      "Medición de testosterona",
     ],
+    includesEn: ["Urine test", "Prostate exam", "Testosterone measurement"],
+    alt: "Flyer de promoción Examen Completo para Hombres por $89 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Complete Men's Exam promotion flyer for $89 at Clínica Hispana La Caridad, Houston",
   },
   {
-    id: "paquete-diabetes",
-    title: "Paquete Control Diabetes",
-    badge: "Ahorre $50",
-    description: "Todo lo necesario para mantener su diabetes bajo control.",
+    slug: "chequeo-mujer",
+    title: "Chequeo Completo de Mujer",
+    titleEn: "Complete Women's Check-Up",
+    price: "$79",
+    blurb:
+      "Chequeo de salud para la mujer que incluye examen de Papanicolaou, consulta ginecológica y orden para mamografía. Atención en español y precios accesibles.",
+    blurbEn:
+      "Women's health check-up including a Pap smear, gynecological consultation and a mammogram order. Care in Spanish with affordable pricing.",
+    includes: [
+      "Examen de Papanicolaou",
+      "Consulta ginecológica",
+      "Orden de mamografía",
+    ],
+    includesEn: [
+      "Pap smear",
+      "Gynecological consultation",
+      "Mammogram order",
+    ],
+    alt: "Flyer de promoción Chequeo Completo de Mujer por $79 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Complete Women's Check-Up promotion flyer for $79 at Clínica Hispana La Caridad, Houston",
+  },
+  {
+    slug: "salud-intima-femenina",
+    title: "Salud Íntima Femenina",
+    titleEn: "Women's Intimate Health",
+    price: "$69",
+    blurb:
+      "Evaluación de salud íntima femenina con consulta médica, cultivo íntimo y examen de orina. Atención confidencial con personal femenino y resultados rápidos.",
+    blurbEn:
+      "Women's intimate health evaluation with a medical consultation, intimate culture test and urine test. Confidential care with female staff and fast results.",
     includes: [
       "Consulta médica",
-      "Examen de glucosa en ayunas",
-      "Hemoglobina A1C",
-      "Plan de alimentación",
+      "Cultivo íntimo",
+      "Examen de orina incluido",
+      "Atención confidencial con personal femenino",
     ],
+    includesEn: [
+      "Medical consultation",
+      "Intimate culture test",
+      "Urine test included",
+      "Confidential care with female staff",
+    ],
+    alt: "Flyer de promoción Salud Íntima Femenina por $69 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Women's Intimate Health promotion flyer for $69 at Clínica Hispana La Caridad, Houston",
   },
   {
-    id: "chequeo-completo",
-    title: "Chequeo Completo",
-    badge: "Recomendado",
-    description: "Evaluación integral de su estado de salud.",
+    slug: "general-sangre-b12",
+    title: "General de Sangre + Vitamina B12",
+    titleEn: "Blood Panel + Vitamin B12",
+    price: "$99",
+    blurb:
+      "Examen general de sangre acompañado de una inyección de vitamina B12. Una opción práctica para revisar tu salud general, con atención en español.",
+    blurbEn:
+      "General blood panel paired with a vitamin B12 injection. A practical option to review your general health, with care in Spanish.",
     includes: [
-      "Examen físico completo",
-      "Panel de laboratorio básico",
-      "Revisión de presión y glucosa",
-      "Recomendaciones personalizadas",
+      "Examen general de sangre",
+      "Inyección de vitamina B12",
     ],
+    includesEn: ["General blood panel", "Vitamin B12 injection"],
+    alt: "Flyer de promoción General de Sangre más Vitamina B12 por $99 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Blood Panel plus Vitamin B12 promotion flyer for $99 at Clínica Hispana La Caridad, Houston",
+  },
+  {
+    slug: "perfil-hormonal-hombres",
+    title: "Perfil Hormonal para Hombres",
+    titleEn: "Men's Hormone Panel",
+    price: "$200",
+    blurb:
+      "Perfil hormonal masculino para evaluar tus niveles hormonales. Útil para revisar aspectos como energía, estado de ánimo, sueño y composición corporal. Resultados precisos y atención profesional.",
+    blurbEn:
+      "Male hormone panel to evaluate your hormone levels. Useful for reviewing aspects such as energy, mood, sleep and body composition. Accurate results and professional care.",
+    includes: [
+      "Evaluación de niveles hormonales",
+      "Orientación sobre energía y estado de ánimo",
+      "Resultados precisos",
+      "Atención profesional",
+    ],
+    includesEn: [
+      "Hormone level evaluation",
+      "Guidance on energy and mood",
+      "Accurate results",
+      "Professional care",
+    ],
+    alt: "Flyer de promoción Perfil Hormonal para Hombres por $200 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Men's Hormone Panel promotion flyer for $200 at Clínica Hispana La Caridad, Houston",
+  },
+  {
+    slug: "perfil-hormonal-mujeres",
+    title: "Perfil Hormonal para Mujeres",
+    titleEn: "Women's Hormone Panel",
+    price: "$250",
+    blurb:
+      "Perfil hormonal femenino para evaluar tus niveles hormonales. Útil para revisar aspectos relacionados con el ciclo menstrual, la fertilidad y la menopausia. Resultados precisos y atención profesional.",
+    blurbEn:
+      "Female hormone panel to evaluate your hormone levels. Useful for reviewing aspects related to the menstrual cycle, fertility and menopause. Accurate results and professional care.",
+    includes: [
+      "Evaluación de niveles hormonales",
+      "Orientación sobre ciclo menstrual y fertilidad",
+      "Resultados precisos",
+      "Atención profesional",
+    ],
+    includesEn: [
+      "Hormone level evaluation",
+      "Guidance on menstrual cycle and fertility",
+      "Accurate results",
+      "Professional care",
+    ],
+    alt: "Flyer de promoción Perfil Hormonal para Mujeres por $250 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Women's Hormone Panel promotion flyer for $250 at Clínica Hispana La Caridad, Houston",
+  },
+  {
+    slug: "diagnostico-ets",
+    title: "Diagnóstico Completo de ETS",
+    titleEn: "Complete STD Testing",
+    price: "$249",
+    blurb:
+      "Panel de diagnóstico para enfermedades de transmisión sexual que incluye pruebas de RPR, VIH, herpes, clamidia y gonorrea. Atención confidencial y en español.",
+    blurbEn:
+      "Diagnostic panel for sexually transmitted diseases including RPR, HIV, herpes, chlamydia and gonorrhea testing. Confidential care, in Spanish.",
+    includes: [
+      "Prueba de RPR (sífilis)",
+      "Prueba de VIH",
+      "Prueba de herpes",
+      "Prueba de clamidia",
+      "Prueba de gonorrea",
+    ],
+    includesEn: [
+      "RPR (syphilis) test",
+      "HIV test",
+      "Herpes test",
+      "Chlamydia test",
+      "Gonorrhea test",
+    ],
+    alt: "Flyer de promoción Diagnóstico Completo de ETS por $249 en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Complete STD Testing promotion flyer for $249 at Clínica Hispana La Caridad, Houston",
+  },
+  {
+    slug: "examen-dot",
+    title: "Examen DOT",
+    titleEn: "DOT Physical Exam",
+    price: null,
+    blurb:
+      "Examen físico DOT para conductores comerciales, con proceso rápido y certificación oficial. Atención en español para que cumplas con los requisitos sin complicaciones.",
+    blurbEn:
+      "DOT physical exam for commercial drivers, with a fast process and official certification. Care in Spanish so you can meet the requirements without hassle.",
+    includes: [
+      "Examen físico rápido",
+      "Certificación oficial DOT",
+      "Atención en español",
+    ],
+    includesEn: [
+      "Fast physical exam",
+      "Official DOT certification",
+      "Care in Spanish",
+    ],
+    alt: "Flyer de promoción Examen DOT para conductores en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "DOT Physical Exam promotion flyer for drivers at Clínica Hispana La Caridad, Houston",
   },
 ];
 

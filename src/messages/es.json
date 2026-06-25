@@ -18,7 +18,8 @@
     "walkIn": "Sin Cita",
     "privacy": "Privacidad",
     "menu": "Menú",
-    "closeMenu": "Cerrar menú"
+    "closeMenu": "Cerrar menú",
+    "promotions": "Promociones"
   },
   "hero": {
     "badge": "Atención médica de calidad",
@@ -226,5 +227,39 @@
     "ctaTitle": "¿Necesita atención médica?",
     "ctaDescription": "Estamos aquí para ayudarle. Llame ahora para agendar su cita o visite nuestra clínica sin cita previa.",
     "callNow": "Llamar ahora:"
+  },
+  "promotions": {
+    "eyebrow": "Promociones",
+    "title": "Promociones de la Clínica",
+    "subtitle": "Paquetes y exámenes a precios accesibles en Houston, TX. Sin cita previa y con atención en español.",
+    "metaTitle": "Promociones y Paquetes Médicos en Houston, TX",
+    "metaDescription": "Promociones médicas en Houston TX: chequeos para hombre y mujer, perfil hormonal, pruebas de ETS, examen DOT y más. Sin cita previa, atención en español.",
+    "viewDetail": "Ver detalles",
+    "viewAll": "Ver todas las promociones",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "limitedTime": "Tiempo limitado",
+    "priceLabel": "Precio especial",
+    "includesLabel": "Incluye",
+    "ctaCall": "Llamar a la clínica",
+    "ctaDirections": "Cómo llegar",
+    "ctaForm": "Llenar formulario",
+    "close": "Cerrar",
+    "openAria": "Ver detalles de {title}",
+    "swipeHint": "Desliza para ver más",
+    "goToSlide": "Ir a la promoción {n}",
+    "backToHome": "Volver al inicio",
+    "googleReviews": "+ reseñas en Google",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": {
+      "q1": "¿Hasta cuándo son válidas las promociones?",
+      "a1": "Son por tiempo limitado y pueden cambiar sin previo aviso. Llámanos para confirmar disponibilidad y el precio vigente antes de tu visita.",
+      "q2": "¿Necesito cita o seguro médico?",
+      "a2": "No. Atendemos sin cita previa y no necesitas seguro médico. Puedes venir directamente o llamarnos para coordinar tu visita.",
+      "q3": "¿Cómo reservo una promoción?",
+      "a3": "Llámanos, usa “Cómo llegar” para visitarnos o llena el formulario y te contactamos. Menciona la promoción que te interesa."
+    },
+    "formTitle": "Reserva tu promoción",
+    "formSubtitle": "Déjanos tus datos y te contactamos para coordinar tu visita."
   }
 }

@@ -22,11 +22,18 @@ export interface Service {
 }
 
 export interface Promotion {
-  id: string;
+  /** Descriptive slug — also the .webp filename and deep-link anchor */
+  slug: string;
   title: string;
-  badge: string;
-  description: string;
+  titleEn: string;
+  /** Display price as shown on the flyer, e.g. "$99"; null when the flyer shows none */
+  price: string | null;
+  blurb: string;
+  blurbEn: string;
   includes: string[];
+  includesEn: string[];
+  alt: string;
+  altEn: string;
 }
 
 export interface ContactInfo {

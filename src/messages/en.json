@@ -18,7 +18,8 @@
     "walkIn": "Walk-in",
     "privacy": "Privacy",
     "menu": "Menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "promotions": "Promotions"
   },
   "hero": {
     "badge": "Quality medical care",
@@ -226,5 +227,39 @@
     "ctaTitle": "Need medical attention?",
     "ctaDescription": "We're here to help. Call now to schedule your appointment or visit our clinic without an appointment.",
     "callNow": "Call now:"
+  },
+  "promotions": {
+    "eyebrow": "Promotions",
+    "title": "Clinic Promotions",
+    "subtitle": "Affordable packages and exams in Houston, TX. Walk-ins welcome, with care in Spanish.",
+    "metaTitle": "Medical Promotions & Packages in Houston, TX",
+    "metaDescription": "Medical promotions in Houston TX: men's and women's check-ups, hormone panels, STD testing, DOT physical and more. Walk-ins welcome, Spanish-speaking staff.",
+    "viewDetail": "View details",
+    "viewAll": "View all promotions",
+    "prev": "Previous",
+    "next": "Next",
+    "limitedTime": "Limited time",
+    "priceLabel": "Special price",
+    "includesLabel": "Includes",
+    "ctaCall": "Call the clinic",
+    "ctaDirections": "Get directions",
+    "ctaForm": "Fill out form",
+    "close": "Close",
+    "openAria": "View details for {title}",
+    "swipeHint": "Swipe to see more",
+    "goToSlide": "Go to promotion {n}",
+    "backToHome": "Back to home",
+    "googleReviews": "+ reviews on Google",
+    "faqTitle": "Frequently asked questions",
+    "faq": {
+      "q1": "How long are the promotions valid?",
+      "a1": "They are for a limited time and may change without notice. Call us to confirm availability and the current price before your visit.",
+      "q2": "Do I need an appointment or insurance?",
+      "a2": "No. We welcome walk-ins and you don't need medical insurance. Come in directly or call us to arrange your visit.",
+      "q3": "How do I book a promotion?",
+      "a3": "Call us, use “Get directions” to visit, or fill out the form and we'll contact you. Mention the promotion you're interested in."
+    },
+    "formTitle": "Book your promotion",
+    "formSubtitle": "Leave your details and we'll contact you to arrange your visit."
   }
 }
