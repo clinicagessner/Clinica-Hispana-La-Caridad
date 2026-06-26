@@ -18,6 +18,11 @@ const RETIRED_SERVICE_SLUGS: Record<string, string> = {
 
 const nextConfig: NextConfig = {
   images: {
+    // Optimizador de Vercel desactivado: la cuenta tiene topada la cuota de
+    // Image Optimization (/_next/image devuelve 402
+    // OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED). Servimos los originales de
+    // public/, ya comprimidos a mano (WebP q80 / PNG pngquant+oxipng).
+    unoptimized: true,
     qualities: [60, 75],
     minimumCacheTTL: 31536000,
     remotePatterns: [
