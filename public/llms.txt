@@ -67,21 +67,51 @@ Houston metropolitan area including Spring Branch, Sharpstown, Westchase, Alief,
 - Promotions / packages (prices): https://www.chlacaridad.com/promociones
 - Walk-in clinic info: https://www.chlacaridad.com/walk-in
 - Blog: https://www.chlacaridad.com/blog
-- I-693 immigration exam: https://www.chlacaridad.com/services/examenes-inmigracion
-- Gynecology: https://www.chlacaridad.com/services/ginecologia
-- Men's health: https://www.chlacaridad.com/services/salud-hombre
-- Blood tests / lab: https://www.chlacaridad.com/services/examenes-sangre
 
-## Featured guides
+## Service pages (29)
 
-- USCIS-Authorized Doctors in Houston: How to Verify Civil Surgeon — https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon
+- Diabetes, Hypertension & Cholesterol Care: https://www.chlacaridad.com/services/condiciones-cronicas
+- Thyroid Testing & Treatment: https://www.chlacaridad.com/services/tiroides
+- Allergy Testing & Treatment: https://www.chlacaridad.com/services/alergias
+- Flu & COVID Testing and Respiratory Illness Care: https://www.chlacaridad.com/services/enfermedades-respiratorias
+- School & Sports Physical Exams: https://www.chlacaridad.com/services/examen-fisico-escolar
+- Gynecology Care: Pap Smear & Cultures: https://www.chlacaridad.com/services/ginecologia
+- Pregnancy Testing & Confirmation: https://www.chlacaridad.com/services/prueba-embarazo
+- Contraceptive Methods: https://www.chlacaridad.com/services/anticonceptivos
+- Subdermal Implant Removal: https://www.chlacaridad.com/services/extraccion-implantes
+- Men's Health Exams: PSA & Testosterone: https://www.chlacaridad.com/services/salud-hombre
+- Blood Tests | Lab: https://www.chlacaridad.com/services/examenes-sangre
+- Urinalysis & Urinary Infection Treatment: https://www.chlacaridad.com/services/infecciones-urinarias
+- Stool Tests: https://www.chlacaridad.com/services/examen-heces
+- Strep Test: https://www.chlacaridad.com/services/prueba-strep
+- Tuberculosis (TB) Test: https://www.chlacaridad.com/services/prueba-tuberculosis
+- Sexually Transmitted Disease (STD) Testing: https://www.chlacaridad.com/services/enfermedades-transmision-sexual
+- Alcohol & Drug Testing: https://www.chlacaridad.com/services/examen-alcohol-drogas
+- Electrocardiogram (EKG): https://www.chlacaridad.com/services/electrocardiograma
+- Ultrasound & Sonography: https://www.chlacaridad.com/services/ultrasonido
+- DOT Physical Exam - CDL License: https://www.chlacaridad.com/services/examen-dot
+- Immigration Medical Exam I-693: https://www.chlacaridad.com/services/examenes-inmigracion
+- Flu and Tetanus (Tdap) Vaccines: https://www.chlacaridad.com/services/vacunas
+- Vitamin IV Therapy: https://www.chlacaridad.com/services/sueros-vitaminados
+- Wound Suturing: https://www.chlacaridad.com/services/suturas-heridas
+- Wound Care: https://www.chlacaridad.com/services/curacion-heridas
+- Minor Surgery: https://www.chlacaridad.com/services/cirugias-menores
+- Abscess Drainage: https://www.chlacaridad.com/services/drenaje-abscesos
+- Ingrown Toenail Removal: https://www.chlacaridad.com/services/unas-encarnadas
+- Pharmacy: https://www.chlacaridad.com/services/farmacia
+
+## Blog guides (10)
+
+- Welcome to Clínica Hispana La Caridad! — https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad
+- USCIS-Authorized Doctors in Houston: How to Verify — https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon
 - Hispanic Gynecologists in Houston Who Speak Spanish — https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol
-- Complete I-693 Guide: Immigration Medical Exam in Houston — https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston
-- DOT Physical for Truck Drivers in Houston — https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston
-- Same-Day Blood Tests in Houston — https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre
-- Diabetes Management for Hispanic Patients in Houston — https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes
-- Healthcare Without Insurance in Houston — https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston
-- Women's Health in Houston: Gynecology in Spanish — https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia
+- Complete Guide: I-693 Immigration Medical Exam in Houston TX — https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston
+- DOT Physical Exam Houston: Truck Driver Guide — https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston
+- Blood Tests Houston: Same-Day Lab Results — https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre
+- Diabetes Management Houston: Guide for Hispanic Patients — https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes
+- Healthcare Without Insurance in Houston: Affordable Options — https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston
+- Women's Health Houston: Gynecology in Spanish — https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia
+- Spanish-Speaking Urologist in Houston: Men's Health — https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre
 
 ## Pricing
 
@@ -135,4 +165,4 @@ https://www.chlacaridad.com
 
 For appointments or questions, call (832) 925-8135 or visit our clinic at 5705 Fondren Rd STE 101, Houston, TX 77036. Walk-ins welcome every day 9 AM to 9 PM.
 
-Last updated: 2026-06-15
+Last updated: 2026-06-30
