@@ -26,6 +26,7 @@
     "title": "Su Clínica Hispana de Confianza en Houston",
     "subtitle": "Atención médica profesional 100% en español. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
+    "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Cómo Llegar",
     "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reseñas en Google",
@@ -175,7 +176,9 @@
     "bookAppointment": "Agendar Cita",
     "learnMore": "Más Información",
     "contactUs": "Contáctenos",
-    "viewServices": "Ver Servicios"
+    "viewServices": "Ver Servicios",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "whatsappMessage": "Hola, me gustaría más información sobre sus servicios."
   },
   "accessibility": {
     "skipToContent": "Saltar al contenido",

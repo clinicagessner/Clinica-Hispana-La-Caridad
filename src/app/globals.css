@@ -39,6 +39,10 @@
   --yellow-accent-light: #fff3b0;
   --yellow-accent-bg: #fffbea;
 
+  /* WHATSAPP - Color oficial de la marca */
+  --whatsapp: #25d366;
+  --whatsapp-dark: #1da851;
+
   /* SLATE - Neutros */
   --slate-dark: #1e293b;
   --slate-primary: #475569;
@@ -186,6 +190,9 @@
   --color-yellow-accent-dark: var(--yellow-accent-dark);
   --color-yellow-accent-light: var(--yellow-accent-light);
   --color-yellow-accent-bg: var(--yellow-accent-bg);
+
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-dark: var(--whatsapp-dark);
 
   /* Paleta Slate */
   --color-slate-dark: var(--slate-dark);

@@ -1,15 +1,22 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Phone, MapPin, Star, CheckCircle2 } from "lucide-react";
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
 export async function Hero() {
-  const [t, placeData] = await Promise.all([
+  const [t, tc, placeData] = await Promise.all([
     getTranslations("hero"),
+    getTranslations("cta"),
     getGooglePlaceData(),
   ]);
+
+  // WhatsApp usa CONTACT_INFO.whatsapp (solo dígitos, formato wa.me) y el botón
+  // nunca muestra el número como texto: así el swap.js de CallRail no lo
+  // reescribe con el número de tracking.
+  const whatsappHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(tc("whatsappMessage"))}`;
 
   // Live Google rating/review count, falling back to static constants
   const rating = placeData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
@@ -136,6 +143,22 @@ export async function Hero() {
               >
                 <Phone className="size-5" aria-hidden="true" />
                 {t("ctaCall")}
+              </a>
+            </Button>
+
+            <Button
+              asChild
+              size="lg"
+              className="bg-whatsapp hover:bg-whatsapp-dark text-white text-sm md:text-base px-7 py-6 gap-2 shadow-lg shadow-black/20"
+            >
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={tc("whatsapp")}
+              >
+                <WhatsappLogo className="size-5" weight="fill" aria-hidden="true" />
+                {t("ctaWhatsapp")}
               </a>
             </Button>
 
