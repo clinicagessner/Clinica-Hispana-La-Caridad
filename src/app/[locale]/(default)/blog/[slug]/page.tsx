@@ -233,11 +233,41 @@ export default async function BlogPostPage({ params }: Props) {
   );
 }
 
+// Converts markdown table blocks into single-line HTML before the line-based
+// replacements run — the later `\n` → <br> pass would break multi-line markup.
+function parseTables(markdown: string): string {
+  return markdown.replace(/(?:^\|.+\|[ \t]*\r?\n?)+/gm, (block) => {
+    const rows = block
+      .trim()
+      .split("\n")
+      .map((row) =>
+        row
+          .trim()
+          .replace(/^\||\|$/g, "")
+          .split("|")
+          .map((cell) => cell.trim())
+      )
+      .filter((cells) => !cells.every((cell) => /^:?-{2,}:?$/.test(cell)));
+
+    if (rows.length === 0) return block;
+
+    const [header, ...body] = rows;
+    const thead = `<thead><tr>${header.map((cell) => `<th>${cell}</th>`).join("")}</tr></thead>`;
+    const tbody = body.length
+      ? `<tbody>${body
+          .map((cells) => `<tr>${cells.map((cell) => `<td>${cell}</td>`).join("")}</tr>`)
+          .join("")}</tbody>`
+      : "";
+
+    return `<table>${thead}${tbody}</table>`;
+  });
+}
+
 // Simple markdown parser (for basic formatting)
 function parseMarkdown(markdown: string): string {
   // The page already renders the post title as the h1 (from frontmatter), so any
   // leading `# Title` in the markdown body would produce a duplicate h1.
-  const stripped = markdown.replace(/^\s*#\s+.+\r?\n+/, "");
+  const stripped = parseTables(markdown.replace(/^\s*#\s+.+\r?\n+/, ""));
 
   let html = stripped
     // Headers — `#` (single hash) is intentionally not handled: see strip above.
@@ -267,7 +297,11 @@ function parseMarkdown(markdown: string): string {
     .replace(/<\/li><\/p>/g, '</li></ul>')
     .replace(/<\/li><br><li>/g, '</li><li>')
     .replace(/<br><ul>/g, '</p><ul>')
-    .replace(/<\/ul><br>/g, '</ul><p>');
+    .replace(/<\/ul><br>/g, '</ul><p>')
+    .replace(/<p><table>/g, '<table>')
+    .replace(/<\/table><\/p>/g, '</table>')
+    .replace(/<br><table>/g, '</p><table>')
+    .replace(/<\/table><br>/g, '</table><p>');
 
   return html;
 }

@@ -562,6 +562,40 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to right, transparent, var(--cyan-bg-alt), transparent);
 }
 
+.blog-content table {
+  display: block;
+  overflow-x: auto;
+  margin: 2rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--cyan-bg-alt);
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.blog-content th {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: left;
+  color: white;
+  background: var(--blue-primary);
+  padding: 0.75rem 1rem;
+}
+
+.blog-content td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--cyan-bg-alt);
+  color: var(--slate-dark);
+  vertical-align: top;
+  min-width: 8rem;
+}
+
+.blog-content tbody tr:nth-child(even) {
+  background: var(--cyan-bg);
+}
+
 .blog-content > p:first-of-type {
   font-size: 1.2rem;
   color: var(--slate-dark);
