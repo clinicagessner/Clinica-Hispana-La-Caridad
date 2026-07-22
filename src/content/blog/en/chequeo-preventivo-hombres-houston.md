@@ -5,7 +5,7 @@ description: "Which screenings men need at every age: blood pressure, glucose, c
 date: "2026-07-22"
 dateModified: "2026-07-22"
 author: "Clinica Hispana La Caridad"
-image: "/images/services/general-exams.webp"
+image: "/images/services/salud-hombre.webp"
 featured: false
 category: "Men's Health"
 readTime: 8
