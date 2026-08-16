@@ -1220,6 +1220,31 @@ export const SERVICES: Service[] = [
 // factual (sin claims médicos) por la política de salud de Google Ads.
 export const PROMOTIONS: Promotion[] = [
   {
+    slug: "chequeo-general-completo",
+    title: "Chequeo General Completo",
+    titleEn: "Complete General Check-Up",
+    price: "$99",
+    blurb:
+      "Chequeo general completo por $99 (valor regular $250) que incluye examen general de sangre, prueba A1C (hemoglobina glicosilada), examen general de orina y consulta médica gratis. Sin cita previa y con atención en español.",
+    blurbEn:
+      "Complete general check-up for $99 (regular value $250) including a general blood panel, A1C (glycated hemoglobin) test, general urine test and a free medical consultation. Walk-ins welcome, with care in Spanish.",
+    includes: [
+      "Examen general de sangre",
+      "A1C (hemoglobina glicosilada)",
+      "Examen general de orina",
+      "Consulta médica gratis",
+    ],
+    includesEn: [
+      "General blood panel",
+      "A1C (glycated hemoglobin) test",
+      "General urine test",
+      "Free medical consultation",
+    ],
+    alt: "Flyer de promoción Chequeo General Completo por $99 con consulta gratis en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Complete General Check-Up promotion flyer for $99 with free consultation at Clínica Hispana La Caridad, Houston",
+  },
+  {
     slug: "examen-completo-hombres",
     title: "Examen Completo para Hombres",
     titleEn: "Complete Men's Exam",
