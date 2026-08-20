@@ -166,7 +166,7 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl mx-auto">
             <div className="blog-content">
-              <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content) }} />
+              <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content, locale) }} />
             </div>
 
             {/* CTA Section */}
@@ -264,7 +264,14 @@ function parseTables(markdown: string): string {
 }
 
 // Simple markdown parser (for basic formatting)
-function parseMarkdown(markdown: string): string {
+function parseMarkdown(markdown: string, locale: string): string {
+  // Los .md comparten los mismos hrefs internos en es/en; con localePrefix
+  // "as-needed" las rutas EN necesitan el prefijo /en o el post inglés
+  // enlaza a las páginas españolas.
+  const localizeHref = (href: string) =>
+    locale === "en" && href.startsWith("/") && !href.startsWith("/en/") && href !== "/en"
+      ? `/en${href}`
+      : href;
   // The page already renders the post title as the h1 (from frontmatter), so any
   // leading `# Title` in the markdown body would produce a duplicate h1.
   const stripped = parseTables(markdown.replace(/^\s*#\s+.+\r?\n+/, ""));
@@ -278,7 +285,7 @@ function parseMarkdown(markdown: string): string {
     // Italic
     .replace(/\*(.*?)\*/gim, '<em>$1</em>')
     // Links
-    .replace(/\[(.*?)\]\((.*?)\)/gim, '<a href="$2">$1</a>')
+    .replace(/\[(.*?)\]\((.*?)\)/gim, (_match, text, href) => `<a href="${localizeHref(href)}">${text}</a>`)
     // Unordered lists
     .replace(/^- (.*$)/gim, '<li>$1</li>')
     // Ordered lists

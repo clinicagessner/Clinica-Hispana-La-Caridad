@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import {
@@ -8,6 +8,7 @@ import {
   SOCIAL_LINKS,
   SERVICES,
 } from "@/lib/constants";
+import { getLocalizedService } from "@/lib/utils";
 
 const FacebookIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
@@ -23,13 +24,27 @@ const InstagramIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+// Servicios con mayor demanda de búsqueda (GSC), no los primeros por `order`:
+// el footer es el único enlace sitewide hacia estas páginas y Google prioriza
+// el rastreo/indexación según los enlaces internos que reciben.
+const FOOTER_SERVICE_SLUGS = [
+  "ginecologia",
+  "salud-hombre",
+  "examenes-sangre",
+  "enfermedades-transmision-sexual",
+  "examenes-inmigracion",
+  "examen-dot",
+];
+
 export async function Footer() {
   const t = await getTranslations();
+  const locale = await getLocale();
   const currentYear = new Date().getFullYear();
 
-  const topServices = [...SERVICES]
-    .sort((a, b) => a.order - b.order)
-    .slice(0, 6);
+  const topServices = FOOTER_SERVICE_SLUGS.flatMap((slug) => {
+    const service = SERVICES.find((s) => s.slug === slug);
+    return service ? [getLocalizedService(service, locale)] : [];
+  });
 
   return (
     <footer role="contentinfo" className="relative overflow-hidden bg-blue-dark text-white">

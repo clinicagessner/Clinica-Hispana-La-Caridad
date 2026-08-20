@@ -107,16 +107,17 @@ Some clinics also offer sliding fee scales for patients without insurance.
 
 ## How Clinica Hispana La Caridad can help
 
-At **Clinica Hispana La Caridad** we offer gynecology services fully in Spanish. Our team is at **5705 Fondren Rd STE 101, Houston TX 77036**, open 7 days a week from 9 AM to 9 PM, walk-ins welcome.
+At **Clinica Hispana La Caridad** we offer [gynecology services](/services/ginecologia) fully in Spanish. Our team is at **5705 Fondren Rd STE 101, Houston TX 77036**, open 7 days a week from 9 AM to 9 PM, [walk-ins welcome](/walk-in).
 
 We provide:
 
-- Pap smear and HPV testing
+- [Pap smear and HPV testing](/services/ginecologia)
 - Pelvic and breast exam
-- Basic prenatal care
+- [Pregnancy testing and diagnosis](/services/prueba-embarazo)
 - Menstrual irregularity evaluation
 - Menopause consultation
-- Family planning
+- [Family planning and birth control](/services/anticonceptivos)
+- [STD testing](/services/enfermedades-transmision-sexual)
 
 No insurance needed to be seen — we offer affordable self-pay pricing. Call **(832) 925-8135** to confirm availability.
 

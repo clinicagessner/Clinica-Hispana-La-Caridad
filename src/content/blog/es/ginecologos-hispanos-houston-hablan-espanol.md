@@ -107,16 +107,17 @@ Algunas clínicas también ofrecen escala según ingresos (sliding fee scale) pa
 
 ## Cómo Clínica Hispana La Caridad la puede ayudar
 
-En **Clínica Hispana La Caridad** ofrecemos servicios de ginecología 100% en español. Nuestro equipo está en **5705 Fondren Rd STE 101, Houston TX 77036**, abierto los 7 días de la semana de 9 AM a 9 PM, sin cita previa.
+En **Clínica Hispana La Caridad** ofrecemos [servicios de ginecología](/services/ginecologia) 100% en español. Nuestro equipo está en **5705 Fondren Rd STE 101, Houston TX 77036**, abierto los 7 días de la semana de 9 AM a 9 PM, [sin cita previa](/walk-in).
 
 Atendemos:
 
-- Papanicolaou y examen de VPH
+- [Papanicolaou y examen de VPH](/services/ginecologia)
 - Examen pélvico y de seno
-- Atención prenatal básica
+- [Prueba y diagnóstico de embarazo](/services/prueba-embarazo)
 - Evaluación de irregularidades menstruales
 - Consulta de menopausia
-- Planificación familiar
+- [Planificación familiar y anticonceptivos](/services/anticonceptivos)
+- [Pruebas de infecciones de transmisión sexual](/services/enfermedades-transmision-sexual)
 
 No necesita seguro médico para atenderse: ofrecemos precios accesibles de pago directo. Llame al **(832) 925-8135** para confirmar disponibilidad.
 
