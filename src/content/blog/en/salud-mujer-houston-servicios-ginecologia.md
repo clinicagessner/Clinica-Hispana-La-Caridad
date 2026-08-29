@@ -215,7 +215,7 @@ Our [sexually transmitted disease services](/services/enfermedades-transmision-s
 
 ## Schedule Your Visit
 
-Your health is important. Don't postpone your gynecological exams. We are the trusted clinic for thousands of Hispanic women in Houston TX, including the Greenspoint, Northline, Aldine, and north Houston areas.
+Your health is important. Don't postpone your gynecological exams. If it's been a while since your last Pap smear, read our [Pap smear near me in Houston guide](/en/blog/examen-papanicolau-cerca-de-mi-houston) to learn how to prepare. We are the trusted clinic for thousands of Hispanic women in Houston TX, including the Greenspoint, Northline, Aldine, and north Houston areas.
 
 **Clínica Hispana La Caridad**
 - Phone: (832) 925-8135

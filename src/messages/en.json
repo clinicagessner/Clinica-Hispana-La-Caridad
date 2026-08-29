@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Clinica Hispana La Caridad Houston | Spanish Speaking Doctors Houston TX",
+    "title": "Clinica La Caridad | Spanish Speaking Doctors in Houston",
     "titleTemplate": "%s",
     "description": "Hispanic medical clinic in Houston, TX. A medical center with professional healthcare 100% in Spanish, walk-ins welcome, no insurance needed. Primary care, general medicine, immigration exams, laboratory and more.",
     "ogDescription": "Your trusted clinic in Houston. Professional medical care in Spanish for the whole family. Walk-ins welcome, affordable prices. {rating} stars on Google with more than {count} reviews."
@@ -16,6 +16,7 @@
     "faq": "FAQ",
     "blog": "Blog",
     "walkIn": "Walk-in",
+    "reviews": "Reviews",
     "privacy": "Privacy",
     "menu": "Menu",
     "closeMenu": "Close menu",

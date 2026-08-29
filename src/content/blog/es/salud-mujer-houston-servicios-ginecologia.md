@@ -215,7 +215,7 @@ Nuestros servicios de [enfermedades de transmisión sexual](/services/enfermedad
 
 ## Programe su Consulta
 
-Su salud es importante. No posponga sus exámenes ginecológicos. Somos la clínica de referencia para miles de mujeres hispanas en Houston TX, incluyendo las áreas de Greenspoint, Northline, Aldine y el norte de la ciudad.
+Su salud es importante. No posponga sus exámenes ginecológicos. Si lleva tiempo sin hacerse el Papanicolau, lea nuestra [guía del examen de Papanicolau cerca de usted en Houston](/blog/examen-papanicolau-cerca-de-mi-houston) para saber cómo prepararse. Somos la clínica de referencia para miles de mujeres hispanas en Houston TX, incluyendo las áreas de Greenspoint, Northline, Aldine y el norte de la ciudad.
 
 **Clínica Hispana La Caridad**
 - Teléfono: (832) 925-8135

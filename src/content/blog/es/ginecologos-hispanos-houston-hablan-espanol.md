@@ -136,7 +136,7 @@ Sí, atendemos pacientes desde los 18 años (o adolescentes acompañadas de su m
 No, no necesita seguro. Manejamos precios accesibles y transparentes de pago directo.
 
 **¿Cuánto tiempo dura una consulta de Papanicolaou?**
-La consulta completa con Papanicolaou toma entre 20 y 30 minutos. Los resultados se entregan en 5-7 días hábiles.
+La consulta completa con Papanicolaou toma entre 20 y 30 minutos. Los resultados se entregan en 5-7 días hábiles. Si quiere saber cómo prepararse y qué significan los resultados, lea nuestra [guía del examen de Papanicolau cerca de usted en Houston](/blog/examen-papanicolau-cerca-de-mi-houston).
 
 ---
 

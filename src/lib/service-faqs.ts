@@ -282,6 +282,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "salud-hombre": {
     "faqs": [
       {
+        "question": "¿Tienen urólogo que hable español en Houston?",
+        "answer": "Realizamos la evaluación urológica inicial en español: examen de próstata (PSA), testosterona y revisión de síntomas urinarios como ardor, urgencia o levantarse de noche a orinar. Si tu caso necesita un urólogo especialista, te referimos con tus resultados listos para que llegues con el diagnóstico adelantado."
+      },
+      {
+        "question": "¿Cuándo debo hacerme el examen de próstata?",
+        "answer": "En general a partir de los 50 años, o desde los 45 si tienes antecedentes familiares de cáncer de próstata. También si tienes síntomas urinarios. El examen se hace con una muestra de sangre (PSA) y los resultados se explican en español."
+      },
+      {
         "question": "¿Qué incluye el examen del hombre?",
         "answer": "Incluye antígeno prostático (PSA), nivel de testosterona y un chequeo general, con resultados explicados en español."
       },
@@ -295,6 +303,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ],
     "faqsEn": [
+      {
+        "question": "Do you have a Spanish-speaking urologist in Houston?",
+        "answer": "We perform the initial urology evaluation in Spanish: prostate (PSA) test, testosterone and a review of urinary symptoms such as burning, urgency or waking up at night to urinate. If your case needs a urology specialist, we refer you with your results ready so you arrive with a head start."
+      },
+      {
+        "question": "When should I get a prostate exam?",
+        "answer": "Generally from age 50, or from 45 if you have a family history of prostate cancer. Also if you have urinary symptoms. The test is done with a blood sample (PSA) and results are explained in Spanish."
+      },
       {
         "question": "What does the men's exam include?",
         "answer": "It includes prostate antigen (PSA), testosterone level and a general checkup, with results explained in Spanish."

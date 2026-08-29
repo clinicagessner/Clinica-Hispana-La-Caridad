@@ -136,7 +136,7 @@ Yes, we treat patients ages 18 and over (or teenagers accompanied by their mothe
 No, you don't need insurance. We offer affordable, transparent self-pay pricing.
 
 **How long does a Pap smear consultation take?**
-The full consultation with Pap smear takes 20 to 30 minutes. Results are delivered in 5-7 business days.
+The full consultation with Pap smear takes 20 to 30 minutes. Results are delivered in 5-7 business days. To learn how to prepare and what the results mean, read our [Pap smear near me in Houston guide](/en/blog/examen-papanicolau-cerca-de-mi-houston).
 
 ---
 
