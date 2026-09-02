@@ -1254,6 +1254,31 @@ export const PROMOTIONS: Promotion[] = [
       "Complete General Check-Up promotion flyer for $99 with free consultation at Clínica Hispana La Caridad, Houston",
   },
   {
+    slug: "chequeo-mujer-ultrasonido",
+    title: "Chequeo Completo de la Mujer",
+    titleEn: "Complete Women's Check-Up",
+    price: "$179",
+    blurb:
+      "¿Hace cuánto no revisas tu salud femenina? Chequeo completo de la mujer por $179 (valor regular $300) que incluye ultrasonido pélvico, Papanicolaou, examen de orina y consulta médica gratis. Sin cita previa y con atención en español.",
+    blurbEn:
+      "How long since your last women's health check? Complete women's check-up for $179 (regular value $300) including pelvic ultrasound, Pap smear, urine test and a free medical consultation. Walk-ins welcome, with care in Spanish.",
+    includes: [
+      "Ultrasonido pélvico",
+      "Papanicolaou",
+      "Examen de orina",
+      "Consulta médica gratis",
+    ],
+    includesEn: [
+      "Pelvic ultrasound",
+      "Pap smear",
+      "Urine test",
+      "Free medical consultation",
+    ],
+    alt: "Flyer de promoción Chequeo Completo de la Mujer por $179 con ultrasonido pélvico, Papanicolaou, examen de orina y consulta gratis en Clínica Hispana La Caridad, Houston",
+    altEn:
+      "Complete Women's Check-Up promotion flyer for $179 with pelvic ultrasound, Pap smear, urine test and free consultation at Clínica Hispana La Caridad, Houston",
+  },
+  {
     slug: "examen-completo-hombres",
     title: "Examen Completo para Hombres",
     titleEn: "Complete Men's Exam",
