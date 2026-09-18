@@ -1,7 +1,7 @@
 ---
 slug: "laboratorio-clinico-houston-analisis-sangre"
 title: "Blood Work in Houston: Which Panel to Ask For"
-description: "Clinical laboratory in Houston TX with same-day results. Blood tests, glucose, cholesterol, thyroid panel, and more at affordable prices with Spanish-speaking staff."
+description: "Which blood panel to ask for and when fasting is really needed. Glucose, A1C, cholesterol and thyroid explained, in Houston TX."
 date: "2026-03-21"
 dateModified: "2026-09-18"
 author: "Clínica Hispana La Caridad"

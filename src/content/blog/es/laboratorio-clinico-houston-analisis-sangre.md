@@ -1,7 +1,7 @@
 ---
 slug: "laboratorio-clinico-houston-analisis-sangre"
 title: "Análisis de Sangre en Houston: Qué Panel Pedir"
-description: "Laboratorio clínico en Houston TX con resultados el mismo día. Análisis de sangre, glucosa, colesterol, tiroides y más. Precios accesibles en español."
+description: "Qué panel de sangre pedir y cuándo hay que ayunar de verdad. Glucosa, A1C, colesterol y tiroides explicados en español, en Houston TX."
 date: "2026-03-21"
 dateModified: "2026-09-18"
 author: "Clínica Hispana La Caridad"
