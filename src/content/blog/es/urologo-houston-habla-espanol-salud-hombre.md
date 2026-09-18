@@ -1,7 +1,7 @@
 ---
 slug: "urologo-houston-habla-espanol-salud-hombre"
-title: "Urólogo en Houston que Habla Español: Salud del Hombre"
-description: "Cuándo ver a un urólogo en Houston, señales de problemas de próstata, examen PSA y testosterona. Atención del hombre en español, sin cita y sin seguro."
+title: "Problemas de Próstata en Houston: Señales y Exámenes"
+description: "Cuándo revisar la próstata, señales de alarma, examen PSA y perfil hormonal. Atención del hombre en español, sin cita previa y sin seguro médico."
 date: "2026-06-15"
 dateModified: "2026-06-15"
 author: "Clínica Hispana La Caridad"

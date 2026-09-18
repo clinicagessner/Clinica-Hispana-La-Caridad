@@ -1,7 +1,7 @@
 ---
 slug: "chequeo-preventivo-hombres-houston"
 title: "Chequeo Preventivo para Hombres en Houston: Guía por Edad"
-description: "Qué exámenes debe hacerse un hombre según su edad: presión, glucosa, colesterol, PSA y más. Chequeos sin cita y sin seguro en Houston, en español."
+description: "Qué exámenes conviene hacerse según la edad: presión, azúcar, colesterol, próstata y perfil hormonal. Guía en español para hombres en Houston."
 date: "2026-07-22"
 dateModified: "2026-07-22"
 author: "Clínica Hispana La Caridad"

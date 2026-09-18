@@ -1,7 +1,7 @@
 ---
 slug: "urologo-houston-habla-espanol-salud-hombre"
-title: "Spanish-Speaking Urologist in Houston: Men's Health"
-description: "When to see a urologist in Houston, signs of prostate problems, PSA and testosterone testing. Men's health care in Spanish, walk-in, no insurance needed."
+title: "Prostate Problems in Houston: Signs and Tests"
+description: "When to check the prostate, warning signs, PSA test and hormone panel. Men's care in Spanish, walk-in and with no insurance needed."
 date: "2026-06-15"
 dateModified: "2026-06-15"
 author: "Clinica Hispana La Caridad"
