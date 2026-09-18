@@ -157,6 +157,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <meta name="theme-color" content="#02176d" />
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
+        <link rel="preconnect" href="https://cdn.callrail.com" />
         <link rel="preconnect" href="https://connect.facebook.net" />
         {/* Meta Pixel — plain script in head, NOT managed by React */}
         <script
@@ -184,10 +185,13 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
       </body>
       <GoogleTags />
+      {/* CallRail: afterInteractive, NO lazyOnload. El swap de números se
+          engancha a DOMContentLoaded; si el script llega después del evento
+          load, abre sesión pero nunca sustituye el número. */}
       <Script
         id="callrail-swap"
         src="//cdn.callrail.com/companies/413132698/334d41c65d6e3acabf78/12/swap.js"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
       />
     </html>
   );
