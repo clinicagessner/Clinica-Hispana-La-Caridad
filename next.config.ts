@@ -66,17 +66,30 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // Fotos de servicios, promociones, blog y avatares: el nombre va atado
-        // al slug y no cambian, así que se cachean un año sin revalidar.
-        source: "/images/:folder(services|promotions|blog|avatars)/:file*",
-        headers: [
-          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
-        ],
+        // services: el nombre va atado al slug y no cambia. Un año, inmutable.
+        source: "/images/services/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
       },
       {
-        // Logo, hero y og:image sí pueden cambiar: una semana, y mientras se
-        // revalida se sigue sirviendo la copia anterior.
-        source: "/images/:file*",
+        // promotions: el nombre va atado al slug y no cambia. Un año, inmutable.
+        source: "/images/promotions/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        // blog: el nombre va atado al slug y no cambia. Un año, inmutable.
+        source: "/images/blog/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        // avatars: el nombre va atado al slug y no cambia. Un año, inmutable.
+        source: "/images/avatars/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        // Logo, hero y og:image sí pueden cambiar: una semana con
+        // stale-while-revalidate. `:file` sin asterisco casa un solo segmento,
+        // así que no pisa las carpetas de arriba.
+        source: "/images/:file",
         headers: [
           {
             key: "Cache-Control",
