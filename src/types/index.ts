@@ -19,6 +19,8 @@ export interface Service {
   faqsEn?: { question: string; answer: string }[];
   highlighted?: boolean;
   order: number;
+  /** Fecha de la última reescritura de este servicio (ISO). Pisa SERVICES_LAST_MODIFIED en el sitemap. */
+  dateModified?: string;
 }
 
 export interface Promotion {
