@@ -16,6 +16,10 @@ keywords:
   - "PSA test Houston"
   - "men's health clinic Houston"
   - "male urinary problems Houston"
+relatedServices:
+  - "salud-hombre"
+  - "infecciones-urinarias"
+  - "enfermedades-transmision-sexual"
 ---
 
 # Spanish-Speaking Urologist in Houston: Men's Health

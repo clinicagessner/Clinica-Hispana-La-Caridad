@@ -15,6 +15,10 @@ keywords:
   - "civil surgeon Houston"
   - "Green Card medical exam Houston"
   - "USCIS medical exam Houston"
+relatedServices:
+  - "examenes-inmigracion"
+  - "vacunas"
+  - "prueba-tuberculosis"
 ---
 
 # Complete Guide: I-693 Immigration Medical Exam in Houston TX

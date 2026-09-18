@@ -16,6 +16,10 @@ keywords:
   - "prueba PSA Houston"
   - "salud del hombre Houston"
   - "problemas urinarios hombre Houston"
+relatedServices:
+  - "salud-hombre"
+  - "infecciones-urinarias"
+  - "enfermedades-transmision-sexual"
 ---
 
 # Urólogo en Houston que Habla Español: Salud del Hombre

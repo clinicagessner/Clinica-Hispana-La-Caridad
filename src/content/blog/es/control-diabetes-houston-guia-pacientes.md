@@ -15,6 +15,10 @@ keywords:
   - "hemoglobina A1C Houston"
   - "diabetes tipo 2 Houston"
   - "tratamiento diabetes hispanos"
+relatedServices:
+  - "condiciones-cronicas"
+  - "examenes-sangre"
+  - "tiroides"
 ---
 
 # Control de Diabetes en Houston: Guía para Pacientes Hispanos

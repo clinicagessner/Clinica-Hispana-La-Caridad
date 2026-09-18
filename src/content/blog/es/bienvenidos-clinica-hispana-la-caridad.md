@@ -15,6 +15,10 @@ keywords:
   - "doctor hispano Houston TX"
   - "atención médica español"
   - "clínica sin cita Houston"
+relatedServices:
+  - "condiciones-cronicas"
+  - "ginecologia"
+  - "examenes-sangre"
 ---
 
 # ¡Bienvenidos a Clínica Hispana La Caridad!

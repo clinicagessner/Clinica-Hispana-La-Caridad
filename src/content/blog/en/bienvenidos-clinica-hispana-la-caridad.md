@@ -15,6 +15,10 @@ keywords:
   - "Hispanic doctor Houston TX"
   - "medical care in Spanish Houston"
   - "walk-in clinic Houston"
+relatedServices:
+  - "condiciones-cronicas"
+  - "ginecologia"
+  - "examenes-sangre"
 ---
 
 # Welcome to Clínica Hispana La Caridad!

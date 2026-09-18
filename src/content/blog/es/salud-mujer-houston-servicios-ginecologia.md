@@ -15,6 +15,10 @@ keywords:
   - "salud mujer hispana"
   - "examen pélvico Houston"
   - "ginecólogo hispano Houston TX"
+relatedServices:
+  - "ginecologia"
+  - "ultrasonido"
+  - "prueba-embarazo"
 ---
 
 # Salud de la Mujer en Houston: Servicios de Ginecología en Español

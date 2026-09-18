@@ -15,6 +15,10 @@ keywords:
   - "same day lab results Houston"
   - "blood work Houston TX"
   - "affordable lab tests Houston"
+relatedServices:
+  - "examenes-sangre"
+  - "examen-heces"
+  - "condiciones-cronicas"
 ---
 
 # Clinical Laboratory in Houston: Blood Tests with Same-Day Results

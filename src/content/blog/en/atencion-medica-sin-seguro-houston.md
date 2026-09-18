@@ -15,6 +15,10 @@ keywords:
   - "no insurance clinic Houston"
   - "cheap doctor Houston TX"
   - "uninsured medical care Houston"
+relatedServices:
+  - "condiciones-cronicas"
+  - "examenes-sangre"
+  - "vacunas"
 ---
 
 # Healthcare Without Insurance in Houston: Affordable Options

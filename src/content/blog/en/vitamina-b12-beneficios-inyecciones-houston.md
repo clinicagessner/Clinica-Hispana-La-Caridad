@@ -16,6 +16,10 @@ keywords:
   - "B12 shot near me Houston"
   - "vitamin IV therapy Houston"
   - "B12 blood test Houston"
+relatedServices:
+  - "sueros-vitaminados"
+  - "examenes-sangre"
+  - "condiciones-cronicas"
 ---
 
 # Vitamin B12: Benefits, Deficiency Symptoms and Injections

@@ -16,6 +16,10 @@ keywords:
   - "examen físico camioneros Houston"
   - "DOT medical exam español Houston"
   - "tarjeta médica CDL Houston"
+relatedServices:
+  - "examen-dot"
+  - "examen-alcohol-drogas"
+  - "examenes-sangre"
 ---
 
 # Examen DOT para Camioneros en Houston: Todo lo que Necesita Saber

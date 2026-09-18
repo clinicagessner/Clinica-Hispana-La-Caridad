@@ -16,6 +16,10 @@ keywords:
   - "exámenes de sangre para hombres Houston"
   - "examen anual del hombre Houston"
   - "clínica para hombres en español Houston"
+relatedServices:
+  - "salud-hombre"
+  - "examenes-sangre"
+  - "condiciones-cronicas"
 ---
 
 # Chequeo Preventivo para Hombres en Houston: Guía por Edad

@@ -19,6 +19,7 @@ function readBlogFile(slug: string, locale: string): BlogPost | null {
     description: data.description || "",
     date: data.date || "",
     dateModified: data.dateModified,
+    relatedServices: data.relatedServices ?? [],
     author: data.author || "Clínica Hispana La Caridad",
     image: data.image,
     featured: data.featured || false,
@@ -59,7 +60,35 @@ export function getFeaturedPost(locale: string = "es"): BlogPost | null {
   return posts[0] ?? null;
 }
 
+/** Suma estable de un texto, para rotar sin aleatoriedad entre builds. */
+function seed(text: string): number {
+  let n = 0;
+  for (let i = 0; i < text.length; i++) n = (n * 31 + text.charCodeAt(i)) % 100000;
+  return n;
+}
+
 export function getRelatedPosts(slug: string, locale: string = "es", limit: number = 3): BlogPost[] {
   const posts = getBlogPosts(locale);
-  return posts.filter((p) => p.slug !== slug).slice(0, limit);
+  const current = posts.find((p) => p.slug === slug);
+  const mine = new Set(current?.relatedServices ?? []);
+  const rest = posts.filter((p) => p.slug !== slug);
+
+  // Primero los que comparten servicio con este post; después el resto, rotado
+  // por el slug para que los enlaces se repartan y no ganen siempre los mismos.
+  const shared = rest.filter((p) => (p.relatedServices ?? []).some((x) => mine.has(x)));
+  const others = rest.filter((p) => !shared.includes(p));
+  const offset = others.length ? seed(slug) % others.length : 0;
+  const rotated = [...others.slice(offset), ...others.slice(0, offset)];
+
+  return [...shared, ...rotated].slice(0, limit);
+}
+
+/** Posts que declaran `serviceSlug` en su frontmatter, rotados por servicio. */
+export function getGuidesForService(serviceSlug: string, locale: string = "es", limit: number = 3): BlogPost[] {
+  const candidates = getBlogPosts(locale).filter((p) =>
+    (p.relatedServices ?? []).includes(serviceSlug)
+  );
+  if (candidates.length <= limit) return candidates;
+  const offset = seed(serviceSlug) % candidates.length;
+  return [...candidates.slice(offset), ...candidates.slice(0, offset)].slice(0, limit);
 }

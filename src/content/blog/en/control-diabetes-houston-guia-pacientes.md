@@ -15,6 +15,10 @@ keywords:
   - "A1C test Houston"
   - "type 2 diabetes Houston"
   - "diabetes treatment Houston TX"
+relatedServices:
+  - "condiciones-cronicas"
+  - "examenes-sangre"
+  - "tiroides"
 ---
 
 # Diabetes Management in Houston: A Guide for Hispanic Patients

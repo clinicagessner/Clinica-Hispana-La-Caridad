@@ -16,6 +16,10 @@ keywords:
   - "examen médico de inmigración Houston"
   - "I-693 Houston"
   - "clínicas autorizadas para examen médico de residencia"
+relatedServices:
+  - "examenes-inmigracion"
+  - "vacunas"
+  - "prueba-tuberculosis"
 ---
 
 # Médicos Autorizados por USCIS en Houston: Cómo Verificar

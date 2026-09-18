@@ -15,6 +15,10 @@ keywords:
   - "examen médico inmigración"
   - "Green Card examen médico"
   - "USCIS medical exam Houston"
+relatedServices:
+  - "examenes-inmigracion"
+  - "vacunas"
+  - "prueba-tuberculosis"
 ---
 
 # Guía Completa: Examen Médico de Inmigración I-693 en Houston

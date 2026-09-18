@@ -15,6 +15,10 @@ keywords:
   - "spanish speaking gynecologist near me"
   - "pap test houston walk in"
   - "gynecologist houston spanish"
+relatedServices:
+  - "ginecologia"
+  - "ultrasonido"
+  - "enfermedades-transmision-sexual"
 ---
 
 If you're searching for a "Pap smear near me" in Houston, you probably want three things: to be seen in Spanish, to not be asked for insurance, and to not wait weeks for an appointment. This guide explains what the test is, when to get it, how to prepare, and where to get it done today in Houston.

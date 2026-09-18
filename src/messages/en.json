@@ -73,7 +73,8 @@
       "laboratorio": "Laboratory",
       "tratamientos": "Treatments"
     },
-    "allServices": "All services"
+    "allServices": "All services",
+    "relatedGuides": "Related guides"
   },
   "testimonials": {
     "title": "What Our Patients Say",
@@ -242,7 +243,8 @@
     "relatedPosts": "Related Articles",
     "ctaTitle": "Need medical attention?",
     "ctaDescription": "We're here to help. Call now to schedule your appointment or visit our clinic without an appointment.",
-    "callNow": "Call now:"
+    "callNow": "Call now:",
+    "relatedServices": "Related services"
   },
   "promotions": {
     "eyebrow": "Promotions",

@@ -16,6 +16,10 @@ keywords:
   - "papanicolaou en español houston"
   - "ginecólogo que hable español cerca de mí"
   - "consulta ginecológica houston"
+relatedServices:
+  - "ginecologia"
+  - "ultrasonido"
+  - "enfermedades-transmision-sexual"
 ---
 
 Si estás buscando "examen de Papanicolau cerca de mí" en Houston, lo más probable es que quieras tres cosas: que te atiendan en español, que no te pidan seguro médico y que no tengas que esperar semanas por una cita. En esta guía te explicamos qué es el examen, cuándo hacerlo, cómo prepararte y dónde hacértelo hoy mismo en Houston.

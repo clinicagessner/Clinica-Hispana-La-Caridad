@@ -17,6 +17,10 @@ keywords:
   - "sueros vitaminados Houston"
   - "prueba de vitamina B12 Houston"
   - "clínica hispana vitamina B12 Houston"
+relatedServices:
+  - "sueros-vitaminados"
+  - "examenes-sangre"
+  - "condiciones-cronicas"
 ---
 
 # Vitamina B12: Beneficios, Síntomas de Deficiencia e Inyecciones

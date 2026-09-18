@@ -3,8 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SERVICES } from "@/lib/constants";
 import { getBlogPosts, getBlogPost, getRelatedPosts } from "@/lib/blog";
+import { getLocalizedService } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
@@ -94,6 +95,14 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const relatedPosts = getRelatedPosts(slug, locale, 2);
+
+  // Servicios que trata este post. Da al servicio un enlace desde contenido
+  // (no solo desde el footer) y al post un enlace de vuelta desde el servicio.
+  const linkedServices = (post.relatedServices ?? [])
+    .flatMap((slugRef) => {
+      const svc = SERVICES.find((x) => x.slug === slugRef);
+      return svc ? [getLocalizedService(svc, locale)] : [];
+    });
 
   return (
     <>
@@ -186,6 +195,31 @@ export default async function BlogPostPage({ params }: Props) {
               </a>
             </div>
           </div>
+
+          {/* Servicios relacionados */}
+          {linkedServices.length > 0 && (
+            <div className="max-w-4xl mx-auto mt-16">
+              <h2 className="text-2xl font-heading font-bold text-slate-dark mb-6">
+                {t("relatedServices")}
+              </h2>
+              <div className="grid sm:grid-cols-3 gap-4">
+                {linkedServices.map((service) => (
+                  <Link
+                    key={service.id}
+                    href={getLocalizedHref(`/services/${service.slug}`)}
+                    className="block rounded-2xl border border-slate-100 bg-white p-5 shadow-sm hover:shadow-md hover:border-blue-primary/30 transition-all"
+                  >
+                    <p className="font-heading font-bold text-slate-dark mb-1.5">
+                      {service.title}
+                    </p>
+                    <p className="text-sm text-muted-foreground leading-snug line-clamp-3">
+                      {service.description}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Related Posts */}
           {relatedPosts.length > 0 && (

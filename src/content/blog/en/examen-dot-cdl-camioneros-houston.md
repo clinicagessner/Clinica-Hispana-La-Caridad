@@ -16,6 +16,10 @@ keywords:
   - "truck driver physical Houston"
   - "DOT medical exam Spanish Houston"
   - "CDL medical card Houston"
+relatedServices:
+  - "examen-dot"
+  - "examen-alcohol-drogas"
+  - "examenes-sangre"
 ---
 
 # DOT Physical Exam for Truck Drivers in Houston: Everything You Need to Know

@@ -16,6 +16,10 @@ keywords:
   - "clínica de la mujer Houston"
   - "OB GYN español Houston"
   - "Papanicolaou Houston"
+relatedServices:
+  - "ginecologia"
+  - "anticonceptivos"
+  - "ultrasonido"
 ---
 
 # Ginecólogos Hispanos en Houston que Hablan Español

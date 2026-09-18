@@ -34,6 +34,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { getGuidesForService } from "@/lib/blog";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
@@ -134,6 +135,10 @@ export default async function ServicePage({ params }: Props) {
 
   const service = getLocalizedService(rawService, locale);
   const IconComponent = iconMap[service.icon] || Stethoscope;
+
+  // Posts que declaran este servicio en su frontmatter: le dan al post
+  // enlaces entrantes desde contenido, no solo desde el índice del blog.
+  const guides = getGuidesForService(slug, locale, 3);
 
   // Get related services (same category, excluding current)
   const relatedServices = SERVICES.filter(
@@ -311,6 +316,33 @@ export default async function ServicePage({ params }: Props) {
                     </AccordionItem>
                   ))}
                 </Accordion>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Guías del blog sobre este servicio */}
+        {guides.length > 0 && (
+          <section className="py-12 md:py-16 bg-cyan-warm">
+            <div className="container mx-auto px-4">
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-8 text-center">
+                {t("relatedGuides")}
+              </h2>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                {guides.map((guide) => (
+                  <Link
+                    key={guide.slug}
+                    href={`/blog/${guide.slug}`}
+                    className="block h-full rounded-2xl border border-slate-100 bg-white p-6 shadow-sm hover:shadow-md hover:border-blue-primary/30 transition-all"
+                  >
+                    <p className="font-heading font-bold text-slate-dark mb-2 leading-snug">
+                      {guide.title}
+                    </p>
+                    <p className="text-sm text-muted-foreground leading-snug line-clamp-3">
+                      {guide.description}
+                    </p>
+                  </Link>
+                ))}
               </div>
             </div>
           </section>

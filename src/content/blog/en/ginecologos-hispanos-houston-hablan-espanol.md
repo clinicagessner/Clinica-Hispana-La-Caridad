@@ -16,6 +16,10 @@ keywords:
   - "women's clinic Houston TX"
   - "OB GYN Spanish Houston"
   - "Pap smear Houston"
+relatedServices:
+  - "ginecologia"
+  - "anticonceptivos"
+  - "ultrasonido"
 ---
 
 # Hispanic Gynecologists in Houston Who Speak Spanish

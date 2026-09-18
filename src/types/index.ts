@@ -87,6 +87,8 @@ export interface BlogPost {
   readTime?: number;
   keywords?: string[];
   keywordsEn?: string[];
+  /** Slugs de servicios que este post debe enlazar (y que enlazan de vuelta). */
+  relatedServices?: string[];
 }
 
 export interface FAQItem {

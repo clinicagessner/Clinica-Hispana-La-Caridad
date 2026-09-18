@@ -16,6 +16,10 @@ keywords:
   - "immigration medical exam Houston"
   - "USCIS approved clinic Houston"
   - "Green Card medical exam Houston"
+relatedServices:
+  - "examenes-inmigracion"
+  - "vacunas"
+  - "prueba-tuberculosis"
 ---
 
 # USCIS-Authorized Doctors in Houston: How to Verify

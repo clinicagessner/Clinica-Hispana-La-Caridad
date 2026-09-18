@@ -16,6 +16,10 @@ keywords:
   - "blood work for men Houston"
   - "annual men's exam Houston"
   - "men's clinic Spanish Houston"
+relatedServices:
+  - "salud-hombre"
+  - "examenes-sangre"
+  - "condiciones-cronicas"
 ---
 
 # Men's Preventive Checkup in Houston: Guide by Age
