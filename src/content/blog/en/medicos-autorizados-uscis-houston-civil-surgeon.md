@@ -3,7 +3,7 @@ slug: "medicos-autorizados-uscis-houston-civil-surgeon"
 title: "USCIS-Authorized Doctors in Houston: How to Verify"
 description: "How to verify if a doctor is a USCIS-authorized Civil Surgeon in Houston for the I-693 Green Card medical exam. Official list, requirements, and what to avoid."
 date: "2026-05-31"
-dateModified: "2026-05-31"
+dateModified: "2026-09-18"
 author: "Clinica Hispana La Caridad"
 image: "/images/services/I-693.webp"
 featured: false
@@ -22,129 +22,48 @@ relatedServices:
   - "prueba-tuberculosis"
 ---
 
-# USCIS-Authorized Doctors in Houston: How to Verify
+# USCIS-Designated Physicians in Houston: What a Civil Surgeon Is
 
-If you are applying for permanent residency (Green Card) in the United States, the immigration medical exam — formally known as **Form I-693** — can only be performed by a doctor authorized by USCIS. These doctors are called **Civil Surgeons** and they are the only ones whose form is officially accepted.
+Not every physician can sign Form I-693. Only a **civil surgeon** can, a physician designated by USCIS specifically for that purpose. This guide covers what they do, what they do not do and how to verify that someone is one.
 
-If you choose a doctor who is not on the official USCIS list, your application will be rejected and you will have to repeat the entire exam, losing time and money. In this guide we explain exactly how to verify whether a doctor in Houston is authorized and what to do if you are unsure.
+## What is a civil surgeon?
 
-## What is a Civil Surgeon?
+A physician USCIS has authorized to perform the immigration medical exam inside the United States. The designation is individual and granted per office. Outside the country, that role belongs to *panel physicians*, which is a different figure.
 
-A Civil Surgeon is a doctor who has been designated by **U.S. Citizenship and Immigration Services (USCIS)** to perform immigration medical exams within the United States. The designation is not automatic: the doctor must meet specific USCIS requirements, maintain current certification, and be audited periodically.
+## What they do and do not do
 
-Only a Civil Surgeon can:
+**They do:** the physical exam, the tests USCIS requires, any missing vaccines, and completing and sealing the I-693.
 
-- Complete and sign Form I-693
-- Administer the vaccines required for immigration
-- Certify the medical tests (tuberculosis, syphilis, gonorrhea, etc.)
-- Seal the official envelope that USCIS requires intact
+**They do not:** give legal advice on your case, decide whether your residence is approved, or file anything with USCIS. A civil surgeon documents your health status; they play no part in the outcome of your case.
 
-A regular doctor, even if an excellent professional, **cannot** complete this form without the official designation.
+## How to verify an office is designated
 
-## Why choosing an authorized doctor matters
+USCIS maintains an [official search tool](https://www.uscis.gov/tools/find-a-doctor) where you can look up by ZIP code. It is the only reliable way: do not rely on advertisements or recommendations without checking.
 
-The consequences of choosing an unauthorized doctor are serious:
+If an office appears in the tool, it is designated. If it does not appear, it cannot sign the form, no matter how prominently it advertises "immigration exams".
 
-- **Automatic rejection of the I-693:** USCIS returns the form without reviewing it.
-- **Delays in your case:** you can lose months waiting for a new appointment and results.
-- **Double expense:** you will have to pay for the complete exam again.
-- **Risk at your interview:** an expired or invalid I-693 can affect your credibility with the officer.
+## What to ask before going
 
-That is why it is essential to verify authorization before scheduling.
+1. Does the office appear in the USCIS search tool?
+2. How much is the exam and how much are the vaccines, separately?
+3. Do you do the IGRA tuberculosis blood test here?
+4. What happens if I am missing a multi-dose vaccine?
+5. When do I get the sealed envelope?
 
-## How to verify if a doctor is USCIS-authorized
+The second question avoids surprises: the price of the exam and of the vaccines are usually separate things.
 
-USCIS maintains a public and free tool to search for Civil Surgeons in any city in the United States. The process takes less than 2 minutes:
+## Warning signs
 
-### Step 1: Access the official tool
+- They cannot tell you whether they appear in the USCIS tool
+- They promise a result or "guarantee" approval
+- They hand you the form without a sealed envelope
+- They ask you to open the envelope to review it
+- They offer legal advice bundled with the medical exam
 
-Go to the official USCIS page and search for "Find a Doctor". The URL is **uscis.gov/tools/find-a-doctor**. This is the only official source. Do not rely on third-party lists that may be outdated.
+## After the exam
 
-### Step 2: Enter your ZIP code
+Check that your details are correct before the envelope is sealed: full name, date of birth and case number. An error there means redoing it. And once sealed, do not open it.
 
-Type your ZIP code (for example, 77036 for Sharpstown/Fondren, or 77027 for Galleria) and choose the search radius (5, 10, 25 miles, etc.).
+## In Houston
 
-### Step 3: Review the results
-
-The page will show a list of active Civil Surgeons in your area. Each entry includes:
-
-- Doctor or clinic name
-- Address and phone number
-- Available languages
-- Date the doctor was designated by USCIS
-
-If your doctor's name **appears on this list**, they are authorized. If they **do not appear**, do not do the exam with them.
-
-### Step 4: Confirm directly with the clinic
-
-Once you identify several Civil Surgeons near you, call the clinic and ask directly:
-
-- "Is the doctor performing my exam a USCIS-designated Civil Surgeon?"
-- "Can you complete Form I-693 the same day?"
-- "Do you have the required vaccines available?"
-- "What is the total cost including lab work and vaccines?"
-
-A serious clinic will answer these questions without hesitation. If they avoid giving information or don't know what a Civil Surgeon is, look for another option.
-
-## What if your current doctor is not authorized
-
-If you already have a primary care doctor but they are not a Civil Surgeon, **you don't need to change doctors for your regular care**. For the immigration exam, simply visit a Civil Surgeon one time. Your usual doctor can continue treating you afterward.
-
-The important thing is that the I-693 exam is done by an authorized doctor.
-
-## What to bring to your appointment
-
-To make the exam more efficient:
-
-- Government-issued photo ID (passport, state ID, or driver's license)
-- Previous vaccination records (if available)
-- List of current medications
-- Recent medical test results if you have them
-- Blank Form I-693 (the clinic can also provide one)
-
-## Houston areas where you can find Civil Surgeons
-
-Houston has Civil Surgeons in various areas, but availability varies:
-
-- **Sharpstown / Fondren / 77036:** high concentration of authorized Hispanic clinics.
-- **Galleria / 77027:** more expensive options, less focused on the Hispanic community.
-- **Spring Branch / 77055:** mid-range options.
-- **Pasadena / 77504:** some bilingual options.
-- **Katy / 77450:** fewer options, may need to travel.
-
-For Houston's Hispanic community, the areas with the most Spanish-speaking Civil Surgeons are in the southwest (Sharpstown, Bellaire, Westchase, Alief) and northwest (Spring Branch).
-
-## How Clinica Hispana La Caridad can help
-
-At **Clinica Hispana La Caridad** we have a USCIS-designated Civil Surgeon to perform the I-693 Green Card exam. We are located at **5705 Fondren Rd STE 101, Houston TX 77036**, open 7 days a week from 9 AM to 9 PM.
-
-Benefits of doing your exam with us:
-
-- Full Spanish-language service
-- Complete I-693 form same day in most cases
-- USCIS-required vaccines available on-site
-- Competitive and transparent pricing
-- Walk-ins welcome for the first consultation
-
-Call **(832) 925-8135** to confirm availability and current pricing.
-
-## Frequently asked questions
-
-**How much does the I-693 exam cost in Houston?**
-The cost varies by clinic and depends on which vaccines you need. La Caridad offers competitive pricing; call for current pricing.
-
-**How long is the signed I-693 valid?**
-The form is valid for 2 years from the exam date, or 4 years if completed before filing Form I-485.
-
-**Can I do the exam while pregnant?**
-Yes. The exam can be performed during pregnancy. Some vaccines may be deferred per physician guidance.
-
-**How long does the whole process take?**
-In most cases, we complete the full exam and Form I-693 in a single visit. Lab results are ready the same day.
-
-**Does USCIS accept forms in any language?**
-Form I-693 must be completed in English. But the consultation and explanation can be in Spanish; the Civil Surgeon is the one who signs and certifies.
-
----
-
-Need to verify if your next doctor is authorized? Use the official USCIS tool before scheduling. And if you want to do your exam with a Hispanic Civil Surgeon in Houston, call us at (832) 925-8135.
+Clínica Hispana La Caridad performs the [I-693 immigration medical exam](/services/examenes-inmigracion) walk-in, Monday through Sunday from 9 AM to 9 PM. This [guide to the exam](/blog/guia-examen-medico-inmigracion-i693-houston) walks through the process step by step.
