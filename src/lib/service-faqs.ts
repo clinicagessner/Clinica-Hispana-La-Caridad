@@ -329,7 +329,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿En cuánto tiempo entregan los resultados?",
-        "answer": "En la mayoría de los casos los resultados están listos el mismo día o muy pronto, y te los explicamos en español."
+        "answer": "Depende del análisis: algunos se leen en la clínica y otros vienen del laboratorio. Te avisamos en cuanto llegan y te los explicamos en español, con el reporte impreso para llevarlo."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -598,8 +598,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examen-dot": {
     "faqs": [
       {
-        "question": "¿Me entregan el certificado DOT el mismo día?",
-        "answer": "Sí, al terminar el examen físico DOT te entregamos tu certificado el mismo día."
+        "question": "¿Cuándo me entregan el certificado DOT?",
+        "answer": "Si cumples los requisitos de FMCSA, el certificado se entrega al terminar el examen. Si la presión sale alta o hace falta un informe de tu especialista, se emite cuando esté resuelto."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -612,8 +612,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     ],
     "faqsEn": [
       {
-        "question": "Do I get the DOT certificate the same day?",
-        "answer": "Yes, after the DOT physical we give you your certificate the same day."
+        "question": "When do I get the DOT certificate?",
+        "answer": "If you meet the FMCSA requirements, the certificate is issued at the end of the exam. If your blood pressure is high or a report from your specialist is needed, it is issued once that is resolved."
       },
       {
         "question": "Do I need an appointment?",
