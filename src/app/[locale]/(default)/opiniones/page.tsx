@@ -4,7 +4,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Star, GoogleLogo, Phone, MapPin, ArrowRight, Quotes } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
-import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdMedicalClinic } from "@/components/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -178,6 +178,7 @@ export default async function ReviewsPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdMedicalClinic />
       <main className="min-h-screen">
         {/* Hero */}
         <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-linear-to-br from-blue-900 via-blue-primary to-blue-900 text-white overflow-hidden">

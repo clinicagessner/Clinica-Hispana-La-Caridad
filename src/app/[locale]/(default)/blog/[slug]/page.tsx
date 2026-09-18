@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
+import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -106,6 +107,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdMedicalClinicRef />
       <JsonLdBlogPosting post={post} locale={locale} />
 
       <article>

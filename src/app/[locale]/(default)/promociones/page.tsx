@@ -4,7 +4,7 @@ import { ArrowLeft, Star, Sparkles } from "lucide-react";
 import { Link, routing } from "@/i18n/routing";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import { ContactForm } from "@/components/forms/contact-form";
-import { JsonLdFAQ, JsonLdBreadcrumb } from "@/components/seo/json-ld";
+import { JsonLdFAQ, JsonLdBreadcrumb, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { PROMOTIONS, SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getLocalizedPromotion } from "@/lib/utils";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -74,6 +74,7 @@ export default async function PromocionesPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdMedicalClinicRef />
       <JsonLdBreadcrumb
         items={[
           {

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 
 type MetadataProps = {
   params: Promise<{ locale: string }>;
@@ -45,7 +46,9 @@ export default async function PrivacyPage({ params }: Props) {
   setRequestLocale(locale);
 
   return (
-    <div className="pt-28 pb-16 md:pt-32 md:pb-24 bg-cyan-warm min-h-screen">
+    <>
+      <JsonLdMedicalClinicRef />
+      <div className="pt-28 pb-16 md:pt-32 md:pb-24 bg-cyan-warm min-h-screen">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Back Link */}
@@ -232,5 +235,6 @@ export default async function PrivacyPage({ params }: Props) {
         </div>
       </div>
     </div>
+    </>
   );
 }
