@@ -55,12 +55,6 @@ export async function Hero() {
         className="absolute inset-0 -z-10 bg-linear-to-t from-blue-primary/80 via-transparent to-transparent"
       />
 
-      {/* Bottom fade into the next (cyan) section */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-x-0 bottom-0 -z-10 h-24 md:h-32 bg-linear-to-t from-cyan-bg to-transparent"
-      />
-
       <div className="container relative z-10 mx-auto px-4 w-full py-12 md:py-16">
         <div className="max-w-2xl">
           {/* Reviews trust badge — live rating + count from Google */}
