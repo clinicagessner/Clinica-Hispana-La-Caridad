@@ -146,6 +146,13 @@ export default async function LocaleLayout({ children, params }: Props) {
       suppressHydrationWarning
     >
       <head>
+        {/* Marca <html> antes del primer pintado para que .animate-on-scroll
+            solo oculte contenido cuando el JS está vivo. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.classList.add('js')`,
+          }}
+        />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#02176d" />
         <link rel="preconnect" href="https://maps.googleapis.com" />
