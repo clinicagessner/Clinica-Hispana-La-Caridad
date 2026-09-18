@@ -7,10 +7,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { MetaPixelSPATracker } from "@/components/tracking/meta-pixel";
-import { GoogleAdsTag } from "@/components/tracking/google-ads";
+import { GoogleTags } from "@/components/tracking/google-tags";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -145,7 +144,6 @@ export default async function LocaleLayout({ children, params }: Props) {
         <meta name="theme-color" content="#02176d" />
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
-        <link rel="preconnect" href="https://cdn.callrail.com" />
         <link rel="preconnect" href="https://connect.facebook.net" />
         {/* Meta Pixel — plain script in head, NOT managed by React */}
         <script
@@ -172,13 +170,11 @@ export default async function LocaleLayout({ children, params }: Props) {
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
-      {process.env.NEXT_PUBLIC_GA_ID && (
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
-      )}
-      <GoogleAdsTag />
+      <GoogleTags />
       <Script
+        id="callrail-swap"
         src="//cdn.callrail.com/companies/413132698/334d41c65d6e3acabf78/12/swap.js"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
     </html>
   );
