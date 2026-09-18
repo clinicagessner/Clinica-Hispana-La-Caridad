@@ -43,11 +43,13 @@ export const SOCIAL_LINKS: SocialLinks = {
   instagram: "https://www.instagram.com/clinicalacaridadhouston",
 };
 
-// Google Reviews data — verificar con el cliente
+// Respaldo si la API de Places no responde. Los valores reales vienen en vivo
+// de getGooglePlaceData(); esto solo evita publicar cifras muy desfasadas.
+// Última comprobación contra Places: 2026-09-17.
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 419,
-  averageRating: 4.0,
-  placeId: "",
+  totalReviews: 455,
+  averageRating: 5.0,
+  placeId: CONTACT_INFO.placeId,
 };
 
 export const SERVICES: Service[] = [
