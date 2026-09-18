@@ -279,5 +279,11 @@
     },
     "formTitle": "Book your promotion",
     "formSubtitle": "Leave your details and we'll contact you to arrange your visit."
+  },
+  "about": {
+    "title": "What is Clínica Hispana La Caridad?",
+    "p1": "Clínica Hispana La Caridad is a medical clinic in Houston, Texas, open since September 2016 at <address></address>, in the Sharpstown and Westwood area. It sees walk-in patients seven days a week, from 9 AM to 9 PM, and the whole team speaks Spanish and English.",
+    "p2": "The clinic offers <services>{count} services</services> across general medicine, women's health, medical exams, <lab>laboratory</lab> work and minor treatments: among them diabetes and blood pressure management, gynecology, blood work, ultrasounds, DOT physicals and immigration medical exams.",
+    "p3": "No health insurance is required, and cash, debit and credit cards are accepted. The clinic has free parking and wheelchair access. Patients come from Sharpstown, Gulfton, Bellaire, Alief, Westwood, Meyerland, Stafford and Mission Bend. If this is <visit>your first visit</visit>, this guide explains what to bring and what to expect."
   }
 }

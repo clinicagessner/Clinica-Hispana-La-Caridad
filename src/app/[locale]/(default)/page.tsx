@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
+import { About } from "@/components/sections/about";
 import { Promotions } from "@/components/sections/promotions";
 import { ChronicCare } from "@/components/sections/chronic-care";
 import { Testimonials } from "@/components/sections/testimonials";
@@ -24,6 +25,7 @@ export default async function HomePage({ params }: Props) {
       <Hero />
       <Promotions />
       <Services />
+      <About />
       <ChronicCare />
       <Testimonials />
       <FAQ />

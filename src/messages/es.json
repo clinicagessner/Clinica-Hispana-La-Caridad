@@ -279,5 +279,11 @@
     },
     "formTitle": "Reserva tu promoción",
     "formSubtitle": "Déjanos tus datos y te contactamos para coordinar tu visita."
+  },
+  "about": {
+    "title": "¿Qué es Clínica Hispana La Caridad?",
+    "p1": "Clínica Hispana La Caridad es una clínica médica en Houston, Texas, abierta desde septiembre de 2016 en <address></address>, en la zona de Sharpstown y Westwood. Atiende sin cita previa los siete días de la semana, de 9 de la mañana a 9 de la noche, y todo el equipo habla español e inglés.",
+    "p2": "La clínica ofrece <services>{count} servicios</services> agrupados en medicina general, salud de la mujer, exámenes médicos, <lab>laboratorio</lab> y tratamientos menores: entre ellos control de diabetes e hipertensión, ginecología, exámenes de sangre, ultrasonidos, exámenes físicos para el DOT y exámenes médicos de inmigración.",
+    "p3": "No hace falta seguro médico y se acepta efectivo, tarjeta de débito y de crédito. El local tiene estacionamiento gratuito y acceso para silla de ruedas. Se atiende a pacientes de Sharpstown, Gulfton, Bellaire, Alief, Westwood, Meyerland, Stafford y Mission Bend. Si es <visit>tu primera visita</visit>, aquí explicamos qué llevar y qué esperar."
   }
 }
