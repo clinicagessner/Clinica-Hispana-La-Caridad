@@ -36,15 +36,18 @@ export async function JsonLdMedicalClinic() {
         "@type": "MedicalClinic",
         "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
         name: SITE_CONFIG.name,
+        // Como aparece en la ficha de Google Business.
+        alternateName: "Clinica La Caridad",
         description: SITE_CONFIG.description,
         url: SITE_CONFIG.baseUrl,
+        foundingDate: "2016-09",
         telephone: CONTACT_INFO.phone,
         email: CONTACT_INFO.email,
         image: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
         logo: `${SITE_CONFIG.baseUrl}/images/logo.webp`,
         priceRange: "$$",
         currenciesAccepted: "USD",
-        paymentAccepted: "Cash, Credit Card, Debit Card",
+        paymentAccepted: "Efectivo, tarjeta de crédito, tarjeta de débito",
         address: {
           "@type": "PostalAddress",
           streetAddress: CONTACT_INFO.address,
@@ -92,12 +95,29 @@ export async function JsonLdMedicalClinic() {
         sameAs: [
           SOCIAL_LINKS.facebook,
           SOCIAL_LINKS.instagram,
+          SOCIAL_LINKS.twitter,
         ].filter(Boolean),
-        areaServed: {
-          "@type": "City",
-          name: "Houston",
-          "@id": "https://www.wikidata.org/wiki/Q16555",
-        },
+        // Las mismas áreas de servicio declaradas en la ficha de Google.
+        areaServed: [
+          { "@type": "City", name: "Houston", "@id": "https://www.wikidata.org/wiki/Q16555" },
+          { "@type": "Place", name: "Sharpstown, Houston, TX" },
+          { "@type": "Place", name: "Westwood, Houston, TX" },
+          { "@type": "Place", name: "Gulfton, Houston, TX" },
+          { "@type": "Place", name: "Alief, Houston, TX" },
+          { "@type": "Place", name: "Meyerland, Houston, TX" },
+          { "@type": "City", name: "Bellaire, TX" },
+          { "@type": "City", name: "Stafford, TX" },
+          { "@type": "Place", name: "Mission Bend, TX" },
+        ],
+        // Atributos publicados en la ficha.
+        amenityFeature: [
+          { "@type": "LocationFeatureSpecification", name: "Entrada accesible para silla de ruedas", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Sanitarios accesibles para silla de ruedas", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Estacionamiento accesible para silla de ruedas", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Estacionamiento gratuito", value: true },
+        ],
+        isAccessibleForFree: false,
+        publicAccess: true,
         medicalSpecialty: [
           "https://schema.org/FamilyPractice",
           "https://schema.org/EmergencyMedicine",

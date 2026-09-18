@@ -118,6 +118,7 @@ function socialLines() {
   const entries: Array<[string, string | undefined]> = [
     ["Facebook", SOCIAL_LINKS.facebook],
     ["Instagram", SOCIAL_LINKS.instagram],
+    ["Twitter/X", SOCIAL_LINKS.twitter],
   ];
   return entries
     .filter((e): e is [string, string] => Boolean(e[1]))
