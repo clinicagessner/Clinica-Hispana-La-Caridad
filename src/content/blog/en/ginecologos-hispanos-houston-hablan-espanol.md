@@ -80,6 +80,6 @@ At walk-in clinics the price is asked before you go in and paid on the spot, usu
 
 ## Where Clínica Hispana La Caridad fits
 
-At 5705 Fondren Rd, in Sharpstown, walk-ins are seen Monday through Sunday from 9 AM to 9 PM, and no insurance is needed. The clinic's medical team provides [gynecology care](/services/ginecologia), Pap smears, cultures and ultrasound, and explains every result in Spanish. Care is given by the clinic's general medical team, not by a specialist gynecologist: if your case requires one, you are told and given the report to take along. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179 and the women's check-up for $79.
+At 5705 Fondren Rd, in Sharpstown, walk-ins are seen Monday through Sunday from 9 AM to 9 PM, and no insurance is needed. The clinic's medical team provides [gynecology care](/services/ginecologia), Pap smears, cultures and ultrasound, and explains every result in Spanish. Gynecology care is provided by the clinic's medical team; if your case requires a specialist gynecologist, a referral is arranged and you are given the report to take along. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179 and the women's check-up for $79.
 
 If burning when urinating is the main symptom, the visit can focus on [urinary tract infections](/services/infecciones-urinarias), which are resolved in the same consultation.

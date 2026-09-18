@@ -80,6 +80,6 @@ En las clínicas de atención sin cita el precio se pregunta antes de entrar y s
 
 ## Dónde encaja Clínica Hispana La Caridad
 
-En el 5705 Fondren Rd, en Sharpstown, se atiende sin cita de lunes a domingo de 9 de la mañana a 9 de la noche, y no hace falta seguro médico. El equipo médico de la clínica realiza [atención ginecológica](/services/ginecologia), Papanicolaou, cultivos y ultrasonido, y explica cada resultado en español. La atención la da el equipo médico general de la clínica, no un ginecólogo especialista: si su caso requiere uno, se le indica y se le entrega el reporte para llevarlo. En [promociones](/promociones) están el chequeo completo de la mujer con ultrasonido por $179 y el chequeo de mujer por $79.
+En el 5705 Fondren Rd, en Sharpstown, se atiende sin cita de lunes a domingo de 9 de la mañana a 9 de la noche, y no hace falta seguro médico. El equipo médico de la clínica realiza [atención ginecológica](/services/ginecologia), Papanicolaou, cultivos y ultrasonido, y explica cada resultado en español. La atención ginecológica la da el equipo médico de la clínica; si su caso requiere un ginecólogo especialista, se orienta la referencia y se le entrega el reporte para llevarlo. En [promociones](/promociones) están el chequeo completo de la mujer con ultrasonido por $179 y el chequeo de mujer por $79.
 
 Si el síntoma principal es ardor al orinar, la visita puede orientarse a [infecciones urinarias](/services/infecciones-urinarias), que se resuelven el mismo día en consulta.
