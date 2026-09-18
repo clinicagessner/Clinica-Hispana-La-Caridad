@@ -1220,8 +1220,8 @@ export const SERVICES: Service[] = [
     "title": "Farmacia",
     "titleEn": "Pharmacy",
     "shortTitle": "Farmacia",
-    "description": "Farmacia en Houston, TX dentro de la clínica. Surtimos tu receta al terminar la consulta, atención en español.",
-    "descriptionEn": "Pharmacy in Houston, TX inside the clinic. We fill your prescription right after your visit, service in Spanish.",
+    "description": "Entrega de los medicamentos indicados en tu consulta y productos de venta libre, dentro de la clínica y en español.",
+    "descriptionEn": "The medication indicated at your visit plus over-the-counter products, inside the clinic and in Spanish.",
     "longDescription": "En Clínica Hispana La Caridad se entregan los medicamentos indicados en la propia consulta y productos de venta libre, para que no tenga que hacer un segundo viaje después de la visita.\n\n## ¿Cómo funciona?\n\nCuando el tratamiento se indica durante la consulta, se le entrega ahí mismo lo que necesita empezar, con las instrucciones explicadas en español: cuánto, cada cuánto, durante cuántos días y con o sin comida.\n\n## ¿Qué se entrega?\n\n- Los medicamentos indicados en su consulta de ese día\n- Productos de venta libre: analgésicos, antihistamínicos, antiácidos, sueros de rehidratación oral\n- Material de curación: gasas, vendas, antisépticos\n\nSi su tratamiento requiere un medicamento que no se maneja aquí, se le entrega la receta para que la surta donde prefiera.\n\n## Pregunte siempre estas cuatro cosas\n\nSalir de la consulta con el medicamento no sirve de nada si no queda claro cómo tomarlo:\n\n1. ¿Para qué es exactamente y qué debo notar?\n2. ¿Cuántos días lo tomo, y qué hago si se me olvida una toma?\n3. ¿Puedo tomarlo con lo que ya tomo?\n4. ¿Qué efecto me obliga a suspenderlo y volver?\n\n## Traiga su lista\n\nLleve siempre la lista de lo que toma, incluidos suplementos y remedios naturales. Muchas interacciones vienen justo de ahí, de lo que el paciente no considera \"medicina\" y por eso no menciona.\n\n## Sobre los antibióticos\n\nTermine el tratamiento completo aunque se sienta mejor a los dos días, y no guarde sobras para la próxima vez. Un antibiótico que sobró de otra ocasión casi nunca es el correcto para el cuadro nuevo.\n\n## Sin cita y sin seguro\n\nDe lunes a domingo, de 9 de la mañana a 9 de la noche. Pregunte el costo antes de la consulta.",
     "longDescriptionEn": "At Clínica Hispana La Caridad the medication indicated during your visit is handed to you there, along with over-the-counter products, so you do not have to make a second trip after the appointment.\n\n## How does it work?\n\nWhen treatment is set out during the visit, you are given what you need to start right there, with the instructions explained: how much, how often, for how many days and with or without food.\n\n## What is provided?\n\n- The medication indicated at your visit that day\n- Over-the-counter products: pain relievers, antihistamines, antacids, oral rehydration solutions\n- Wound care supplies: gauze, bandages, antiseptics\n\nIf your treatment needs a medication not handled here, you are given the prescription to fill wherever you prefer.\n\n## Always ask these four things\n\nLeaving with the medication is no use if how to take it is unclear:\n\n1. What exactly is it for, and what should I notice?\n2. How many days do I take it, and what do I do if I miss a dose?\n3. Can I take it with what I already take?\n4. What effect means I should stop and come back?\n\n## Bring your list\n\nAlways bring a list of what you take, supplements and natural remedies included. Many interactions come from exactly there, from what patients do not think of as \"medicine\" and so do not mention.\n\n## About antibiotics\n\nFinish the full course even if you feel better after two days, and do not keep leftovers for next time. An antibiotic left over from another occasion is almost never the right one for a new problem.\n\n## Walk-in and no insurance\n\nMonday through Sunday, 9 AM to 9 PM. Ask the cost before your visit.",
     "icon": "Syringe",
@@ -1231,16 +1231,16 @@ export const SERVICES: Service[] = [
       "farmacia en houston",
       "farmacia hispana houston",
       "farmacia cerca de mí houston",
-      "surtir receta houston"
+      "medicamentos en la clinica houston"
     ],
     "keywordsEn": [
       "pharmacy houston",
       "hispanic pharmacy houston",
       "pharmacy near me houston",
-      "fill prescription houston"
+      "medication at the clinic houston"
     ],
     "features": [
-      "Surtido de tu receta al instante",
+      "Medicamentos de tu consulta al terminar",
       "Medicamentos de marca y genéricos",
       "Medicamentos de venta libre (OTC)",
       "Asesoría sobre tus medicamentos en español"

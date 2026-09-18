@@ -868,7 +868,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Puedo surtir mi receta en la clínica?",
+        "question": "¿Me entregan el medicamento en la clínica?",
         "answer": "Sí, al terminar tu consulta surtimos tu receta en nuestra farmacia, sin tener que ir a otro lugar."
       },
       {
@@ -882,8 +882,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     ],
     "faqsEn": [
       {
-        "question": "Can I fill my prescription at the clinic?",
-        "answer": "Yes, after your visit we fill your prescription at our pharmacy, with no need to go elsewhere."
+        "question": "Do I get the medication at the clinic?",
+        "answer": "The medication indicated during your visit is handed to you before you leave, along with over-the-counter products. If your treatment needs something not handled here, you are given the prescription to fill wherever you prefer."
       },
       {
         "question": "Do I need an appointment?",
