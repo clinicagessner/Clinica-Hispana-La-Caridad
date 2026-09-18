@@ -36,6 +36,15 @@ const FOOTER_SERVICE_SLUGS = [
   "examen-dot",
 ];
 
+// Orden de las categorías en la banda inferior del footer.
+const FOOTER_CATEGORIES = [
+  "medicina-general",
+  "salud-mujer",
+  "examenes",
+  "laboratorio",
+  "tratamientos",
+] as const;
+
 export async function Footer() {
   const t = await getTranslations();
   const locale = await getLocale();
@@ -45,6 +54,17 @@ export async function Footer() {
     const service = SERVICES.find((s) => s.slug === slug);
     return service ? [getLocalizedService(service, locale)] : [];
   });
+
+  // Los 29 servicios agrupados por categoría. El footer es el único enlace
+  // sitewide hacia estas páginas y Google rastrea según los enlaces internos
+  // que reciben: antes solo 6 de 29 lo tenían.
+  const servicesByCategory = FOOTER_CATEGORIES.map((category) => ({
+    category,
+    label: t(`services.categories.${category}`),
+    items: SERVICES.filter((s) => s.category === category)
+      .sort((a, b) => a.order - b.order)
+      .map((s) => getLocalizedService(s, locale)),
+  })).filter((g) => g.items.length > 0);
 
   return (
     <footer role="contentinfo" className="relative overflow-hidden bg-blue-dark text-white">
@@ -201,6 +221,32 @@ export async function Footer() {
             </ul>
           </div>
         </div>
+
+        {/* Todos los servicios — un enlace sitewide por página de servicio */}
+        <nav aria-label={t("services.allServices")} className="border-t border-white/10 mt-12 pt-8">
+          <h3 className="text-xs font-bold uppercase tracking-widest text-yellow-accent mb-5">
+            {t("services.allServices")}
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-7">
+            {servicesByCategory.map((group) => (
+              <div key={group.category}>
+                <p className="text-white text-xs font-semibold mb-2.5">{group.label}</p>
+                <ul className="space-y-2">
+                  {group.items.map((service) => (
+                    <li key={service.id}>
+                      <Link
+                        href={`/services/${service.slug}`}
+                        className="text-white/70 hover:text-white text-xs leading-snug transition-colors"
+                      >
+                        {service.shortTitle || service.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </nav>
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">

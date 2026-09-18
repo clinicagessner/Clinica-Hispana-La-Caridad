@@ -1,0 +1,29 @@
+[
+ {
+  "keys": [
+   "MOBILE"
+  ],
+  "clicks": 114,
+  "impressions": 5715,
+  "ctr": 0.01994750656167979,
+  "position": 7.3709536307961505
+ },
+ {
+  "keys": [
+   "DESKTOP"
+  ],
+  "clicks": 7,
+  "impressions": 1799,
+  "ctr": 0.0038910505836575876,
+  "position": 23.16231239577543
+ },
+ {
+  "keys": [
+   "TABLET"
+  ],
+  "clicks": 0,
+  "impressions": 14,
+  "ctr": 0,
+  "position": 18.5
+ }
+]

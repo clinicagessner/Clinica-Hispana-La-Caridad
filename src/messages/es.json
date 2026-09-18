@@ -65,7 +65,15 @@
     "categoryExamenes": "Exámenes y certificados",
     "categoryLaboratorio": "Laboratorio y pruebas",
     "categoryTratamientos": "Tratamientos",
-    "categoryDefault": "Servicio Médico"
+    "categoryDefault": "Servicio Médico",
+    "categories": {
+      "medicina-general": "Medicina general",
+      "salud-mujer": "Salud de la mujer",
+      "examenes": "Exámenes médicos",
+      "laboratorio": "Laboratorio",
+      "tratamientos": "Tratamientos"
+    },
+    "allServices": "Todos los servicios"
   },
   "testimonials": {
     "title": "Lo Que Dicen Nuestros Pacientes",

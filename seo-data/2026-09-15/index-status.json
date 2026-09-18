@@ -1,0 +1,1456 @@
+[
+ {
+  "url": "https://www.chlacaridad.com",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-12T22:42:47Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com",
+  "userCanonical": "https://www.chlacaridad.com/",
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol",
+   "https://www.chlacaridad.com/services/medicina-familiar"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-29T05:24:24Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en",
+  "userCanonical": "https://www.chlacaridad.com/en",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-09T13:01:12Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services",
+  "userCanonical": "https://www.chlacaridad.com/services",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/medicina-familiar"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services",
+   "https://www.chlacaridad.com/en/services/condiciones-cronicas"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/promociones",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-03T07:18:23Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/promociones",
+  "userCanonical": "https://www.chlacaridad.com/promociones",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/promociones",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-06-30T16:46:42Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/promociones",
+  "userCanonical": "https://www.chlacaridad.com/en/promociones",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/promociones"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/walk-in",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-31T23:39:35Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/walk-in",
+  "userCanonical": "https://www.chlacaridad.com/walk-in",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/walk-in",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-28T11:52:53Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/walk-in",
+  "userCanonical": "https://www.chlacaridad.com/en/walk-in",
+  "referringUrls": [
+   "https://www.chlacaridad.com/walk-in",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/opiniones",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/opiniones",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-11T05:16:30Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/blog",
+  "userCanonical": "https://www.chlacaridad.com/blog",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/medicina-familiar"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-29T12:40:20Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/blog",
+  "userCanonical": "https://www.chlacaridad.com/en/blog",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog",
+   "https://www.chlacaridad.com/en/services/laboratorio"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/privacy",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-24T21:04:27Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/privacy",
+  "userCanonical": "https://www.chlacaridad.com/privacy",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/privacy",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/privacy",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-06-30T16:48:46Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/privacy",
+  "userCanonical": "https://www.chlacaridad.com/en/privacy",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/privacy",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/condiciones-cronicas",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-16T20:45:23Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/condiciones-cronicas",
+  "userCanonical": "https://www.chlacaridad.com/services/condiciones-cronicas",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/examenes-generales",
+   "https://www.chlacaridad.com/"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/condiciones-cronicas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-03T15:10:59Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/condiciones-cronicas",
+  "userCanonical": "https://www.chlacaridad.com/en/services/condiciones-cronicas",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/condiciones-cronicas"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/tiroides",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/salud-hombre"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/tiroides",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/alergias",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/alergias",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/enfermedades-respiratorias",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/enfermedades-transmision-sexual",
+   "https://www.chlacaridad.com/services/medicina-familiar"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/enfermedades-respiratorias",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/enfermedades-respiratorias"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/examen-fisico-escolar",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/salud-hombre"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/examen-fisico-escolar",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-20T14:31:56Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/examen-fisico-escolar",
+  "userCanonical": "https://www.chlacaridad.com/en/services/examen-fisico-escolar",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/ginecologia",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/planificacion-familiar"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/ginecologia",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/prueba-embarazo",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-20T05:02:17Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/prueba-embarazo",
+  "userCanonical": "https://www.chlacaridad.com/services/prueba-embarazo",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/prueba-embarazo",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-06-19T17:39:08Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/prueba-embarazo",
+  "userCanonical": "https://www.chlacaridad.com/en/services/prueba-embarazo",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/prueba-embarazo",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/anticonceptivos",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-20T11:26:37Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/anticonceptivos",
+  "userCanonical": "https://www.chlacaridad.com/services/anticonceptivos",
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/salud-hombre"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/anticonceptivos",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-22T00:28:33Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/anticonceptivos",
+  "userCanonical": "https://www.chlacaridad.com/en/services/anticonceptivos",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/extraccion-implantes",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/extraccion-implantes",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/extraccion-implantes"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/salud-hombre",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-09T21:47:26Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/salud-hombre",
+  "userCanonical": "https://www.chlacaridad.com/services/salud-hombre",
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/salud-hombre",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/salud-hombre",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-01T11:05:31Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/salud-hombre",
+  "userCanonical": "https://www.chlacaridad.com/en/services/salud-hombre",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/urologia",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/examenes-sangre",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/examenes-sangre",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-12T20:05:40Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/examenes-sangre",
+  "userCanonical": "https://www.chlacaridad.com/en/services/examenes-sangre",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/infecciones-urinarias",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-21T09:14:11Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/infecciones-urinarias",
+  "userCanonical": "https://www.chlacaridad.com/services/infecciones-urinarias",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/infecciones-urinarias",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/infecciones-urinarias",
+   "https://www.chlacaridad.com/en/services"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/examen-heces",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/examen-heces",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/prueba-strep",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/prueba-strep"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/prueba-strep",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/prueba-tuberculosis",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/prueba-tuberculosis",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/enfermedades-transmision-sexual",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/examen-alcohol-drogas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/examen-alcohol-drogas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/electrocardiograma",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/electrocardiograma",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/electrocardiograma"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/ultrasonido",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/walk-in",
+   "https://www.chlacaridad.com/services/laboratorio"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/ultrasonido",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/ultrasonido"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/examen-dot",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/laboratorio"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/examen-dot",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/examenes-inmigracion",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-31T14:50:43Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/examenes-inmigracion",
+  "userCanonical": "https://www.chlacaridad.com/services/examenes-inmigracion",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/examenes-inmigracion",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/condiciones-cronicas"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/vacunas",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/vacunas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/sueros-vitaminados",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/sueros-vitaminados",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-28T09:35:17Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/sueros-vitaminados",
+  "userCanonical": "https://www.chlacaridad.com/en/services/sueros-vitaminados",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/suturas-heridas",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/suturas-heridas",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/curacion-heridas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-12T21:29:40Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/services/curacion-heridas",
+  "userCanonical": "https://www.chlacaridad.com/services/curacion-heridas",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/curacion-heridas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/curacion-heridas",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/cirugias-menores",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/cirugias-menores",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/drenaje-abscesos",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/drenaje-abscesos",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/unas-encarnadas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/services/unas-encarnadas",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/unas-encarnadas",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-17T05:43:53Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/services/unas-encarnadas",
+  "userCanonical": "https://www.chlacaridad.com/en/services/unas-encarnadas",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/services/unas-encarnadas"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/services/farmacia",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/services/farmacia",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-19T08:39:51Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston",
+  "userCanonical": "https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston",
+  "referringUrls": [
+   "https://chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/vitamina-b12-beneficios-inyecciones-houston",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-20T09:35:43Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/blog/vitamina-b12-beneficios-inyecciones-houston",
+  "userCanonical": "https://www.chlacaridad.com/en/blog/vitamina-b12-beneficios-inyecciones-houston",
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/chequeo-preventivo-hombres-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/blog/chequeo-preventivo-hombres-houston",
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/chequeo-preventivo-hombres-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-07-23T17:01:50Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/blog/chequeo-preventivo-hombres-houston",
+  "userCanonical": "https://www.chlacaridad.com/en/blog/chequeo-preventivo-hombres-houston",
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-30T06:18:24Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol",
+  "userCanonical": "https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol",
+  "referringUrls": [
+   "https://chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-27T06:12:30Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol",
+  "userCanonical": "https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol",
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol",
+   "https://chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "referringUrls": [
+   "https://chlacaridad.com/sitemap.xml"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/laboratorio-clinico-houston-analisis-sangre",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/blog",
+   "https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-08-15T12:33:56Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia",
+  "userCanonical": "https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia",
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia",
+  "verdict": "NEUTRAL",
+  "coverageState": "Crawled - currently not indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-05-22T03:37:51Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia",
+  "userCanonical": "https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia",
+   "https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston"
+  ],
+  "crawledAs": "MOBILE"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/control-diabetes-houston-guia-pacientes",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/blog"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/es/blog"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/blog",
+   "https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/en/blog",
+   "https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+ },
+ {
+  "url": "https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "sitemap": [
+   "https://www.chlacaridad.com/sitemap.xml"
+  ],
+  "referringUrls": [
+   "https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad"
+  ],
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED"
+ }
+]
