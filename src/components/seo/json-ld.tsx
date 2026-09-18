@@ -79,12 +79,16 @@ export async function JsonLdMedicalClinic() {
             alternateName: "en",
           },
         ],
-        availableService: SERVICES.slice(0, 10).map((service) => ({
+        availableService: SERVICES.map((service) => ({
           "@type": "MedicalProcedure",
+          "@id": `${SITE_CONFIG.baseUrl}/services/${service.slug}#procedure`,
           name: service.title,
           description: service.description,
           url: `${SITE_CONFIG.baseUrl}/services/${service.slug}`,
         })),
+        hasMap: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+          `${CONTACT_INFO.address}, ${CONTACT_INFO.city}, ${CONTACT_INFO.state} ${CONTACT_INFO.zip}`
+        )}`,
         sameAs: [
           SOCIAL_LINKS.facebook,
           SOCIAL_LINKS.instagram,
@@ -205,23 +209,13 @@ export function JsonLdMedicalProcedure({
     description,
     image: `${SITE_CONFIG.baseUrl}${image}`,
     url,
+    "@id": `${url}#procedure`,
     procedureType: `https://schema.org/${procedureType}`,
     ...(bodyLocation && { bodyLocation }),
     howPerformed: description,
-    provider: {
-      "@type": "MedicalClinic",
-      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-      name: SITE_CONFIG.name,
-      telephone: CONTACT_INFO.phone,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: CONTACT_INFO.address,
-        addressLocality: CONTACT_INFO.city,
-        addressRegion: CONTACT_INFO.state,
-        postalCode: CONTACT_INFO.zip,
-        addressCountry: "US",
-      },
-    },
+    // Sin `provider` embebido: la clínica ya está definida una vez en la home
+    // con su @id, y repetirla aquí crea una entidad paralela sin reseñas.
+    mainEntityOfPage: url,
   };
 
   return (
@@ -248,6 +242,37 @@ export function JsonLdCollectionPage({ name, description, url }: { name: string;
     provider: {
       "@type": "MedicalClinic",
       "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+/**
+ * Referencia ligera a la clínica para páginas que no son la home.
+ * El nodo completo (rating, reseñas, 29 servicios) va una sola vez en la home;
+ * aquí basta el mismo @id para que Google una las entidades.
+ */
+export function JsonLdMedicalClinicRef() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.baseUrl,
+    telephone: CONTACT_INFO.phone,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: CONTACT_INFO.address,
+      addressLocality: CONTACT_INFO.city,
+      addressRegion: CONTACT_INFO.state,
+      postalCode: CONTACT_INFO.zip,
+      addressCountry: "US",
     },
   };
 
