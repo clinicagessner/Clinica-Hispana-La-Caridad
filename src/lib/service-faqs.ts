@@ -869,7 +869,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Me entregan el medicamento en la clínica?",
-        "answer": "Sí, al terminar tu consulta surtimos tu receta en nuestra farmacia, sin tener que ir a otro lugar."
+        "answer": "Los medicamentos indicados en tu consulta se te entregan antes de salir, junto con productos de venta libre. Si tu tratamiento necesita algo que no se maneja aquí, se te entrega la receta para surtirla donde prefieras."
       },
       {
         "question": "¿Necesito cita previa?",
