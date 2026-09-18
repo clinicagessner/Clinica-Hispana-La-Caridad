@@ -1266,9 +1266,9 @@ export const PROMOTIONS: Promotion[] = [
     titleEn: "Complete General Check-Up",
     price: "$99",
     blurb:
-      "Chequeo general completo por $99 (valor regular $250) que incluye examen general de sangre, prueba A1C (hemoglobina glicosilada), examen general de orina y consulta médica gratis. Sin cita previa y con atención en español.",
+      "Chequeo general por $179 menos de lo habitual: $99 en lugar de $250. Cubre el examen general de sangre, la prueba A1C de azúcar promedio, el examen general de orina y la consulta médica sin costo. Sin cita previa y en español.",
     blurbEn:
-      "Complete general check-up for $99 (regular value $250) including a general blood panel, A1C (glycated hemoglobin) test, general urine test and a free medical consultation. Walk-ins welcome, with care in Spanish.",
+      "A general check-up for $179 less than usual: $99 instead of $250. It covers general blood work, the A1C average-sugar test, a general urine test and the medical visit at no cost. Walk-in and in Spanish.",
     includes: [
       "Examen general de sangre",
       "A1C (hemoglobina glicosilada)",
@@ -1291,9 +1291,9 @@ export const PROMOTIONS: Promotion[] = [
     titleEn: "Complete Women's Check-Up",
     price: "$179",
     blurb:
-      "¿Hace cuánto no revisas tu salud femenina? Chequeo completo de la mujer por $179 (valor regular $300) que incluye ultrasonido pélvico, Papanicolaou, examen de orina y consulta médica gratis. Sin cita previa y con atención en español.",
+      "Revisión completa de salud femenina por $179, frente a los $300 que costaría por separado. Incluye ultrasonido pélvico, Papanicolaou, examen de orina y la consulta médica sin costo. Sin cita previa y con todo explicado en español.",
     blurbEn:
-      "How long since your last women's health check? Complete women's check-up for $179 (regular value $300) including pelvic ultrasound, Pap smear, urine test and a free medical consultation. Walk-ins welcome, with care in Spanish.",
+      "A complete women's health review for $179, against the $300 it would cost separately. It includes a pelvic ultrasound, Pap smear, urine test and the medical visit at no cost. Walk-in, with everything explained in Spanish.",
     includes: [
       "Ultrasonido pélvico",
       "Papanicolaou",
