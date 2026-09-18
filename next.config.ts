@@ -66,6 +66,25 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        // Fotos de servicios, promociones, blog y avatares: el nombre va atado
+        // al slug y no cambian, así que se cachean un año sin revalidar.
+        source: "/images/:folder(services|promotions|blog|avatars)/:file*",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+      {
+        // Logo, hero y og:image sí pueden cambiar: una semana, y mientras se
+        // revalida se sigue sirviendo la copia anterior.
+        source: "/images/:file*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=604800, stale-while-revalidate=86400",
+          },
+        ],
+      },
+      {
         source: "/:path*",
         headers: [
           { key: "X-DNS-Prefetch-Control", value: "on" },
