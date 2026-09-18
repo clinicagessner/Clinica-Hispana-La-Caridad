@@ -1,9 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SITE_CONFIG } from "@/lib/constants";
 
-const INDEXNOW_KEY = "689d357dd3592150604bd4e2080b3e96";
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY ?? "689d357dd3592150604bd4e2080b3e96";
 
 export async function POST(request: NextRequest) {
+  // Sin esto cualquiera puede enviar URLs a los buscadores con la key del sitio.
+  const token = process.env.INDEXNOW_TOKEN;
+  if (!token) {
+    return NextResponse.json(
+      { error: "INDEXNOW_TOKEN not configured" },
+      { status: 503 }
+    );
+  }
+  if (request.headers.get("authorization") !== `Bearer ${token}`) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   try {
     const { urls } = await request.json();
 
@@ -14,25 +26,43 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const host = new URL(SITE_CONFIG.baseUrl).hostname;
+    const urlList = urls.map((url: string) =>
+      url.startsWith("http") ? url : `${SITE_CONFIG.baseUrl}${url}`
+    );
+
+    // Solo URLs del propio dominio.
+    const foreign = urlList.filter((u: string) => {
+      try {
+        return new URL(u).hostname !== host;
+      } catch {
+        return true;
+      }
+    });
+    if (foreign.length) {
+      return NextResponse.json(
+        { error: "URLs outside the site host", urls: foreign },
+        { status: 400 }
+      );
+    }
+
     const response = await fetch("https://api.indexnow.org/indexnow", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        host: new URL(SITE_CONFIG.baseUrl).hostname,
+        host,
         key: INDEXNOW_KEY,
         keyLocation: `${SITE_CONFIG.baseUrl}/${INDEXNOW_KEY}.txt`,
-        urlList: urls.map((url: string) =>
-          url.startsWith("http") ? url : `${SITE_CONFIG.baseUrl}${url}`
-        ),
+        urlList,
       }),
     });
 
     return NextResponse.json({
       success: response.ok,
       status: response.status,
-      submitted: urls.length,
+      submitted: urlList.length,
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: "Failed to submit to IndexNow" },
       { status: 500 }
