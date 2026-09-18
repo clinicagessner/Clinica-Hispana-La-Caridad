@@ -35,6 +35,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { getGuidesForService } from "@/lib/blog";
+import { Markdown } from "@/components/shared/markdown";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
@@ -232,7 +233,11 @@ export default async function ServicePage({ params }: Props) {
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <ServiceContent content={service.longDescription} />
+              {service.longDescription.includes("## ") ? (
+                <Markdown content={service.longDescription} />
+              ) : (
+                <ServiceContent content={service.longDescription} />
+              )}
             </div>
           </div>
         </section>

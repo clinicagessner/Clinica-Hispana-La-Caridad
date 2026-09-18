@@ -161,32 +161,40 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   },
   "ginecologia": {
     "faqs": [
-      {
-        "question": "¿Necesito cita para el papanicolaou?",
-        "answer": "No es obligatorio, atendemos sin cita; pero puedes llamarnos para reservar un horario cómodo."
-      },
-      {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
-      },
-      {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
-      }
+          {
+                "question": "¿Necesito cita para una consulta ginecológica?",
+                "answer": "No. Se atiende sin cita de lunes a domingo, de 9 de la mañana a 9 de la noche. Si prefieres una hora concreta, puedes llamar y reservarla."
+          },
+          {
+                "question": "¿Puedo hacerme el Papanicolaou si estoy menstruando?",
+                "answer": "Es mejor esperar. La sangre dificulta la lectura de la muestra y puede obligar a repetirla. Si tienes molestias que no pueden esperar, ven igual y el equipo médico de la clínica decide qué revisar ese día."
+          },
+          {
+                "question": "¿Hacen ultrasonido pélvico en la misma visita?",
+                "answer": "Sí, cuando la consulta lo requiere se hace en la clínica el mismo día, sin derivarte a otro sitio. El chequeo completo de la mujer de promociones ya lo incluye."
+          },
+          {
+                "question": "¿Atienden si no tengo seguro médico?",
+                "answer": "Sí. No hace falta seguro. Se acepta efectivo, tarjeta de débito y de crédito, y puedes preguntar el costo del servicio antes de la consulta."
+          }
     ],
     "faqsEn": [
-      {
-        "question": "Do I need an appointment for a Pap smear?",
-        "answer": "It's not required, we welcome walk-ins; but you can call us to reserve a convenient time."
-      },
-      {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
-      },
-      {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
-      }
+          {
+                "question": "Do I need an appointment for a gynecology visit?",
+                "answer": "No. Walk-ins are seen Monday through Sunday, 9 AM to 9 PM. If you prefer a specific time, you can call and reserve one."
+          },
+          {
+                "question": "Can I have a Pap smear while on my period?",
+                "answer": "It is better to wait. Blood makes the sample harder to read and may mean repeating it. If you have symptoms that cannot wait, come anyway and the clinic's medical team will decide what to check that day."
+          },
+          {
+                "question": "Do you do pelvic ultrasounds in the same visit?",
+                "answer": "Yes. When the visit calls for it, the ultrasound is done at the clinic the same day, with no referral elsewhere. The complete women's check-up in promotions already includes it."
+          },
+          {
+                "question": "Do you see patients without insurance?",
+                "answer": "Yes. No insurance is needed. Cash, debit and credit cards are accepted, and you can ask the cost of the service before your visit."
+          }
     ]
   },
   "prueba-embarazo": {
@@ -281,48 +289,40 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   },
   "salud-hombre": {
     "faqs": [
-      {
-        "question": "¿Tienen urólogo que hable español en Houston?",
-        "answer": "Realizamos la evaluación urológica inicial en español: examen de próstata (PSA), testosterona y revisión de síntomas urinarios como ardor, urgencia o levantarse de noche a orinar. Si tu caso necesita un urólogo especialista, te referimos con tus resultados listos para que llegues con el diagnóstico adelantado."
-      },
-      {
-        "question": "¿Cuándo debo hacerme el examen de próstata?",
-        "answer": "En general a partir de los 50 años, o desde los 45 si tienes antecedentes familiares de cáncer de próstata. También si tienes síntomas urinarios. El examen se hace con una muestra de sangre (PSA) y los resultados se explican en español."
-      },
-      {
-        "question": "¿Qué incluye el examen del hombre?",
-        "answer": "Incluye antígeno prostático (PSA), nivel de testosterona y un chequeo general, con resultados explicados en español."
-      },
-      {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
-      },
-      {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
-      }
+          {
+                "question": "¿Desde qué edad conviene revisar la próstata?",
+                "answer": "El USPSTF sitúa la decisión sobre el PSA entre los 55 y los 69 años y recomienda hablarlo antes de hacerlo. Con antecedentes familiares o síntomas urinarios, la conversación se adelanta."
+          },
+          {
+                "question": "¿Hay que ayunar para el perfil hormonal?",
+                "answer": "Para las hormonas no suele hacer falta ayuno, pero sí conviene sacar la muestra por la mañana. Si en la misma visita se piden glucosa o colesterol, pregunta al llegar, porque esos sí pueden requerirlo."
+          },
+          {
+                "question": "¿Se puede hacer todo en una sola visita?",
+                "answer": "En la mayoría de los casos sí: consulta, toma de muestras y examen de orina se hacen el mismo día. Los resultados de laboratorio llegan después y se te explican cuando estén."
+          },
+          {
+                "question": "¿Atienden sin seguro médico?",
+                "answer": "Sí. No se necesita seguro y se acepta efectivo, débito y crédito. En promociones hay paquetes cerrados para hombres con el precio publicado."
+          }
     ],
     "faqsEn": [
-      {
-        "question": "Do you have a Spanish-speaking urologist in Houston?",
-        "answer": "We perform the initial urology evaluation in Spanish: prostate (PSA) test, testosterone and a review of urinary symptoms such as burning, urgency or waking up at night to urinate. If your case needs a urology specialist, we refer you with your results ready so you arrive with a head start."
-      },
-      {
-        "question": "When should I get a prostate exam?",
-        "answer": "Generally from age 50, or from 45 if you have a family history of prostate cancer. Also if you have urinary symptoms. The test is done with a blood sample (PSA) and results are explained in Spanish."
-      },
-      {
-        "question": "What does the men's exam include?",
-        "answer": "It includes prostate antigen (PSA), testosterone level and a general checkup, with results explained in Spanish."
-      },
-      {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
-      },
-      {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
-      }
+          {
+                "question": "At what age should the prostate be checked?",
+                "answer": "The USPSTF places the PSA decision between ages 55 and 69 and recommends discussing it first. With a family history or urinary symptoms, that conversation happens earlier."
+          },
+          {
+                "question": "Do I need to fast for the hormone panel?",
+                "answer": "Fasting is usually not required for hormones, but a morning sample is better. If glucose or cholesterol are ordered in the same visit, ask when you arrive, because those may require it."
+          },
+          {
+                "question": "Can everything be done in one visit?",
+                "answer": "In most cases yes: the consultation, sample collection and urine testing happen the same day. Lab results come afterwards and are explained to you once they arrive."
+          },
+          {
+                "question": "Do you see patients without insurance?",
+                "answer": "Yes. No insurance is needed and cash, debit and credit are accepted. Promotions include set packages for men with the price published."
+          }
     ]
   },
   "examenes-sangre": {
