@@ -1,36 +1,6 @@
 import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
-const FALLBACK_REVIEWS = [
-  {
-    "@type": "Review" as const,
-    author: { "@type": "Person" as const, name: "María García" },
-    datePublished: "2026-03-28",
-    reviewBody: "Excelente atención, todo el personal habla español y me sentí muy cómoda. El doctor fue muy amable y profesional. Recomiendo esta clínica a toda la comunidad hispana.",
-    reviewRating: { "@type": "Rating" as const, ratingValue: 5, bestRating: 5 },
-  },
-  {
-    "@type": "Review" as const,
-    author: { "@type": "Person" as const, name: "Carlos Rodríguez" },
-    datePublished: "2026-03-10",
-    reviewBody: "Muy buen servicio, no tuve que esperar mucho y los precios son muy accesibles. Me atendieron sin cita y resolvieron mi problema de salud rápidamente.",
-    reviewRating: { "@type": "Rating" as const, ratingValue: 5, bestRating: 5 },
-  },
-  {
-    "@type": "Review" as const,
-    author: { "@type": "Person" as const, name: "Ana Martínez" },
-    datePublished: "2026-03-21",
-    reviewBody: "La mejor clínica hispana en Houston. Llevé a mis hijos y los trataron con mucho cariño. El laboratorio es muy eficiente y los resultados fueron rápidos.",
-    reviewRating: { "@type": "Rating" as const, ratingValue: 5, bestRating: 5 },
-  },
-  {
-    "@type": "Review" as const,
-    author: { "@type": "Person" as const, name: "José López" },
-    datePublished: "2026-02-15",
-    reviewBody: "Muy profesionales y atentos. Me explicaron todo en español y me dieron opciones de pago. Definitivamente volveré para mis chequeos regulares.",
-    reviewRating: { "@type": "Rating" as const, ratingValue: 5, bestRating: 5 },
-  },
-];
 
 export async function JsonLdMedicalClinic() {
   const placeData = await getGooglePlaceData();
@@ -43,19 +13,21 @@ export async function JsonLdMedicalClinic() {
     worstRating: 1,
   };
 
-  const reviewItems = placeData?.reviews?.length
-    ? placeData.reviews.slice(0, 5).map((r) => ({
-        "@type": "Review" as const,
-        author: { "@type": "Person" as const, name: r.author_name },
-        datePublished: new Date(r.time * 1000).toISOString().slice(0, 10),
-        reviewBody: r.text,
-        reviewRating: { "@type": "Rating" as const, ratingValue: r.rating, bestRating: 5 },
-        itemReviewed: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
-      }))
-    : FALLBACK_REVIEWS.map((r) => ({
-        ...r,
-        itemReviewed: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
-      }));
+  // Solo reseñas reales de Google Places. Si la API no responde, el schema sale
+  // sin `review` en vez de publicar testimonios inventados como datos estructurados.
+  const reviewItems =
+    placeData?.reviews?.slice(0, 5).map((r) => ({
+      "@type": "Review" as const,
+      author: { "@type": "Person" as const, name: r.author_name },
+      datePublished: new Date(r.time * 1000).toISOString().slice(0, 10),
+      reviewBody: r.text,
+      reviewRating: { "@type": "Rating" as const, ratingValue: r.rating, bestRating: 5 },
+      itemReviewed: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
+    })) ?? [];
+
+  if (!reviewItems.length) {
+    console.warn("[json-ld] Places no devolvió reseñas: schema sin `review`.");
+  }
 
   const schema = {
     "@context": "https://schema.org",
@@ -129,7 +101,7 @@ export async function JsonLdMedicalClinic() {
           "https://schema.org/Gynecologic",
           "https://schema.org/LaboratoryScience",
         ],
-        review: reviewItems,
+        ...(reviewItems.length ? { review: reviewItems } : {}),
       },
       {
         "@type": "WebSite",
