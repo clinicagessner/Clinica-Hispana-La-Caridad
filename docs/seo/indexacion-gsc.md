@@ -36,7 +36,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | Fecha | URLs | Notas |
 |---|---|---|
 | 2026-09-18 | 10 | Tanda 1. Mismo día que se reenvió el sitemap en Bing |
-| 2026-09-19 | 10 | Tanda 2 |
+| 2026-09-19 | 10 | Tanda 2. Confirmada por el usuario el 20-sep |
 
 ## Tanda 1 — 18 de septiembre de 2026  ✅ PEDIDA 18/09/2026
 
