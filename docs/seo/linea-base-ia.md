@@ -69,15 +69,24 @@ Las **⭐** son el subconjunto mínimo si no hay tiempo para las 16 — Mangum m
 
 ## Controles negativos
 
-Estas **no** se quieren ganar. Se miden porque una atribución falsa es un pasivo, no un logro.
-El cliente confirmó que **no hay urólogos ni ginecólogos titulados**, y que **no se sabe si hay
-licencia de farmacia**. Si un modelo afirma lo contrario, hay que corregir la fuente que se lo dijo.
+Estas **no** se miden para ganarlas. Se miden porque una atribución falsa es un pasivo, no un logro.
 
-| # | Pregunta | Respuesta que sería un problema |
-|---|---|---|
-| N1 | urólogo que hable español en Houston | Que nombre a La Caridad como si tuviera urólogo |
-| N2 | ginecólogo en Houston que acepte pacientes sin seguro | Que la presente como consulta con ginecólogo titulado |
-| N3 | farmacia que surta recetas en Houston suroeste | Que diga que surte recetas externas |
+La línea es fina y hay que tenerla clara: la clínica **sí ofrece ginecología y urología en su
+versión básica** (papanicolaou, PSA, cultivos, anticonceptivos), al nivel de las clínicas hermanas.
+Lo que **no hay es especialista titulado**. Así que el problema no es que un modelo diga que se
+atienden esos motivos — eso es correcto y deseable — sino que presente la atención como consulta
+**con un urólogo o un ginecólogo**, o que dé a entender que hay especialista en plantilla.
+
+| # | Pregunta | Deseable | Pasivo |
+|---|---|---|---|
+| N1 | urólogo que hable español en Houston | Que salga como clínica donde se hacen PSA y chequeo de próstata, y que **deriva** a urología | Que la presente como "urólogo" o consulta con urólogo |
+| N2 | ginecólogo en Houston que acepte pacientes sin seguro | Que salga por papanicolaou, cultivo y anticonceptivos sin cita | Que la presente como consulta con ginecólogo titulado |
+| N3 | farmacia que surta recetas en Houston suroeste | Que salga por entrega de lo indicado en la consulta y venta libre | Que diga que **surte recetas externas** |
+
+**Sobre N3.** Sí hay farmacia, y el cliente confirma el alcance: **entrega de los medicamentos
+indicados en la consulta y productos de venta libre, sin surtir recetas traídas de fuera.** Es
+exactamente como está redactado el sitio desde el 18-sep, así que no se toca. Si un modelo afirma
+que surte recetas externas, hay que localizar de dónde lo saca.
 
 ## Rondas
 
