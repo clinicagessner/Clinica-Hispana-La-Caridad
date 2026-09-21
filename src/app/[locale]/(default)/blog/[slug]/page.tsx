@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/shared/medical-review";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -179,6 +180,11 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="blog-content">
               <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content, locale) }} />
             </div>
+
+            <MedicalReview
+              published={post.date}
+              updated={post.dateModified || post.date}
+            />
 
             {/* CTA Section */}
             <div className="mt-16 p-8 md:p-10 bg-linear-to-br from-blue-primary via-blue-dark to-slate-900 rounded-2xl text-white text-center shadow-xl">

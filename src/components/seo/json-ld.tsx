@@ -303,3 +303,41 @@ export function JsonLdMedicalClinicRef() {
     />
   );
 }
+
+// B2 — Autoría médica. Declara cuándo se revisó la página y quién responde por
+// ella. `reviewedBy` apunta al @id de la clínica definido en la home: no hay
+// médico nombrado, así que la entidad revisora es la propia clínica.
+export function JsonLdMedicalWebPage({
+  name,
+  url,
+  lastReviewed,
+  about,
+  inLanguage,
+}: {
+  name: string;
+  url: string;
+  lastReviewed: string;
+  about?: string;
+  inLanguage: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": `${url}#webpage`,
+    name,
+    url,
+    inLanguage,
+    lastReviewed,
+    reviewedBy: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
+    ...(about && {
+      about: { "@type": "MedicalProcedure", "@id": `${url}#procedure` },
+    }),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

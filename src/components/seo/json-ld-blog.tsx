@@ -7,15 +7,22 @@ type Props = {
 };
 
 export function JsonLdBlogPosting({ post, locale }: Props) {
-  const url = `${SITE_CONFIG.baseUrl}/${locale}/blog/${post.slug}`;
+  // El español no lleva prefijo de locale (localePrefix: "as-needed"): construir
+  // `/es/blog/...` apuntaba el @id a una URL que responde 307, no al canonical.
+  const localePath = locale === "es" ? "" : `/${locale}`;
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/blog/${post.slug}`;
 
   const blogPostingSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "@id": `${url}#article`,
+    // B2 — la página del post es una MedicalWebPage revisada: la fecha de
+    // revisión y la entidad revisora viajan con el artículo.
     mainEntityOfPage: {
-      "@type": "WebPage",
+      "@type": "MedicalWebPage",
       "@id": url,
+      lastReviewed: post.dateModified || post.date,
+      reviewedBy: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
     },
     headline: post.title,
     description: post.description,
@@ -24,6 +31,8 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
       : `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
     datePublished: post.date,
     dateModified: post.dateModified || post.date,
+    // Sin médico nombrado por decisión del cliente: revisa la clínica.
+    reviewedBy: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
     author: [
       {
         "@type": "Organization",
@@ -82,7 +91,7 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: `${SITE_CONFIG.baseUrl}${locale === "es" ? "" : `/${locale}`}/blog`,
+        item: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
       },
       {
         "@type": "ListItem",

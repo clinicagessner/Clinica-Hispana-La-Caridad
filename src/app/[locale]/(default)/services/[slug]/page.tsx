@@ -37,9 +37,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { getGuidesForService } from "@/lib/blog";
 import { Markdown } from "@/components/shared/markdown";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+
+// Respaldo para los servicios que aún no tienen `dateModified` propio: la
+// fecha en que se cerró B3 y quedaron los 29 con texto revisado.
+const SERVICES_FALLBACK_REVIEWED = "2026-09-18";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
-import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalClinicRef, JsonLdMedicalWebPage } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/shared/medical-review";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -238,6 +243,7 @@ export default async function ServicePage({ params }: Props) {
               ) : (
                 <ServiceContent content={service.longDescription} />
               )}
+              <MedicalReview updated={rawService.dateModified ?? SERVICES_FALLBACK_REVIEWED} />
             </div>
           </div>
         </section>
@@ -410,6 +416,13 @@ export default async function ServicePage({ params }: Props) {
       </main>
 
       <JsonLdBreadcrumb items={breadcrumbs} />
+      <JsonLdMedicalWebPage
+        name={service.title}
+        url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
+        lastReviewed={rawService.dateModified ?? SERVICES_FALLBACK_REVIEWED}
+        about={service.title}
+        inLanguage={locale === "es" ? "es-MX" : "en-US"}
+      />
       <JsonLdMedicalProcedure
         name={service.title}
         description={service.description}
