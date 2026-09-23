@@ -64,18 +64,18 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/en/services/ultrasonido
 - [x] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre
 
-## Tanda 3 ← la siguiente
+## Tanda 3  ✅ PEDIDA 23/09/2026
 
-- [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol
-- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon
-- [ ] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston
-- [ ] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston
-- [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre
-- [ ] https://www.chlacaridad.com/services/tiroides
-- [ ] https://www.chlacaridad.com/services/alergias
-- [ ] https://www.chlacaridad.com/services/enfermedades-respiratorias
-- [ ] https://www.chlacaridad.com/services/enfermedades-transmision-sexual
-- [ ] https://www.chlacaridad.com/en/services
+- [x] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol
+- [x] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon
+- [x] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston
+- [x] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston
+- [x] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre
+- [x] https://www.chlacaridad.com/services/tiroides
+- [x] https://www.chlacaridad.com/services/alergias
+- [x] https://www.chlacaridad.com/services/enfermedades-respiratorias
+- [x] https://www.chlacaridad.com/services/enfermedades-transmision-sexual
+- [x] https://www.chlacaridad.com/en/services
 
 ## Tanda 4
 
