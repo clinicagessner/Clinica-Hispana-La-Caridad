@@ -38,6 +38,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-09-18 | 10 | Tanda 1. Mismo día que se reenvió el sitemap en Bing |
 | 2026-09-19 | 10 | Tanda 2. Confirmada por el usuario el 20-sep |
 
+| 2026-09-25 | 10 | Tanda 4 |
 ## Tanda 1 — 18 de septiembre de 2026  ✅ PEDIDA 18/09/2026
 
 - [x] https://www.chlacaridad.com/opiniones
@@ -77,23 +78,21 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/services/enfermedades-transmision-sexual
 - [x] https://www.chlacaridad.com/en/services
 
-## Tanda 4
+## Tanda 4  ✅ PEDIDA 25/09/2026
 
-- [ ] https://www.chlacaridad.com/en/blog
-- [ ] https://www.chlacaridad.com/privacy
-- [ ] https://www.chlacaridad.com/en/privacy
-- [ ] https://www.chlacaridad.com/en/services/tiroides
-- [ ] https://www.chlacaridad.com/en/services/alergias
-- [ ] https://www.chlacaridad.com/en/services/enfermedades-respiratorias
-- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar
-- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar
-- [ ] https://www.chlacaridad.com/en/services/prueba-embarazo
-- [ ] https://www.chlacaridad.com/en/services/anticonceptivos
+- [x] https://www.chlacaridad.com/en/blog
+- [x] https://www.chlacaridad.com/services/extraccion-implantes
+- [x] https://www.chlacaridad.com/en/services/extraccion-implantes
+- [x] https://www.chlacaridad.com/en/services/tiroides
+- [x] https://www.chlacaridad.com/en/services/alergias
+- [x] https://www.chlacaridad.com/en/services/enfermedades-respiratorias
+- [x] https://www.chlacaridad.com/services/examen-fisico-escolar
+- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar
+- [x] https://www.chlacaridad.com/en/services/prueba-embarazo
+- [x] https://www.chlacaridad.com/en/services/anticonceptivos
 
 ## Tanda 5
 
-- [ ] https://www.chlacaridad.com/services/extraccion-implantes
-- [ ] https://www.chlacaridad.com/en/services/extraccion-implantes
 - [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias
 - [ ] https://www.chlacaridad.com/services/examen-heces
 - [ ] https://www.chlacaridad.com/en/services/examen-heces
@@ -142,9 +141,11 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [ ] https://www.chlacaridad.com/en/blog/control-diabetes-houston-guia-pacientes
 - [ ] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston
 
-## Tanda 9 (solo 4)
+## Tanda 9 (solo 6; incluye /privacy, que vale poco)
 
 - [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston
 - [ ] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston
 - [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad
 - [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad
+- [ ] https://www.chlacaridad.com/privacy
+- [ ] https://www.chlacaridad.com/en/privacy
