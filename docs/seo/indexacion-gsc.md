@@ -39,6 +39,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-09-19 | 10 | Tanda 2. Confirmada por el usuario el 20-sep |
 | 2026-09-23 | 10 | Tanda 3 |
 | 2026-09-25 | 10 | Tanda 4. Las 2 de /privacy pasaron a la tanda 9 y subieron los implantes |
+| 2026-09-27 | 8 | Tanda 5 |
 
 ## Tanda 1 — 18 de septiembre de 2026  ✅ PEDIDA 18/09/2026
 
@@ -92,16 +93,16 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/en/services/prueba-embarazo
 - [x] https://www.chlacaridad.com/en/services/anticonceptivos
 
-## Tanda 5
+## Tanda 5  ✅ PEDIDA 27/09/2026
 
-- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias
-- [ ] https://www.chlacaridad.com/services/examen-heces
-- [ ] https://www.chlacaridad.com/en/services/examen-heces
-- [ ] https://www.chlacaridad.com/services/prueba-strep
-- [ ] https://www.chlacaridad.com/en/services/prueba-strep
-- [ ] https://www.chlacaridad.com/services/prueba-tuberculosis
-- [ ] https://www.chlacaridad.com/en/services/prueba-tuberculosis
-- [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual
+- [x] https://www.chlacaridad.com/en/services/infecciones-urinarias
+- [x] https://www.chlacaridad.com/services/examen-heces
+- [x] https://www.chlacaridad.com/en/services/examen-heces
+- [x] https://www.chlacaridad.com/services/prueba-strep
+- [x] https://www.chlacaridad.com/en/services/prueba-strep
+- [x] https://www.chlacaridad.com/services/prueba-tuberculosis
+- [x] https://www.chlacaridad.com/en/services/prueba-tuberculosis
+- [x] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual
 
 ## Tanda 6
 
