@@ -40,6 +40,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-09-23 | 10 | Tanda 3 |
 | 2026-09-25 | 10 | Tanda 4. Las 2 de /privacy pasaron a la tanda 9 y subieron los implantes |
 | 2026-09-27 | 8 | Tanda 5 |
+| 2026-09-30 | 10 | Tanda 6 |
 
 ## Tanda 1 — 18 de septiembre de 2026  ✅ PEDIDA 18/09/2026
 
@@ -104,18 +105,18 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/en/services/prueba-tuberculosis
 - [x] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual
 
-## Tanda 6
+## Tanda 6  ✅ PEDIDA 30/09/2026
 
-- [ ] https://www.chlacaridad.com/services/examen-alcohol-drogas
-- [ ] https://www.chlacaridad.com/en/services/examen-alcohol-drogas
-- [ ] https://www.chlacaridad.com/services/electrocardiograma
-- [ ] https://www.chlacaridad.com/en/services/electrocardiograma
-- [ ] https://www.chlacaridad.com/en/services/vacunas
-- [ ] https://www.chlacaridad.com/services/sueros-vitaminados
-- [ ] https://www.chlacaridad.com/en/services/sueros-vitaminados
-- [ ] https://www.chlacaridad.com/services/suturas-heridas
-- [ ] https://www.chlacaridad.com/en/services/suturas-heridas
-- [ ] https://www.chlacaridad.com/services/curacion-heridas
+- [x] https://www.chlacaridad.com/services/examen-alcohol-drogas
+- [x] https://www.chlacaridad.com/en/services/examen-alcohol-drogas
+- [x] https://www.chlacaridad.com/services/electrocardiograma
+- [x] https://www.chlacaridad.com/en/services/electrocardiograma
+- [x] https://www.chlacaridad.com/en/services/vacunas
+- [x] https://www.chlacaridad.com/services/sueros-vitaminados
+- [x] https://www.chlacaridad.com/en/services/sueros-vitaminados
+- [x] https://www.chlacaridad.com/services/suturas-heridas
+- [x] https://www.chlacaridad.com/en/services/suturas-heridas
+- [x] https://www.chlacaridad.com/services/curacion-heridas
 
 ## Tanda 7
 
