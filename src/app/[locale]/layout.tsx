@@ -15,6 +15,7 @@ import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 import "../globals.css";
+import { ConversionEvents } from "@/components/tracking/conversion-events";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -183,6 +184,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <Analytics />
           </TooltipProvider>
         </NextIntlClientProvider>
+        <ConversionEvents />
       </body>
       <GoogleTags />
       {/* CallRail: afterInteractive, NO lazyOnload. El swap de números se
