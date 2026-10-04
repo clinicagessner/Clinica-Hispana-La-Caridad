@@ -358,8 +358,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "infecciones-urinarias": {
     "faqs": [
       {
-        "question": "¿Puedo recibir tratamiento en la misma consulta?",
-        "answer": "Sí, hacemos el examen de orina en la clínica y, si hay infección, el tratamiento se indica en esa misma consulta."
+        "question": "¿Puedo recibir tratamiento el mismo día?",
+        "answer": "Sí, hacemos el examen de orina en la clínica y, si hay infección, sales con tu tratamiento el mismo día."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -372,8 +372,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     ],
     "faqsEn": [
       {
-        "question": "Can I get treatment in the same visit?",
-        "answer": "Yes, we run the urine test and, if there's an infection, we start treatment the same day."
+        "question": "Can I get treatment the same day?",
+        "answer": "Yes, we run the urine test at the clinic and, if there's an infection, you leave with your treatment the same day."
       },
       {
         "question": "Do I need an appointment?",

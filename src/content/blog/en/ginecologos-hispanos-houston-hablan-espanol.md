@@ -3,7 +3,7 @@ slug: "ginecologos-hispanos-houston-hablan-espanol"
 title: "Hispanic Gynecologists in Houston Who Speak Spanish"
 description: "How to find Spanish-speaking gynecologists in Houston. What to ask, what to look for, and where to find options for Hispanic women in Houston TX."
 date: "2026-05-31"
-dateModified: "2026-09-18"
+dateModified: "2026-10-04"
 author: "Clinica Hispana La Caridad"
 image: "/images/services/gynecology.webp"
 featured: false
@@ -82,4 +82,4 @@ At walk-in clinics the price is asked before you go in and paid on the spot, usu
 
 At 5705 Fondren Rd, in Sharpstown, walk-ins are seen Monday through Sunday from 9 AM to 9 PM, and no insurance is needed. The clinic's medical team provides [gynecology care](/services/ginecologia), Pap smears, cultures and ultrasound, and explains every result in Spanish. Gynecology care is provided by the clinic's medical team; if your case requires a specialist gynecologist, a referral is arranged and you are given the report to take along. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179 and the women's check-up for $79.
 
-If burning when urinating is the main symptom, the visit can focus on [urinary tract infections](/services/infecciones-urinarias), which are resolved in the same consultation.
+If burning when urinating is the main symptom, the visit can focus on [urinary tract infections](/services/infecciones-urinarias): the urine test is done at the clinic and, if there is an infection, you leave with your treatment the same day.
