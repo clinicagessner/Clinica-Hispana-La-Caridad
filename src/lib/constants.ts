@@ -545,13 +545,13 @@ export const SERVICES: Service[] = [
     "features": [
       "Examen de orina en la clínica",
       "Diagnóstico de infección urinaria",
-      "Tratamiento en la misma consulta",
+      "Tratamiento el mismo día",
       "Atención sin cita en español"
     ],
     "featuresEn": [
       "In-clinic urinalysis",
       "Diagnosis of urinary infection",
-      "Treatment in the same visit",
+      "Same-day treatment",
       "Walk-in care in Spanish"
     ],
     "highlighted": false,
