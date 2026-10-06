@@ -10,27 +10,14 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-05; URL Inspection API, datos de hoy 2026-10-05):** 24 de 96 URLs del sitemap indexadas · 72 sin indexar (30 desconocida · 26 descubierta sin indexar · 16 rastreada sin indexar).
+**Estado (actualizado 2026-10-06; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 24 de 96 URLs del sitemap indexadas · 72 sin indexar (30 desconocida · 26 descubierta sin indexar · 16 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 31 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 15 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 21 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 15 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-33 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-07).
+38 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-07).
 <!-- /tandas:auto -->
 
-## Tanda 7  ✅ PEDIDA 05/10/2026
-
-- [x] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-04 · rastreada 2026-08-30 · indexada · 1733 impr.
-- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-09-18 · rastreada 2026-08-03 · indexada · 863 impr.
-- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-09-18 · rastreada 2026-09-09 · indexada · 207 impr.
-- [x] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-09-16 · indexada · 17 impr.
-- [x] https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-08-19 · indexada · 14 impr.
-- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-09-19 · 1 impr.
-- [x] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [x] https://www.chlacaridad.com/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [x] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-
-## Tanda 8
+## Tanda 8  📨 ENVIADA 06/10/2026
 
 - [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · 0 impr.
 - [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · 0 impr.
@@ -190,3 +177,16 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/services/suturas-heridas
 - [x] https://www.chlacaridad.com/en/services/suturas-heridas
 - [x] https://www.chlacaridad.com/services/curacion-heridas
+
+## Tanda 7  ✅ PEDIDA 05/10/2026
+
+- [x] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-04 · rastreada 2026-08-30 · indexada · 1733 impr.
+- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-09-18 · rastreada 2026-08-03 · indexada · 863 impr.
+- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-09-18 · rastreada 2026-09-09 · indexada · 207 impr.
+- [x] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-09-16 · indexada · 17 impr.
+- [x] https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-08-19 · indexada · 14 impr.
+- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-09-19 · 1 impr.
+- [x] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
