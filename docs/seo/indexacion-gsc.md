@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 33 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-07).
 <!-- /tandas:auto -->
 
-## Tanda 7 — 📨 ENVIADA 05/10/2026
+## Tanda 7  ✅ PEDIDA 05/10/2026
 
-- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-04 · rastreada 2026-08-30 · indexada · 1733 impr.
-- [ ] https://www.chlacaridad.com/promociones  — cambiada 2026-09-18 · rastreada 2026-08-03 · indexada · 863 impr.
-- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-09-18 · rastreada 2026-09-09 · indexada · 207 impr.
-- [ ] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-09-16 · indexada · 17 impr.
-- [ ] https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-08-19 · indexada · 14 impr.
-- [ ] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-09-19 · 1 impr.
-- [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-04 · rastreada 2026-08-30 · indexada · 1733 impr.
+- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-09-18 · rastreada 2026-08-03 · indexada · 863 impr.
+- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-09-18 · rastreada 2026-09-09 · indexada · 207 impr.
+- [x] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-09-16 · indexada · 17 impr.
+- [x] https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-08-19 · indexada · 14 impr.
+- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-09-19 · 1 impr.
+- [x] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 
 ## Tanda 8
 
