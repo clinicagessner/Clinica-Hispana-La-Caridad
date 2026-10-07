@@ -17,7 +17,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 32 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-09).
 <!-- /tandas:auto -->
 
-## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)
+## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  📨 ENVIADA 07/10/2026
 
 - [ ] https://www.chlacaridad.com/  — cambiada 2026-10-07
 - [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-07
