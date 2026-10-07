@@ -20,11 +20,17 @@ const nextConfig: NextConfig = {
   images: {
     // Optimizador de Vercel desactivado: la cuenta tiene topada la cuota de
     // Image Optimization (/_next/image devuelve 402
-    // OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED). Servimos los originales de
-    // public/, ya comprimidos a mano (WebP q80 / PNG pngquant+oxipng).
-    unoptimized: true,
-    qualities: [60, 75],
-    minimumCacheTTL: 31536000,
+    // OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED). Loader propio (receta de 529):
+    // sirve las variantes pregeneradas de public/images
+    // (scripts/generate-image-variants.mjs, en prebuild; manifiesto en
+    // src/lib/image-variants.json) para que next/image emita srcset y el móvil
+    // no descargue el archivo de escritorio. Lo que no está en el manifiesto
+    // (remotas, PNG/JPG) se sirve tal cual.
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
+    deviceSizes: [384, 640, 828, 1080, 1376],
+    imageSizes: [128, 256, 512],
+    qualities: [60, 75, 80],
     remotePatterns: [
       {
         protocol: "https",
