@@ -10,60 +10,65 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-06; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 24 de 96 URLs del sitemap indexadas · 72 sin indexar (30 desconocida · 26 descubierta sin indexar · 16 rastreada sin indexar).
+**Estado (actualizado 2026-10-07; URL Inspection API, datos de hoy 2026-10-07):** 30 de 96 URLs del sitemap indexadas · 66 sin indexar (34 descubierta sin indexar · 17 rastreada sin indexar · 15 desconocida).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 21 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 15 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 11 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 22 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-38 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-07).
+32 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-09).
 <!-- /tandas:auto -->
 
-## Tanda 8  ✅ PEDIDA 06/10/2026
+## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)
 
-- [x] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [x] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [x] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [x] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-04 · rastreada 2026-09-23 · indexada · pedida 2026-09-23 · 36 impr.
-- [x] https://www.chlacaridad.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-08-20 · indexada · 5 impr.
-- [x] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · 3 impr.
-- [x] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [x] https://www.chlacaridad.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-10-07
+- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-07
+- [ ] https://www.chlacaridad.com/promociones  — cambiada 2026-10-07
+- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-10-07
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-10-07
 
-## Tanda 9
+## Tanda 13
 
-- [ ] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [ ] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [ ] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [ ] https://www.chlacaridad.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-09-18 · rastreada 2026-05-22 · rastreada sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 
-## Tanda 10
+## Tanda 14
 
-- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-09-27 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
+- [ ] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · rastreada 2026-10-06 · rastreada sin indexar · pedida 2026-09-19 · 30 impr.
+- [ ] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-09-18 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
+
+## Tanda 15
+
+- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · 89 impr.
-
-## Tanda 11
-
-- [ ] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-18 · 27 impr.
+- [ ] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-19 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · 6 impr.
+- [ ] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-18 · 1 impr.
+- [ ] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-19 · 0 impr.
+
+## Tanda 16
+
 - [ ] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-19 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -190,3 +195,16 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · desconocida · 0 impr.
 - [x] https://www.chlacaridad.com/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
 - [x] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+
+## Tanda 8  ✅ PEDIDA 06/10/2026
+
+- [x] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-04 · rastreada 2026-09-23 · indexada · pedida 2026-09-23 · 36 impr.
+- [x] https://www.chlacaridad.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-08-20 · indexada · 5 impr.
+- [x] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · 3 impr.
+- [x] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
