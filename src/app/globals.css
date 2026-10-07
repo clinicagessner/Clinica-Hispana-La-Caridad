@@ -28,7 +28,8 @@
   --cyan-warm: #f4fbfd;
 
   /* ROJO - Acento */
-  --red-accent: #ed1c24;
+  /* Rojo un punto más oscuro: #ed1c24 daba 4,38:1 con blanco (AA pide 4,5); #dc1a21 da 4,98 */
+  --red-accent: #dc1a21;
   --red-accent-dark: #c41920;
   --red-accent-light: #fecaca;
   --red-accent-bg: #fef2f2;
@@ -40,8 +41,9 @@
   --yellow-accent-bg: #fffbea;
 
   /* WHATSAPP - Color oficial de la marca */
-  --whatsapp: #25d366;
-  --whatsapp-dark: #1da851;
+  /* Verde oscuro de WhatsApp: el blanco sobre #25d366 daba 1,98:1 (AA pide 4,5) */
+  --whatsapp: #15803d;
+  --whatsapp-dark: #166534;
 
   /* SLATE - Neutros */
   --slate-dark: #1e293b;
