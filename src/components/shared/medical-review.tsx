@@ -45,7 +45,7 @@ export async function MedicalReview({
             {t("updated")} <time dateTime={updated}>{format(updated)}</time>
           </span>
         </p>
-        <p className="text-slate-muted">{t("disclaimer")}</p>
+        <p className="text-slate-600">{t("disclaimer")}</p>
       </div>
     </aside>
   );
