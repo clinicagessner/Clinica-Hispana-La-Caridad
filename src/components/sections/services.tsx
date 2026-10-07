@@ -86,6 +86,7 @@ export function Services() {
                   aria-label={`${t("learnMore")} — ${service.title}`}
                 >
                   <span>{t("learnMore")}</span>
+                  <span className="sr-only"> — {service.title}</span>
                   <ArrowRight className="size-4" aria-hidden="true" />
                 </a>
               </div>
