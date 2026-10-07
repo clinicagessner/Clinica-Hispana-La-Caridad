@@ -1,6 +1,7 @@
 ---
 slug: "medicos-autorizados-uscis-houston-civil-surgeon"
 title: "Médicos Autorizados por USCIS en Houston: Cómo Verificar"
+metaTitle: "Examen Médico de Inmigración en Houston: Civil Surgeon"
 description: "Cómo verificar si un médico es Civil Surgeon autorizado por USCIS en Houston para hacer el examen I-693 de Green Card. Lista oficial, requisitos y qué evitar."
 date: "2026-05-31"
 dateModified: "2026-09-18"

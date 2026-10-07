@@ -38,10 +38,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const metaTitle = post.metaTitle ?? post.title;
   const localePath = locale === "en" ? "/en" : "";
 
   return {
-    title: post.title,
+    title: metaTitle,
     description: post.description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`,
@@ -52,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: post.title,
+      title: metaTitle,
       description: post.description,
       type: "article",
       publishedTime: post.date,
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
+      title: metaTitle,
       description: post.description,
       images: post.image ? [post.image] : undefined,
     },

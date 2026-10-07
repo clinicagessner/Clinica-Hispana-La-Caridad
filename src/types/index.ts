@@ -72,6 +72,8 @@ export interface GoogleReview {
 export interface BlogPost {
   slug: string;
   title: string;
+  /** <title> distinto del H1 (opcional, frontmatter `metaTitle`). */
+  metaTitle?: string;
   titleEn?: string;
   description: string;
   descriptionEn?: string;
