@@ -10,14 +10,14 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-07; URL Inspection API, datos de hoy 2026-10-07):** 30 de 98 URLs del sitemap indexadas · 68 sin indexar (34 descubierta sin indexar · 17 rastreada sin indexar · 15 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-08; URL Inspection API, datos ANTIGUOS del 2026-10-07: antiguos (2026-10-07): --sin-fetch):** 30 de 98 URLs del sitemap indexadas · 68 sin indexar (34 descubierta sin indexar · 17 rastreada sin indexar · 15 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 13 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 22 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 32 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-09).
 <!-- /tandas:auto -->
 
-## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  📨 ENVIADA 07/10/2026
+## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  📨 ENVIADA 08/10/2026
 
 - [ ] https://www.chlacaridad.com/  — cambiada 2026-10-07
 - [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-07
@@ -28,12 +28,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 ## Tanda 13
 
 - [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · desconocida · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-09-18 · rastreada 2026-05-22 · rastreada sin indexar · 0 impr.
+- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
