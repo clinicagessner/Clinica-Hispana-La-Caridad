@@ -10,14 +10,14 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-09; URL Inspection API, datos ANTIGUOS del 2026-10-07: antiguos (2026-10-07): --sin-fetch):** 30 de 98 URLs del sitemap indexadas · 68 sin indexar (34 descubierta sin indexar · 17 rastreada sin indexar · 15 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-10; URL Inspection API, datos ANTIGUOS del 2026-10-07: antiguos (2026-10-07): --sin-fetch):** 30 de 98 URLs del sitemap indexadas · 68 sin indexar (34 descubierta sin indexar · 17 rastreada sin indexar · 15 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 13 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 31 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 23 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-11).
 <!-- /tandas:auto -->
 
-## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  📨 ENVIADA 09/10/2026
+## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  📨 ENVIADA 10/10/2026
 
 - [ ] https://www.chlacaridad.com/  — cambiada 2026-10-07
 - [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-07
