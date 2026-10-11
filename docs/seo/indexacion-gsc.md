@@ -17,13 +17,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 23 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-11).
 <!-- /tandas:auto -->
 
-## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  📨 ENVIADA 10/10/2026
+## Tanda 12 — cambios del 2026-10-07 (análisis diario: páginas cambiadas + landing de Ads de ginecología que Google no conoce)  ✅ PEDIDA 11/10/2026
 
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-10-07
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-07
-- [ ] https://www.chlacaridad.com/promociones  — cambiada 2026-10-07
-- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-10-07
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-10-07
+- [x] https://www.chlacaridad.com/  — cambiada 2026-10-07
+- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-07
+- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-10-07
+- [x] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-10-07
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-10-07
 
 ## Tanda 13
 
