@@ -109,6 +109,14 @@ export async function Hero() {
             {t("subtitle")}
           </p>
 
+          {/* Consulta inicial gratis (confirmado por el usuario, 2026-10-13) */}
+          <p className="-mt-2 mb-6 flex">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-gray-900 shadow-md md:text-base">
+              <CheckCircle2 className="h-5 w-5 shrink-0 text-green-600" aria-hidden="true" />
+              {t("freeConsultation")}
+            </span>
+          </p>
+
           {/* Features list */}
           <ul className="animate-hero-features flex flex-wrap gap-x-5 gap-y-2 mb-7 max-w-xl">
             {features.map((key) => (
