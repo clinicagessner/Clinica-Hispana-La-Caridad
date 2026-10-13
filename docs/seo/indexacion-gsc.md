@@ -10,14 +10,14 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-12; URL Inspection API, datos de hoy 2026-10-12):** 28 de 98 URLs del sitemap indexadas · 70 sin indexar (34 desconocida · 19 rastreada sin indexar · 17 descubierta sin indexar).
+**Estado (actualizado 2026-10-13; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 28 de 98 URLs del sitemap indexadas · 70 sin indexar (34 desconocida · 19 rastreada sin indexar · 17 descubierta sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 3 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 39 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 18 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-14).
 <!-- /tandas:auto -->
 
-## Tanda 13  📨 ENVIADA 12/10/2026
+## Tanda 13  📨 ENVIADA 13/10/2026
 
 - [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
 - [ ] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
