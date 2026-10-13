@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 18 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-14).
 <!-- /tandas:auto -->
 
-## Tanda 13  📨 ENVIADA 13/10/2026
+## Tanda 13  ✅ PEDIDA 13/10/2026
 
-- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-09-18 · rastreada 2026-05-22 · rastreada sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
-- [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-09-18 · rastreada 2026-05-22 · rastreada sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-07 · sin datos de inspección · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
 
 ## Tanda 14
 
