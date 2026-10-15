@@ -4,7 +4,7 @@ title: "Tos que no se quita tras un resfriado: ¿es bronquitis?"
 metaTitle: "Tos después del resfriado: bronquitis y cuándo consultar"
 description: "El resfriado pasó pero la tos sigue. Qué es esperable semana a semana, qué causas se confunden con bronquitis y qué señales piden consulta en Sharpstown."
 date: "2026-10-07"
-dateModified: "2026-10-07"
+dateModified: "2026-10-15"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -99,7 +99,7 @@ Tome nota de cuándo tose más, si hay flema y de qué color, y si ha tenido fie
 
 En el servicio de [enfermedades respiratorias](/services/enfermedades-respiratorias) de Clínica Hispana La Caridad, el equipo médico de la clínica revisa garganta, oídos y pulmones, mide la temperatura y el oxígeno en la sangre, y pregunta cómo ha evolucionado la tos desde el principio. Si los síntomas son recientes, se puede hacer la prueba rápida de influenza o COVID con resultado en unos minutos.
 
-Con eso se decide el siguiente paso: tratamiento para aliviar la tos, manejo de una crisis de asma, tratamiento de una infección si la hay, o la indicación de un estudio adicional cuando hace falta. Si se le indica algún medicamento para la tos o los bronquios, se le entrega ahí mismo en la clínica y se le explica en español cómo y cuántos días tomarlo.
+Con eso se decide el siguiente paso: tratamiento para aliviar la tos, manejo de una crisis de asma, tratamiento de una infección si la hay, o la indicación de un estudio adicional cuando hace falta. Si se le indica algún medicamento para la tos o los bronquios, lo compra ahí mismo en la farmacia de la clínica y se le explica en español cómo y cuántos días tomarlo.
 
 Para aprovechar la visita, traiga:
 

@@ -4,7 +4,7 @@ title: "A Cough That Lingers After a Cold: Is It Bronchitis?"
 metaTitle: "Cough After a Cold: Bronchitis and When to Get Checked"
 description: "Your cold is gone but the cough is not. What is normal week by week, what else mimics bronchitis, and which signs mean it is time to be seen in Sharpstown."
 date: "2026-10-07"
-dateModified: "2026-10-07"
+dateModified: "2026-10-15"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -99,7 +99,7 @@ Jot down when you cough most, whether there is mucus and what color, and whether
 
 Through the [respiratory illness](/services/enfermedades-respiratorias) service at Clínica Hispana La Caridad, the clinic's medical team examines your throat, ears and lungs, checks your temperature and blood oxygen, and asks how the cough has evolved since day one. If your symptoms are recent, a rapid flu or COVID test can be run with results in minutes.
 
-From there, the next step is decided: relief for the cough, treatment for an asthma flare, treatment for an infection if one is found, or a referral for an additional test when one is needed. If a medicine for the cough or your airways is part of the plan, you leave the clinic with it in hand and a clear explanation of how and for how many days to take it.
+From there, the next step is decided: relief for the cough, treatment for an asthma flare, treatment for an infection if one is found, or a referral for an additional test when one is needed. If a medicine for the cough or your airways is part of the plan, you buy it at the clinic's on-site pharmacy before leaving, with a clear explanation of how and for how many days to take it.
 
 To get the most out of the visit, bring:
 

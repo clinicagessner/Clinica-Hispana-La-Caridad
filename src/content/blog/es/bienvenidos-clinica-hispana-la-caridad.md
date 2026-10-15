@@ -3,7 +3,7 @@ slug: "bienvenidos-clinica-hispana-la-caridad"
 title: "¡Bienvenidos a Clínica Hispana La Caridad!"
 description: "Conoce nuestra clínica médica hispana en Houston, TX. Atención profesional en español, precios accesibles y un equipo comprometido con tu salud."
 date: "2026-03-16"
-dateModified: "2026-09-18"
+dateModified: "2026-10-15"
 author: "Clínica Hispana La Caridad"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -47,7 +47,7 @@ Se atiende con y sin seguro. Si no tiene cobertura, paga directamente y el costo
 
 ## Qué pasa durante la visita
 
-Primero se toman los signos vitales y se revisa el motivo de la consulta. Después pasa con el equipo médico de la clínica, que le examina, le explica lo que encuentra y propone un plan. Si hacen falta análisis o un [ultrasonido](/services/ultrasonido), muchas veces se hacen en la misma visita. Al salir, se le entrega lo indicado y se le explican las instrucciones en español.
+Primero se toman los signos vitales y se revisa el motivo de la consulta. Después pasa con el equipo médico de la clínica, que le examina, le explica lo que encuentra y propone un plan. Si hacen falta análisis o un [ultrasonido](/services/ultrasonido), muchas veces se hacen en la misma visita. Al terminar, si el médico le recetó algo, lo compra ahí mismo en la farmacia de la clínica y se le explican las instrucciones en español.
 
 ## Todo se explica en español
 

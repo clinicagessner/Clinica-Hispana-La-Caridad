@@ -3,7 +3,7 @@ slug: "bienvenidos-clinica-hispana-la-caridad"
 title: "Welcome to Clínica Hispana La Caridad!"
 description: "Discover our Hispanic medical clinic in Houston, TX. Professional care in Spanish, affordable prices, and a team committed to your health."
 date: "2026-03-16"
-dateModified: "2026-09-18"
+dateModified: "2026-10-15"
 author: "Clínica Hispana La Caridad"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -47,7 +47,7 @@ Patients are seen with and without insurance. If you have no coverage, you pay d
 
 ## What happens during the visit
 
-First your vital signs are taken and the reason for the visit is reviewed. Then you see the clinic's medical team, who examine you, explain what they find and propose a plan. If lab work or an [ultrasound](/services/ultrasonido) is needed, it can often be done in the same visit. On the way out, you are given what was indicated and the instructions are explained to you.
+First your vital signs are taken and the reason for the visit is reviewed. Then you see the clinic's medical team, who examine you, explain what they find and propose a plan. If lab work or an [ultrasound](/services/ultrasonido) is needed, it can often be done in the same visit. When you finish, if the doctor prescribed something, you buy it right there at the clinic's pharmacy and the instructions are explained to you.
 
 ## Everything is explained in Spanish
 

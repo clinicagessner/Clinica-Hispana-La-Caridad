@@ -868,8 +868,12 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Me entregan el medicamento en la clínica?",
-        "answer": "Los medicamentos indicados en tu consulta se te entregan antes de salir, junto con productos de venta libre. Si tu tratamiento necesita algo que no se maneja aquí, se te entrega la receta para surtirla donde prefieras."
+        "question": "¿Puedo comprar en la clínica los medicamentos que me recetaron?",
+        "answer": "Sí. La clínica tiene farmacia propia en el mismo local: al terminar tu consulta compras ahí mismo los medicamentos que te recetó nuestro médico, sin ir a otra farmacia."
+      },
+      {
+        "question": "¿Venden medicamentos con recetas de otros médicos?",
+        "answer": "No. La farmacia de la clínica vende solo los medicamentos que receta nuestro médico en tu consulta; las recetas de otros médicos o clínicas no se atienden aquí."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -882,8 +886,12 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     ],
     "faqsEn": [
       {
-        "question": "Do I get the medication at the clinic?",
-        "answer": "The medication indicated during your visit is handed to you before you leave, along with over-the-counter products. If your treatment needs something not handled here, you are given the prescription to fill wherever you prefer."
+        "question": "Can I buy the medicines I was prescribed at the clinic?",
+        "answer": "Yes. The clinic has its own pharmacy in the same building: after your visit you buy the medicines our doctor prescribed right there, without going to another pharmacy."
+      },
+      {
+        "question": "Do you sell medicines on other doctors' prescriptions?",
+        "answer": "No. The clinic's pharmacy only sells the medicines our doctor prescribes during your visit; prescriptions from other doctors or clinics are not handled here."
       },
       {
         "question": "Do I need an appointment?",
