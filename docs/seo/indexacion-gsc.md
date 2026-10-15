@@ -35,6 +35,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
 
+## Tanda 31 — cambios del 2026-10-15 (farmacia en la clínica)
+
+- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.chlacaridad.com/opiniones  — cambiada 2026-10-15
+- [ ] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-10-15
+- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-10-15
+- [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-10-15
+- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-15
+- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-15
+
 ## Tanda 26
 
 - [ ] https://www.chlacaridad.com/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
