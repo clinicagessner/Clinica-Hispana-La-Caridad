@@ -10,11 +10,11 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-15; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 28 de 100 URLs del sitemap indexadas · 72 sin indexar (34 desconocida · 19 rastreada sin indexar · 17 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-16; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 28 de 100 URLs del sitemap indexadas · 72 sin indexar (34 desconocida · 19 rastreada sin indexar · 17 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 44 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-18 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
+15 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
 ## Tanda 25 — cambios del 2026-10-14 (post del blog semanal + tanda de hoy)
@@ -32,7 +32,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
 
-## Tanda 31 — cambios del 2026-10-15 (farmacia en la clínica)  📨 ENVIADA 15/10/2026
+## Tanda 31 — cambios del 2026-10-15 (farmacia en la clínica)  📨 ENVIADA 16/10/2026
 
 - [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15
 - [ ] https://www.chlacaridad.com/opiniones  — cambiada 2026-10-15
@@ -45,7 +45,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — post nuevo 2026-10-14 (blog semanal)
 - [ ] https://www.chlacaridad.com/  — cambiada 2026-10-13
 
-## Tanda 26
+## Tanda 32
 
 - [ ] https://www.chlacaridad.com/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-30 · 0 impr.
@@ -58,7 +58,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-09-18 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-09-18 · 0 impr.
 
-## Tanda 27
+## Tanda 33
 
 - [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-25 · 0 impr.
@@ -71,7 +71,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-19 · 0 impr.
 
-## Tanda 28
+## Tanda 34
 
 - [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · 44 impr.
 - [ ] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-18 · 26 impr.
@@ -84,7 +84,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/electrocardiograma  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
 
-## Tanda 29
+## Tanda 35
 
 - [ ] https://www.chlacaridad.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
@@ -97,7 +97,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
 
-## Tanda 30
+## Tanda 36
 
 - [ ] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/tiroides  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
