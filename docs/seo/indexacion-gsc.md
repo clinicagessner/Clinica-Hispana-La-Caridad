@@ -32,18 +32,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
 
-## Tanda 31 — cambios del 2026-10-15 (farmacia en la clínica)  📨 ENVIADA 16/10/2026
+## Tanda 31 — cambios del 2026-10-15 (farmacia en la clínica)  ✅ PEDIDA 16/10/2026
 
-- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/opiniones  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-15
-- [ ] https://www.chlacaridad.com/blog/sangre-en-la-orina-causas-por-que-revisar  — post nuevo 2026-10-14 (blog semanal)
-- [ ] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — post nuevo 2026-10-14 (blog semanal)
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-10-13
+- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/opiniones  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-15
+- [x] https://www.chlacaridad.com/blog/sangre-en-la-orina-causas-por-que-revisar  — post nuevo 2026-10-14 (blog semanal)
+- [x] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — post nuevo 2026-10-14 (blog semanal)
+- [x] https://www.chlacaridad.com/  — cambiada 2026-10-13
 
 ## Tanda 32
 
