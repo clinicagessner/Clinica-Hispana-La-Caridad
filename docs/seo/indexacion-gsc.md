@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 20 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 37 — cambios del 2026-10-13 (cambiadas sin pedir y pendientes)  📨 ENVIADA 18/10/2026
+## Tanda 37 — cambios del 2026-10-13 (cambiadas sin pedir y pendientes)  ✅ PEDIDA 18/10/2026
 
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-10-13
-- [ ] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-09-18 · desconocida · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-09-27 · 0 impr.
-- [ ] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · rastreada 2026-10-12 · rastreada sin indexar · pedida 2026-09-23 · 54 impr.
-- [ ] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · rastreada 2026-10-12 · rastreada sin indexar · pedida 2026-09-19 · 33 impr.
-- [ ] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-10-13
+- [x] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-09-18 · desconocida · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-09-27 · 0 impr.
+- [x] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-18 · rastreada 2026-10-12 · rastreada sin indexar · pedida 2026-09-23 · 54 impr.
+- [x] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-09-18 · rastreada 2026-10-12 · rastreada sin indexar · pedida 2026-09-19 · 33 impr.
+- [x] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
 
 ## Tanda 38
 
