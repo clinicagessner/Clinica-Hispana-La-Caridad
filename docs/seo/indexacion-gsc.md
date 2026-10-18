@@ -10,14 +10,14 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-17; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 28 de 100 URLs del sitemap indexadas · 72 sin indexar (34 desconocida · 19 rastreada sin indexar · 17 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-18; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 28 de 100 URLs del sitemap indexadas · 72 sin indexar (34 desconocida · 19 rastreada sin indexar · 17 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 43 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 20 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 37 — cambios del 2026-10-13 (cambiadas sin pedir y pendientes)  📨 ENVIADA 17/10/2026
+## Tanda 37 — cambios del 2026-10-13 (cambiadas sin pedir y pendientes)  📨 ENVIADA 18/10/2026
 
 - [ ] https://www.chlacaridad.com/en  — cambiada 2026-10-13
 - [ ] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · 0 impr.
