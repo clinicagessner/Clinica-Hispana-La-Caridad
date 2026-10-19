@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 15 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-20).
 <!-- /tandas:auto -->
 
-## Tanda 38  📨 ENVIADA 19/10/2026
+## Tanda 38  ✅ PEDIDA 19/10/2026
 
-- [ ] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-10-05 · 1 impr.
-- [ ] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-alcohol-drogas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-09-18 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-09-18 · 0 impr.
+- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-10-05 · 1 impr.
+- [x] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-alcohol-drogas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-25 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-09-18 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-09-18 · 0 impr.
 
 ## Tanda 39
 
