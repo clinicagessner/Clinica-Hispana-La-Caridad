@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 21 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 39  📨 ENVIADA 20/10/2026
+## Tanda 39  ✅ PEDIDA 20/10/2026
 
-- [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · pedida 2026-10-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · pedida 2026-10-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
+- [x] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
+- [x] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
+- [x] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
+- [x] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
 
 ## Tanda 40
 
