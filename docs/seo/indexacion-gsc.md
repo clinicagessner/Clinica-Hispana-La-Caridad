@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 31 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 40  📨 ENVIADA 21/10/2026
+## Tanda 40  ✅ PEDIDA 21/10/2026
 
-- [ ] https://www.chlacaridad.com/blog/ultrasonido-pelvico-papanicolaou-chequeo-ginecologico  — post nuevo 2026-10-21 (blog semanal)
-- [ ] https://www.chlacaridad.com/en/blog/ultrasonido-pelvico-papanicolaou-chequeo-ginecologico  — post nuevo 2026-10-21 (blog semanal)
-- [ ] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-18 · 26 impr.
-- [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · 25 impr.
-- [ ] https://www.chlacaridad.com/en/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · rastreada 2026-09-19 · rastreada sin indexar · 23 impr.
-- [ ] https://www.chlacaridad.com/en/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-06-19 · rastreada sin indexar · pedida 2026-09-25 · 3 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-09-25 · 1 impr.
+- [x] https://www.chlacaridad.com/blog/ultrasonido-pelvico-papanicolaou-chequeo-ginecologico  — post nuevo 2026-10-21 (blog semanal)
+- [x] https://www.chlacaridad.com/en/blog/ultrasonido-pelvico-papanicolaou-chequeo-ginecologico  — post nuevo 2026-10-21 (blog semanal)
+- [x] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-18 · 0 impr.
+- [x] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-09-18 · 26 impr.
+- [x] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-09-18 · rastreada 2026-09-23 · rastreada sin indexar · 25 impr.
+- [x] https://www.chlacaridad.com/en/blog/chequeo-preventivo-hombres-houston  — cambiada 2026-09-18 · rastreada 2026-09-19 · rastreada sin indexar · 23 impr.
+- [x] https://www.chlacaridad.com/en/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-06-19 · rastreada sin indexar · pedida 2026-09-25 · 3 impr.
+- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-09-25 · 1 impr.
 
 ## Tanda 43 — cambios del 2026-10-21 (devueltas de la tanda enviada el 21/10 para dejar sitio al post nuevo)
 
