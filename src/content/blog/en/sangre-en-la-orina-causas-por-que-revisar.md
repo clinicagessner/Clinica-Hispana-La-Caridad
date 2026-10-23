@@ -4,7 +4,7 @@ title: "Blood in Your Urine: Causes and Why It Gets Checked"
 metaTitle: "Blood in the Urine: Possible Causes and When to Be Seen"
 description: "Pink urine, or blood flagged on a urine test: common causes, the ones that need a closer look, and why it is worth checking even without pain. Sharpstown."
 date: "2026-10-14"
-dateModified: "2026-10-14"
+dateModified: "2026-10-23"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -91,7 +91,7 @@ Then come the tests:
 3. **[Blood work](/services/examenes-sangre).** Kidney function, blood count and glucose help fill in the whole picture.
 4. **Imaging of the kidneys and bladder.** A [kidney and urinary tract ultrasound](/services/ultrasonido) can be done at the clinic when stones or another change are suspected.
 
-If the blood has no clear explanation, if it persists after an infection is treated, or if you have risk factors, the service includes guiding your referral to a urologist for the studies done elsewhere, such as looking inside the bladder, and you receive a report with everything found so far so you do not start from scratch. For men over 50, that path often goes hand in hand with the prostate review in [men's health](/services/salud-hombre).
+If the blood has no clear explanation, if it persists after an infection is treated, or if you have risk factors, a specialized evaluation with studies such as looking inside the bladder is advisable, and you receive a report with everything found so far so you do not start from scratch. For men over 50, that path often goes hand in hand with the prostate review in [men's health](/services/salud-hombre).
 
 ## Giving a good sample
 

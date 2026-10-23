@@ -4,7 +4,7 @@ title: "Sangre en la orina: causas y por qué siempre se revisa"
 metaTitle: "Sangre en la orina: causas posibles y cuándo consultar"
 description: "Orina rosada o sangre vista en un examen: causas comunes, otras que piden estudio y por qué conviene revisarla aunque no duela. Atención en Sharpstown."
 date: "2026-10-14"
-dateModified: "2026-10-14"
+dateModified: "2026-10-23"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -91,7 +91,7 @@ Después vienen las pruebas:
 3. **[Análisis de sangre](/services/examenes-sangre).** La función del riñón, el conteo de sangre y la glucosa ayudan a ver el panorama completo.
 4. **Imagen de los riñones y la vejiga.** El [ultrasonido renal y de vías urinarias](/services/ultrasonido) se puede hacer en la clínica cuando se sospechan piedras u otra alteración.
 
-Si la sangre no tiene una explicación clara, si persiste después de tratar una infección o si usted tiene factores de riesgo, el servicio incluye orientar la referencia a un urólogo para los estudios que se hacen fuera, como ver la vejiga por dentro, y se le entrega el reporte con todo lo encontrado para que no empiece de cero. En hombres de más de 50, ese recorrido suele ir unido a la revisión de la próstata del servicio de [salud del hombre](/services/salud-hombre).
+Si la sangre no tiene una explicación clara, si persiste después de tratar una infección o si usted tiene factores de riesgo, conviene una valoración especializada con estudios como ver la vejiga por dentro, y se le entrega el reporte con todo lo encontrado para que no empiece de cero. En hombres de más de 50, ese recorrido suele ir unido a la revisión de la próstata del servicio de [salud del hombre](/services/salud-hombre).
 
 ## Cómo dar una buena muestra
 
