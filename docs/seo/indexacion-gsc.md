@@ -12,9 +12,9 @@ Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar index
 <!-- tandas:auto -->
 **Estado (actualizado 2026-10-23; URL Inspection API, datos ANTIGUOS del 2026-10-19: antiguos (2026-10-19): --sin-fetch):** 40 de 102 URLs del sitemap indexadas · 62 sin indexar (31 desconocida · 16 rastreada sin indexar · 13 descubierta sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 11 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-51 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
+50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
 ## Tanda 44 📨 ENVIADA 23/10/2026
@@ -30,7 +30,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · pedida 2026-10-06 · 0 impr.
 
-## Tanda 45
+## Tanda 46 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología))
+
+- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
+
+## Tanda 47
 
 - [ ] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
 
