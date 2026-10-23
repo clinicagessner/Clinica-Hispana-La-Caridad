@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 41 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 43 — cambios del 2026-10-21 (devueltas de la tanda enviada el 21/10 para dejar sitio al post nuevo) 📨 ENVIADA 22/10/2026
+## Tanda 43 — cambios del 2026-10-21 (devueltas de la tanda enviada el 21/10 para dejar sitio al post nuevo) ✅ PEDIDA 22/10/2026
 
-- [ ] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-09-18 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-09-30 · 1 impr.
-- [ ] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-07-22 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/electrocardiograma  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-09-18 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-09-30 · 1 impr.
+- [x] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-07-22 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-09-18 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-09-19 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/electrocardiograma  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-25 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
 
 ## Tanda 44
 
