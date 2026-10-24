@@ -17,12 +17,25 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 44 📨 ENVIADA 23/10/2026
+## Tanda 48 — cambios del 2026-10-24 (análisis diario: ginecología y urología alineadas con los anuncios, laboratorio sin plazo, post de la tos) 📨 ENVIADA 24/10/2026
+
+- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/walk-in  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-10-24
+- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-10-24
+
+
+## Tanda 44
 
 - [ ] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-09-18 · desconocida · pedida 2026-09-18 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-09-27 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · desconocida · pedida 2026-09-30 · 0 impr.
@@ -32,12 +45,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 46 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología))
 
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
 - [ ] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
 - [ ] https://www.chlacaridad.com/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-10-23
 - [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
 - [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
 - [ ] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
