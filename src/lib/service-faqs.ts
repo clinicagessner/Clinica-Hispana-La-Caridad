@@ -22,6 +22,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "¿Atienden a pacientes sin seguro?",
         "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+      },
+      {
+        "question": "¿Tienen laboratorio y cuándo salen los resultados?",
+        "answer": "Sí. El laboratorio está en la clínica y los resultados salen el mismo día. Te los explicamos en español junto con el plan a seguir."
+      },
+      {
+        "question": "¿Hacen el examen de inmigración I-693 y el examen DOT?",
+        "answer": "Sí. El I-693 lo hace un Civil Surgeon autorizado por USCIS, con resultados el mismo día, y el examen DOT se hace sin cita para la licencia comercial."
       }
     ],
     "faqsEn": [
@@ -36,6 +44,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "Do you accept patients without insurance?",
         "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+      },
+      {
+        "question": "Do you have a lab, and when are results ready?",
+        "answer": "Yes. The lab is at the clinic and results are ready the same day. We explain them to you along with the plan."
+      },
+      {
+        "question": "Do you do the I-693 immigration exam and the DOT physical?",
+        "answer": "Yes. The I-693 is done by a USCIS-authorized Civil Surgeon with same-day results, and the DOT physical is done walk-in for a commercial license."
       }
     ]
   },
