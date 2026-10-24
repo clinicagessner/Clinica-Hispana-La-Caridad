@@ -14,7 +14,7 @@ keywords:
   - "análisis sangre Houston"
   - "prueba glucosa Houston TX"
   - "examen colesterol Houston"
-  - "resultados mismo día Houston"
+  - "resultados rápidos laboratorio Houston"
 relatedServices:
   - "examenes-sangre"
   - "examen-heces"

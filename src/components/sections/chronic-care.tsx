@@ -18,7 +18,7 @@ const conditions = [
 ];
 
 const features = [
-  { icon: CheckCircle, textEs: "Laboratorio con resultados el mismo día", textEn: "Same-day lab results" },
+  { icon: CheckCircle, textEs: "Laboratorio en la clínica con resultados rápidos", textEn: "In-clinic lab with fast results" },
   { icon: CheckCircle, textEs: "Monitoreo continuo y personalizado", textEn: "Ongoing personalized monitoring" },
   { icon: CheckCircle, textEs: "Educación y prevención en español", textEn: "Education and prevention in Spanish" },
   { icon: CheckCircle, textEs: "Aceptamos pacientes sin seguro", textEn: "Uninsured patients welcome" },

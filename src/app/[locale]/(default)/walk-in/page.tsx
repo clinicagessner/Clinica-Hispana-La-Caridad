@@ -23,7 +23,7 @@ const COPY = {
     hoursNote: "Llegue en cualquier momento dentro del horario. No necesita cita.",
     servicesHeading: "Servicios disponibles sin cita",
     servicesIntro:
-      "Estos son los servicios que atendemos como walk-in para que llegue, sea atendido y reciba sus resultados el mismo día:",
+      "Estos son los servicios que atendemos como walk-in para que llegue, sea atendido y salga con su plan de atención explicado en español:",
     services: [
       { name: "Alergias y síntomas estacionales", slug: "alergias" },
       { name: "Gripe, tos y síntomas respiratorios", slug: "enfermedades-respiratorias" },
@@ -41,7 +41,7 @@ const COPY = {
       "Llegue dentro del horario (9 AM a 9 PM, todos los días).",
       "Regístrese en recepción con su identificación.",
       "Lo evalúa el médico y se realizan los análisis si es necesario.",
-      "Recibe resultados de laboratorio y plan de tratamiento el mismo día.",
+      "Resultados de laboratorio rápidos y plan de tratamiento explicado en español.",
     ],
     bringHeading: "Qué traer a su visita",
     bringItems: [
@@ -113,7 +113,7 @@ const COPY = {
     hoursNote: "Come in any time within our hours. No appointment needed.",
     servicesHeading: "Services available without appointment",
     servicesIntro:
-      "These are the services we provide on a walk-in basis so you can come in, be seen, and get same-day results:",
+      "These are the services we provide on a walk-in basis so you can come in, be seen, and leave with a clear care plan:",
     services: [
       { name: "Allergies and seasonal symptoms", slug: "alergias" },
       { name: "Flu, cough and respiratory symptoms", slug: "enfermedades-respiratorias" },
@@ -131,7 +131,7 @@ const COPY = {
       "Come in within our hours (9 AM to 9 PM, every day).",
       "Sign in at the front desk with your ID.",
       "Our doctor evaluates you and orders lab tests if needed.",
-      "Receive your lab results and care plan the same day.",
+      "Fast lab results and a care plan explained to you.",
     ],
     bringHeading: "What to bring",
     bringItems: [
