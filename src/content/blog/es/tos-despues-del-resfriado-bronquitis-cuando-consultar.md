@@ -1,10 +1,10 @@
 ---
 slug: "tos-despues-del-resfriado-bronquitis-cuando-consultar"
 title: "Tos que no se quita tras un resfriado: ¿es bronquitis?"
-metaTitle: "Tos después del resfriado: bronquitis y cuándo consultar"
-description: "El resfriado pasó pero la tos sigue. Qué es esperable semana a semana, qué causas se confunden con bronquitis y qué señales piden consulta en Sharpstown."
+metaTitle: "¿Cuánto dura la tos después de una bronquitis o resfriado?"
+description: "La tos de una bronquitis aguda puede durar unas tres semanas. Qué es normal semana a semana tras un resfriado y qué señales piden consulta en Sharpstown."
 date: "2026-10-07"
-dateModified: "2026-10-15"
+dateModified: "2026-10-24"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
