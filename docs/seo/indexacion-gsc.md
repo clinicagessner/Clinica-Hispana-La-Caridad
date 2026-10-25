@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 43 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 48 — cambios del 2026-10-24 (análisis diario: ginecología y urología alineadas con los anuncios, laboratorio sin plazo, post de la tos) 📨 ENVIADA 25/10/2026 (aplazada del 24/10 por el usuario)
+## Tanda 48 — cambios del 2026-10-24 (análisis diario: ginecología y urología alineadas con los anuncios, laboratorio sin plazo, post de la tos) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
 
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/walk-in  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
+- [x] https://www.chlacaridad.com/  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/walk-in  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-10-24
 
 ## Tanda 46 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología))
 
