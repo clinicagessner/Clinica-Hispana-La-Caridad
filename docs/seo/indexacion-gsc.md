@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 45 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 54 — cambios del 2026-10-24 (tanda del día) 📨 ENVIADA 26/10/2026
+## Tanda 54 — cambios del 2026-10-24 (tanda del día) ✅ PEDIDA 26/10/2026
 
-- [ ] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
-- [ ] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-10-24
-- [ ] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-24 · rastreada 2026-10-18 · indexada · pedida 2026-10-18 · 20 impr.
-- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-10-07 · rastreada 2026-10-14 · rastreada sin indexar · pedida 2026-10-11 · 149 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
+- [x] https://www.chlacaridad.com/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
+- [x] https://www.chlacaridad.com/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
+- [x] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-10-23
+- [x] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23
+- [x] https://www.chlacaridad.com/en/blog/sangre-en-la-orina-causas-por-que-revisar  — cambiada 2026-10-23
+- [x] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-10-24
+- [x] https://www.chlacaridad.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-24 · rastreada 2026-10-18 · indexada · pedida 2026-10-18 · 20 impr.
+- [x] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-10-07 · rastreada 2026-10-14 · rastreada sin indexar · pedida 2026-10-11 · 149 impr.
+- [x] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
 
 ## Tanda 52
 
