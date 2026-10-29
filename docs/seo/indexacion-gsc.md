@@ -17,10 +17,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
 <!-- /tandas:auto -->
 
-## Tanda 57 — cambios del 2026-10-28 (post del blog semanal)  📨 ENVIADA 28/10/2026
+## Tanda 57 — cambios del 2026-10-28 (post del blog semanal)
 
-- [ ] https://www.chlacaridad.com/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28
-- [ ] https://www.chlacaridad.com/en/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28
+- [x] https://www.chlacaridad.com/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · pedida 2026-10-28
+- [ ] https://www.chlacaridad.com/en/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · cuota superada el 28/10, pedir el 29/10
 
 ## Tanda 58
 
