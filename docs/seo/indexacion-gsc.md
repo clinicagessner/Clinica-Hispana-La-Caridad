@@ -17,12 +17,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
 <!-- /tandas:auto -->
 
-## Tanda 57 — cambios del 2026-10-28 (post del blog semanal) 📨 ENVIADA 29/10/2026
+## Tanda 57 — cambios del 2026-10-28 (post del blog semanal) ✅ PEDIDA 29/10/2026
 
 - [x] https://www.chlacaridad.com/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · pedida 2026-10-28
-- [ ] https://www.chlacaridad.com/en/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · cuota superada el 28/10, pedir el 29/10
-- [ ] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · pedida 2026-10-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · cuota superada el 28/10, pedir el 29/10
+- [x] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · pedida 2026-10-06 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
