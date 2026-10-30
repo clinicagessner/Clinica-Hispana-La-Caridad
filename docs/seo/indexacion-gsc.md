@@ -10,19 +10,16 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-29; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 45 de 104 URLs del sitemap indexadas · 59 sin indexar (29 descubierta sin indexar · 15 desconocida · 13 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-30; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 45 de 104 URLs del sitemap indexadas · 59 sin indexar (29 descubierta sin indexar · 15 desconocida · 13 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
+58 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-01).
 <!-- /tandas:auto -->
 
-## Tanda 57 — cambios del 2026-10-28 (post del blog semanal) ✅ PEDIDA 29/10/2026
+## Tanda 58  📨 ENVIADA 30/10/2026
 
-- [x] https://www.chlacaridad.com/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · pedida 2026-10-28
-- [x] https://www.chlacaridad.com/en/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · cuota superada el 28/10, pedir el 29/10
-- [x] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · pedida 2026-10-06 · 0 impr.
-- [x] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -300,3 +297,10 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-25 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · desconocida · pedida 2026-09-19 · 0 impr.
+
+## Tanda 57 — cambios del 2026-10-28 (post del blog semanal) ✅ PEDIDA 29/10/2026
+
+- [x] https://www.chlacaridad.com/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · pedida 2026-10-28
+- [x] https://www.chlacaridad.com/en/blog/pastillas-presion-alta-no-dejarlas  — cambiada 2026-10-28 · cuota superada el 28/10, pedir el 29/10
+- [x] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-09-18 · rastreada 2026-07-17 · rastreada sin indexar · pedida 2026-10-06 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-09-30 · 0 impr.
