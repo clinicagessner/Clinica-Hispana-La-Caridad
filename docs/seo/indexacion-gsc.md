@@ -17,9 +17,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 58 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-01).
 <!-- /tandas:auto -->
 
-## Tanda 58  📨 ENVIADA 30/10/2026
+## Tanda 58  ✅ PEDIDA 30/10/2026
 
-- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
+- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
