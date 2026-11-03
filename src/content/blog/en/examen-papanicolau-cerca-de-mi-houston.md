@@ -3,7 +3,7 @@ slug: "examen-papanicolau-cerca-de-mi-houston"
 title: "Pap Smear Near Me in Houston: Spanish-Speaking Guide"
 description: "Where to get a Pap smear near you in Houston — walk in, no insurance needed. When to get it, how to prepare, how long it takes and what the results mean."
 date: "2026-08-28"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -66,8 +66,8 @@ Light spotting afterwards is normal and lasts a day or two.
 
 ## About HPV
 
-Most cervical changes are caused by human papillomavirus. It is a very common infection and in most cases the body clears it on its own. HPV testing is combined with cytology from age 30 because together they detect what matters better.
+Most cervical changes are caused by human papillomavirus. It is a very common infection and in most cases the body clears it on its own. HPV testing is combined with cytology from age 30 because together they detect what matters better. If you also want to be checked for other infections, the [sexually transmitted infection panel](/services/enfermedades-transmision-sexual) is done at the same clinic.
 
 ## Where to have it done in Houston
 
-At Clínica Hispana La Caridad the Pap smear is part of the [gynecology](/services/ginecologia) visit, walk-in and Monday through Sunday from 9 AM to 9 PM. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179.
+At Clínica Hispana La Caridad the Pap smear is part of the [gynecology](/services/ginecologia) visit, walk-in and Monday through Sunday from 9 AM to 9 PM. If the uterus or ovaries need to be seen, the [pelvic ultrasound](/services/ultrasonido) is done in the same visit. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179.

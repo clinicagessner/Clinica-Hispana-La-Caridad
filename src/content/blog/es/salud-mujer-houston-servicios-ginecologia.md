@@ -3,7 +3,7 @@ slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Salud de la Mujer Houston: Ginecología en Español"
 description: "Servicios de ginecología en Houston TX con atención en español. Papanicolaou, exámenes pélvicos, planificación familiar y más en Clínica Hispana La Caridad."
 date: "2026-03-20"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/gynecology.webp"
 featured: false
@@ -30,8 +30,8 @@ No todas las revisiones tocan a la misma edad. Esta guía ordena por etapa qué 
 La prioridad es el cáncer de cuello uterino y la salud sexual. El [USPSTF](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening) recomienda citología cada 3 años a partir de los 21. Antes de esa edad no se recomienda cribado, aunque sí consulta si hay síntomas.
 
 - Papanicolaou cada 3 años desde los 21
-- Pruebas de infecciones de transmisión sexual según la actividad sexual
-- Anticoncepción: elegir método, iniciarlo y revisarlo
+- [Pruebas de infecciones de transmisión sexual](/services/enfermedades-transmision-sexual) según la actividad sexual
+- [Anticoncepción](/services/anticonceptivos): elegir método, iniciarlo y revisarlo
 - Revisión de ciclos irregulares, dolor menstrual o acné hormonal
 
 ## De los 30 a los 39 años

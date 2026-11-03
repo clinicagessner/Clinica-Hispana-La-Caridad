@@ -3,7 +3,7 @@ slug: "medicos-autorizados-uscis-houston-civil-surgeon"
 title: "USCIS-Authorized Doctors in Houston: How to Verify"
 description: "How to verify if a doctor is a USCIS-authorized Civil Surgeon in Houston for the I-693 Green Card medical exam. Official list, requirements, and what to avoid."
 date: "2026-05-31"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clinica Hispana La Caridad"
 image: "/images/services/I-693.webp"
 featured: false
@@ -46,7 +46,7 @@ If an office appears in the tool, it is designated. If it does not appear, it ca
 
 1. Does the office appear in the USCIS search tool?
 2. How much is the exam and how much are the vaccines, separately?
-3. Do you do the IGRA tuberculosis blood test here?
+3. Do you do the IGRA [tuberculosis blood test](/services/prueba-tuberculosis) here?
 4. What happens if I am missing a multi-dose vaccine?
 5. When do I get the sealed envelope?
 

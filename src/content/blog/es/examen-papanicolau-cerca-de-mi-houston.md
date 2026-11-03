@@ -3,7 +3,7 @@ slug: "examen-papanicolau-cerca-de-mi-houston"
 title: "Examen de Papanicolau Cerca de Mí en Houston | Guía"
 description: "Dónde hacerse el examen de Papanicolau cerca de ti en Houston, sin cita y sin seguro. Cuándo hacerlo, cómo prepararte, cuánto tarda y qué significan los resultados."
 date: "2026-08-28"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -67,8 +67,8 @@ Un ligero manchado después es normal y dura uno o dos días.
 
 ## El VPH
 
-La mayoría de los cambios en el cuello uterino los causa el virus del papiloma humano. Es una infección muy común y en la mayoría de los casos el cuerpo la elimina sola. La prueba de VPH se combina con la citología a partir de los 30 años porque juntas detectan mejor lo que importa.
+La mayoría de los cambios en el cuello uterino los causa el virus del papiloma humano. Es una infección muy común y en la mayoría de los casos el cuerpo la elimina sola. La prueba de VPH se combina con la citología a partir de los 30 años porque juntas detectan mejor lo que importa. Si además quiere revisarse otras infecciones, el [panel de infecciones de transmisión sexual](/services/enfermedades-transmision-sexual) se hace en la misma clínica.
 
 ## Dónde hacérselo en Houston
 
-En Clínica Hispana La Caridad el Papanicolau forma parte de la consulta de [ginecología](/services/ginecologia), sin cita previa y de lunes a domingo de 9 de la mañana a 9 de la noche. En [promociones](/promociones) está el chequeo completo de la mujer con ultrasonido por $179.
+En Clínica Hispana La Caridad el Papanicolau forma parte de la consulta de [ginecología](/services/ginecologia), sin cita previa y de lunes a domingo de 9 de la mañana a 9 de la noche. Si hace falta ver el útero o los ovarios, el [ultrasonido pélvico](/services/ultrasonido) se hace en la misma visita. En [promociones](/promociones) está el chequeo completo de la mujer con ultrasonido por $179.

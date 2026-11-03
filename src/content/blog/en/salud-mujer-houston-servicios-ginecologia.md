@@ -3,7 +3,7 @@ slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Women's Health Houston: Gynecology in Spanish"
 description: "Gynecology services in Houston TX with Spanish-speaking staff. Pap smears, pelvic exams, family planning, and more at Clínica Hispana La Caridad."
 date: "2026-03-20"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/gynecology.webp"
 featured: false
@@ -30,8 +30,8 @@ Not every check belongs to every age. This guide sorts by life stage what is wor
 The priority is cervical cancer and sexual health. The [USPSTF](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening) recommends cytology every 3 years starting at 21. Screening is not recommended before that age, although a visit is warranted if there are symptoms.
 
 - Pap smear every 3 years from age 21
-- Sexually transmitted infection testing based on sexual activity
-- Contraception: choosing a method, starting it and reviewing it
+- [Sexually transmitted infection testing](/services/enfermedades-transmision-sexual) based on sexual activity
+- [Contraception](/services/anticonceptivos): choosing a method, starting it and reviewing it
 - Review of irregular cycles, period pain or hormonal acne
 
 ## Ages 30 to 39

@@ -4,7 +4,7 @@ title: "A Cough That Lingers After a Cold: Is It Bronchitis?"
 metaTitle: "Cough After a Cold: Bronchitis and When to Get Checked"
 description: "Your cold is gone but the cough is not. What is normal week by week, what else mimics bronchitis, and which signs mean it is time to be seen in Sharpstown."
 date: "2026-10-07"
-dateModified: "2026-10-15"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -57,7 +57,7 @@ Several conditions pose as "bronchitis that won't clear up." These are the usual
 - **Postnasal drip or sinusitis.** Mucus drains down the back of the throat, especially when you lie down, causing throat clearing and a nighttime cough. Congestion, facial pressure or a bad taste on waking often come with it.
 - **Allergies.** A dry cough with bouts of sneezing and itchy eyes that shows up at the same time every year may have nothing to do with your cold. It is evaluated through the [allergy](/services/alergias) service.
 - **Asthma or airways left "twitchy."** After a virus, some people notice wheezing, chest tightness, or coughing with exercise and cold air for weeks. People who already have asthma can have a flare triggered by the cold.
-- **Some blood pressure medicines.** Certain drugs for hypertension can cause a persistent dry cough. If you started one in recent months, mention it at the visit, and do not stop it on your own.
+- **Some blood pressure medicines.** Certain drugs for [hypertension](/services/condiciones-cronicas) can cause a persistent dry cough. If you started one in recent months, mention it at the visit, and do not stop it on your own.
 - **Acid reflux.** Stomach acid creeping up irritates the throat. A typical clue is coughing or throat clearing after meals or at bedtime, sometimes with heartburn.
 - **Whooping cough (pertussis).** Rapid-fire coughing spells that end with a high-pitched "whoop" when breathing in, or with vomiting. It spreads easily and is especially dangerous for babies in the home.
 - **Pneumonia.** Fever that comes back, pain when taking a deep breath and fatigue that worsens after an initial improvement.
@@ -97,7 +97,7 @@ Jot down when you cough most, whether there is mucus and what color, and whether
 
 ## What happens at the visit
 
-Through the [respiratory illness](/services/enfermedades-respiratorias) service at Clínica Hispana La Caridad, the clinic's medical team examines your throat, ears and lungs, checks your temperature and blood oxygen, and asks how the cough has evolved since day one. If your symptoms are recent, a rapid flu or COVID test can be run with results in minutes.
+Through the [respiratory illness](/services/enfermedades-respiratorias) service at Clínica Hispana La Caridad, the clinic's medical team examines your throat, ears and lungs, checks your temperature and blood oxygen, and asks how the cough has evolved since day one. If your symptoms are recent, a rapid flu or COVID test can be run with results in minutes. If a sore throat is the main complaint, there is also the [strep test](/services/prueba-strep).
 
 From there, the next step is decided: relief for the cough, treatment for an asthma flare, treatment for an infection if one is found, or a referral for an additional test when one is needed. If a medicine for the cough or your airways is part of the plan, you buy it at the clinic's on-site pharmacy before leaving, with a clear explanation of how and for how many days to take it.
 

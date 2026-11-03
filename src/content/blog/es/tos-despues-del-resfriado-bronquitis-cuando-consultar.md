@@ -4,7 +4,7 @@ title: "Tos que no se quita tras un resfriado: ¿es bronquitis?"
 metaTitle: "¿Cuánto dura la tos después de una bronquitis o resfriado?"
 description: "La tos de una bronquitis aguda puede durar unas tres semanas. Qué es normal semana a semana tras un resfriado y qué señales piden consulta en Sharpstown."
 date: "2026-10-07"
-dateModified: "2026-10-24"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -57,7 +57,7 @@ Varias causas se disfrazan de "bronquitis que no se cura". Estas son las más fr
 - **Goteo posnasal o sinusitis.** El moco baja por detrás de la garganta, sobre todo al acostarse, y provoca carraspeo y tos nocturna. Suele venir con congestión, presión en la cara o mal sabor de boca al despertar.
 - **Alergias.** Si la tos es seca, viene con estornudos en serie y picazón de ojos, y aparece en la misma época cada año, puede no tener nada que ver con el resfriado. Se valora en el servicio de [alergias](/services/alergias).
 - **Asma o bronquios que quedan "reactivos".** Algunas personas, tras un virus, notan silbido en el pecho, opresión o tos con el ejercicio y con el aire frío durante semanas. Quien ya tiene asma puede tener una crisis desencadenada por el resfriado.
-- **Algunos medicamentos para la presión.** Ciertos fármacos para la hipertensión pueden causar una tos seca persistente. Si empezó uno en los últimos meses, menciónelo en la consulta; no lo suspenda por su cuenta.
+- **Algunos medicamentos para la presión.** Ciertos fármacos para la [hipertensión](/services/condiciones-cronicas) pueden causar una tos seca persistente. Si empezó uno en los últimos meses, menciónelo en la consulta; no lo suspenda por su cuenta.
 - **Reflujo.** El ácido que sube del estómago irrita la garganta. Pista típica: tos o carraspeo después de comer o al acostarse, a veces con ardor.
 - **Tos ferina.** Ataques de tos seguidos, uno tras otro, que terminan en un sonido agudo al tomar aire o en vómito. Se contagia con facilidad, y es especialmente peligrosa para los bebés de la casa.
 - **Neumonía.** Fiebre que regresa, dolor al respirar hondo y cansancio que va a más después de una mejoría inicial.
@@ -97,7 +97,7 @@ Tome nota de cuándo tose más, si hay flema y de qué color, y si ha tenido fie
 
 ## Qué se revisa en la consulta
 
-En el servicio de [enfermedades respiratorias](/services/enfermedades-respiratorias) de Clínica Hispana La Caridad, el equipo médico de la clínica revisa garganta, oídos y pulmones, mide la temperatura y el oxígeno en la sangre, y pregunta cómo ha evolucionado la tos desde el principio. Si los síntomas son recientes, se puede hacer la prueba rápida de influenza o COVID con resultado en unos minutos.
+En el servicio de [enfermedades respiratorias](/services/enfermedades-respiratorias) de Clínica Hispana La Caridad, el equipo médico de la clínica revisa garganta, oídos y pulmones, mide la temperatura y el oxígeno en la sangre, y pregunta cómo ha evolucionado la tos desde el principio. Si los síntomas son recientes, se puede hacer la prueba rápida de influenza o COVID con resultado en unos minutos. Si lo que más molesta es el dolor de garganta, también está la [prueba de estreptococo](/services/prueba-strep).
 
 Con eso se decide el siguiente paso: tratamiento para aliviar la tos, manejo de una crisis de asma, tratamiento de una infección si la hay, o la indicación de un estudio adicional cuando hace falta. Si se le indica algún medicamento para la tos o los bronquios, lo compra ahí mismo en la farmacia de la clínica y se le explica en español cómo y cuántos días tomarlo.
 

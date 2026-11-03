@@ -4,7 +4,7 @@ title: "Médicos Autorizados por USCIS en Houston: Cómo Verificar"
 metaTitle: "Examen Médico de Inmigración en Houston: Civil Surgeon"
 description: "Cómo verificar si un médico es Civil Surgeon autorizado por USCIS en Houston para hacer el examen I-693 de Green Card. Lista oficial, requisitos y qué evitar."
 date: "2026-05-31"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/I-693.webp"
 featured: false
@@ -47,7 +47,7 @@ Si un consultorio aparece en el buscador, está designado. Si no aparece, no pue
 
 1. ¿Está el consultorio en el buscador de USCIS?
 2. ¿Cuánto cuesta el examen y cuánto las vacunas, por separado?
-3. ¿Hacen aquí el análisis de tuberculosis IGRA?
+3. ¿Hacen aquí el [análisis de tuberculosis](/services/prueba-tuberculosis) IGRA?
 4. ¿Qué pasa si me falta una vacuna de varias dosis?
 5. ¿Cuándo me entregan el sobre sellado?
 

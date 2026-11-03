@@ -3,7 +3,7 @@ slug: "atencion-medica-sin-seguro-houston"
 title: "Healthcare Without Insurance in Houston: Affordable Options"
 description: "No health insurance in Houston? Discover affordable, quality medical care options at Clínica Hispana La Caridad — transparent pricing, no appointment needed."
 date: "2026-03-17"
-dateModified: "2026-09-18"
+dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/family-medicine.webp"
 featured: false
@@ -46,8 +46,8 @@ The third one surprises people, but many places have a self-pay rate lower than 
 
 ## How to spend less without settling for less care
 
-- **Do not wait.** A urinary infection treated in time costs a visit; the same infection reaching the kidney costs a hospitalization.
-- **Keep your results.** Repeating tests you already have is one of the most common and most avoidable expenses.
+- **Do not wait.** A [urinary infection](/services/infecciones-urinarias) treated in time costs a visit; the same infection reaching the kidney costs a hospitalization.
+- **Keep your results.** Repeating [blood tests](/services/examenes-sangre) you already have is one of the most common and most avoidable expenses.
 - **Bring your medication list.** It prevents duplicate prescriptions and interactions.
 - **Ask about generics.** Same active ingredient, very different price.
 - **Make the visit count.** If you are going for one thing, ask about whatever else worries you.
@@ -58,4 +58,4 @@ Private clinics do not ask about or report your status. What is needed is to ide
 
 ## At Clínica Hispana La Caridad
 
-Patients are seen without insurance and without an appointment, Monday through Sunday from 9 AM to 9 PM, with the cost given before starting. You can see [all services](/services) and the [current promotions](/promociones), which bundle several tests at a set price.
+Patients are seen without insurance and without an appointment, Monday through Sunday from 9 AM to 9 PM, with the cost given before starting. You can see [all services](/services), from the [gynecology visit](/services/ginecologia) to the lab, and the [current promotions](/promociones), which bundle several tests at a set price.

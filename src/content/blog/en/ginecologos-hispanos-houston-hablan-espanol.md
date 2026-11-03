@@ -3,7 +3,7 @@ slug: "ginecologos-hispanos-houston-hablan-espanol"
 title: "Hispanic Gynecologists in Houston Who Speak Spanish"
 description: "How to find Spanish-speaking gynecologists in Houston. What to ask, what to look for, and where to find options for Hispanic women in Houston TX."
 date: "2026-05-31"
-dateModified: "2026-10-23"
+dateModified: "2026-11-02"
 author: "Clinica Hispana La Caridad"
 image: "/images/services/gynecology.webp"
 featured: false
@@ -50,7 +50,7 @@ If whoever answers dodges the last one, press: the price should be clear before 
 
 ## What a first visit includes
 
-Medical history, a pelvic exam and, depending on age, a Pap smear. If there is discharge, burning or pain, a culture is taken. If the uterus or ovaries need to be seen, a [pelvic ultrasound](/services/ultrasonido) is done. The visit is also the moment to review birth control or take a [pregnancy test](/services/prueba-embarazo).
+Medical history, a pelvic exam and, depending on age, a Pap smear. If there is discharge, burning or pain, a culture is taken. If the uterus or ovaries need to be seen, a [pelvic ultrasound](/services/ultrasonido) is done. The visit is also the moment to review [birth control](/services/anticonceptivos) or take a [pregnancy test](/services/prueba-embarazo).
 
 ## How often should you go?
 
@@ -80,6 +80,6 @@ At walk-in clinics the price is asked before you go in and paid on the spot, usu
 
 ## Where Clínica Hispana La Caridad fits
 
-At 5705 Fondren Rd, in Sharpstown, walk-ins are seen Monday through Sunday from 9 AM to 9 PM, and no insurance is needed. The clinic's medical team provides [gynecology care](/services/ginecologia), Pap smears, cultures and ultrasound, and explains every result in Spanish. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179 and the women's check-up for $79.
+At 5705 Fondren Rd, in Sharpstown, walk-ins are seen Monday through Sunday from 9 AM to 9 PM, and no insurance is needed. The clinic's medical team provides [gynecology care](/services/ginecologia), Pap smears, cultures, ultrasound and [sexually transmitted infection testing](/services/enfermedades-transmision-sexual), and explains every result in Spanish. [Promotions](/promociones) include the complete women's check-up with ultrasound for $179 and the women's check-up for $79.
 
 If burning when urinating is the main symptom, the visit can focus on [urinary tract infections](/services/infecciones-urinarias): the urine test is done at the clinic and, if there is an infection, you leave with your treatment the same day.
