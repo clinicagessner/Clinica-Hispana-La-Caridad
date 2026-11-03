@@ -192,6 +192,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
           {
                 "question": "¿Atienden si no tengo seguro médico?",
                 "answer": "Sí. No hace falta seguro. Se acepta efectivo, tarjeta de débito y de crédito, y puedes preguntar el costo del servicio antes de la consulta."
+          },
+          {
+                "question": "¿Me puede atender una doctora?",
+                "answer": "Sí. En la clínica de la mujer te atiende una doctora hispana que habla tu idioma. Puedes venir sin cita, de lunes a domingo de 9 de la mañana a 9 de la noche, o llamar para agendar tu cita."
+          },
+          {
+                "question": "¿Tienen obstetricia, examen de mama y mamografía?",
+                "answer": "Sí. Hay servicio de obstetricia, y la prueba de embarazo y el ultrasonido de embarazo se hacen aquí. El examen de mama (seno) forma parte de la consulta junto con el examen pélvico y el Papanicolaou, y la mamografía la puedes consultar y solicitar en la misma visita; el chequeo de mujer de $79 de promociones trae la orden para mamografía."
           }
     ],
     "faqsEn": [
@@ -210,6 +218,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
           {
                 "question": "Do you see patients without insurance?",
                 "answer": "Yes. No insurance is needed. Cash, debit and credit cards are accepted, and you can ask the cost of the service before your visit."
+          },
+          {
+                "question": "Can a female doctor see me?",
+                "answer": "Yes. At the women's clinic you are seen by a Hispanic female doctor who speaks your language. You can walk in Monday through Sunday, 9 AM to 9 PM, or call to book your appointment."
+          },
+          {
+                "question": "Do you offer obstetrics, breast exams and mammograms?",
+                "answer": "Yes. There is an obstetrics service, and the pregnancy test and pregnancy ultrasound are done here. The breast exam is part of the visit along with the pelvic exam and the Pap smear, and you can ask about and request a mammogram at the same visit; the $79 women's check-up in promotions comes with the mammogram order."
           }
     ]
   },
@@ -320,6 +336,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
           {
                 "question": "¿Atienden sin seguro médico?",
                 "answer": "Sí. No se necesita seguro y se acepta efectivo, débito y crédito. En promociones hay paquetes cerrados para hombres con el precio publicado."
+          },
+          {
+                "question": "¿La consulta de urología también es para mujeres?",
+                "answer": "Sí. Se atiende a hombres y a mujeres adultas con síntomas urinarios: ardor o dolor al orinar, infección urinaria o cálculos en los riñones. El examen de orina se hace en la clínica."
+          },
+          {
+                "question": "¿Me atienden hoy mismo y con discreción?",
+                "answer": "Sí. Se atiende el mismo día y sin cita previa, de lunes a domingo de 9 de la mañana a 9 de la noche, en español, con doctores hispanos que hablan tu idioma y con total discreción."
           }
     ],
     "faqsEn": [
@@ -338,6 +362,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
           {
                 "question": "Do you see patients without insurance?",
                 "answer": "Yes. No insurance is needed and cash, debit and credit are accepted. Promotions include set packages for men with the price published."
+          },
+          {
+                "question": "Is the urology visit also for women?",
+                "answer": "Yes. Men and adult women with urinary symptoms are seen: burning or pain when urinating, urinary infections or kidney stones. The urine test is done at the clinic."
+          },
+          {
+                "question": "Can I be seen today, and discreetly?",
+                "answer": "Yes. Patients are seen the same day without an appointment, Monday through Sunday from 9 AM to 9 PM, in Spanish, by Hispanic doctors who speak your language and with complete discretion."
           }
     ]
   },
