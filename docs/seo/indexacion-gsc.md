@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 34 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-04).
 <!-- /tandas:auto -->
 
-## Tanda 61 — cambios del 2026-11-02 (anuncios de Ads integrados (ginecología, salud del hombre, medicina familiar, home) + enlaces internos en los 2 posts con más impresiones)  📨 ENVIADA 03/11/2026
+## Tanda 61 — cambios del 2026-11-02 (anuncios de Ads integrados (ginecología, salud del hombre, medicina familiar, home) + enlaces internos en los 2 posts con más impresiones)  ✅ PEDIDA 03/11/2026
 
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-02
 
 ## Tanda 65 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))
 
@@ -103,6 +103,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-09-25 | 10 | Tanda 4. Las 2 de /privacy pasaron a la tanda 9 y subieron los implantes |
 | 2026-09-27 | 8 | Tanda 5 |
 | 2026-09-30 | 10 | Tanda 6 |
+| 2026-11-03 | 10 | Tanda 61 |
 
 ## Historial (tandas pedidas)
 
