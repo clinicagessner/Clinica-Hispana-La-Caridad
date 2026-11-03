@@ -17,7 +17,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 34 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-04).
 <!-- /tandas:auto -->
 
-## Tanda 61 — cambios del 2026-11-02 (anuncios de Ads integrados (ginecología, salud del hombre, medicina familiar, home) + enlaces internos en los 2 posts con más impresiones)
+## Tanda 61 — cambios del 2026-11-02 (anuncios de Ads integrados (ginecología, salud del hombre, medicina familiar, home) + enlaces internos en los 2 posts con más impresiones)  📨 ENVIADA 03/11/2026
 
 - [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-02
 - [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-02
