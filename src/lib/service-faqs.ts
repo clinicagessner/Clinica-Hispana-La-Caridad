@@ -737,7 +737,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Quién aplica el suero vitaminado?",
-        "answer": "Lo aplica y supervisa personal médico, tras una breve evaluación para elegir el suero adecuado para ti."
+        "answer": "Lo aplica y supervisa personal médico, tras una breve evaluación para confirmar que el suero de vitamina B12 es adecuado para ti."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -751,7 +751,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "Who administers the vitamin IV?",
-        "answer": "It's administered and monitored by medical staff, after a brief evaluation to choose the right drip for you."
+        "answer": "It's administered and monitored by medical staff, after a brief evaluation to confirm the vitamin B12 drip is right for you."
       },
       {
         "question": "Do I need an appointment?",
