@@ -10,32 +10,58 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-02; URL Inspection API, datos de hoy 2026-11-02):** 51 de 104 URLs del sitemap indexadas · 53 sin indexar (26 desconocida · 17 descubierta sin indexar · 10 rastreada sin indexar).
+**Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 51 de 104 URLs del sitemap indexadas · 53 sin indexar (26 desconocida · 17 descubierta sin indexar · 10 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 10 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 14 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-40 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
+36 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-04).
 <!-- /tandas:auto -->
 
-## Tanda 59  ✅ PEDIDA 02/11/2026
+## Tanda 61 — cambios del 2026-11-02 (anuncios de Ads integrados (ginecología, salud del hombre, medicina familiar, home) + enlaces internos en los 2 posts con más impresiones)
 
-- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-10-18 · 0 impr.
-- [x] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
-- [x] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
-- [x] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-10-18 · 0 impr.
-- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-10-19 · 1 impr.
-- [x] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-10-19 · 0 impr.
-- [x] https://www.chlacaridad.com/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
-- [x] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
-- [x] https://www.chlacaridad.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [x] https://www.chlacaridad.com/services/examen-alcohol-drogas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/services/condiciones-cronicas  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-02
+- [ ] https://www.chlacaridad.com/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-02
 
-## Tanda 60
+## Tanda 62
 
+- [ ] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-09-19 · 426 impr.
+- [ ] https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-09-26 · indexada · 303 impr.
+- [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 212 impr.
+- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 164 impr.
+- [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
+- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
+- [ ] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-03 · indexada · 103 impr.
+- [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 103 impr.
+- [ ] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 94 impr.
+- [ ] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-10-28 · 3 impr.
+
+## Tanda 63
+
+- [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-09-18 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-10-19 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+
+## Tanda 64
+
+- [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -324,3 +350,16 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 ## Tanda 58  ✅ PEDIDA 30/10/2026
 
 - [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
+
+## Tanda 59  ✅ PEDIDA 02/11/2026
+
+- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-09-18 · desconocida · pedida 2026-10-18 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-10-18 · 0 impr.
+- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-10-19 · 1 impr.
+- [x] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-alcohol-drogas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
