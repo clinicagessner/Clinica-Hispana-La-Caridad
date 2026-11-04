@@ -19,6 +19,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 65 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026
 
+- [ ] https://www.chlacaridad.com/blog/vacuna-gripe-ninos-desde-6-meses-dudas-padres  — cambiada 2026-11-04 · post del blog semanal
+- [ ] https://www.chlacaridad.com/en/blog/vacuna-gripe-ninos-desde-6-meses-dudas-padres  — cambiada 2026-11-04 · post del blog semanal
 - [ ] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-02
 - [ ] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 - [ ] https://www.chlacaridad.com/services  — cambiada 2026-11-02
@@ -27,6 +29,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-09-26 · indexada · 303 impr.
 - [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 212 impr.
 - [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 164 impr.
+
+## Tanda 69 — cambios del 2026-11-04 (pendientes para otro día: devueltas de la Tanda 65 o sin sitio por el post del blog semanal)
+
 - [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
 - [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
 
