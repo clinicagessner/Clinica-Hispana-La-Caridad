@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 31 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
 <!-- /tandas:auto -->
 
-## Tanda 65 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026
+## Tanda 65 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
 
-- [ ] https://www.chlacaridad.com/blog/vacuna-gripe-ninos-desde-6-meses-dudas-padres  — cambiada 2026-11-04 · post del blog semanal
-- [ ] https://www.chlacaridad.com/en/blog/vacuna-gripe-ninos-desde-6-meses-dudas-padres  — cambiada 2026-11-04 · post del blog semanal
-- [ ] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/services  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/en/services  — cambiada 2026-11-02
-- [ ] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-09-19 · 426 impr.
-- [ ] https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-09-26 · indexada · 303 impr.
-- [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 212 impr.
-- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 164 impr.
+- [x] https://www.chlacaridad.com/blog/vacuna-gripe-ninos-desde-6-meses-dudas-padres  — cambiada 2026-11-04 · post del blog semanal
+- [x] https://www.chlacaridad.com/en/blog/vacuna-gripe-ninos-desde-6-meses-dudas-padres  — cambiada 2026-11-04 · post del blog semanal
+- [x] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/services  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/en/services  — cambiada 2026-11-02
+- [x] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-09-19 · 426 impr.
+- [x] https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-09-26 · indexada · 303 impr.
+- [x] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 212 impr.
+- [x] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 164 impr.
 
 ## Tanda 69 — cambios del 2026-11-04 (pendientes para otro día: devueltas de la Tanda 65 o sin sitio por el post del blog semanal)
 
@@ -102,6 +102,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-09-27 | 8 | Tanda 5 |
 | 2026-09-30 | 10 | Tanda 6 |
 | 2026-11-03 | 10 | Tanda 61 |
+| 2026-11-05 | 10 | Tanda 65 |
 
 ## Historial (tandas pedidas)
 
