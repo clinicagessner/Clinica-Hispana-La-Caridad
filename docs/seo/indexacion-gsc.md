@@ -35,6 +35,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
 - [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
 
+## Tanda 70 — cambios del 2026-11-05 (§9: médico nombrado, plazos de resultados y «doctor de alergias» (errores viejos))
+
+- [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
+- [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
+
 ## Tanda 66
 
 - [ ] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-03 · indexada · 103 impr.
@@ -47,9 +60,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-09-18 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-10-20 · 0 impr.
@@ -65,7 +76,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-10-21 · 22 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-06-19 · rastreada sin indexar · pedida 2026-10-21 · 3 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-10-21 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
