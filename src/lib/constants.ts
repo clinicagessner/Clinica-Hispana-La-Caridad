@@ -1256,13 +1256,13 @@ export const SERVICES: Service[] = [
     "features": [
       "Farmacia dentro de la clínica",
       "Compra al terminar su consulta lo que le recetó nuestro equipo médico",
-      "Solo recetas del médico de la clínica",
+      "Solo recetas del equipo médico de la clínica",
       "Cómo tomar cada medicamento, explicado en español"
     ],
     "featuresEn": [
       "Pharmacy inside the clinic",
       "Buy what our medical team prescribed right after your visit",
-      "Only prescriptions from the clinic's doctor",
+      "Only prescriptions from the clinic's medical team",
       "How to take each medicine, explained in Spanish"
     ],
     "highlighted": false,
