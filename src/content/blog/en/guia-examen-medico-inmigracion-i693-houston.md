@@ -42,7 +42,7 @@ Anyone applying for permanent residence from inside the United States through Fo
 
 USCIS requires a set of vaccines by age. The COVID-19 vaccine **is no longer a requirement**. If you have your vaccination card, even from your home country, bring it: it is what prevents repeating doses you already have, and each repeated dose costs money and time.
 
-If you are missing a multi-dose vaccine, the series does not always have to be completed before filing. The physician records what was given and what remains.
+If you are missing a multi-dose vaccine, the series does not always have to be completed before filing. The civil surgeon records what was given and what remains.
 
 ## The tuberculosis test
 

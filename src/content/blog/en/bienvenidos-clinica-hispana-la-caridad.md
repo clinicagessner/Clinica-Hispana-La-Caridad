@@ -47,7 +47,7 @@ Patients are seen with and without insurance. If you have no coverage, you pay d
 
 ## What happens during the visit
 
-First your vital signs are taken and the reason for the visit is reviewed. Then you see the clinic's medical team, who examine you, explain what they find and propose a plan. If lab work or an [ultrasound](/services/ultrasonido) is needed, it can often be done in the same visit. When you finish, if the doctor prescribed something, you buy it right there at the clinic's pharmacy and the instructions are explained to you.
+First your vital signs are taken and the reason for the visit is reviewed. Then you see the clinic's medical team, who examine you, explain what they find and propose a plan. If lab work or an [ultrasound](/services/ultrasonido) is needed, it can often be done in the same visit. When you finish, if the medical team prescribed something, you buy it right there at the clinic's pharmacy and the instructions are explained to you.
 
 ## Everything is explained in Spanish
 

@@ -42,7 +42,7 @@ Quien solicita la residencia permanente desde dentro de Estados Unidos mediante 
 
 USCIS exige un conjunto de vacunas según la edad. La de COVID-19 **dejó de ser requisito**. Si tiene su carné de vacunación, aunque sea de su país de origen, llévelo: es lo que evita repetir dosis que ya tiene puestas, y cada dosis repetida cuesta dinero y tiempo.
 
-Si le falta una vacuna de varias dosis, no siempre hay que completar la serie antes de presentar el formulario. El médico anota lo aplicado y lo que queda pendiente.
+Si le falta una vacuna de varias dosis, no siempre hay que completar la serie antes de presentar el formulario. El Civil Surgeon anota lo aplicado y lo que queda pendiente.
 
 ## La prueba de tuberculosis
 

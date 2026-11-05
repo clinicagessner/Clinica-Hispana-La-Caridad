@@ -676,7 +676,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examenes-inmigracion": {
     "faqs": [
       {
-        "question": "¿El médico está autorizado por USCIS?",
+        "question": "¿La clínica tiene Civil Surgeon autorizado por USCIS?",
         "answer": "Sí, el examen lo realiza un médico autorizado (civil surgeon) y te entregamos el Formulario I-693 sellado."
       },
       {
@@ -690,7 +690,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     ],
     "faqsEn": [
       {
-        "question": "Is the doctor authorized by USCIS?",
+        "question": "Does the clinic have a USCIS-authorized Civil Surgeon?",
         "answer": "Yes, the exam is performed by an authorized civil surgeon and we give you the sealed Form I-693."
       },
       {
@@ -917,11 +917,11 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Puedo comprar en la clínica los medicamentos que me recetaron?",
-        "answer": "Sí. La clínica tiene farmacia propia en el mismo local: al terminar tu consulta compras ahí mismo los medicamentos que te recetó nuestro médico, sin ir a otra farmacia."
+        "answer": "Sí. La clínica tiene farmacia propia en el mismo local: al terminar tu consulta compras ahí mismo los medicamentos que te recetó nuestro equipo médico, sin ir a otra farmacia."
       },
       {
         "question": "¿Venden medicamentos con recetas de otros médicos?",
-        "answer": "No. La farmacia de la clínica vende solo los medicamentos que receta nuestro médico en tu consulta; las recetas de otros médicos o clínicas no se atienden aquí."
+        "answer": "No. La farmacia de la clínica vende solo los medicamentos que receta nuestro equipo médico en tu consulta; las recetas de otros médicos o clínicas no se atienden aquí."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -935,11 +935,11 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "Can I buy the medicines I was prescribed at the clinic?",
-        "answer": "Yes. The clinic has its own pharmacy in the same building: after your visit you buy the medicines our doctor prescribed right there, without going to another pharmacy."
+        "answer": "Yes. The clinic has its own pharmacy in the same building: after your visit you buy the medicines our medical team prescribed right there, without going to another pharmacy."
       },
       {
         "question": "Do you sell medicines on other doctors' prescriptions?",
-        "answer": "No. The clinic's pharmacy only sells the medicines our doctor prescribes during your visit; prescriptions from other doctors or clinics are not handled here."
+        "answer": "No. The clinic's pharmacy only sells the medicines our medical team prescribes during your visit; prescriptions from other doctors or clinics are not handled here."
       },
       {
         "question": "Do I need an appointment?",

@@ -47,7 +47,7 @@ Se atiende con y sin seguro. Si no tiene cobertura, paga directamente y el costo
 
 ## Qué pasa durante la visita
 
-Primero se toman los signos vitales y se revisa el motivo de la consulta. Después pasa con el equipo médico de la clínica, que le examina, le explica lo que encuentra y propone un plan. Si hacen falta análisis o un [ultrasonido](/services/ultrasonido), muchas veces se hacen en la misma visita. Al terminar, si el médico le recetó algo, lo compra ahí mismo en la farmacia de la clínica y se le explican las instrucciones en español.
+Primero se toman los signos vitales y se revisa el motivo de la consulta. Después pasa con el equipo médico de la clínica, que le examina, le explica lo que encuentra y propone un plan. Si hacen falta análisis o un [ultrasonido](/services/ultrasonido), muchas veces se hacen en la misma visita. Al terminar, si el equipo médico le recetó algo, lo compra ahí mismo en la farmacia de la clínica y se le explican las instrucciones en español.
 
 ## Todo se explica en español
 
