@@ -22,18 +22,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
 - [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
 
-## Tanda 70 — cambios del 2026-11-05 (§9: médico nombrado, plazos de resultados y «doctor de alergias» (errores viejos))  📨 ENVIADA 06/11/2026
+## Tanda 70 — cambios del 2026-11-05 (§9: médico nombrado, plazos de resultados y «doctor de alergias» (errores viejos))  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
 
-- [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
-- [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
 
 ## Tanda 71
 
@@ -108,6 +108,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-09-30 | 10 | Tanda 6 |
 | 2026-11-03 | 10 | Tanda 61 |
 | 2026-11-05 | 10 | Tanda 65 |
+| 2026-11-06 | 10 | Tanda 70 |
 
 ## Historial (tandas pedidas)
 
