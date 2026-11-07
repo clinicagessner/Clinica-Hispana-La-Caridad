@@ -10,33 +10,17 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-06; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 51 de 106 URLs del sitemap indexadas · 55 sin indexar (26 desconocida · 17 descubierta sin indexar · 10 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-07; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 51 de 106 URLs del sitemap indexadas · 55 sin indexar (26 desconocida · 17 descubierta sin indexar · 10 rastreada sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 6 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 22 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-26 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-09).
+33 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-09).
 <!-- /tandas:auto -->
 
-## Tanda 69 — cambios del 2026-11-04 (pendientes para otro día: devueltas de la Tanda 65 o sin sitio por el post del blog semanal)
+## Tanda 69 — cambios del 2026-11-04 (pendientes para otro día: devueltas de la Tanda 65 o sin sitio por el post del blog semanal) (+ 8 de la Tanda 71)  📨 ENVIADA 07/11/2026
 
 - [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
 - [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
-
-## Tanda 70 — cambios del 2026-11-05 (§9: médico nombrado, plazos de resultados y «doctor de alergias» (errores viejos))  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
-
-- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
-- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
-
-## Tanda 71
-
 - [ ] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-05 · rastreada 2026-10-18 · indexada · pedida 2026-10-18 · 32 impr.
 - [ ] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-03 · indexada · 103 impr.
 - [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 103 impr.
@@ -45,6 +29,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-10-28 · 3 impr.
 - [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+
+## Tanda 71
+
 - [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
 
@@ -401,3 +388,16 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-09-26 · indexada · 303 impr.
 - [x] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-05 · indexada · pedida 2026-10-05 · 212 impr.
 - [x] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 164 impr.
+
+## Tanda 70 — cambios del 2026-11-05 (§9: médico nombrado, plazos de resultados y «doctor de alergias» (errores viejos))  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
+
+- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/farmacia  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
+- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-05
