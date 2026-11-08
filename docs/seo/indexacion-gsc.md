@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 33 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-09).
 <!-- /tandas:auto -->
 
-## Tanda 69 — cambios del 2026-11-04 (pendientes para otro día: devueltas de la Tanda 65 o sin sitio por el post del blog semanal) (+ 8 de la Tanda 71)  📨 ENVIADA 07/11/2026
+## Tanda 69 — cambios del 2026-11-04 (pendientes para otro día: devueltas de la Tanda 65 o sin sitio por el post del blog semanal) (+ 8 de la Tanda 71)  📨 ENVIADA 07/11/2026  ✅ PEDIDA 07/11/2026
 
-- [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
-- [ ] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
-- [ ] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-05 · rastreada 2026-10-18 · indexada · pedida 2026-10-18 · 32 impr.
-- [ ] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-03 · indexada · 103 impr.
-- [ ] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 103 impr.
-- [ ] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 94 impr.
-- [ ] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-05 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 57 impr.
-- [ ] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-10-28 · 3 impr.
-- [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-03 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 202 impr.
+- [x] https://www.chlacaridad.com/en/blog/tos-despues-del-resfriado-bronquitis-cuando-consultar  — cambiada 2026-11-03 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 171 impr.
+- [x] https://www.chlacaridad.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-05 · rastreada 2026-10-18 · indexada · pedida 2026-10-18 · 32 impr.
+- [x] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-03 · rastreada 2026-10-03 · indexada · 103 impr.
+- [x] https://www.chlacaridad.com/en/blog/ginecologos-hispanos-houston-hablan-espanol  — cambiada 2026-11-03 · rastreada 2026-10-27 · indexada · pedida 2026-10-26 · 103 impr.
+- [x] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-03 · rastreada 2026-10-07 · indexada · pedida 2026-10-06 · 94 impr.
+- [x] https://www.chlacaridad.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-05 · rastreada 2026-10-13 · indexada · pedida 2026-10-13 · 57 impr.
+- [x] https://www.chlacaridad.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-03 · rastreada 2026-10-28 · indexada · pedida 2026-10-28 · 3 impr.
+- [x] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 
 ## Tanda 71
 
@@ -96,6 +96,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-03 | 10 | Tanda 61 |
 | 2026-11-05 | 10 | Tanda 65 |
 | 2026-11-06 | 10 | Tanda 70 |
+| 2026-11-07 | 10 | Tanda 69 |
 
 ## Historial (tandas pedidas)
 
