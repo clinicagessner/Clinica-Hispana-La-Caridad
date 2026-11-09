@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 35 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-09).
 <!-- /tandas:auto -->
 
-## Tanda 71  📨 ENVIADA 08/11/2026
+## Tanda 71  📨 ENVIADA 08/11/2026  ✅ PEDIDA 08/11/2026
 
-- [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
 
 ## Tanda 72
 
@@ -81,6 +81,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-05 | 10 | Tanda 65 |
 | 2026-11-06 | 10 | Tanda 70 |
 | 2026-11-07 | 10 | Tanda 69 |
+| 2026-11-08 | 10 | Tanda 71 |
 
 ## Historial (tandas pedidas)
 
