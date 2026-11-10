@@ -10,9 +10,9 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-09; URL Inspection API, datos de hoy 2026-11-09):** 52 de 106 URLs del sitemap indexadas · 54 sin indexar (24 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar).
+**Estado (actualizado 2026-11-10; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 52 de 106 URLs del sitemap indexadas · 54 sin indexar (24 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 12 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 42 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-11).
 <!-- /tandas:auto -->
@@ -30,7 +30,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-22 · 0 impr.
 
-## Tanda 73
+## Tanda 74 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)
+
+- [ ] https://www.chlacaridad.com  — cambiada 2026-11-10
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-10
+
+## Tanda 75
 
 - [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-10-26 · 0 impr.
