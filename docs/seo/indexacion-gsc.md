@@ -35,6 +35,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com  — cambiada 2026-11-10
 - [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-10
 
+## Tanda 76 — cambios del 2026-11-10 (análisis diario: meta del post de Papanicolau; Civil Surgeon en mensajes)
+
+- [ ] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
+- [ ] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
+
 ## Tanda 75
 
 - [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · desconocida · pedida 2026-10-22 · 0 impr.
