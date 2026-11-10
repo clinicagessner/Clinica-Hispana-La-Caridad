@@ -1,7 +1,8 @@
 ---
 slug: "examen-papanicolau-cerca-de-mi-houston"
 title: "Examen de Papanicolau Cerca de Mí en Houston | Guía"
-description: "Dónde hacerse el examen de Papanicolau cerca de ti en Houston, sin cita y sin seguro. Cuándo hacerlo, cómo prepararte, cuánto tarda y qué significan los resultados."
+metaTitle: "Papanicolau Cerca de Mí en Houston: Sin Cita y en Español"
+description: "Examen de Papanicolau en Houston sin cita, con o sin seguro, de lunes a domingo de 9 a 9. Cuándo hacerlo, cómo prepararte y qué significan los resultados."
 date: "2026-08-28"
 dateModified: "2026-11-02"
 author: "Clínica Hispana La Caridad"

@@ -1,6 +1,7 @@
 ---
 slug: "examen-papanicolau-cerca-de-mi-houston"
 title: "Pap Smear Near Me in Houston: Spanish-Speaking Guide"
+metaTitle: "Pap Smear (Papanicolau) Near Me in Houston, in Spanish"
 description: "Where to get a Pap smear near you in Houston — walk in, no insurance needed. When to get it, how to prepare, how long it takes and what the results mean."
 date: "2026-08-28"
 dateModified: "2026-11-02"
