@@ -19,6 +19,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 74 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09) (+ Tanda 76 y 6 de la Tanda 77)  📨 ENVIADA 11/11/2026
 
+- [ ] https://www.chlacaridad.com/blog/hongos-piel-pies-pie-de-atleta-tina-comezon  — cambiada 2026-11-11 (post del blog semanal)
+- [ ] https://www.chlacaridad.com/en/blog/hongos-piel-pies-pie-de-atleta-tina-comezon  — cambiada 2026-11-11 (post del blog semanal)
 - [ ] https://www.chlacaridad.com  — cambiada 2026-11-10
 - [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-10
 - [ ] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
@@ -27,11 +29,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-26 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 
 ## Tanda 77
 
+- [ ] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-26 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
