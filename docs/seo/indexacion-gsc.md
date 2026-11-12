@@ -17,18 +17,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 43 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-12).
 <!-- /tandas:auto -->
 
-## Tanda 74 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09) (+ Tanda 76 y 6 de la Tanda 77)  📨 ENVIADA 11/11/2026
+## Tanda 74 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09) (+ Tanda 76 y 6 de la Tanda 77)  📨 ENVIADA 11/11/2026  ✅ PEDIDA 12/11/2026
 
-- [ ] https://www.chlacaridad.com/blog/hongos-piel-pies-pie-de-atleta-tina-comezon  — cambiada 2026-11-11 (post del blog semanal)
-- [ ] https://www.chlacaridad.com/en/blog/hongos-piel-pies-pie-de-atleta-tina-comezon  — cambiada 2026-11-11 (post del blog semanal)
-- [ ] https://www.chlacaridad.com  — cambiada 2026-11-10
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-10
-- [ ] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
-- [ ] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
-- [ ] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23 · rastreada 2026-10-27 · rastreada sin indexar · pedida 2026-10-26 · 8 impr.
-- [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
+- [x] https://www.chlacaridad.com/blog/hongos-piel-pies-pie-de-atleta-tina-comezon  — cambiada 2026-11-11 (post del blog semanal)
+- [x] https://www.chlacaridad.com/en/blog/hongos-piel-pies-pie-de-atleta-tina-comezon  — cambiada 2026-11-11 (post del blog semanal)
+- [x] https://www.chlacaridad.com  — cambiada 2026-11-10
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-10
+- [x] https://www.chlacaridad.com/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
+- [x] https://www.chlacaridad.com/en/blog/examen-papanicolau-cerca-de-mi-houston  — cambiada 2026-11-10
+- [x] https://www.chlacaridad.com/en/blog/urologo-houston-habla-espanol-salud-hombre  — cambiada 2026-10-23 · rastreada 2026-10-27 · rastreada sin indexar · pedida 2026-10-26 · 8 impr.
+- [x] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 
 ## Tanda 77
 
@@ -83,6 +83,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-07 | 10 | Tanda 69 |
 | 2026-11-08 | 10 | Tanda 71 |
 | 2026-11-10 | 10 | Tanda 72 |
+| 2026-11-12 | 10 | Tanda 74 |
 
 ## Historial (tandas pedidas)
 
