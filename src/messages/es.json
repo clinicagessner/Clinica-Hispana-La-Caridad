@@ -140,7 +140,9 @@
     "q11": "¿Dónde encuentro una clínica hispana cerca de mí en Houston?",
     "a11": "Clínica Hispana La Caridad es una clínica hispana y latina en 5705 Fondren Rd STE 101, Houston, TX 77036, en el suroeste de Houston. Abrimos todos los días de 9:00 AM a 9:00 PM, sin cita previa.",
     "q12": "¿Puedo tener aquí a mi médico primario?",
-    "a12": "Sí. Muchas familias nos eligen como su médico primario y centro médico cerca de casa: consultas de medicina general, control de condiciones crónicas y laboratorio en un solo lugar."
+    "a12": "Sí. Muchas familias nos eligen como su médico primario y centro médico cerca de casa: consultas de medicina general, control de condiciones crónicas y laboratorio en un solo lugar.",
+    "q13": "Tengo dolor de estómago que no se quita, sangre al ir al baño o estoy bajando de peso sin razón: ¿me pueden atender?",
+    "a13": "Sí, en la Fondren y sin cita previa, aunque no tenga seguro. Estos síntomas pueden indicar un problema de salud importante, así que conviene revisarlos pronto. En la consulta le examinamos y, según lo que encontremos, se puede pedir un examen de heces, que detecta sangre oculta, parásitos e infecciones, o un ultrasonido abdominal para ver hígado, vesícula, páncreas y riñones; los dos se hacen aquí. Ante un dolor intenso o un sangrado abundante, vaya directamente a emergencias."
   },
   "location": {
     "title": "Nuestra Clínica Hispana Cerca de Ti en Houston",
