@@ -32,6 +32,15 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [ ] https://www.chlacaridad.com/es  — cambiada 2026-11-14
 
+## Tanda 77 — cambios del 2026-11-13 (Promos y salud íntima masculina de los anuncios activos de Meta; FAQ de síntomas digestivos (0d5234b))
+
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-13
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-13
+- [ ] https://www.chlacaridad.com/promociones  — cambiada 2026-11-13
+- [ ] https://www.chlacaridad.com/en/promociones  — cambiada 2026-11-13
+- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-13
+- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-13
+
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
 ## Cómo retomar
