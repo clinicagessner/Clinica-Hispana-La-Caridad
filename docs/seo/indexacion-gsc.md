@@ -28,6 +28,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-29 · 0 impr.
 
+## Tanda 76 — cambios del 2026-11-14 (YouTube en el footer de toda la web)
+
+- [ ] https://www.chlacaridad.com/es  — cambiada 2026-11-14
+
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
 ## Cómo retomar
