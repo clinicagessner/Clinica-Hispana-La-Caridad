@@ -17,6 +17,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
+## Tanda 78 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)
+
+- [ ] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-11-15
+
 ## Tanda 75
 
 - [ ] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
@@ -24,18 +28,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-29 · 0 impr.
 
-## Tanda 77 — cambios del 2026-11-13 (Promos y salud íntima masculina de los anuncios activos de Meta; FAQ de síntomas digestivos (0d5234b))  📨 ENVIADA 14/11/2026
+## Tanda 77 — cambios del 2026-11-13 (Promos y salud íntima masculina de los anuncios activos de Meta; FAQ de síntomas digestivos (0d5234b))  📨 ENVIADA 14/11/2026  ✅ PEDIDA 14/11/2026
 
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-13
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-13
-- [ ] https://www.chlacaridad.com/promociones  — cambiada 2026-11-13
-- [ ] https://www.chlacaridad.com/en/promociones  — cambiada 2026-11-13
-- [ ] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-13
-- [ ] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-13
-- [ ] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-26 · 0 impr. (de la Tanda 75)
-- [ ] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
-- [ ] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
-- [ ] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en/promociones  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-26 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -78,6 +82,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-08 | 10 | Tanda 71 |
 | 2026-11-10 | 10 | Tanda 72 |
 | 2026-11-12 | 10 | Tanda 74 |
+| 2026-11-14 | 10 | Tanda 77 |
 
 ## Historial (tandas pedidas)
 
