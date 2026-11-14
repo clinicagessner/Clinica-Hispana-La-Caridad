@@ -17,9 +17,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 78 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)
+## Tanda 78 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)  ✅ PEDIDA 14/11/2026
 
-- [ ] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-11-15
+- [x] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-11-15
 
 ## Tanda 75
 
@@ -83,6 +83,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-10 | 10 | Tanda 72 |
 | 2026-11-12 | 10 | Tanda 74 |
 | 2026-11-14 | 10 | Tanda 77 |
+| 2026-11-14 | 1 | Tanda 78 |
 
 ## Historial (tandas pedidas)
 
