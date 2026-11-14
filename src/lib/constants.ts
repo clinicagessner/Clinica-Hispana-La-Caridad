@@ -41,6 +41,7 @@ export const CONTACT_INFO: ContactInfo = {
 export const SOCIAL_LINKS: SocialLinks = {
   facebook: "https://www.facebook.com/clinicalacaridadhoustontx",
   instagram: "https://www.instagram.com/clinicalacaridadhouston",
+  youtube: "https://www.youtube.com/@ClinicaLaCaridad",
   twitter: "https://twitter.com/ClinicLaCaridad",
 };
 

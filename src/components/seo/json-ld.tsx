@@ -95,6 +95,7 @@ export async function JsonLdMedicalClinic() {
         sameAs: [
           SOCIAL_LINKS.facebook,
           SOCIAL_LINKS.instagram,
+          SOCIAL_LINKS.youtube,
           SOCIAL_LINKS.twitter,
         ].filter(Boolean),
         // Las mismas áreas de servicio declaradas en la ficha de Google.

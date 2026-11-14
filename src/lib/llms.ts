@@ -118,6 +118,7 @@ function socialLines() {
   const entries: Array<[string, string | undefined]> = [
     ["Facebook", SOCIAL_LINKS.facebook],
     ["Instagram", SOCIAL_LINKS.instagram],
+    ["YouTube", SOCIAL_LINKS.youtube],
     ["Twitter/X", SOCIAL_LINKS.twitter],
   ];
   return entries
