@@ -10,36 +10,19 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-14; URL Inspection API, datos ANTIGUOS del 2026-11-10: antiguos (2026-11-10): --sin-fetch):** 52 de 108 URLs del sitemap indexadas · 56 sin indexar (33 descubierta sin indexar · 11 rastreada sin indexar · 10 desconocida · 2 sin datos).
+**Estado (actualizado 2026-11-15; URL Inspection API, datos ANTIGUOS del 2026-11-10: antiguos (2026-11-10): --sin-fetch):** 52 de 108 URLs del sitemap indexadas · 56 sin indexar (33 descubierta sin indexar · 11 rastreada sin indexar · 10 desconocida · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
+52 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 78 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)  ✅ PEDIDA 14/11/2026
-
-- [x] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-11-15
-
-## Tanda 75
+## Tanda 79  📨 ENVIADA 15/11/2026
 
 - [ ] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-29 · 0 impr.
-
-## Tanda 77 — cambios del 2026-11-13 (Promos y salud íntima masculina de los anuncios activos de Meta; FAQ de síntomas digestivos (0d5234b))  📨 ENVIADA 14/11/2026  ✅ PEDIDA 14/11/2026
-
-- [x] https://www.chlacaridad.com/  — cambiada 2026-11-13
-- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-13
-- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-11-13
-- [x] https://www.chlacaridad.com/en/promociones  — cambiada 2026-11-13
-- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-13
-- [x] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-13
-- [x] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-26 · 0 impr. (de la Tanda 75)
-- [x] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
-- [x] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
-- [x] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -441,3 +424,20 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
+
+## Tanda 77 — cambios del 2026-11-13 (Promos y salud íntima masculina de los anuncios activos de Meta; FAQ de síntomas digestivos (0d5234b))  📨 ENVIADA 14/11/2026  ✅ PEDIDA 14/11/2026
+
+- [x] https://www.chlacaridad.com/  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/promociones  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en/promociones  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/services/salud-hombre  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en/services/salud-hombre  — cambiada 2026-11-13
+- [x] https://www.chlacaridad.com/en/services/examen-heces  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-26 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/en/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
+- [x] https://www.chlacaridad.com/en/services/prueba-tuberculosis  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr. (de la Tanda 75)
+
+## Tanda 78 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir)  ✅ PEDIDA 14/11/2026
+
+- [x] https://www.chlacaridad.com/en/services/extraccion-implantes  — cambiada 2026-11-15
