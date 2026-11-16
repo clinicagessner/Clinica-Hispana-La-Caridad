@@ -17,12 +17,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 52 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 79  📨 ENVIADA 15/11/2026
+## Tanda 79  📨 ENVIADA 15/11/2026  ✅ PEDIDA 15/11/2026
 
-- [ ] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-29 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/tiroides  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/ultrasonido  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-10-28 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-10-29 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -67,6 +67,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-12 | 10 | Tanda 74 |
 | 2026-11-14 | 10 | Tanda 77 |
 | 2026-11-14 | 1 | Tanda 78 |
+| 2026-11-15 | 4 | Tanda 79 |
 
 ## Historial (tandas pedidas)
 
