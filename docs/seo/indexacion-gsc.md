@@ -17,16 +17,21 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 45 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 80  📨 ENVIADA 16/11/2026
+## Tanda 81 — cambios del 2026-11-17 (cuota superada el 16/11)
 
-- [ ] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · rastreada 2026-10-05 · rastreada sin indexar · pedida 2026-10-05 · 12 impr.
-- [ ] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-11-02 · 1 impr.
-- [ ] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-alcohol-drogas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-11-02 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-11-17
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-17
+
+## Tanda 80  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
+
+- [x] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · rastreada 2026-10-05 · rastreada sin indexar · pedida 2026-10-05 · 12 impr.
+- [x] https://www.chlacaridad.com/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-07-21 · rastreada sin indexar · pedida 2026-11-02 · 1 impr.
+- [x] https://www.chlacaridad.com/services/curacion-heridas  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.chlacaridad.com/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-11-02 · 0 impr.
+- [x] https://www.chlacaridad.com/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-alcohol-drogas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/drenaje-abscesos  — cambiada 2026-09-18 · desconocida · pedida 2026-11-02 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-11-02 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -72,6 +77,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-14 | 10 | Tanda 77 |
 | 2026-11-14 | 1 | Tanda 78 |
 | 2026-11-15 | 4 | Tanda 79 |
+| 2026-11-16 | 8 | Tanda 80 |
 
 ## Historial (tandas pedidas)
 
