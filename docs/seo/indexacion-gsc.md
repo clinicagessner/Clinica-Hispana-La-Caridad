@@ -22,6 +22,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-11-17
 - [ ] https://www.chlacaridad.com/  — cambiada 2026-11-17
 
+## Tanda 82 — cambios del 2026-11-16 (imagen del post de bienvenida y del blog: fachada de La Caridad (antes logo de Airline))
+
+- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-16
+- [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-16
+- [ ] https://www.chlacaridad.com/blog  — cambiada 2026-11-16
+- [ ] https://www.chlacaridad.com/en/blog  — cambiada 2026-11-16
+
 ## Tanda 80  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
 
 - [x] https://www.chlacaridad.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-18 · rastreada 2026-10-05 · rastreada sin indexar · pedida 2026-10-05 · 12 impr.
