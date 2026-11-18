@@ -17,17 +17,17 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 49 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-18).
 <!-- /tandas:auto -->
 
-## Tanda 81 — cambios del 2026-11-17 (cuota superada el 16/11)  📨 ENVIADA 17/11/2026
+## Tanda 81 — cambios del 2026-11-17 (cuota superada el 16/11)  📨 ENVIADA 17/11/2026  ✅ PEDIDA 17/11/2026
 
-- [ ] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-11-17
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-17
-- [ ] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-16
-- [ ] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-16
-- [ ] https://www.chlacaridad.com/blog  — cambiada 2026-11-16
-- [ ] https://www.chlacaridad.com/en/blog  — cambiada 2026-11-16
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-11-03 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/infecciones-urinarias  — cambiada 2026-11-17
+- [x] https://www.chlacaridad.com/  — cambiada 2026-11-17
+- [x] https://www.chlacaridad.com/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-16
+- [x] https://www.chlacaridad.com/en/blog/bienvenidos-clinica-hispana-la-caridad  — cambiada 2026-11-16
+- [x] https://www.chlacaridad.com/blog  — cambiada 2026-11-16
+- [x] https://www.chlacaridad.com/en/blog  — cambiada 2026-11-16
+- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-11-03 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-11-03 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -74,6 +74,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-14 | 1 | Tanda 78 |
 | 2026-11-15 | 4 | Tanda 79 |
 | 2026-11-16 | 8 | Tanda 80 |
+| 2026-11-17 | 9 | Tanda 81 |
 
 ## Historial (tandas pedidas)
 
