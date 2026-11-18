@@ -19,6 +19,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 82  📨 ENVIADA 18/11/2026
 
+- [ ] https://www.chlacaridad.com/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
+- [ ] https://www.chlacaridad.com/en/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
 - [ ] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-04 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-11-04 · 0 impr.
