@@ -10,14 +10,14 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-18; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 55 de 108 URLs del sitemap indexadas · 53 sin indexar (23 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar).
+**Estado (actualizado 2026-11-19; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 55 de 110 URLs del sitemap indexadas · 55 sin indexar (23 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-20).
 <!-- /tandas:auto -->
 
-## Tanda 82  📨 ENVIADA 18/11/2026
+## Tanda 82  📨 ENVIADA 19/11/2026
 
 - [ ] https://www.chlacaridad.com/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
 - [ ] https://www.chlacaridad.com/en/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
