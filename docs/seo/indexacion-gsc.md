@@ -17,13 +17,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-20).
 <!-- /tandas:auto -->
 
-## Tanda 82  📨 ENVIADA 19/11/2026
+## Tanda 82  📨 ENVIADA 19/11/2026  ✅ PEDIDA 20/11/2026
 
-- [ ] https://www.chlacaridad.com/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
-- [ ] https://www.chlacaridad.com/en/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
-- [ ] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-04 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-11-04 · 0 impr.
+- [x] https://www.chlacaridad.com/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
+- [x] https://www.chlacaridad.com/en/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
+- [x] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-04 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-11-04 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -71,6 +71,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-15 | 4 | Tanda 79 |
 | 2026-11-16 | 8 | Tanda 80 |
 | 2026-11-17 | 9 | Tanda 81 |
+| 2026-11-20 | 5 | Tanda 82 |
 
 ## Historial (tandas pedidas)
 
