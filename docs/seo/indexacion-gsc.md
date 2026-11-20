@@ -10,20 +10,25 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-19; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 55 de 110 URLs del sitemap indexadas · 55 sin indexar (23 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-20; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 55 de 110 URLs del sitemap indexadas · 55 sin indexar (23 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 7 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-20).
+48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-21).
 <!-- /tandas:auto -->
 
-## Tanda 82  📨 ENVIADA 19/11/2026  ✅ PEDIDA 20/11/2026
+## Tanda 83  📨 ENVIADA 20/11/2026
 
-- [x] https://www.chlacaridad.com/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
-- [x] https://www.chlacaridad.com/en/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
-- [x] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-04 · 0 impr.
-- [x] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
-- [x] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-11-04 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
+
+## Tanda 84 — resto de la 83 (cupo del 20/11 ya usado: 5 pedidas por la mañana)
+
+- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -476,3 +481,11 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/condiciones-cronicas  — cambiada 2026-11-03 · rastreada 2026-08-03 · rastreada sin indexar · pedida 2026-11-03 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
+
+## Tanda 82  📨 ENVIADA 19/11/2026  ✅ PEDIDA 20/11/2026
+
+- [x] https://www.chlacaridad.com/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
+- [x] https://www.chlacaridad.com/en/blog/dolor-pelvico-mujer-causas-cuando-revisarse  — cambiada 2026-11-18 (post del blog semanal)
+- [x] https://www.chlacaridad.com/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-04 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · rastreada 2026-07-28 · rastreada sin indexar · pedida 2026-11-04 · 0 impr.
