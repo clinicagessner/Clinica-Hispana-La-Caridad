@@ -17,17 +17,17 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 46 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-22).
 <!-- /tandas:auto -->
 
-## Tanda 83  📨 ENVIADA 21/11/2026
+## Tanda 83  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
 
-- [ ] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/alergias  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examenes-inmigracion  — cambiada 2026-11-05 · rastreada 2026-07-31 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/farmacia  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/alergias  — cambiada 2026-11-05 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
+- [x] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
+- [x] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -76,6 +76,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-16 | 8 | Tanda 80 |
 | 2026-11-17 | 9 | Tanda 81 |
 | 2026-11-20 | 5 | Tanda 82 |
+| 2026-11-21 | 9 | Tanda 83 |
 
 ## Historial (tandas pedidas)
 
