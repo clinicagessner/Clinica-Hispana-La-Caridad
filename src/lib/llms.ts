@@ -119,7 +119,12 @@ function socialLines() {
     ["Facebook", SOCIAL_LINKS.facebook],
     ["Instagram", SOCIAL_LINKS.instagram],
     ["YouTube", SOCIAL_LINKS.youtube],
-    ["Twitter/X", SOCIAL_LINKS.twitter],
+    ["X (Twitter)", SOCIAL_LINKS.x],
+    ["TikTok", SOCIAL_LINKS.tiktok],
+    ["LinkedIn", SOCIAL_LINKS.linkedin],
+    ["Yelp", SOCIAL_LINKS.yelp],
+    ["Pinterest", SOCIAL_LINKS.pinterest],
+    ["Nextdoor", SOCIAL_LINKS.nextdoor],
   ];
   return entries
     .filter((e): e is [string, string] => Boolean(e[1]))

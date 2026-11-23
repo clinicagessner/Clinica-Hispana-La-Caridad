@@ -96,7 +96,12 @@ export async function JsonLdMedicalClinic() {
           SOCIAL_LINKS.facebook,
           SOCIAL_LINKS.instagram,
           SOCIAL_LINKS.youtube,
-          SOCIAL_LINKS.twitter,
+          SOCIAL_LINKS.x,
+          SOCIAL_LINKS.tiktok,
+          SOCIAL_LINKS.linkedin,
+          SOCIAL_LINKS.yelp,
+          SOCIAL_LINKS.pinterest,
+          SOCIAL_LINKS.nextdoor,
         ].filter(Boolean),
         // Las mismas áreas de servicio declaradas en la ficha de Google.
         areaServed: [

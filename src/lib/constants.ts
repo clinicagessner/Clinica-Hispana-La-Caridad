@@ -42,7 +42,9 @@ export const SOCIAL_LINKS: SocialLinks = {
   facebook: "https://www.facebook.com/clinicalacaridadhoustontx",
   instagram: "https://www.instagram.com/clinicalacaridadhouston",
   youtube: "https://www.youtube.com/@ClinicaLaCaridad",
-  twitter: "https://twitter.com/ClinicLaCaridad",
+  x: "https://x.com/ClinicLaCaridad",
+  tiktok: "https://www.tiktok.com/@clinica.la.caridad",
+  yelp: "https://www.yelp.com/biz/clinica-la-caridad-houston",
 };
 
 // Respaldo si la API de Places no responde. Los valores reales vienen en vivo

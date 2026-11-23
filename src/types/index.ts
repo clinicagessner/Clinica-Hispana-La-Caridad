@@ -107,6 +107,9 @@ export interface SocialLinks {
   linkedin?: string;
   youtube?: string;
   tiktok?: string;
+  yelp?: string;
+  pinterest?: string;
+  nextdoor?: string;
   google?: string;
 }
 
