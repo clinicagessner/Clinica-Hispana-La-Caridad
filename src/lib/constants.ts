@@ -44,6 +44,7 @@ export const SOCIAL_LINKS: SocialLinks = {
   youtube: "https://www.youtube.com/@ClinicaLaCaridad",
   x: "https://x.com/ClinicLaCaridad",
   tiktok: "https://www.tiktok.com/@clinica.la.caridad",
+  pinterest: "https://www.pinterest.com/clinicalacaridad/",
   yelp: "https://www.yelp.com/biz/clinica-la-caridad-houston",
 };
 

@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   other: {
     "facebook-domain-verification": "szssnn6pnh4t40hq44x1z3nz1p7yga",
+    "p:domain_verify": "2e86c4f45e848c172ca8a5c5fc4a6f76",
   },
 };
 
