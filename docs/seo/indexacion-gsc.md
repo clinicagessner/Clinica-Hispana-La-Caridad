@@ -30,6 +30,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/tiroides  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/ultrasonido  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 
+## Tanda 85 — cambios del 2026-11-22 (X, TikTok y Yelp en el pie y sameAs)
+
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-22
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-22
+
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
 ## Cómo retomar
