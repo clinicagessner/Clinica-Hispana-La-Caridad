@@ -13,7 +13,6 @@ keywords:
   - "doctor without insurance Houston"
   - "affordable healthcare Houston"
   - "no insurance clinic Houston"
-  - "cheap doctor Houston TX"
   - "uninsured medical care Houston"
 relatedServices:
   - "condiciones-cronicas"

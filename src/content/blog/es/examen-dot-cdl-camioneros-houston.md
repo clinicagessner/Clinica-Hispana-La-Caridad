@@ -52,7 +52,7 @@ Que le certifiquen por un año no es un castigo: es una señal de que hay algo q
 
 ## Condiciones que requieren papeleo adicional
 
-- **Diabetes con insulina:** formulario MCSA-5870, completado por el médico que trata la diabetes
+- **Diabetes con insulina:** formulario MCSA-5870, completado por su médico tratante
 - **Apnea del sueño:** reporte de cumplimiento del CPAP
 - **Epilepsia:** requiere exención federal
 - **Problemas del corazón:** informe del cardiólogo con la evaluación funcional

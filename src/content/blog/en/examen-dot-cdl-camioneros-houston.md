@@ -52,7 +52,7 @@ Being certified for one year is not a punishment: it is a signal that something 
 
 ## Conditions that need extra paperwork
 
-- **Insulin-treated diabetes:** form MCSA-5870, completed by the physician treating the diabetes
+- **Insulin-treated diabetes:** form MCSA-5870, completed by your treating clinician
 - **Sleep apnea:** CPAP compliance report
 - **Epilepsy:** requires a federal exemption
 - **Heart problems:** cardiologist's report with functional assessment

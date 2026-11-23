@@ -40,7 +40,7 @@ const COPY = {
     howSteps: [
       "Llegue dentro del horario (9 AM a 9 PM, todos los días).",
       "Regístrese en recepción con su identificación.",
-      "Lo evalúa el médico y se realizan los análisis si es necesario.",
+      "Lo evalúa el equipo médico y se realizan los análisis si es necesario.",
       "Resultados de laboratorio rápidos y plan de tratamiento explicado en español.",
     ],
     bringHeading: "Qué traer a su visita",
@@ -82,12 +82,12 @@ const COPY = {
       {
         question: "¿En qué idioma me atenderán?",
         answer:
-          "Toda nuestra atención es 100% en español. También atendemos en inglés si lo prefiere. El personal y los médicos son bilingües.",
+          "Toda nuestra atención es 100% en español. También atendemos en inglés si lo prefiere. El personal y el equipo médico son bilingües.",
       },
       {
         question: "¿Atienden niños sin cita?",
         answer:
-          "Sí, atendemos niños y adultos walk-in. Si requiere atención pediátrica especializada, le recomendamos llamar antes para confirmar disponibilidad del médico.",
+          "Sí, atendemos niños y adultos walk-in. Si requiere atención pediátrica especializada, le recomendamos llamar antes para confirmar disponibilidad del equipo médico.",
       },
       {
         question: "¿Qué métodos de pago aceptan?",
@@ -130,7 +130,7 @@ const COPY = {
     howSteps: [
       "Come in within our hours (9 AM to 9 PM, every day).",
       "Sign in at the front desk with your ID.",
-      "Our doctor evaluates you and orders lab tests if needed.",
+      "Our medical team evaluates you and orders lab tests if needed.",
       "Fast lab results and a care plan explained to you.",
     ],
     bringHeading: "What to bring",

@@ -44,7 +44,7 @@ const COPY = {
       },
       {
         title: "Laboratorio y farmacia en el mismo lugar",
-        text: "Análisis de sangre con resultados rápidos y farmacia en la clínica para comprar lo que receta el médico.",
+        text: "Análisis de sangre con resultados rápidos y farmacia en la clínica para comprar lo que receta el equipo médico.",
       },
     ],
     aboutHeading: "Sobre Clínica Hispana La Caridad",
@@ -93,7 +93,7 @@ const COPY = {
       },
       {
         title: "Lab and pharmacy on site",
-        text: "Blood work with fast results and an on-site pharmacy for what the doctor prescribes.",
+        text: "Blood work with fast results and an on-site pharmacy for what the medical team prescribes.",
       },
     ],
     aboutHeading: "About Clínica Hispana La Caridad",

@@ -187,7 +187,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
           },
           {
                 "question": "¿Hacen ultrasonido pélvico en la misma visita?",
-                "answer": "Sí, cuando la consulta lo requiere se hace en la clínica el mismo día, sin derivarte a otro sitio. El chequeo completo de la mujer de promociones ya lo incluye."
+                "answer": "Sí, cuando la consulta lo requiere se hace en la clínica durante la visita, sin derivarte a otro sitio. El chequeo completo de la mujer de promociones ya lo incluye."
           },
           {
                 "question": "¿Atienden si no tengo seguro médico?",
@@ -213,7 +213,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
           },
           {
                 "question": "Do you do pelvic ultrasounds in the same visit?",
-                "answer": "Yes. When the visit calls for it, the ultrasound is done at the clinic the same day, with no referral elsewhere. The complete women's check-up in promotions already includes it."
+                "answer": "Yes. When the visit calls for it, the ultrasound is done at the clinic during the visit, with no referral elsewhere. The complete women's check-up in promotions already includes it."
           },
           {
                 "question": "Do you see patients without insurance?",
@@ -887,7 +887,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Cómo tratan la uña encarnada?",
-        "answer": "Con un procedimiento sencillo y anestesia local retiramos la porción encarnada para aliviar el dolor el mismo día."
+        "answer": "Con un procedimiento sencillo y anestesia local retiramos la porción encarnada para aliviar el dolor."
       },
       {
         "question": "¿Necesito cita previa?",
@@ -901,7 +901,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "How do you treat an ingrown toenail?",
-        "answer": "With a simple procedure and local anesthesia we remove the ingrown portion to relieve pain the same day."
+        "answer": "With a simple procedure and local anesthesia we remove the ingrown portion to relieve pain."
       },
       {
         "question": "Do I need an appointment?",

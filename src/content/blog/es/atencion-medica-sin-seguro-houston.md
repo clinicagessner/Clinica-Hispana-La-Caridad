@@ -13,7 +13,6 @@ keywords:
   - "médico sin seguro Houston"
   - "clínica sin seguro Houston TX"
   - "atención médica accesible Houston"
-  - "doctor barato Houston"
   - "healthcare no insurance Houston"
 relatedServices:
   - "condiciones-cronicas"
