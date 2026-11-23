@@ -35,6 +35,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
+## Tanda 87 — cambios del 2026-11-23 (Nextdoor en el pie y sameAs)
+
+
 ## Tanda 86
 
 - [ ] https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-11-19 · rastreada sin indexar · pedida 2026-10-05 · 143 impr.
