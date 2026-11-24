@@ -28,18 +28,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
-## Tanda 87 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 24/11/2026
+## Tanda 87 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
 
-- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-22
-- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-22
-- [ ] https://www.chlacaridad.com/opiniones  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/walk-in  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/  — cambiada 2026-11-22
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-22
+- [x] https://www.chlacaridad.com/opiniones  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/walk-in  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-23
 
 ## Tanda 88 — cambios del 2026-11-23 (limpieza §9)
 
@@ -116,6 +116,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-17 | 9 | Tanda 81 |
 | 2026-11-20 | 5 | Tanda 82 |
 | 2026-11-21 | 9 | Tanda 83 |
+| 2026-11-24 | 10 | Tanda 87 |
 
 ## Historial (tandas pedidas)
 
