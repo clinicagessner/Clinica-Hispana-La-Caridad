@@ -10,38 +10,21 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-24; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 60 de 110 URLs del sitemap indexadas · 50 sin indexar (20 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar).
+**Estado (actualizado 2026-11-25; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 60 de 110 URLs del sitemap indexadas · 50 sin indexar (20 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 1 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 11 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 1 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 13 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-26 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-25).
+26 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-28).
 <!-- /tandas:auto -->
 
 ## Tanda 85 — cambios del 2026-11-22 (X, TikTok y Yelp en el pie y sameAs)
 
-- [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
-## Tanda 87 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
-
-- [x] https://www.chlacaridad.com/  — cambiada 2026-11-22
-- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-22
-- [x] https://www.chlacaridad.com/opiniones  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/walk-in  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
-- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-23
-
-## Tanda 88 — cambios del 2026-11-23 (limpieza §9)
+## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 25/11/2026
 
 - [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-23
 - [ ] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-11-23
@@ -49,6 +32,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-23
 - [ ] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-23
 - [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-23
+- [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
 ## Tanda 89
 
@@ -59,12 +46,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/vacunas  — cambiada 2026-09-18 · desconocida · pedida 2026-11-09 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examenes-sangre  — cambiada 2026-09-18 · rastreada 2026-07-12 · rastreada sin indexar · pedida 2026-11-09 · 13 impr.
 - [ ] https://www.chlacaridad.com/en/services/anticonceptivos  — cambiada 2026-09-18 · rastreada 2026-07-22 · rastreada sin indexar · pedida 2026-11-09 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/cirugias-menores  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-11 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-11 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-11-09 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-09 · 0 impr.
-- [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · rastreada 2026-11-19 · rastreada sin indexar · pedida 2026-11-09 · 0 impr.
 
 ## Tanda 90
 
+- [ ] https://www.chlacaridad.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-09 · 0 impr.
+- [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · rastreada 2026-11-19 · rastreada sin indexar · pedida 2026-11-09 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-09 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-06-19 · rastreada sin indexar · pedida 2026-11-09 · 0 impr.
 
@@ -541,3 +530,16 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 - [x] https://www.chlacaridad.com/services/drenaje-abscesos  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-05 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
 - [x] https://www.chlacaridad.com/en/services/examenes-inmigracion  — cambiada 2026-11-05 · desconocida · pedida 2026-11-06 · 0 impr.
+
+## Tanda 87 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
+
+- [x] https://www.chlacaridad.com/  — cambiada 2026-11-22
+- [x] https://www.chlacaridad.com/en  — cambiada 2026-11-22
+- [x] https://www.chlacaridad.com/opiniones  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/opiniones  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/walk-in  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/walk-in  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/services/examen-dot  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/services/ginecologia  — cambiada 2026-11-23
