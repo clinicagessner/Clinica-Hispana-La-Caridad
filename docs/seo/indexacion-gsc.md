@@ -26,6 +26,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 25/11/2026
 
+- [ ] https://www.chlacaridad.com/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
+- [ ] https://www.chlacaridad.com/en/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
 - [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-23
 - [ ] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-11-23
 - [ ] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-11-23
@@ -34,8 +36,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-23
 - [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+
+## Tanda 91 — cambios del 2026-11-25 (devueltas de la tanda 88 por el post del blog semanal)
+
+- [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-11-25
+- [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-11-25
 
 ## Tanda 89
 
