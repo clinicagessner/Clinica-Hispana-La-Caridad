@@ -10,7 +10,7 @@ La misma cuenta ve además un dominio antiguo sin verificar, `sc-domain:clinical
 Proceso: **Inspección de URLs** → pegar la URL completa → **Solicitar indexación**. Cuota ~10 URLs/día por propiedad.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-25; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 60 de 110 URLs del sitemap indexadas · 50 sin indexar (20 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar).
+**Estado (actualizado 2026-11-26; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 60 de 112 URLs del sitemap indexadas · 52 sin indexar (20 descubierta sin indexar · 19 desconocida · 11 rastreada sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 1 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 13 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
@@ -24,7 +24,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
-## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 25/11/2026
+## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 26/11/2026
 
 - [ ] https://www.chlacaridad.com/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
 - [ ] https://www.chlacaridad.com/en/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
@@ -42,7 +42,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-11-25
 - [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-11-25
 
-## Tanda 89
+## Tanda 92
 
 - [ ] https://www.chlacaridad.com/services/examen-fisico-escolar  — cambiada 2026-11-23 · desconocida · pedida 2026-11-21 · 0 impr.
 - [ ] https://www.chlacaridad.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-18 · rastreada 2026-11-19 · rastreada sin indexar · pedida 2026-10-05 · 143 impr.
@@ -55,7 +55,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/en/services/curacion-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-11 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/electrocardiograma  — cambiada 2026-09-18 · desconocida · pedida 2026-11-09 · 0 impr.
 
-## Tanda 90
+## Tanda 93
 
 - [ ] https://www.chlacaridad.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-09 · 0 impr.
 - [ ] https://www.chlacaridad.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-18 · rastreada 2026-11-19 · rastreada sin indexar · pedida 2026-11-09 · 0 impr.
