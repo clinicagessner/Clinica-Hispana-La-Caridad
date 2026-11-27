@@ -51,9 +51,9 @@ export const SOCIAL_LINKS: SocialLinks = {
 
 // Respaldo si la API de Places no responde. Los valores reales vienen en vivo
 // de getGooglePlaceData(); esto solo evita publicar cifras muy desfasadas.
-// Última comprobación contra Places: 2026-09-17.
+// Última comprobación (API de la ficha de Google): 2026-11-27, 509 reseñas.
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 455,
+  totalReviews: 509,
   averageRating: 5.0,
   placeId: CONTACT_INFO.placeId,
 };
