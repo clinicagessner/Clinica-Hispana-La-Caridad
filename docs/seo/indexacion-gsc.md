@@ -17,13 +17,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 26 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-28).
 <!-- /tandas:auto -->
 
-## Tanda 85 — cambios del 2026-11-22 (X, TikTok y Yelp en el pie y sameAs)
-
-- [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-
 ## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
 
 - [x] https://www.chlacaridad.com/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
@@ -37,10 +30,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 - [x] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 
-## Tanda 91 — cambios del 2026-11-25 (devueltas de la tanda 88 por el post del blog semanal)
+## Tanda 94 — cambios del 2026-11-27 (análisis diario: post civil surgeon (inmigración cerca de mí) y reseñas 509)  📨 ENVIADA 27/11/2026
 
+- [ ] https://www.chlacaridad.com/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-27
+- [ ] https://www.chlacaridad.com/en/blog/medicos-autorizados-uscis-houston-civil-surgeon  — cambiada 2026-11-27
+- [ ] https://www.chlacaridad.com/  — cambiada 2026-11-27
+- [ ] https://www.chlacaridad.com/en  — cambiada 2026-11-27
 - [ ] https://www.chlacaridad.com/services/examenes-sangre  — cambiada 2026-11-25
 - [ ] https://www.chlacaridad.com/services/extraccion-implantes  — cambiada 2026-11-25
+- [ ] https://www.chlacaridad.com/services/prueba-embarazo  — cambiada 2026-09-18 · rastreada 2026-07-20 · rastreada sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/prueba-strep  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
 ## Tanda 92
 
