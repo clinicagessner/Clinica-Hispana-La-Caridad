@@ -1,9 +1,10 @@
 ---
 slug: "medicos-autorizados-uscis-houston-civil-surgeon"
 title: "USCIS-Authorized Doctors in Houston: How to Verify"
-description: "How to verify if a doctor is a USCIS-authorized Civil Surgeon in Houston for the I-693 Green Card medical exam. Official list, requirements, and what to avoid."
+metaTitle: "Immigration Exam Near Me in Houston (Examen de Inmigración)"
+description: "Looking for an immigration medical exam near you in Houston? How to verify a USCIS-designated civil surgeon for the I-693, and what to avoid."
 date: "2026-05-31"
-dateModified: "2026-11-02"
+dateModified: "2026-11-27"
 author: "Clinica Hispana La Caridad"
 image: "/images/services/I-693.webp"
 featured: false
@@ -64,6 +65,8 @@ The second question avoids surprises: the price of the exam and of the vaccines 
 
 Check that your details are correct before the envelope is sealed: full name, date of birth and case number. An error there means redoing it. And once sealed, do not open it.
 
-## In Houston
+## Immigration medical exam near you, on Fondren Rd
+
+If you live in southwest Houston, the clinic is at 5705 Fondren Rd, between Sharpstown and Westwood. The form is signed by a USCIS-designated civil surgeon, and the whole visit can be in Spanish.
 
 Clínica Hispana La Caridad performs the [I-693 immigration medical exam](/services/examenes-inmigracion) walk-in, Monday through Sunday from 9 AM to 9 PM. This [guide to the exam](/blog/guia-examen-medico-inmigracion-i693-houston) walks through the process step by step.

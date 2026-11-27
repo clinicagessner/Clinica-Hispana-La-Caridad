@@ -1,10 +1,10 @@
 ---
 slug: "medicos-autorizados-uscis-houston-civil-surgeon"
 title: "Médicos Autorizados por USCIS en Houston: Cómo Verificar"
-metaTitle: "Examen Médico de Inmigración en Houston: Civil Surgeon"
-description: "Cómo verificar si un médico es Civil Surgeon autorizado por USCIS en Houston para hacer el examen I-693 de Green Card. Lista oficial, requisitos y qué evitar."
+metaTitle: "Examen Médico de Inmigración Cerca de Mí en Houston"
+description: "¿Busca un examen médico de inmigración cerca de usted en Houston? Cómo verificar que el médico es civil surgeon de USCIS para el I-693 y qué evitar."
 date: "2026-05-31"
-dateModified: "2026-11-02"
+dateModified: "2026-11-27"
 author: "Clínica Hispana La Caridad"
 image: "/images/services/I-693.webp"
 featured: false
@@ -65,6 +65,8 @@ La segunda pregunta evita sorpresas: el precio del examen y el de las vacunas su
 
 Revise que sus datos estén correctos antes de que sellen el sobre: nombre completo, fecha de nacimiento y número de caso. Un error ahí obliga a rehacerlo. Y una vez sellado, no lo abra.
 
-## En Houston
+## Examen médico de inmigración cerca de usted, en Fondren
+
+Si vive en el suroeste de Houston, la clínica está en 5705 Fondren Rd, entre Sharpstown y Westwood. El formulario lo firma un civil surgeon designado por USCIS y toda la visita es en español.
 
 Clínica Hispana La Caridad realiza el [examen médico de inmigración I-693](/services/examenes-inmigracion) sin cita previa, de lunes a domingo de 9 de la mañana a 9 de la noche. Esta [guía del examen](/blog/guia-examen-medico-inmigracion-i693-houston) explica el proceso paso a paso.
