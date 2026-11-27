@@ -24,18 +24,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.chlacaridad.com/services/prueba-tuberculosis  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.chlacaridad.com/services/suturas-heridas  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
-## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 26/11/2026
+## Tanda 88 — cambios del 2026-11-23 (limpieza §9)  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
 
-- [ ] https://www.chlacaridad.com/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
-- [ ] https://www.chlacaridad.com/en/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
-- [ ] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-23
-- [ ] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
+- [x] https://www.chlacaridad.com/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
+- [x] https://www.chlacaridad.com/en/blog/cafe-alcohol-poca-agua-vejiga-hombre  — cambiada 2026-11-25 (post del blog semanal)
+- [x] https://www.chlacaridad.com/en/services/ginecologia  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/services/unas-encarnadas  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/services/unas-encarnadas  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/en/services/examen-fisico-escolar  — cambiada 2026-11-23
+- [x] https://www.chlacaridad.com/services/examen-dot  — cambiada 2026-09-18 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [x] https://www.chlacaridad.com/services/examen-heces  — cambiada 2026-09-18 · desconocida · pedida 2026-11-08 · 0 impr.
 
 ## Tanda 91 — cambios del 2026-11-25 (devueltas de la tanda 88 por el post del blog semanal)
 
@@ -111,6 +111,7 @@ No es por impresiones de página sino **por demanda medida en las consultas**: u
 | 2026-11-20 | 5 | Tanda 82 |
 | 2026-11-21 | 9 | Tanda 83 |
 | 2026-11-24 | 10 | Tanda 87 |
+| 2026-11-26 | 10 | Tanda 88 |
 
 ## Historial (tandas pedidas)
 
