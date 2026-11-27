@@ -45,6 +45,8 @@ import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
 import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalClinicRef, JsonLdMedicalWebPage } from "@/components/seo/json-ld";
 import { MedicalReview } from "@/components/shared/medical-review";
+import { AvisoPausaI693 } from "@/components/ui/aviso-pausa";
+import { I693_SERVICE_SLUGS } from "@/lib/pausas";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -239,6 +241,9 @@ export default async function ServicePage({ params }: Props) {
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {I693_SERVICE_SLUGS.includes(rawService.slug) && (
+                <AvisoPausaI693 locale={locale} className="mb-8" />
+              )}
               {service.longDescription.includes("## ") ? (
                 <Markdown content={service.longDescription} />
               ) : (
